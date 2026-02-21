@@ -1,0 +1,111 @@
+{
+  "id": "rw-smart-rwanda-masterplan",
+  "type": "statute",
+  "title": "Gahunda Nkuru ya Smart Rwanda 2021–2025",
+  "title_en": "Smart Rwanda Master Plan Framework 2021–2025",
+  "short_name": "SRMP-2025",
+  "status": "in_force",
+  "issued_date": "2021-07-01",
+  "in_force_date": "2021-07-01",
+  "url": "https://www.minict.gov.rw/index.php?id=297",
+  "description": "The Smart Rwanda Master Plan Framework 2021–2025 sets out Rwanda's strategic roadmap for digital transformation, establishing targets and governance requirements for digital government, digital economy, digital society, and digital infrastructure development. The Framework coordinates the activities of RISA, RURA, NCSA, and sectoral ministries in delivering Rwanda's ambition to become a knowledge-based economy and regional technology hub.",
+  "provisions": [
+    {
+      "provision_ref": "srmp1",
+      "section": "1",
+      "title": "Framework Statement 1. Vision and Strategic Direction",
+      "content": "The Smart Rwanda Master Plan 2021–2025 translates Rwanda's long-term digital transformation ambition into a medium-term operational framework with measurable targets and assigned responsibilities. The Framework is aligned with Rwanda's Vision 2050, the National Strategy for Transformation (NST2), and the East African Community and African Union digital transformation agendas. The overarching vision is for Rwanda to be a smart, data-driven, and inclusive digital nation, where digital technologies create economic value, improve service delivery, and enhance the quality of life for all Rwandans. The Framework establishes four strategic pillars: Smart Government, Smart Economy, Smart Society, and Smart Infrastructure, each with defined outcomes, flagship initiatives, and key performance indicators."
+    },
+    {
+      "provision_ref": "srmp2",
+      "section": "2",
+      "title": "Framework Statement 2. Smart Government Pillar",
+      "content": "The Smart Government pillar aims to digitise government services, improve government efficiency, and enhance the quality and accessibility of public service delivery. Key commitments under this pillar include: achieving 100% digitisation of priority government services; deploying an integrated government service portal providing a single point of access for citizens and businesses; implementing a digital identity system for all Rwandan citizens and residents; establishing a government data platform enabling cross-agency data sharing in support of evidence-based policy making; expanding e-procurement to achieve savings and improve transparency; and implementing a digital parliament supporting paperless legislative processes. Rwanda shall target improvements in international e-Government rankings and shall conduct annual citizen satisfaction surveys on digital government services."
+    },
+    {
+      "provision_ref": "srmp3",
+      "section": "3",
+      "title": "Framework Statement 3. Smart Economy Pillar",
+      "content": "The Smart Economy pillar aims to harness digital technologies to drive economic growth, create jobs, improve competitiveness, and position Rwanda as a regional ICT hub and technology investment destination. Key commitments under this pillar include: growing the ICT sector's contribution to GDP; supporting the development of a digital start-up and innovation ecosystem; attracting technology-intensive foreign direct investment; promoting fintech and digital financial services to deepen financial inclusion; expanding e-commerce and digital trade; supporting the development of business process outsourcing and ICT-enabled services; and promoting the adoption of digital technologies by small and medium enterprises across all sectors of the economy. Rwanda shall aim to be recognised as a leading technology hub in Africa by 2025."
+    },
+    {
+      "provision_ref": "srmp4",
+      "section": "4",
+      "title": "Framework Statement 4. Smart Society Pillar",
+      "content": "The Smart Society pillar aims to ensure that all Rwandans can participate in and benefit from digital transformation, with a particular focus on inclusivity, digital literacy, and the use of digital technologies in education and health. Key commitments under this pillar include: achieving universal digital literacy; expanding digital education resources and e-learning platforms; deploying electronic health records and digital health services across Rwanda; expanding digital financial inclusion to all segments of the population; leveraging digital technologies to empower women and youth; deploying smart city technologies in Kigali and secondary cities; and promoting digital culture and local content creation. Rwanda shall develop and implement a national digital inclusion strategy addressing the needs of rural communities, persons with disabilities, and other underserved groups."
+    },
+    {
+      "provision_ref": "srmp5",
+      "section": "5",
+      "title": "Framework Statement 5. Smart Infrastructure Pillar",
+      "content": "The Smart Infrastructure pillar aims to ensure that Rwanda has the digital infrastructure necessary to support digital government, digital economy, and digital society objectives, including affordable and reliable connectivity, secure data hosting, and enabling platforms. Key commitments under this pillar include: achieving 95% broadband coverage across Rwanda; expanding fibre optic network connectivity to all districts; deploying 4G and 5G mobile networks; establishing a national government data centre meeting tier-3 specifications; developing a private cloud platform for government institutions; expanding the national ICT park and innovation ecosystem; and ensuring Rwanda's participation in submarine cable systems connecting the East African coast. Rwanda shall invest in redundant international bandwidth to ensure resilient connectivity."
+    },
+    {
+      "provision_ref": "srmp6",
+      "section": "6",
+      "title": "Framework Statement 6. Governance and Coordination",
+      "content": "A Smart Rwanda Steering Committee, chaired by the Minister responsible for ICT and comprising ministers with relevant portfolios and representatives of the private sector and civil society, shall oversee the implementation of the Smart Rwanda Master Plan. RISA shall serve as the secretariat to the Steering Committee and shall coordinate the implementation of flagship initiatives across government. Each ministry and government institution shall develop an annual ICT implementation plan aligned with the Smart Rwanda Master Plan and shall report quarterly to RISA on progress. An independent annual review of Smart Rwanda implementation progress shall be commissioned by the Steering Committee and the results published. The Steering Committee shall meet quarterly and shall present an annual implementation report to Cabinet."
+    },
+    {
+      "provision_ref": "srmp7",
+      "section": "7",
+      "title": "Framework Statement 7. Digital Financial Ecosystem",
+      "content": "Rwanda shall develop a comprehensive digital financial ecosystem enabling the full range of financial services to be delivered through digital channels, including payments, savings, credit, insurance, and investment. The Government shall work with the National Bank of Rwanda to establish a supportive regulatory environment for fintech innovation, including a regulatory sandbox for testing new financial technology products and services. Mobile money interoperability shall be fully implemented to enable seamless transactions across mobile money platforms. Rwanda shall develop digital payment infrastructure including a national payment switch, QR code payment standards, and digital payment acceptance at government service points. The Government shall promote the use of digital payments for government-to-person transfers, including social assistance payments, to advance financial inclusion."
+    },
+    {
+      "provision_ref": "srmp8",
+      "section": "8",
+      "title": "Framework Statement 8. Data Economy and AI",
+      "content": "Rwanda shall develop a data economy strategy enabling the responsible use of data as an economic resource while protecting individual rights. A national data governance framework shall be developed establishing principles and requirements for data sharing, data quality, and data ethics across government and the private sector. Rwanda shall establish an AI policy and regulatory framework enabling the responsible development and deployment of artificial intelligence, including requirements for fairness, accountability, transparency, and human oversight. The Government shall invest in data infrastructure, including a government analytics platform, open data portals, and data literacy programmes. Rwanda shall promote the development of AI capabilities including through partnerships with international technology companies, universities, and research institutions."
+    },
+    {
+      "provision_ref": "srmp9",
+      "section": "9",
+      "title": "Framework Statement 9. Cybersecurity Integration",
+      "content": "Cybersecurity shall be integrated as a foundational requirement across all pillars of the Smart Rwanda Master Plan. No digital government service, digital economy platform, or digital infrastructure investment shall be deployed without an appropriate security assessment and the implementation of commensurate security controls. NCSA shall participate in the governance of the Smart Rwanda Master Plan and shall provide technical guidance on cybersecurity requirements for flagship initiatives. Security-by-design principles shall be mandated for all government ICT projects. A national public key infrastructure shall be deployed to support secure and authenticated digital interactions. Rwanda shall establish minimum cybersecurity standards for IoT devices deployed in smart city and smart government contexts."
+    },
+    {
+      "provision_ref": "srmp10",
+      "section": "10",
+      "title": "Framework Statement 10. Regional Integration",
+      "content": "Rwanda shall actively contribute to regional digital integration efforts within the East African Community (EAC) and the African Union, including through participation in the development of regional digital market frameworks, cross-border digital payment systems, and harmonised ICT regulatory standards. Rwanda shall promote the interconnection of national ICT infrastructure with regional and continental infrastructure to reduce connectivity costs and improve resilience. Rwanda shall lead or participate in regional cybersecurity cooperation initiatives and shall share threat intelligence with regional partners. The Government shall work to ensure that Rwandan ICT companies can access regional markets on fair and transparent terms and shall advocate for the removal of barriers to digital trade within EAC."
+    },
+    {
+      "provision_ref": "srmp11",
+      "section": "11",
+      "title": "Framework Statement 11. ICT Sector Development",
+      "content": "Rwanda shall develop its domestic ICT sector as a strategic economic priority, supporting the growth of Rwandan technology companies and positioning Rwanda as a destination for technology investment. The Government shall develop an ICT sector development strategy addressing: access to finance for ICT start-ups and scale-ups; development of technical and management skills; access to markets domestically and internationally; technology transfer and intellectual property protection; and the creation of a supportive regulatory environment. Kigali Innovation City shall be developed as a flagship technology campus attracting international technology companies, start-ups, and research institutions. Rwanda shall develop competitive advantages in targeted ICT subsectors where it has distinctive capabilities or opportunities."
+    },
+    {
+      "provision_ref": "srmp12",
+      "section": "12",
+      "title": "Framework Statement 12. Digital Skills and Education",
+      "content": "Rwanda shall pursue a comprehensive digital skills development strategy to build the human capital necessary to drive and benefit from digital transformation. The strategy shall address digital skills at all levels, from basic digital literacy through to advanced technical and leadership skills. The Government shall revise school curricula to ensure that digital skills are integrated across all subjects and at all levels of education. Higher education institutions shall develop programmes producing graduates with the skills needed by the digital economy. Vocational training programmes shall be developed to provide digital skills relevant to the labour market. Rwanda shall promote coding education and computational thinking from an early age. The private sector shall be engaged as a partner in digital skills development through apprenticeships, internships, and professional training programmes."
+    },
+    {
+      "provision_ref": "srmp13",
+      "section": "13",
+      "title": "Framework Statement 13. Innovation Ecosystem",
+      "content": "Rwanda shall develop a vibrant innovation ecosystem that supports the creation, growth, and internationalisation of technology companies. The Government shall establish or expand innovation hubs, incubators, and accelerators providing support to technology entrepreneurs and start-ups. A government innovation challenge programme shall commission innovative digital solutions to public sector challenges, providing start-ups with market access and government as a first customer. Rwanda shall develop a technology park providing shared infrastructure and services for technology companies. The Government shall facilitate access to risk capital for technology start-ups through a combination of public funds, private investment facilitation, and diaspora engagement. Rwanda shall promote the development of regional headquarters by international technology companies as a platform for continental expansion."
+    },
+    {
+      "provision_ref": "srmp14",
+      "section": "14",
+      "title": "Framework Statement 14. Digital Rights and Inclusion",
+      "content": "The Smart Rwanda Master Plan shall be implemented in a manner that upholds and promotes the digital rights of all Rwandans, including the rights to privacy, freedom of expression, access to information, and non-discrimination. Digital government services and digital economy platforms shall be designed to be accessible to persons with disabilities and to users with limited digital literacy. The Government shall ensure that digital transformation does not deepen existing inequalities or create new forms of digital exclusion. Specific programmes shall be implemented to address the digital needs of rural communities, women and girls, elderly persons, persons with disabilities, and other underserved groups. Digital rights education shall be incorporated into digital literacy programmes."
+    },
+    {
+      "provision_ref": "srmp15",
+      "section": "15",
+      "title": "Framework Statement 15. Financing and Implementation",
+      "content": "The Smart Rwanda Master Plan shall be financed through the national budget, development partner support, private investment, and innovative financing mechanisms. RISA shall maintain a Smart Rwanda investment tracking system monitoring public and private investment in digital transformation. Government ICT investments shall be coordinated through the Smart Rwanda framework to avoid duplication and to maximise value for money. Development partner support shall be aligned with Smart Rwanda priorities and integrated into the national ICT planning framework. Rwanda shall develop a Smart Rwanda private sector investment promotion programme targeting technology companies, infrastructure investors, and venture capital. An annual Smart Rwanda investment summit shall be convened to promote dialogue between government, private sector, and development partners on digital transformation financing."
+    }
+  ],
+  "definitions": [
+    {"term": "Smart Rwanda", "definition": "Rwanda's national digital transformation initiative aiming to leverage ICT for economic development, improved service delivery, and enhanced quality of life.", "source_provision": "srmp1"},
+    {"term": "digital economy", "definition": "An economy based on digital technologies including digital platforms, e-commerce, digital financial services, and ICT-enabled industries.", "source_provision": "srmp3"},
+    {"term": "digital inclusion", "definition": "Ensuring that all individuals and communities have access to and are able to meaningfully use digital technologies.", "source_provision": "srmp14"},
+    {"term": "RISA", "definition": "Rwanda Information Society Authority, the coordinator of national ICT policy implementation.", "source_provision": "srmp6"},
+    {"term": "data economy", "definition": "An economic system in which data is treated as an asset that creates value when collected, analysed, and shared responsibly.", "source_provision": "srmp8"}
+  ]
+}

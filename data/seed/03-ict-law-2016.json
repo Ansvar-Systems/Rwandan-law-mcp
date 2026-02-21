@@ -1,0 +1,112 @@
+{
+  "id": "rw-ict-law-2016",
+  "type": "statute",
+  "title": "Itegeko N° 24/2016 ryo ku Ikoranabuhanga ry'Amakuru na Itumanaho",
+  "title_en": "Law N° 24/2016 of 18/06/2016 Relating to Information and Communication Technology",
+  "short_name": "ICT Law 2016",
+  "status": "amended",
+  "issued_date": "2016-06-18",
+  "in_force_date": "2016-06-18",
+  "url": "https://www.minict.gov.rw/index.php?id=372",
+  "description": "Law N° 24/2016 establishes the foundational legal framework for the regulation and development of information and communication technology in Rwanda, covering licensing of ICT service providers, spectrum management, universal service obligations, and consumer protection in the ICT sector. The law empowers the Rwanda Utilities Regulatory Authority (RURA) as the sector regulator and sets out rights and obligations applicable to ICT operators and users.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Interpretation",
+      "content": "In this Law, unless the context otherwise requires: 'Authorised operator' means a person authorised under this Law to provide ICT services; 'Electronic communications' means the transmission of signals over electronic communications networks; 'Electronic communications network' means transmission systems, whether or not based on a permanent infrastructure or centralised administration capacity, and switching or routing equipment, and other resources permitting the conveyance of signals by wire, radio, optical, or other electromagnetic means, including satellite networks, fixed and mobile terrestrial networks, and networks used for radio and television broadcasting; 'Electronic communications service' means a service normally provided for remuneration which consists wholly or mainly of the conveyance of signals on electronic communications networks; 'Spectrum' means the radio frequency spectrum; 'Universal service' means a defined minimum set of electronic communications services of specified quality available to all users at an affordable price; 'RURA' means the Rwanda Utilities Regulatory Authority."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Objectives of the Law",
+      "content": "The objectives of this Law are to: (a) establish a transparent, non-discriminatory, and competitive regulatory environment for ICT services in Rwanda; (b) promote the development and expansion of ICT infrastructure and services throughout Rwanda, including in underserved rural areas; (c) promote universal access to affordable and high-quality ICT services; (d) protect the rights and interests of consumers of ICT services; (e) promote research, development, and innovation in the ICT sector; (f) ensure the efficient management of national resources, including the radio frequency spectrum and numbering plan; (g) encourage investment in the ICT sector by domestic and foreign investors; (h) promote the development of e-Government and digital economic activities; (i) ensure Rwanda's participation in and compliance with applicable regional and international ICT frameworks and standards."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Regulatory Authority",
+      "content": "The Rwanda Utilities Regulatory Authority (RURA) shall be the competent regulatory authority for the ICT sector. RURA shall exercise its regulatory functions independently, in a transparent, objective, non-discriminatory, and proportionate manner. The functions of RURA in the ICT sector shall include: issuing, modifying, suspending, and revoking authorisations for ICT service providers; managing the radio frequency spectrum; managing the national numbering plan; monitoring and enforcing compliance with applicable laws, regulations, and licence conditions; resolving disputes between operators and between operators and consumers; protecting the interests of ICT service consumers; collecting statistical data and conducting research on the ICT sector; and advising the Government on ICT regulatory matters."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Licensing and Authorisation",
+      "content": "No person shall provide electronic communications networks or services in Rwanda without an appropriate authorisation issued by RURA. RURA shall establish a licensing framework specifying the categories of authorisations available, the eligibility criteria, application procedures, applicable fees, and terms and conditions. Authorisations shall be granted on the basis of objective, transparent, non-discriminatory, and proportionate criteria. RURA may grant individual licences for services requiring specific rights, including rights to use radio frequency spectrum, and general authorisations for other categories of services. Authorisations shall not be transferred without the prior written approval of RURA. RURA may modify the conditions of an authorisation following appropriate notice and consultation with the holder. Authorisations shall specify quality of service standards that the holder is required to meet."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Radio Frequency Spectrum Management",
+      "content": "The radio frequency spectrum is a natural resource belonging to the State of Rwanda. RURA shall manage the radio frequency spectrum in the public interest, ensuring its efficient and effective use. RURA shall develop and maintain a national frequency allocation plan aligned with the International Telecommunication Union (ITU) Radio Regulations. Rights to use specific radio frequency bands shall be assigned by RURA through licensing processes that may include competitive bidding where demand exceeds available spectrum. Spectrum rights shall be subject to conditions including obligations relating to coverage, quality of service, and technical parameters. RURA shall monitor spectrum use and take appropriate action against unauthorised use or interference. RURA may facilitate spectrum trading and leasing arrangements where consistent with efficient spectrum use and the public interest."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Universal Service",
+      "content": "The Government shall pursue universal service objectives to ensure that basic electronic communications services are available and affordable to all people in Rwanda, including in rural and underserved areas. RURA shall define the scope of universal service obligations, specifying the minimum services to be covered, geographic coverage targets, and quality of service requirements. A Universal Service Fund shall be established, financed by contributions from authorised operators, to support the deployment of infrastructure and services in areas that are not commercially viable. RURA shall administer the Universal Service Fund and shall designate operators to provide universal services through transparent and competitive processes. Operators designated to provide universal services shall be entitled to compensation from the Universal Service Fund for the net cost of meeting their universal service obligations."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Infrastructure Sharing",
+      "content": "RURA may impose obligations on operators with significant market power or operators controlling access to infrastructure that is not readily replicable to provide access to and sharing of their infrastructure on reasonable terms and conditions. Infrastructure sharing may include sharing of physical sites, masts, ducts, buildings, and other facilities used in the provision of electronic communications services. Operators required to provide access to infrastructure shall do so on a non-discriminatory basis, applying equivalent conditions in equivalent circumstances. RURA shall develop guidelines on infrastructure sharing, including pricing principles, technical requirements, and dispute resolution procedures. Co-location agreements reached on a commercial basis shall be encouraged; RURA may impose mandatory co-location arrangements where commercial negotiations fail. The promotion of infrastructure sharing serves the objectives of reducing deployment costs, minimising environmental impact, and expanding network coverage."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Consumer Protection in ICT",
+      "content": "ICT service providers shall treat consumers fairly and shall provide clear, accurate, and complete information about their services, terms, and pricing. Service providers shall comply with quality of service standards established by RURA and shall maintain systems for handling consumer complaints. Consumers shall have the right to receive itemised billing, to transfer their number when changing provider, and to be free from misleading advertising and unfair contract terms. RURA shall establish a consumer complaints mechanism and shall investigate complaints received against ICT service providers. Service providers shall not engage in practices that restrict consumer choice or that create unjustified barriers to switching providers. RURA may impose specific consumer protection obligations on operators with significant market power, including non-discrimination requirements and transparency obligations."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Numbering Plan",
+      "content": "RURA shall manage the national numbering plan, allocating blocks of telephone numbers to authorised operators. The national numbering plan shall be developed and maintained in alignment with ITU recommendations and regional frameworks applicable to Rwanda. RURA shall assign numbers to operators on the basis of objective, transparent, and non-discriminatory criteria. Numbers shall be allocated in quantities appropriate to the operator's demonstrated need and in accordance with applicable numbering fees. Operators shall implement number portability, enabling subscribers to retain their telephone number when changing service provider, in accordance with a timetable and technical standards set by RURA. RURA may reclaim unused or underutilised number blocks from operators and may impose obligations on the efficient use of allocated numbers."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Significant Market Power",
+      "content": "RURA shall conduct periodic market analyses to identify markets susceptible to ex-ante regulatory intervention and operators with significant market power in those markets. An operator shall be deemed to have significant market power if, individually or jointly with others, it enjoys a position of economic strength affording it the ability to behave to an appreciable extent independently of competitors, consumers, and other market participants. Where RURA determines that one or more operators have significant market power in a relevant market, RURA may impose specific obligations including: obligations of transparency; non-discrimination; accounting separation; obligations of access to and use of specific network facilities; and price control obligations. RURA shall review its significant market power determinations at regular intervals and shall adjust or withdraw obligations where the competitive situation in a market has changed."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Interconnection and Access",
+      "content": "Operators of electronic communications networks shall negotiate interconnection arrangements in good faith with other operators requesting interconnection. Operators with significant market power shall be required to provide interconnection on request, on non-discriminatory terms, at cost-oriented prices. Interconnection agreements shall be filed with RURA within thirty days of their conclusion. Where interconnection negotiations fail, either party may request RURA to resolve the dispute. RURA shall resolve interconnection disputes within a specified timeframe, having regard to the interests of users and the need for competitive and efficient markets. RURA shall publish reference interconnection offers from operators with significant market power to provide transparent and consistent interconnection pricing and conditions."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Network Security and Resilience",
+      "content": "Operators of electronic communications networks and services shall implement appropriate technical and organisational measures to appropriately manage the risks posed to the security of their networks and services. The measures taken shall ensure a level of security appropriate to the risk presented, having regard to the state of the art. Operators shall take measures to prevent and minimise the impact of security incidents on end-users and on other networks. Operators shall notify RURA and, where applicable, the National Cyber Security Authority, of security breaches having a significant impact on the operation of networks or services. Operators shall cooperate with RURA in conducting security audits and shall provide information requested for monitoring compliance with security requirements. RURA shall develop technical standards and guidelines for network security, in coordination with the National Cyber Security Authority."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13. Lawful Interception",
+      "content": "Operators of electronic communications networks and services shall provide, at their own expense, technical capabilities enabling lawful interception of communications by authorised government agencies in accordance with applicable law. Requests for lawful interception shall be made only by designated government authorities and shall comply with requirements of the applicable legal framework governing the collection of evidence and intelligence. Operators shall establish and maintain interfaces, systems, and procedures enabling the timely provision of intercepted communications to authorised agencies upon lawful request. The technical standards for lawful interception interfaces shall be prescribed by RURA in consultation with relevant government security agencies. Operators shall maintain records of interception requests received and fulfilled, which shall be made available to RURA upon request for oversight purposes."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14. Sanctions and Enforcement",
+      "content": "RURA shall have the authority to impose sanctions on ICT operators that fail to comply with the provisions of this Law, applicable regulations, or their licence conditions. RURA may, following an investigation and a fair procedure providing the operator with an opportunity to respond, impose sanctions including warnings, financial penalties, mandatory compliance orders, and suspension or revocation of authorisation. The amount of any financial penalty shall be proportionate to the gravity of the violation, taking into account: the nature and duration of the infringement; the degree of culpability; the economic benefit derived from the infringement; previous violations; and steps taken to remedy the violation. An operator subject to a sanction may appeal to the competent administrative court. Operators shall cooperate fully with RURA investigations and shall provide all information requested within specified timeframes."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Article 15. International Cooperation",
+      "content": "The Government of Rwanda shall participate in relevant regional and international ICT regulatory frameworks and shall promote the harmonisation of ICT regulations across the East African Community and African Union. RURA shall cooperate with regulatory authorities in other countries and with international organisations on regulatory matters of common interest, including spectrum coordination, consumer protection, and the governance of cross-border ICT services. Information exchanged with foreign regulatory authorities shall be subject to confidentiality requirements equivalent to those applicable in Rwanda. Rwanda shall implement its obligations under applicable international agreements relating to ICT, including ITU Radio Regulations and World Trade Organisation commitments on basic telecommunications. The Minister responsible for ICT shall represent Rwanda in international ICT policy forums and shall coordinate positions across relevant government institutions."
+    }
+  ],
+  "definitions": [
+    {"term": "electronic communications network", "definition": "Transmission systems, switching or routing equipment, and other resources permitting the conveyance of signals by wire, radio, optical, or other electromagnetic means.", "source_provision": "art1"},
+    {"term": "electronic communications service", "definition": "A service normally provided for remuneration which consists wholly or mainly of the conveyance of signals on electronic communications networks.", "source_provision": "art1"},
+    {"term": "spectrum", "definition": "The radio frequency spectrum, a natural resource belonging to the State of Rwanda.", "source_provision": "art5"},
+    {"term": "universal service", "definition": "A defined minimum set of electronic communications services of specified quality available to all users at an affordable price.", "source_provision": "art1"},
+    {"term": "significant market power", "definition": "A position of economic strength affording an operator the ability to behave to an appreciable extent independently of competitors, consumers, and other market participants.", "source_provision": "art10"},
+    {"term": "RURA", "definition": "Rwanda Utilities Regulatory Authority, the competent regulatory authority for the ICT sector.", "source_provision": "art3"}
+  ]
+}

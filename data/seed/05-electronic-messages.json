@@ -1,0 +1,112 @@
+{
+  "id": "rw-electronic-messages-2010",
+  "type": "statute",
+  "title": "Itegeko N° 18/2010 ryo ku Butumwa, Umukono na Ibikorwa by'Ikoranabuhanga",
+  "title_en": "Law N° 18/2010 of 12/05/2010 Relating to Electronic Messages, Electronic Signatures and Electronic Transactions",
+  "short_name": "EMSET 2010",
+  "status": "amended",
+  "issued_date": "2010-05-12",
+  "in_force_date": "2010-05-12",
+  "url": "https://www.rdb.rw/uploads/tx_sbdownloader/Law_on_Electronic_Messages_Signatures_Transactions.pdf",
+  "description": "Law N° 18/2010 provides the foundational legal framework for the recognition of electronic messages, signatures, and transactions in Rwanda. It establishes the legal equivalence of electronic records to paper documents and electronic signatures to handwritten signatures where applicable requirements are met, enabling the digitisation of commercial, administrative, and legal processes.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Definitions",
+      "content": "In this Law: 'Electronic message' means information generated, sent, received, or stored by electronic, optical, or similar means including electronic data interchange, electronic mail, telegram, telex, or telecopy; 'Originator' means a person by whom, or on whose behalf, the electronic message purports to have been sent or generated prior to storage, if any, but does not include a person acting as an intermediary with respect to that electronic message; 'Addressee' means a person who is intended by the originator to receive the electronic message, but does not include a person acting as an intermediary; 'Electronic signature' means data in electronic form in, affixed to, or logically associated with, other data in electronic form and which is used by the signatory to sign; 'Advanced electronic signature' means an electronic signature that is uniquely linked to the signatory, capable of identifying the signatory, created using data under the sole control of the signatory, and linked to the data it relates to in such a manner that any change thereto is detectable; 'Certification service provider' means a person that issues certificates or provides other services related to electronic signatures."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Application",
+      "content": "This Law applies to electronic messages used in the context of commercial activities including the formation of contracts, the making of claims, and the management of commercial relationships. The Law applies to administrative transactions and interactions between government institutions and individuals or entities, in accordance with regulations issued by the relevant authorities. This Law does not apply to: wills and testamentary instruments; trust deeds; powers of attorney; documents relating to immovable property; and such other matters as may be prescribed by regulation. Nothing in this Law requires a person to use electronic messages, electronic signatures, or electronic transactions; their use is voluntary except where otherwise provided by law. Parties to a transaction may, by agreement, vary or exclude the application of provisions of this Law relating to the formation and performance of contracts."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Legal Recognition of Electronic Messages",
+      "content": "An electronic message shall not be denied legal effect, validity, or enforceability solely on the ground that it is in electronic form. Where a law requires that information be in writing, that requirement is met by an electronic message if the information contained in the electronic message is accessible so as to be usable for subsequent reference. Where information is required by law to be presented or retained in its original form, that requirement is met by an electronic message if there exists a reliable assurance as to the integrity of the information from the time when it was first generated in its final form as an electronic message, and if the information contained in the electronic message is capable of being displayed to the person to whom it is to be presented. The criteria for assessing the reliability of an assurance of integrity shall include whether the information has remained complete and unaltered."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Legal Recognition of Electronic Signatures",
+      "content": "An electronic signature shall not be denied legal effect and admissibility as evidence solely on the ground that it is in electronic form or that it does not meet requirements applicable to advanced electronic signatures. Where the law requires a signature, that requirement is met in relation to an electronic message if an electronic signature is used that is as reliable as is appropriate for the purpose for which the electronic message was generated or communicated, in the light of all the circumstances, including any relevant agreement. An advanced electronic signature that meets applicable requirements is deemed to satisfy the legal requirement for a signature. Electronic signatures shall be deemed legally equivalent to handwritten signatures for the purposes of authentication, authorisation, and execution of documents in electronic form, subject to applicable law."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Formation of Contracts",
+      "content": "An offer and an acceptance of an offer may be expressed by means of electronic messages. Where an electronic message is used in the formation of a contract, that contract shall not be denied validity or enforceability solely on the ground that an electronic message was used for that purpose. Unless otherwise agreed, the contract shall be formed at the time when the acceptance of the offer, or the receipt of an electronic message acknowledging acceptance, reaches the offeror. Where an automated electronic system is used, a contract may be formed between a person and an automated electronic system, or between two automated electronic systems, of another person, in circumstances where the automated electronic system makes decisions without review by a natural person at the time the contract is formed. A person using an automated electronic system as a means of forming a contract shall be responsible for ensuring that it provides reasonable notice that errors can be identified and corrected before a commitment is made."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Attribution of Electronic Messages",
+      "content": "An electronic message is that of the originator if it was sent by the originator. As between the originator and the addressee, an electronic message is deemed to be that of the originator if it was sent by a person who had authority to act on behalf of the originator in respect of that electronic message. As between the originator and the addressee, an addressee is entitled to regard an electronic message as being that of the originator and to act on that assumption if the addressee applied a procedure previously agreed to by the originator for that purpose, or the electronic message as received by the addressee resulted from the actions of a person whose relationship with the originator or with any agent of the originator enabled that person to gain access to a method used by the originator to identify electronic messages as its own. This provision does not apply where the addressee knew or should have known that the electronic message was not that of the originator."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Certification Service Providers",
+      "content": "Certification service providers that issue qualified certificates shall meet requirements relating to financial resources, technical and operational capability, identity verification procedures, and the management of cryptographic keys. The regulatory authority shall maintain a register of accredited certification service providers and shall publish a list of trusted root certificates. Certification service providers shall: issue certificates meeting applicable technical standards; maintain a certificate revocation service; notify subscribers promptly of any compromise of certification services; retain records of issued certificates for a specified period; and cooperate with regulatory and law enforcement authorities. Qualified certificates shall meet minimum content requirements specified by the regulatory authority, including the identity of the subscriber, the public key, the validity period, and the identity of the issuing certification service provider."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Time and Place of Dispatch and Receipt",
+      "content": "Unless otherwise agreed between the originator and the addressee, the dispatch of an electronic message occurs when it enters an information system outside the control of the originator or, if the originator and addressee are in the same information system, when it enters the information system designated by the addressee for that purpose. Unless otherwise agreed, the time of receipt of an electronic message is: (a) if the addressee has designated an information system for receiving electronic messages, at the time when the message enters the designated information system; or (b) if the electronic message is sent to an information system that is not the designated information system, at the time when the message is retrieved by the addressee. An electronic message is deemed to be dispatched at the place where the originator has its place of business and is deemed to be received at the place where the addressee has its place of business."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Electronic Data Interchange",
+      "content": "Where electronic data interchange is used in commercial transactions, the parties may agree on technical standards, communication protocols, security procedures, and other requirements applicable to their electronic data interchange communications. Electronic data interchange messages shall be treated as electronic messages for the purposes of this Law. Parties engaging in regular electronic data interchange communications may enter into trading partner agreements specifying the terms and conditions applicable to their communications, including standards for message acknowledgement, error handling, and security. Where a trading partner agreement does not address a particular matter, this Law shall apply. Records of electronic data interchange transactions shall be retained in accordance with applicable record-keeping requirements, and the retained records shall be maintained in a format and medium that ensures their accessibility and integrity."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Electronic Records Retention",
+      "content": "Where a law requires that certain documents, records, or information be retained, that requirement is met by retaining electronic messages provided: (a) the information contained in the electronic message is accessible so as to be usable for subsequent reference; (b) the electronic message is retained in the format in which it was originally generated, sent, or received, or in a format which can be demonstrated to represent accurately the information originally generated, sent, or received; and (c) information is retained that enables the identification of the origin and destination of an electronic message and the date and time when it was sent or received. An obligation to retain documents, records, or information in accordance with this Article does not apply to any information the sole purpose of which is to enable the message to be sent or received. A person may use the services of any other person to fulfill the obligation referred to in this Article."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Admissibility in Evidence",
+      "content": "In any legal proceedings, nothing in the applicable rules of evidence shall apply so as to deny the admissibility of an electronic message in evidence on the sole ground that it is an electronic message or, where the best evidence rule applies, on the ground that it is not in its original form if it is the best evidence that the person adducing it can reasonably be expected to obtain. Information in the form of an electronic message shall be given due evidential weight. In assessing the evidential weight of an electronic message, regard shall be had to the reliability of the manner in which the electronic message was generated, stored, communicated, or authenticated, to the reliability of the manner in which the integrity of the information was maintained, to the manner in which the originator was identified, and to any other relevant factor."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Government Use of Electronic Messages",
+      "content": "A government institution that, pursuant to any law, accepts filing of documents, requires that documents be created or retained, issues permits, licences, or approvals, or provides for the making of payments, may do so by means of electronic messages, subject to conditions specified by the relevant government institution. A government institution may specify requirements relating to the electronic message, the means of electronic signature, the format of the electronic message, the means of transmission, and the payment of fees. A document required by law to be in writing shall satisfy that requirement if the document is an electronic message meeting the applicable requirements of this Law. The use of electronic messages in transactions with government institutions is subject to the security and authentication standards established by the competent authority responsible for e-Government."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13. Secure Electronic Transactions",
+      "content": "A secure electronic message is an electronic message that has been: transformed using a cryptographic method or similar security procedure; transmitted through a secure channel that provides for the authentication of the electronic message; or otherwise secured through a procedure approved by the regulatory authority. A secure electronic signature is an electronic signature that has been created using a secure signature creation device and an advanced electronic signature certificate issued by an accredited certification service provider, or another means of securing the signature approved by the regulatory authority. In any proceedings, a secure electronic message or secure electronic signature shall be presumed to be authentic unless evidence is adduced to the contrary. Parties to a transaction may agree on additional security measures and authentication procedures for their electronic communications."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14. Consumer and Third-Party Protections",
+      "content": "Where parties have agreed to conduct transactions by electronic means, nothing in such an agreement removes the obligation of the parties to comply with consumer protection, privacy, and other applicable laws. A party may not exclude the operation of provisions of this Law conferring rights on consumers or third parties or imposing obligations in their favour. Where a person uses an electronic message to make representations that are false or misleading, the person shall be liable as if the representations had been made in a traditional paper format. Intermediary service providers that transmit, cache, or store electronic messages on behalf of third parties shall not be liable for the content of those messages where they have no actual knowledge of and no control over the content, and act expeditiously to remove or disable access to content upon obtaining actual knowledge that it is unlawful."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Article 15. Regulatory Oversight and Entry into Force",
+      "content": "The regulatory authority designated by the Minister responsible for ICT shall be responsible for: issuing technical standards for electronic signatures, electronic certification services, and secure electronic transactions; maintaining the register of accredited certification service providers; monitoring compliance with this Law and applicable regulations; and advising the Government on developments in electronic communications technology and their legal implications. The regulatory authority may issue guidelines and technical specifications providing practical guidance on compliance with this Law. Any person aggrieved by a decision of the regulatory authority under this Law may appeal to the Minister, and thereafter to the competent administrative court. The Minister shall issue regulations supplementing this Law within six months of its entry into force. This Law shall enter into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": [
+    {"term": "electronic message", "definition": "Information generated, sent, received, or stored by electronic, optical, or similar means.", "source_provision": "art1"},
+    {"term": "electronic signature", "definition": "Data in electronic form affixed to or logically associated with other data in electronic form and used by the signatory to sign.", "source_provision": "art1"},
+    {"term": "advanced electronic signature", "definition": "An electronic signature uniquely linked to the signatory, capable of identifying them, created using data under their sole control, and linked to the data it relates to in such a manner that any change is detectable.", "source_provision": "art1"},
+    {"term": "certification service provider", "definition": "A person that issues certificates or provides other services related to electronic signatures.", "source_provision": "art1"},
+    {"term": "originator", "definition": "A person by whom, or on whose behalf, the electronic message purports to have been sent or generated.", "source_provision": "art1"},
+    {"term": "secure electronic message", "definition": "An electronic message that has been transformed using a cryptographic method, transmitted through a secure channel, or otherwise secured through an approved procedure.", "source_provision": "art13"}
+  ]
+}

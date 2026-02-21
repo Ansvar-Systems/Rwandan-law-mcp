@@ -1,0 +1,112 @@
+{
+  "id": "rw-information-security-governance-framework",
+  "type": "statute",
+  "title": "Inzira y'Imicungire y'Umutekano w'Amakuru - Ingamba za NCSA",
+  "title_en": "Rwanda Information Security Governance Framework — National Cyber Security Authority",
+  "short_name": "ISGF-NCSA",
+  "status": "in_force",
+  "issued_date": "2020-01-01",
+  "in_force_date": "2020-01-01",
+  "url": "https://www.ncsa.gov.rw/",
+  "description": "The Rwanda Information Security Governance Framework establishes the mandatory governance, risk management, and compliance requirements for information security across all government institutions and operators of critical national infrastructure. It designates roles and responsibilities for information security management, defines baseline security controls, and establishes processes for incident response and security assurance.",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Purpose and Authority",
+      "content": "This Framework is issued by the National Cyber Security Authority (NCSA) pursuant to its mandate under applicable law to protect Rwanda's national information infrastructure and to promote cybersecurity across all sectors of the Rwandan economy. The Framework establishes the minimum requirements for information security governance applicable to government institutions and operators of critical national infrastructure. It provides a structured approach to managing information security risks, ensuring the confidentiality, integrity, and availability of information systems and the data they process. Compliance with this Framework is mandatory for all entities within its scope and shall be assessed through periodic audits and compliance reviews conducted by NCSA or its authorised agents."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Scope of Application",
+      "content": "This Framework applies to: (a) all government ministries, departments, and agencies; (b) state-owned enterprises and public institutions; (c) operators of critical national infrastructure as designated by NCSA in coordination with sectoral regulators; (d) ICT service providers supplying services to government institutions. Private sector entities not operating critical infrastructure are encouraged to adopt the Framework as a best practice standard. NCSA shall publish and maintain a list of critical national infrastructure operators subject to mandatory compliance with this Framework. Sectoral regulators may issue supplementary security requirements for entities within their sectors, provided such requirements are consistent with and do not diminish the requirements of this Framework."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Information Security Governance Structure",
+      "content": "Each organisation subject to this Framework shall establish an information security governance structure comprising: (a) an accountable senior official with designated responsibility for information security at the executive level; (b) a Chief Information Security Officer (CISO) or equivalent role with operational responsibility for implementing and managing information security; (c) an Information Security Committee providing oversight and strategic direction for information security; (d) Information Security Officers at the business unit level responsible for implementing security requirements within their units. The governance structure shall be formally documented and approved by the organisation's leadership. Roles and responsibilities shall be clearly defined and communicated throughout the organisation. The CISO or equivalent shall have direct access to the organisation's leadership and shall report regularly on the state of information security."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Information Security Policy",
+      "content": "Each organisation shall develop, approve, publish, and communicate an information security policy that: (a) is approved by the organisation's leadership; (b) states the organisation's commitment to protecting information in accordance with applicable law and this Framework; (c) defines the scope of the information security programme; (d) assigns accountability for information security; (e) establishes consequences for non-compliance. The information security policy shall be reviewed at least annually and updated to reflect changes in the organisation's risk environment, technology landscape, and applicable regulatory requirements. Supplementary policies and procedures addressing specific security topics shall be developed to support the overarching information security policy. All employees, contractors, and third parties with access to the organisation's information systems shall be required to acknowledge and comply with applicable information security policies."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Information Security Risk Management",
+      "content": "Each organisation shall implement a systematic information security risk management process comprising: (a) identification of information assets and their value to the organisation; (b) identification of threats and vulnerabilities applicable to those assets; (c) assessment of the likelihood and impact of potential security incidents; (d) evaluation and prioritisation of risks; (e) selection and implementation of appropriate security controls to treat identified risks; (f) monitoring and review of the effectiveness of implemented controls. The risk management process shall be documented and the results recorded in a risk register maintained by the CISO. Risk assessments shall be conducted at least annually and whenever significant changes occur to the organisation's information environment. The risk appetite of the organisation shall be defined and approved by leadership and shall inform risk treatment decisions."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Baseline Security Controls",
+      "content": "All organisations subject to this Framework shall implement the baseline security controls specified in the NCSA Security Controls Catalogue, which includes controls addressing: (a) access control and identity management; (b) asset management; (c) cryptography and key management; (d) physical and environmental security; (e) operational security including malware protection, logging, and monitoring; (f) communications security; (g) system acquisition, development, and maintenance; (h) supplier relationships; (i) business continuity and disaster recovery; (j) compliance. Organisations shall implement controls commensurate with their risk profile, operational context, and the sensitivity of information they process. NCSA shall publish and maintain the Security Controls Catalogue, updating it periodically to reflect evolving threats and best practices."
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Section 7. Incident Management and Response",
+      "content": "Each organisation shall establish and maintain an information security incident management capability including: (a) documented incident response procedures; (b) an incident response team with defined roles and responsibilities; (c) mechanisms for detecting, reporting, and recording security incidents; (d) procedures for assessing the severity and scope of incidents; (e) procedures for containment, eradication, and recovery; (f) post-incident analysis and lessons learned processes. Significant security incidents shall be reported to NCSA within specified timeframes prescribed in NCSA guidelines. Organisations shall cooperate with NCSA and relevant authorities in the investigation of security incidents. NCSA shall operate a national Computer Security Incident Response Team (CSIRT) providing support to organisations experiencing security incidents and coordinating national-level incident response activities."
+    },
+    {
+      "provision_ref": "sec8",
+      "section": "8",
+      "title": "Section 8. Security Awareness and Training",
+      "content": "Each organisation shall implement a security awareness and training programme ensuring that all personnel understand their information security responsibilities. Security awareness training shall be provided to all new employees and contractors upon joining the organisation and shall be refreshed at least annually. Specialised training appropriate to their roles shall be provided to personnel with specific information security responsibilities, including system administrators, developers, and security personnel. Security awareness programmes shall address topics including: recognising and responding to social engineering; password management and authentication; acceptable use of information systems; handling of sensitive information; reporting of security incidents; and applicable regulatory requirements. The effectiveness of security awareness and training programmes shall be assessed periodically."
+    },
+    {
+      "provision_ref": "sec9",
+      "section": "9",
+      "title": "Section 9. Third-Party and Supply Chain Security",
+      "content": "Each organisation shall manage information security risks arising from relationships with third-party suppliers and service providers. Before engaging a third party with access to the organisation's information systems or sensitive data, the organisation shall assess the third party's information security posture. Contracts with third-party suppliers shall include information security requirements commensurate with the nature of the relationship and the associated risks. Third parties shall be required to notify the organisation promptly of any security incident that may affect the organisation's information or systems. Third-party access to the organisation's information systems shall be governed by a formal access agreement, shall be limited to what is strictly necessary, and shall be monitored. The organisation shall maintain oversight of the security practices of its critical suppliers through periodic assessments or audits."
+    },
+    {
+      "provision_ref": "sec10",
+      "section": "10",
+      "title": "Section 10. Business Continuity",
+      "content": "Each organisation shall develop and maintain business continuity plans and disaster recovery capabilities to ensure the continued availability of critical information systems and services in the event of disruption. Business continuity plans shall be developed based on a business impact analysis identifying critical processes, systems, and data and establishing recovery time and recovery point objectives for each. Business continuity and disaster recovery plans shall be tested at least annually through appropriate exercises, and the results of tests shall be used to improve the plans. Organisations shall maintain backups of critical data and system configurations, and shall ensure that backup procedures are tested to verify recoverability. Business continuity plans shall address a range of disruption scenarios including technical failures, natural disasters, and security incidents."
+    },
+    {
+      "provision_ref": "sec11",
+      "section": "11",
+      "title": "Section 11. Secure Software Development",
+      "content": "Organisations that develop or commission software shall integrate security requirements into the software development lifecycle. Security requirements shall be defined and documented before development begins, and shall include requirements for authentication, authorisation, data protection, and secure communications. Secure coding practices shall be applied throughout development, with reference to recognised standards such as the OWASP Secure Coding Practices Guide. Security testing, including vulnerability scanning and code review, shall be conducted before software is deployed to production. Known security vulnerabilities in software libraries and dependencies shall be tracked and remediated in a timely manner. Organisations shall establish a process for receiving, assessing, and responding to reports of security vulnerabilities in software they develop or operate."
+    },
+    {
+      "provision_ref": "sec12",
+      "section": "12",
+      "title": "Section 12. Compliance Monitoring and Audit",
+      "content": "NCSA shall conduct or commission periodic information security audits of organisations subject to this Framework to assess their compliance with Framework requirements. Organisations shall cooperate fully with NCSA audits and shall provide access to information systems, documentation, and personnel as required for audit purposes. Following an audit, NCSA shall issue a report identifying areas of non-compliance and specifying remediation requirements and timelines. Organisations shall submit remediation plans to NCSA within thirty days of receipt of an audit report and shall implement remediation actions within agreed timelines. NCSA shall maintain records of audit findings and remediation activities and shall publish an annual report on the overall state of information security governance across covered organisations. Organisations may commission independent third-party audits of their information security in lieu of or in addition to NCSA audits, subject to NCSA's approval of the auditor's qualifications."
+    },
+    {
+      "provision_ref": "sec13",
+      "section": "13",
+      "title": "Section 13. Cryptography and Key Management",
+      "content": "Organisations shall use cryptographic methods to protect the confidentiality and integrity of sensitive information, in accordance with NCSA cryptography guidelines. Cryptographic algorithms and key lengths shall meet minimum standards prescribed by NCSA, which shall be updated as necessary to reflect advances in cryptanalysis. Organisations shall implement key management procedures addressing key generation, distribution, storage, use, revocation, and destruction. Cryptographic keys shall be stored securely and access to keys shall be restricted to authorised personnel. Where cryptographic certificates are used, organisations shall maintain the currency of certificates and shall replace them before expiry. The use of encryption for data at rest and data in transit shall be required for all information classified as sensitive or higher in accordance with the national information classification policy."
+    },
+    {
+      "provision_ref": "sec14",
+      "section": "14",
+      "title": "Section 14. Information Classification",
+      "content": "Organisations shall classify information assets in accordance with the National Information Classification Policy issued by NCSA, which defines classification levels and associated handling requirements. The classification levels applicable to government institutions are: Public — information that may be freely disclosed; Internal — information for use within the organisation or government; Confidential — sensitive information requiring controlled access; Secret — highly sensitive information with strictly limited access. Organisations shall apply classification labels to information and information systems and shall handle information in accordance with the requirements applicable to its classification. Information shall be reclassified when its sensitivity changes. Personnel shall be trained on information classification requirements and their responsibilities."
+    },
+    {
+      "provision_ref": "sec15",
+      "section": "15",
+      "title": "Section 15. Review and Updates",
+      "content": "NCSA shall review this Framework at least every three years and shall update it as necessary to reflect changes in the threat landscape, technological developments, and evolving regulatory requirements. Stakeholder consultation shall be conducted as part of any significant review of the Framework. Organisations shall monitor updates to the Framework and shall incorporate changes into their information security programmes within timeframes specified by NCSA. NCSA shall provide guidance and support to organisations in implementing updated Framework requirements. In exceptional circumstances, such as the emergence of a significant new threat, NCSA may issue emergency amendments to the Framework requirements taking effect on a shortened timeline."
+    }
+  ],
+  "definitions": [
+    {"term": "information security", "definition": "The preservation of the confidentiality, integrity, and availability of information.", "source_provision": "sec1"},
+    {"term": "NCSA", "definition": "National Cyber Security Authority, the body responsible for cybersecurity governance in Rwanda.", "source_provision": "sec1"},
+    {"term": "critical national infrastructure", "definition": "Assets, systems, and networks, the disruption or destruction of which would have a severe impact on national security, public health, safety, or the economy.", "source_provision": "sec2"},
+    {"term": "CISO", "definition": "Chief Information Security Officer, the senior official with operational responsibility for implementing and managing information security.", "source_provision": "sec3"},
+    {"term": "information security risk", "definition": "The potential that a threat will exploit a vulnerability in an information asset, resulting in harm to the organisation.", "source_provision": "sec5"},
+    {"term": "incident response", "definition": "The organised approach to managing and addressing the aftermath of a security breach or attack.", "source_provision": "sec7"}
+  ]
+}
