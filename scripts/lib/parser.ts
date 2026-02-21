@@ -1,36 +1,18 @@
 /**
- * HTML parser for Rwandan legislation from the Sejm ELI API (api.sejm.gov.pl).
+ * Parser for RwandaLII legislation pages.
  *
- * Parses the structured HTML served by the ELI text endpoint into seed JSON.
- * The HTML structure uses:
- *
- * - <div class="unit unit_chpt" id="chpt_N"> for chapters (Rozdział)
- * - <div class="unit unit_arti" id="chpt_N-arti_M"> for articles (Art.)
- * - <h3> inside articles for article number (Art. N.)
- * - <div class="unit unit_pass"> for numbered paragraphs (ustępy)
- * - <div class="unit unit_pint"> for numbered points (punkty)
- * - <div data-template="xText" class="pro-text"> for text content
- *
- * Rwandan legislation references: Dz.U. YYYY poz. NNNN
- * API endpoint: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
+ * Extracts:
+ * - law metadata (title, law number, dates, URL)
+ * - provisions (article-level text)
+ * - definitions (from definition articles when present)
  */
 
-export interface ActIndexEntry {
+export interface ActTarget {
   id: string;
-  title: string;
-  titleEn: string;
-  shortName: string;
-  status: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
-  issuedDate: string;
-  inForceDate: string;
-  /** ISAP display address, e.g. "Dz.U. 2018 poz. 1000" */
-  dziennikRef: string;
-  /** Year of publication in Dziennik Ustaw */
-  year: number;
-  /** Position number (poz.) in Dziennik Ustaw */
-  poz: number;
-  /** Human-readable URL on ISAP */
+  seedFile: string;
   url: string;
+  shortName?: string;
+  status?: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
   description?: string;
 }
 
@@ -63,386 +45,531 @@ export interface ParsedAct {
   definitions: ParsedDefinition[];
 }
 
-/**
- * Strip HTML tags and decode common entities, normalising whitespace.
- */
-function stripHtml(html: string): string {
-  return html
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&shy;/g, '')
+interface TocNode {
+  id: string | null;
+  num: string | null;
+  type: string;
+  title: string | null;
+  heading: string | null;
+  children: TocNode[];
+}
+
+interface FlatArticle {
+  id: string;
+  num: string | null;
+  title: string;
+  chapter?: string;
+}
+
+const WORD_NUMBERS: Record<string, number> = {
+  zero: 0,
+  one: 1,
+  two: 2,
+  three: 3,
+  four: 4,
+  five: 5,
+  six: 6,
+  seven: 7,
+  eight: 8,
+  nine: 9,
+  ten: 10,
+  eleven: 11,
+  twelve: 12,
+  thirteen: 13,
+  fourteen: 14,
+  fifteen: 15,
+  sixteen: 16,
+  seventeen: 17,
+  eighteen: 18,
+  nineteen: 19,
+  twenty: 20,
+  thirty: 30,
+  forty: 40,
+  fifty: 50,
+  sixty: 60,
+  seventy: 70,
+  eighty: 80,
+  ninety: 90,
+};
+
+function escapeRegExp(input: string): string {
+  return input.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function decodeHtmlEntities(input: string): string {
+  let text = input;
+
+  const replacements: Array<[RegExp, string]> = [
+    [/&nbsp;/g, ' '],
+    [/&amp;/g, '&'],
+    [/&lt;/g, '<'],
+    [/&gt;/g, '>'],
+    [/&quot;/g, '"'],
+    [/&#39;/g, "'"],
+    [/&apos;/g, "'"],
+    [/&ndash;/g, '-'],
+    [/&mdash;/g, '-'],
+    [/&hellip;/g, '...'],
+  ];
+
+  for (const [pattern, value] of replacements) {
+    text = text.replace(pattern, value);
+  }
+
+  text = text.replace(/&#x([0-9a-fA-F]+);/g, (_, hex: string) =>
+    String.fromCodePoint(parseInt(hex, 16))
+  );
+  text = text.replace(/&#(\d+);/g, (_, dec: string) =>
+    String.fromCodePoint(parseInt(dec, 10))
+  );
+
+  return text;
+}
+
+function normalizeWhitespace(input: string): string {
+  return decodeHtmlEntities(input)
     .replace(/\u00a0/g, ' ')
     .replace(/\s+/g, ' ')
+    .replace(/\s+([,;:.!?])/g, '$1')
+    .replace(/\(\s+/g, '(')
+    .replace(/\s+\)/g, ')')
+    .replace(/\s+([’'])\s*/g, '$1')
+    .replace(/(\d)\s+°/g, '$1°')
     .trim();
 }
 
-/**
- * Find the chapter heading (Rozdział) for a given article position.
- * Searches backwards from the article position for the nearest chapter div.
- */
-function findChapterHeading(html: string, articlePos: number): string | undefined {
-  const beforeArticle = html.substring(Math.max(0, articlePos - 10000), articlePos);
-
-  // Look for the last chapter heading: Rozdział N ... Title
-  // Pattern in ISAP HTML: <div class="unit unit_chpt"...> <h3> Rozdział N ... Title </h3>
-  const chapterMatches = [
-    ...beforeArticle.matchAll(/Rozdzia[łl]\s*&nbsp;\s*(\d+[a-z]?)\s*(.*?)(?=<\/h3>|<\/P>)/gi),
-  ];
-
-  if (chapterMatches.length > 0) {
-    const last = chapterMatches[chapterMatches.length - 1];
-    const chapterNum = last[1].trim();
-    // Try to find the title in subsequent <P> or <SPAN> tags
-    const afterChapter = beforeArticle.substring(last.index! + last[0].length);
-    const titleMatch = afterChapter.match(/<SPAN[^>]*class="pro-title-unit"[^>]*>(.*?)<\/SPAN>/i);
-    const title = titleMatch ? stripHtml(titleMatch[1]) : '';
-
-    return title
-      ? `Rozdział ${chapterNum} - ${title}`
-      : `Rozdział ${chapterNum}`;
-  }
-
-  // Also check for Dział (Division) used in larger codes
-  const dzialMatches = [
-    ...beforeArticle.matchAll(/Dzia[łl]\s*&nbsp;\s*([IVXLCDM]+[a-z]?)\s*(.*?)(?=<\/h3>|<\/P>)/gi),
-  ];
-
-  if (dzialMatches.length > 0) {
-    const last = dzialMatches[dzialMatches.length - 1];
-    const dzialNum = last[1].trim();
-    const afterDzial = beforeArticle.substring(last.index! + last[0].length);
-    const titleMatch = afterDzial.match(/<SPAN[^>]*class="pro-title-unit"[^>]*>(.*?)<\/SPAN>/i);
-    const title = titleMatch ? stripHtml(titleMatch[1]) : '';
-
-    return title
-      ? `Dział ${dzialNum} - ${title}`
-      : `Dział ${dzialNum}`;
-  }
-
-  return undefined;
+function stripHtml(input: string): string {
+  return normalizeWhitespace(input.replace(/<[^>]+>/g, ' '));
 }
 
-/**
- * Parse HTML from the Sejm ELI API (api.sejm.gov.pl/eli/acts/DU/YYYY/POZ/text.html)
- * to extract provisions from a Rwandan statute.
- *
- * The HTML uses div-based structure:
- *   <div class="unit unit_arti" id="chpt_N-arti_M" data-id="arti_M">
- *     <h3><B>Art. M.</B></h3>
- *     <div class="unit-inner">
- *       <div class="unit unit_pass">
- *         <h3>1.</h3>
- *         <div class="unit-inner">
- *           <div data-template="xText">...content...</div>
- *         </div>
- *       </div>
- *     </div>
- *   </div>
- */
-export function parseRwandanHtml(html: string, act: ActIndexEntry): ParsedAct {
-  const provisions: ParsedProvision[] = [];
-  const definitions: ParsedDefinition[] = [];
+function htmlToPlainText(input: string): string {
+  let text = input;
+  text = text.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ');
+  text = text.replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ');
+  text = text.replace(/<br\s*\/?>/gi, '\n');
+  text = text.replace(/<\/(p|div|section|article|li|ul|ol|h\d)>/gi, '\n');
+  text = text.replace(/<span[^>]*class="[^"]*\bakn-num\b[^"]*"[^>]*>([\s\S]*?)<\/span>/gi, '$1 ');
+  text = text.replace(/<[^>]+>/g, ' ');
+  return normalizeWhitespace(text);
+}
 
-  // Match all article divs: <div class="unit unit_arti ..." id="...-arti_N" data-id="arti_N">
-  const articleRegex = /<div[^>]*class="unit unit_arti[^"]*"[^>]*id="([^"]*-)?arti_(\d+[a-z_]*)"[^>]*data-id="arti_(\d+[a-z_]*)"[^>]*>/gi;
-  const articleStarts: { fullId: string; artNum: string; pos: number }[] = [];
+function extractScriptJson(html: string, scriptId: string): string | null {
+  const pattern = new RegExp(
+    `<script[^>]*id="${escapeRegExp(scriptId)}"[^>]*>([\\s\\S]*?)<\\/script>`,
+    'i',
+  );
+  const match = html.match(pattern);
+  return match ? match[1].trim() : null;
+}
 
-  let match: RegExpExecArray | null;
-  while ((match = articleRegex.exec(html)) !== null) {
-    // Skip nested articles inside amendment provisions (chpt_12-arti_111-arti_22_2 etc.)
-    const fullId = match[0];
-    const idAttr = fullId.match(/id="([^"]+)"/)?.[1] ?? '';
-    // Count how many "arti_" segments appear in the ID
-    const artiSegments = (idAttr.match(/arti_/g) ?? []).length;
-    if (artiSegments > 1) continue;
+function parseWordNumber(token: string): number | null {
+  const parts = token
+    .toLowerCase()
+    .replace(/[^a-z -]/g, ' ')
+    .split(/[\s-]+/)
+    .filter(Boolean);
 
-    articleStarts.push({
-      fullId: idAttr,
-      artNum: match[3],
-      pos: match.index,
-    });
+  if (parts.length === 0) return null;
+
+  let total = 0;
+  let current = 0;
+  for (const part of parts) {
+    if (part === 'hundred') {
+      current = current === 0 ? 100 : current * 100;
+      continue;
+    }
+    const value = WORD_NUMBERS[part];
+    if (value === undefined) return null;
+    current += value;
+  }
+  total += current;
+  return total > 0 ? total : null;
+}
+
+function normalizeArticleNumber(raw: string): string {
+  const cleaned = normalizeWhitespace(raw).replace(/\.$/, '');
+  if (/^\d+[a-zA-Z]*$/.test(cleaned)) {
+    return cleaned;
+  }
+  const parsed = parseWordNumber(cleaned);
+  if (parsed !== null) {
+    return String(parsed);
+  }
+  return cleaned;
+}
+
+function articleNumberFromId(articleId: string): string {
+  const segment = articleId.split('__').find(part => part.startsWith('art_')) ?? articleId;
+  const value = segment.replace(/^art_/, '');
+  return normalizeArticleNumber(value);
+}
+
+function buildProvisionRef(section: string, articleId: string): string {
+  const normalized = section.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  if (normalized.length > 0) {
+    return `art${normalized}`;
+  }
+  const fallback = articleId.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  return `art-${fallback}`;
+}
+
+function extractSectionBlockById(html: string, articleId: string): string | null {
+  const escId = escapeRegExp(articleId);
+  const startTagPattern = new RegExp(
+    `<section\\b[^>]*(?:class="[^"]*\\bakn-article\\b[^"]*"[^>]*id="${escId}"|id="${escId}"[^>]*class="[^"]*\\bakn-article\\b[^"]*")[^>]*>`,
+    'i',
+  );
+  const startMatch = startTagPattern.exec(html);
+  if (!startMatch || startMatch.index === undefined) {
+    return null;
   }
 
-  for (let i = 0; i < articleStarts.length; i++) {
-    const article = articleStarts[i];
-    const startPos = article.pos;
+  const start = startMatch.index;
+  const tagPattern = /<\/?section\b[^>]*>/gi;
+  tagPattern.lastIndex = start;
 
-    // Extract content up to next article or end
-    const endPos = i + 1 < articleStarts.length
-      ? articleStarts[i + 1].pos
-      : html.length;
-    const articleHtml = html.substring(startPos, endPos);
-
-    // Extract article number from <h3><B>Art. N.</B></h3> or <h3><B>Art. N<sup>...</B></h3>
-    const artHeadingMatch = articleHtml.match(
-      /<h3[^>]*>\s*<B[^>]*>\s*Art\.?\s*&nbsp;?\s*(\d+[a-z]*)\b/i
-    );
-
-    const artNum = artHeadingMatch
-      ? artHeadingMatch[1].trim()
-      : article.artNum.replace(/_/g, '');
-
-    // Normalize: remove underscores from article numbers like "22_2"
-    const normalizedNum = artNum.replace(/_/g, '');
-    const provisionRef = `art${normalizedNum}`;
-
-    // Find chapter heading
-    const chapter = findChapterHeading(html, startPos);
-
-    // Extract text content, stripping HTML
-    // Remove the article heading to avoid duplication
-    const contentHtml = articleHtml
-      .replace(/<h3[^>]*>\s*<B[^>]*>\s*Art\.?\s*&nbsp;?\s*\d+[a-z]*\.?\s*<\/B>\s*<\/h3>/i, '');
-    let content = stripHtml(contentHtml);
-
-    // Skip very short articles (likely just structural markers)
-    if (content.length < 5) continue;
-
-    // Cap content at 12K characters
-    if (content.length > 12000) {
-      content = content.substring(0, 12000);
+  let depth = 0;
+  let match: RegExpExecArray | null;
+  while ((match = tagPattern.exec(html)) !== null) {
+    if (match[0].startsWith('</section')) {
+      depth--;
+    } else {
+      depth++;
     }
 
-    // Build a title from the first sentence or paragraph if meaningful
-    const title = `Art. ${normalizedNum}`;
+    if (depth === 0) {
+      return html.slice(start, tagPattern.lastIndex);
+    }
+  }
+  return null;
+}
+
+function parseHumanDate(input: string): string | null {
+  const cleaned = normalizeWhitespace(input).replace(/,$/, '');
+  const m = cleaned.match(/^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$/);
+  if (!m) return null;
+
+  const day = Number(m[1]);
+  const monthName = m[2].toLowerCase();
+  const year = Number(m[3]);
+
+  const months: Record<string, number> = {
+    january: 1,
+    february: 2,
+    march: 3,
+    april: 4,
+    may: 5,
+    june: 6,
+    july: 7,
+    august: 8,
+    september: 9,
+    october: 10,
+    november: 11,
+    december: 12,
+  };
+
+  const month = months[monthName];
+  if (!month || day < 1 || day > 31) return null;
+
+  const yyyy = String(year).padStart(4, '0');
+  const mm = String(month).padStart(2, '0');
+  const dd = String(day).padStart(2, '0');
+  return `${yyyy}-${mm}-${dd}`;
+}
+
+function extractTimelineDate(html: string, eventPattern: RegExp): string | null {
+  const cardPattern = /<div class="vertical-timeline__item">[\s\S]*?<h5 class="mb-0">\s*([^<]+?)\s*(?:<span[\s\S]*?)?<\/h5>[\s\S]*?<div class="card-body">([\s\S]*?)<\/div>/gi;
+  let cardMatch: RegExpExecArray | null;
+  while ((cardMatch = cardPattern.exec(html)) !== null) {
+    const rawDate = normalizeWhitespace(cardMatch[1]);
+    const bodyText = stripHtml(cardMatch[2]).toLowerCase();
+    if (!eventPattern.test(bodyText)) continue;
+    const parsed = parseHumanDate(rawDate);
+    if (parsed) return parsed;
+  }
+  return null;
+}
+
+function extractDocumentTitle(html: string): string {
+  const docTitleMatch = html.match(/<h1 class="doc-title d-flex">[\s\S]*?<span>([\s\S]*?)<\/span>/i);
+  if (docTitleMatch) return normalizeWhitespace(stripHtml(docTitleMatch[1]));
+
+  const coverTitleMatch = html.match(/<div class="coverpage">[\s\S]*?<h1>([\s\S]*?)<\/h1>/i);
+  if (coverTitleMatch) return normalizeWhitespace(stripHtml(coverTitleMatch[1]));
+
+  const pageTitleMatch = html.match(/<title>\s*([\s\S]*?)\s*(?:–|-)\s*RwandaLII\s*<\/title>/i);
+  if (pageTitleMatch) return normalizeWhitespace(stripHtml(pageTitleMatch[1]));
+
+  return '';
+}
+
+function extractCitation(html: string): string {
+  const citationMatch = html.match(/<h2 class="h5 text-muted">([\s\S]*?)<\/h2>/i);
+  if (citationMatch) return normalizeWhitespace(stripHtml(citationMatch[1]));
+  return '';
+}
+
+function extractDateByLabel(html: string, labelPattern: RegExp): string | null {
+  const match = html.match(labelPattern);
+  if (!match) return null;
+  return parseHumanDate(match[1]);
+}
+
+function parseToc(html: string): TocNode[] {
+  const raw = extractScriptJson(html, 'akn_toc_json');
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw) as TocNode[];
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function flattenArticleNodes(nodes: TocNode[]): FlatArticle[] {
+  const out: FlatArticle[] = [];
+
+  function walk(list: TocNode[], chapter?: string): void {
+    for (const node of list) {
+      const nodeTitle = node.title ? stripHtml(node.title) : '';
+      const nextChapter = node.type === 'chapter' && nodeTitle ? nodeTitle : chapter;
+
+      if (node.type === 'article' && node.id) {
+        out.push({
+          id: node.id,
+          num: node.num,
+          title: nodeTitle || `Article ${node.num ?? ''}`.trim(),
+          chapter: nextChapter,
+        });
+      }
+
+      if (Array.isArray(node.children) && node.children.length > 0) {
+        walk(node.children, nextChapter);
+      }
+    }
+  }
+
+  walk(nodes, undefined);
+
+  const seen = new Set<string>();
+  return out.filter(item => {
+    if (seen.has(item.id)) return false;
+    seen.add(item.id);
+    return true;
+  });
+}
+
+function extractDefinitions(provisions: ParsedProvision[]): ParsedDefinition[] {
+  const definitions: ParsedDefinition[] = [];
+  const seen = new Set<string>();
+
+  for (const provision of provisions) {
+    if (!/(definition|meaning of)/i.test(provision.title)) continue;
+    const text = provision.content;
+    if (!text) continue;
+
+    const patterns = [
+      /["“]([^"”]{2,80})["”]\s+(?:means|refers to)\s+([^.;]{5,500})/gi,
+      /(?:^|;)\s*(?:\d+[°.)]?\s*)?([A-Za-z][A-Za-z\s\-()/]{2,80})\s+means\s+([^.;]{5,500})/gi,
+      /(?:^|;)\s*(?:\d+[°.)]?\s*)?([A-Za-z][A-Za-z\s\-()/]{2,80})\s*[:\-]\s*([^.;]{5,500})/gi,
+    ];
+
+    for (const pattern of patterns) {
+      let match: RegExpExecArray | null;
+      while ((match = pattern.exec(text)) !== null) {
+        const term = normalizeWhitespace(match[1]).replace(/:$/, '');
+        const definition = normalizeWhitespace(match[2]);
+        if (term.length < 2 || term.length > 80 || definition.length < 5) continue;
+        if (/^article\s+\d+/i.test(term)) continue;
+
+        const key = term.toLowerCase();
+        if (seen.has(key)) continue;
+        seen.add(key);
+        definitions.push({
+          term,
+          definition,
+          source_provision: provision.provision_ref,
+        });
+      }
+    }
+  }
+
+  return definitions.slice(0, 80);
+}
+
+export function parseRwandanLawHtml(html: string, target: ActTarget): ParsedAct {
+  const displayType = html.match(/data-display-type="([^"]+)"/i)?.[1]?.toLowerCase() ?? 'unknown';
+  if (displayType !== 'akn') {
+    throw new Error(`Document is not machine-readable AKN text (data-display-type=${displayType})`);
+  }
+
+  const title = extractDocumentTitle(html);
+  if (!title) {
+    throw new Error('Could not parse document title');
+  }
+
+  const citation = extractCitation(html) || target.shortName || target.id;
+
+  const issuedDate =
+    extractDateByLabel(html, /Assented to on\s+([^<]+)</i) ??
+    extractTimelineDate(html, /\bassented\b/i) ??
+    extractTimelineDate(html, /\bpublished in official gazette\b/i) ??
+    '';
+
+  const inForceDate =
+    extractDateByLabel(html, /Commenced on\s+([^<]+)</i) ??
+    extractTimelineDate(html, /\bcommenced\b/i) ??
+    extractTimelineDate(html, /\bpublished in official gazette\b/i) ??
+    issuedDate;
+
+  const toc = parseToc(html);
+  const articles = flattenArticleNodes(toc);
+  if (articles.length === 0) {
+    throw new Error('No article entries found in TOC');
+  }
+
+  const provisions: ParsedProvision[] = [];
+  for (const article of articles) {
+    const sectionBlock = extractSectionBlockById(html, article.id);
+    if (!sectionBlock) continue;
+
+    const headingHtml = sectionBlock.match(/<h2[^>]*>([\s\S]*?)<\/h2>/i)?.[1] ?? '';
+    const headingText = htmlToPlainText(headingHtml);
+    const headingNumberMatch = headingText.match(/\bArticle\s+([A-Za-z0-9-]+)/i);
+
+    const section = normalizeArticleNumber(
+      headingNumberMatch?.[1] ??
+      article.num ??
+      articleNumberFromId(article.id),
+    );
+
+    let contentHtml = sectionBlock
+      .replace(/^<section\b[^>]*>/i, '')
+      .replace(/<\/section>\s*$/i, '')
+      .replace(/<h2[^>]*>[\s\S]*?<\/h2>/i, '');
+
+    contentHtml = contentHtml.trim();
+    const content = htmlToPlainText(contentHtml);
+    if (content.length < 3) continue;
+
+    const titleText = normalizeWhitespace(article.title || headingText || `Article ${section}`);
+    const provisionRef = buildProvisionRef(section, article.id);
 
     provisions.push({
       provision_ref: provisionRef,
-      chapter,
-      section: normalizedNum,
-      title,
+      chapter: article.chapter ? normalizeWhitespace(article.chapter) : undefined,
+      section,
+      title: titleText,
       content,
     });
-
-    // Extract definitions from definition articles
-    // Rwandan acts use "ilekroć mowa" (whenever mentioned), "rozumie się przez to"
-    // (this is understood as), or "oznacza" (means)
-    if (
-      content.includes('ilekro') ||
-      content.includes('rozumie si') ||
-      content.includes('oznacza') ||
-      content.includes('nale') && content.includes('rozumie')
-    ) {
-      extractDefinitions(content, provisionRef, definitions);
-    }
   }
 
+  if (provisions.length === 0) {
+    throw new Error('No provisions extracted from machine-readable document');
+  }
+
+  const byRef = new Map<string, ParsedProvision>();
+  for (const provision of provisions) {
+    const existing = byRef.get(provision.provision_ref);
+    if (!existing || provision.content.length > existing.content.length) {
+      byRef.set(provision.provision_ref, provision);
+    }
+  }
+  const dedupedProvisions = Array.from(byRef.values());
+  const definitions = extractDefinitions(dedupedProvisions);
+
   return {
-    id: act.id,
+    id: target.id,
     type: 'statute',
-    title: act.title,
-    title_en: act.titleEn,
-    short_name: act.shortName,
-    status: act.status,
-    issued_date: act.issuedDate,
-    in_force_date: act.inForceDate,
-    url: act.url,
-    description: act.description,
-    provisions,
+    title,
+    title_en: title,
+    short_name: citation,
+    status: target.status ?? 'in_force',
+    issued_date: issuedDate || inForceDate || '1900-01-01',
+    in_force_date: inForceDate || issuedDate || '1900-01-01',
+    url: target.url,
+    description: target.description,
+    provisions: dedupedProvisions,
     definitions,
   };
 }
 
 /**
- * Extract definitions from Rwandan legal text.
+ * 10 machine-readable Rwanda laws with article-level text on RwandaLII.
  *
- * Rwandan definitions typically use patterns like:
- *   - "«term» – oznacza ..." ("term" – means ...)
- *   - "N) term – ..." (numbered list of definitions)
- *   - "ilekroć ... mowa o «term» – rozumie się przez to ..."
+ * NOTE:
+ * Many high-priority legacy ICT/cyber laws on the same portal are PDF-only
+ * (`data-display-type="pdf"`), so they are excluded from automated extraction.
  */
-function extractDefinitions(
-  text: string,
-  sourceProvision: string,
-  definitions: ParsedDefinition[],
-): void {
-  // Pattern: numbered definitions like "1) term - definition;"
-  const numberedDefRegex = /\d+\)\s+([^–\-]+?)\s+[–\-]\s+(.*?)(?=;\s*\d+\)|$)/g;
-  let defMatch: RegExpExecArray | null;
-
-  while ((defMatch = numberedDefRegex.exec(text)) !== null) {
-    const term = defMatch[1].trim();
-    const definition = defMatch[2].replace(/;$/, '').trim();
-
-    if (term.length > 1 && term.length < 100 && definition.length > 5) {
-      definitions.push({
-        term,
-        definition,
-        source_provision: sourceProvision,
-      });
-    }
-  }
-
-  // Pattern: «quoted term» – definition
-  const quotedDefRegex = /[„«\u201e]([^"»\u201d]+)["\u201d»]\s*[–\-]\s*(.*?)(?=[;.]\s*[„«\u201e]|[;.]\s*$)/g;
-  while ((defMatch = quotedDefRegex.exec(text)) !== null) {
-    const term = defMatch[1].trim();
-    const definition = defMatch[2].replace(/[;.]$/, '').trim();
-
-    if (term.length > 1 && term.length < 100 && definition.length > 5) {
-      definitions.push({
-        term,
-        definition,
-        source_provision: sourceProvision,
-      });
-    }
-  }
-}
-
-/**
- * Pre-configured list of key Rwandan Acts to ingest.
- *
- * Source: api.sejm.gov.pl (Sejm ELI API)
- * URL pattern: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
- *
- * These are the most important Rwandan statutes for cybersecurity, data protection,
- * and compliance use cases. References use the Dziennik Ustaw (Journal of Laws)
- * format: Dz.U. YYYY poz. NNNN.
- */
-export const KEY_RWANDAN_ACTS: ActIndexEntry[] = [
+export const TARGET_RWANDAN_LAWS: ActTarget[] = [
   {
-    id: 'dpa-2018',
-    title: 'Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych',
-    titleEn: 'Personal Data Protection Act 2018',
-    shortName: 'UODO 2018',
-    status: 'in_force',
-    issuedDate: '2018-05-10',
-    inForceDate: '2018-05-25',
-    dziennikRef: 'Dz.U. 2018 poz. 1000',
-    year: 2018,
-    poz: 1000,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001000',
-    description: 'GDPR implementing provisions (RODO); establishes UODO (Urząd Ochrony Danych Osobowych) as the supervisory authority; covers certification, codes of conduct, and administrative penalties',
+    id: 'rw-personal-data-protection-2021',
+    seedFile: '01-personal-data-protection-2021.json',
+    url: 'https://rwandalii.org/akn/rw/act/law/2021/58/eng@2021-10-15',
+    shortName: 'Law 58 of 2021',
+    description: 'Provides Rwanda’s legal framework for protection of personal data and privacy, including data subject rights and supervisory authority powers.',
   },
   {
-    id: 'ksc-2018',
-    title: 'Ustawa z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa',
-    titleEn: 'National Cybersecurity System Act 2018 (KSC)',
-    shortName: 'KSC',
-    status: 'in_force',
-    issuedDate: '2018-07-05',
-    inForceDate: '2018-08-28',
-    dziennikRef: 'Dz.U. 2018 poz. 1560',
-    year: 2018,
-    poz: 1560,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001560',
-    description: 'NIS Directive implementation; establishes national cybersecurity system with CSIRT teams (CSIRT NASK, CSIRT GOV, CSIRT MON); covers essential services operators and digital service providers',
+    id: 'rw-cybercrimes-2018',
+    seedFile: '02-cybercrimes-2018.json',
+    url: 'https://rwandalii.org/akn/rw/act/law/2018/60/eng@2018-09-25',
+    shortName: 'Law 60 of 2018',
+    description: 'Defines cybercrime offences and penalties, including unlawful access, interference, cyber fraud, and related digital offences.',
   },
   {
-    id: 'ksh-2000',
-    title: 'Ustawa z dnia 15 września 2000 r. - Kodeks spółek handlowych',
-    titleEn: 'Commercial Companies Code (KSH)',
-    shortName: 'KSH',
-    status: 'in_force',
-    issuedDate: '2000-09-15',
-    inForceDate: '2001-01-01',
-    dziennikRef: 'Dz.U. 2000 nr 94 poz. 1037',
-    year: 2000,
-    poz: 1037,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000940037',
-    description: 'Comprehensive commercial companies law governing partnerships (spółka jawna, komandytowa, etc.) and capital companies (sp. z o.o. and S.A.); corporate governance requirements',
+    id: 'rw-national-cyber-security-authority-2017',
+    seedFile: '03-national-cyber-security-authority-2017.json',
+    url: 'https://rwandalii.org/akn/rw/act/law/2017/26/eng@2017-07-03',
+    shortName: 'Law 26 of 2017',
+    description: 'Establishes the National Cyber Security Authority and sets its mission, organisational structure, and functions.',
   },
   {
-    id: 'kodeks-karny-1997',
-    title: 'Ustawa z dnia 6 czerwca 1997 r. - Kodeks karny',
-    titleEn: 'Criminal Code (Kodeks karny)',
-    shortName: 'KK',
-    status: 'in_force',
-    issuedDate: '1997-06-06',
-    inForceDate: '1998-09-01',
-    dziennikRef: 'Dz.U. 1997 nr 88 poz. 553',
-    year: 1997,
-    poz: 553,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970880553',
-    description: 'Criminal Code; cybercrime provisions in Art. 267 (unauthorized access), Art. 268 (data destruction), Art. 268a (computer sabotage), Art. 269 (sabotage of critical systems), Art. 269a (DoS), Art. 269b (hacking tools)',
+    id: 'rw-risa-establishment-2017',
+    seedFile: '04-risa-establishment-2017.json',
+    url: 'https://rwandalii.org/akn/rw/act/law/2017/2/eng@2017-03-06',
+    shortName: 'Law 2 of 2017',
+    description: 'Establishes Rwanda Information Society Authority (RISA) and defines national ICT implementation and governance responsibilities.',
   },
   {
-    id: 'e-services-2002',
-    title: 'Ustawa z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną',
-    titleEn: 'Act on Provision of Electronic Services',
-    shortName: 'E-Services Act',
-    status: 'in_force',
-    issuedDate: '2002-07-18',
-    inForceDate: '2002-10-10',
-    dziennikRef: 'Dz.U. 2002 nr 144 poz. 1204',
-    year: 2002,
-    poz: 1204,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20021441204',
-    description: 'E-Commerce Directive implementation; regulates electronic services, ISP liability, spam prohibition, electronic contracts',
+    id: 'rw-rura-establishment-2013',
+    seedFile: '05-rura-establishment-2013.json',
+    url: 'https://rwandalii.org/akn/rw/act/law/2013/9/eng@2013-04-08',
+    shortName: 'Law 9 of 2013',
+    description: 'Establishes Rwanda Utilities Regulatory Authority (RURA), including mandates relevant to communications and regulated network sectors.',
   },
   {
-    id: 'telecom-2004',
-    title: 'Ustawa z dnia 16 lipca 2004 r. - Prawo telekomunikacyjne',
-    titleEn: 'Telecommunications Law',
-    shortName: 'PT',
-    status: 'in_force',
-    issuedDate: '2004-07-16',
-    inForceDate: '2004-09-03',
-    dziennikRef: 'Dz.U. 2004 nr 171 poz. 1800',
-    year: 2004,
-    poz: 1800,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20041711800',
-    description: 'Telecommunications regulation; data retention, communications security, network integrity obligations, UKE (Office of Electronic Communications) authority',
+    id: 'rw-payment-system-2021',
+    seedFile: '06-payment-system-2021.json',
+    url: 'https://rwandalii.org/akn/rw/act/law/2021/61/eng@2021-11-01',
+    shortName: 'Law 61 of 2021',
+    description: 'Regulates Rwanda’s payment systems, payment service providers, and associated operational and governance requirements.',
   },
   {
-    id: 'constitution-1997',
-    title: 'Konstytucja Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r.',
-    titleEn: 'Constitution of the Republic of Poland',
-    shortName: 'Konstytucja RP',
-    status: 'in_force',
-    issuedDate: '1997-04-02',
-    inForceDate: '1997-10-17',
-    dziennikRef: 'Dz.U. 1997 nr 78 poz. 483',
-    year: 1997,
-    poz: 483,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483',
-    description: 'Supreme law; Art. 47 (privacy), Art. 49 (communication secrecy), Art. 51 (personal data protection), Art. 54 (freedom of expression)',
+    id: 'rw-credit-reporting-system-2018',
+    seedFile: '07-credit-reporting-system-2018.json',
+    url: 'https://rwandalii.org/akn/rw/act/law/2018/73/eng@2018-09-10',
+    shortName: 'Law 73 of 2018',
+    description: 'Governs credit reporting activities, data handling in credit information systems, and supervision of credit reporting service providers.',
   },
   {
-    id: 'kodeks-cywilny-1964',
-    title: 'Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny',
-    titleEn: 'Civil Code (Kodeks cywilny)',
-    shortName: 'KC',
-    status: 'in_force',
-    issuedDate: '1964-04-23',
-    inForceDate: '1965-01-01',
-    dziennikRef: 'Dz.U. 1964 nr 16 poz. 93',
-    year: 1964,
-    poz: 93,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19640160093',
-    description: 'Core private law; personality rights protection (Art. 23-24), contract law, liability for damages, electronic declarations of intent',
+    id: 'rw-financial-intelligence-centre-2019',
+    seedFile: '08-financial-intelligence-centre-2019.json',
+    url: 'https://rwandalii.org/akn/rw/act/law/2019/74/eng@2020-02-17',
+    shortName: 'Law 74 of 2019',
+    description: 'Establishes the Financial Intelligence Centre, including powers and duties for collection and analysis of financial intelligence information.',
   },
   {
-    id: 'banking-law-1997',
-    title: 'Ustawa z dnia 29 sierpnia 1997 r. - Prawo bankowe',
-    titleEn: 'Banking Law',
-    shortName: 'PB',
-    status: 'in_force',
-    issuedDate: '1997-08-29',
-    inForceDate: '1998-01-01',
-    dziennikRef: 'Dz.U. 1997 nr 140 poz. 939',
-    year: 1997,
-    poz: 939,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19971400939',
-    description: 'Banking regulation; banking secrecy obligations, outsourcing of banking activities, IT security requirements for banks, cloud computing provisions',
+    id: 'rw-space-agency-2021',
+    seedFile: '09-space-agency-2021.json',
+    url: 'https://rwandalii.org/akn/rw/act/law/2021/22/eng@2021-04-30',
+    shortName: 'Law 22 of 2021',
+    description: 'Establishes Rwanda Space Agency and its governance framework for space-related national programs and services.',
   },
   {
-    id: 'kpa-1960',
-    title: 'Ustawa z dnia 14 czerwca 1960 r. - Kodeks postępowania administracyjnego',
-    titleEn: 'Code of Administrative Procedure (KPA)',
-    shortName: 'KPA',
-    status: 'in_force',
-    issuedDate: '1960-06-14',
-    inForceDate: '1961-01-01',
-    dziennikRef: 'Dz.U. 1960 nr 30 poz. 168',
-    year: 1960,
-    poz: 168,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19600300168',
-    description: 'Administrative procedure code; governs proceedings before UODO (data protection authority), UKE, and other regulators; electronic administration provisions',
+    id: 'rw-rica-authority-2017',
+    seedFile: '10-rica-authority-2017.json',
+    url: 'https://rwandalii.org/akn/rw/act/law/2017/31/eng@2017-08-18',
+    shortName: 'Law 31 of 2017',
+    description: 'Establishes Rwanda Inspectorate, Competition and Consumer Protection Authority (RICA) with enforcement and market oversight functions.',
   },
 ];

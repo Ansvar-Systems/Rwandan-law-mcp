@@ -29,7 +29,7 @@ describe('Database integrity', () => {
 
   it('should have at least 150 provisions', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM legal_provisions').get() as { cnt: number };
-    expect(row.cnt).toBeGreaterThanOrEqual(150);
+    expect(row.cnt).toBeGreaterThanOrEqual(400);
   });
 
   it('should have FTS index', () => {
@@ -43,7 +43,7 @@ describe('Database integrity', () => {
 describe('Article retrieval', () => {
   it('should retrieve a provision by document_id and section', () => {
     const row = db.prepare(
-      "SELECT content FROM legal_provisions WHERE document_id = 'rw-access-to-information-2021' AND section = '1'"
+      "SELECT content FROM legal_provisions WHERE document_id = 'rw-personal-data-protection-2021' AND section = '1'"
     ).get() as { content: string } | undefined;
     expect(row).toBeDefined();
     expect(row!.content.length).toBeGreaterThan(50);
@@ -69,7 +69,7 @@ describe('Negative tests', () => {
 
   it('should return no results for invalid section', () => {
     const row = db.prepare(
-      "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = 'rw-access-to-information-2021' AND section = '999ZZZ-INVALID'"
+      "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = 'rw-personal-data-protection-2021' AND section = '999ZZZ-INVALID'"
     ).get() as { cnt: number };
     expect(row.cnt).toBe(0);
   });
@@ -77,16 +77,17 @@ describe('Negative tests', () => {
 
 describe('All 10 laws are present', () => {
   const expectedDocs = [
-    'rw-access-to-information-2021',
-    'rw-electronic-commerce-2017',
-    'rw-electronic-messages-2010',
-    'rw-ict-governance-2018',
-    'rw-ict-law-2016',
-    'rw-information-security-governance-framework',
-    'rw-intellectual-property-trade-secrets',
-    'rw-national-cybersecurity-policy',
+    'rw-credit-reporting-system-2018',
+    'rw-cybercrimes-2018',
+    'rw-financial-intelligence-centre-2019',
+    'rw-national-cyber-security-authority-2017',
+    'rw-payment-system-2021',
     'rw-personal-data-protection-2021',
-    'rw-smart-rwanda-masterplan',  ];
+    'rw-rica-authority-2017',
+    'rw-risa-establishment-2017',
+    'rw-rura-establishment-2013',
+    'rw-space-agency-2021',
+  ];
 
   for (const docId of expectedDocs) {
     it(`should contain document: ${docId}`, () => {

@@ -286,7 +286,7 @@ export const TOOLS: Tool[] = [
       'Check EU alignment status for a Rwandan statute or provision. ' +
       'Detects references to EU directives, alignment status, and cross-references. ' +
       'Returns compliance status (compliant, partial, unclear, not_applicable) with warnings. ' +
-      'Rwandan is an EU Member State; this checks implementation status and cross-references.',
+      'Rwanda is not an EU Member State; this tool only reports explicit EU references present in statute text.',
     inputSchema: {
       type: 'object',
       properties: {

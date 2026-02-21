@@ -1,30 +1,21 @@
 #!/usr/bin/env tsx
 /**
- * Rwandan Law MCP -- Ingestion Pipeline
+ * Rwanda Law MCP -- Real ingestion pipeline.
  *
- * Fetches Rwandan legislation from the Sejm ELI API (api.sejm.gov.pl).
- * The Sejm (Rwandan Parliament) provides free public access to all legislation
- * published in Dziennik Ustaw (Journal of Laws) via the ELI API.
- *
- * Strategy:
- * 1. For each act, fetch the HTML text from the ELI API endpoint
- * 2. Parse articles (Art.) from the structured HTML
- * 3. Write seed JSON files for the database builder
+ * Fetches machine-readable law pages from RwandaLII, parses provisions, and
+ * writes seed JSON files into data/seed/.
  *
  * Usage:
- *   npm run ingest                    # Full ingestion
- *   npm run ingest -- --limit 5       # Test with 5 acts
- *   npm run ingest -- --skip-fetch    # Reuse cached pages
- *
- * Data source: api.sejm.gov.pl (Chancellery of the Sejm of the Republic of Poland)
- * License: Rwandan legislation is public domain under Art. 4 of the Copyright Act
+ *   npm run ingest
+ *   npm run ingest -- --limit 3
+ *   npm run ingest -- --skip-fetch
  */
 
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 import { fetchWithRateLimit } from './lib/fetcher.js';
-import { parseRwandanHtml, KEY_RWANDAN_ACTS, type ActIndexEntry, type ParsedAct } from './lib/parser.js';
+import { parseRwandanLawHtml, TARGET_RWANDAN_LAWS, type ActTarget } from './lib/parser.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -32,19 +23,33 @@ const __dirname = path.dirname(__filename);
 const SOURCE_DIR = path.resolve(__dirname, '../data/source');
 const SEED_DIR = path.resolve(__dirname, '../data/seed');
 
-/** ELI API base URL for the Sejm */
-const ELI_API_BASE = 'https://api.sejm.gov.pl/eli/acts/DU';
+interface CliArgs {
+  limit: number | null;
+  skipFetch: boolean;
+}
 
-function parseArgs(): { limit: number | null; skipFetch: boolean } {
+interface IngestionResult {
+  id: string;
+  seedFile: string;
+  url: string;
+  status: 'ok' | 'skipped' | 'failed';
+  provisions: number;
+  definitions: number;
+  reason?: string;
+}
+
+function parseArgs(): CliArgs {
   const args = process.argv.slice(2);
   let limit: number | null = null;
   let skipFetch = false;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--limit' && args[i + 1]) {
-      limit = parseInt(args[i + 1], 10);
+      limit = Number.parseInt(args[i + 1], 10);
       i++;
-    } else if (args[i] === '--skip-fetch') {
+      continue;
+    }
+    if (args[i] === '--skip-fetch') {
       skipFetch = true;
     }
   }
@@ -52,135 +57,116 @@ function parseArgs(): { limit: number | null; skipFetch: boolean } {
   return { limit, skipFetch };
 }
 
-/**
- * Build the ELI API URL for fetching an act's HTML text.
- * Pattern: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
- */
-function buildTextUrl(act: ActIndexEntry): string {
-  return `${ELI_API_BASE}/${act.year}/${act.poz}/text.html`;
-}
-
-async function fetchAndParseActs(acts: ActIndexEntry[], skipFetch: boolean): Promise<void> {
-  console.log(`\nProcessing ${acts.length} Rwandan Acts from api.sejm.gov.pl...\n`);
-
+function ensureDirectories(): void {
   fs.mkdirSync(SOURCE_DIR, { recursive: true });
   fs.mkdirSync(SEED_DIR, { recursive: true });
+}
 
-  let processed = 0;
-  let skipped = 0;
-  let failed = 0;
+function cleanSeedDirectory(): void {
+  const files = fs.readdirSync(SEED_DIR).filter(f => f.endsWith('.json'));
+  for (const file of files) {
+    fs.unlinkSync(path.join(SEED_DIR, file));
+  }
+}
+
+function sourcePathFor(target: ActTarget): string {
+  return path.join(SOURCE_DIR, `${target.id}.html`);
+}
+
+function seedPathFor(target: ActTarget): string {
+  return path.join(SEED_DIR, target.seedFile);
+}
+
+async function fetchHtml(target: ActTarget, skipFetch: boolean): Promise<string> {
+  const sourcePath = sourcePathFor(target);
+  if (skipFetch && fs.existsSync(sourcePath)) {
+    return fs.readFileSync(sourcePath, 'utf-8');
+  }
+
+  const result = await fetchWithRateLimit(target.url);
+  if (result.status !== 200) {
+    throw new Error(`HTTP ${result.status}`);
+  }
+
+  fs.writeFileSync(sourcePath, result.body);
+  return result.body;
+}
+
+async function run(): Promise<void> {
+  const { limit, skipFetch } = parseArgs();
+  const targets = limit ? TARGET_RWANDAN_LAWS.slice(0, limit) : TARGET_RWANDAN_LAWS;
+
+  console.log('Rwandan Law MCP -- Real Data Ingestion');
+  console.log('======================================\n');
+  console.log('Source: RwandaLII legislation pages (AKN HTML rendering)');
+  console.log(`Targets: ${targets.length} laws`);
+  if (skipFetch) console.log('Mode: --skip-fetch (use cached source HTML)');
+  if (limit) console.log(`Mode: --limit ${limit}`);
+  console.log('');
+
+  ensureDirectories();
+  cleanSeedDirectory();
+
+  const results: IngestionResult[] = [];
   let totalProvisions = 0;
   let totalDefinitions = 0;
-  const results: { act: string; provisions: number; definitions: number; status: string }[] = [];
 
-  for (const act of acts) {
-    const sourceFile = path.join(SOURCE_DIR, `${act.id}.html`);
-    const seedFile = path.join(SEED_DIR, `${act.id}.json`);
-
-    // Skip if seed already exists and we're in skip-fetch mode
-    if (skipFetch && fs.existsSync(seedFile)) {
-      const existing = JSON.parse(fs.readFileSync(seedFile, 'utf-8')) as ParsedAct;
-      const provCount = existing.provisions?.length ?? 0;
-      const defCount = existing.definitions?.length ?? 0;
-      totalProvisions += provCount;
-      totalDefinitions += defCount;
-      results.push({ act: act.shortName, provisions: provCount, definitions: defCount, status: 'cached' });
-      skipped++;
-      processed++;
-      continue;
-    }
-
+  for (const target of targets) {
+    process.stdout.write(`  Fetching ${target.id}...`);
     try {
-      let html: string;
+      const html = await fetchHtml(target, skipFetch);
+      const parsed = parseRwandanLawHtml(html, target);
+      fs.writeFileSync(seedPathFor(target), `${JSON.stringify(parsed, null, 2)}\n`);
 
-      if (fs.existsSync(sourceFile) && skipFetch) {
-        html = fs.readFileSync(sourceFile, 'utf-8');
-        console.log(`  Using cached ${act.shortName} (${act.dziennikRef}) (${(html.length / 1024).toFixed(0)} KB)`);
-      } else {
-        const textUrl = buildTextUrl(act);
-        process.stdout.write(`  Fetching ${act.shortName} (${act.dziennikRef})...`);
-        const result = await fetchWithRateLimit(textUrl);
-
-        if (result.status !== 200) {
-          console.log(` HTTP ${result.status}`);
-          results.push({ act: act.shortName, provisions: 0, definitions: 0, status: `HTTP ${result.status}` });
-          failed++;
-          processed++;
-          continue;
-        }
-
-        html = result.body;
-
-        // Validate that we got real legislation content, not a bot challenge
-        if (html.includes('window["bobcmn"]') || !html.includes('unit_arti')) {
-          console.log(` BLOCKED (bot challenge or no article content)`);
-          results.push({ act: act.shortName, provisions: 0, definitions: 0, status: 'BLOCKED' });
-          failed++;
-          processed++;
-          continue;
-        }
-
-        fs.writeFileSync(sourceFile, html);
-        console.log(` OK (${(html.length / 1024).toFixed(0)} KB)`);
-      }
-
-      const parsed = parseRwandanHtml(html, act);
-      fs.writeFileSync(seedFile, JSON.stringify(parsed, null, 2));
       totalProvisions += parsed.provisions.length;
       totalDefinitions += parsed.definitions.length;
-      console.log(`    -> ${parsed.provisions.length} provisions, ${parsed.definitions.length} definitions extracted`);
+
       results.push({
-        act: act.shortName,
+        id: target.id,
+        seedFile: target.seedFile,
+        url: target.url,
+        status: 'ok',
         provisions: parsed.provisions.length,
         definitions: parsed.definitions.length,
-        status: 'OK',
       });
+      console.log(` OK (${parsed.provisions.length} provisions, ${parsed.definitions.length} definitions)`);
     } catch (error) {
-      const msg = error instanceof Error ? error.message : String(error);
-      console.log(`  ERROR ${act.shortName}: ${msg}`);
-      results.push({ act: act.shortName, provisions: 0, definitions: 0, status: `ERROR: ${msg.substring(0, 80)}` });
-      failed++;
+      const reason = error instanceof Error ? error.message : String(error);
+      results.push({
+        id: target.id,
+        seedFile: target.seedFile,
+        url: target.url,
+        status: 'failed',
+        provisions: 0,
+        definitions: 0,
+        reason,
+      });
+      console.log(` FAILED (${reason})`);
     }
-
-    processed++;
   }
 
-  console.log(`\n${'='.repeat(72)}`);
-  console.log('Ingestion Report');
-  console.log('='.repeat(72));
-  console.log(`\n  Source:       api.sejm.gov.pl (Sejm ELI API)`);
-  console.log(`  License:     Public domain (Art. 4 Rwandan Copyright Act)`);
-  console.log(`  Processed:   ${processed}`);
-  console.log(`  Cached:      ${skipped}`);
-  console.log(`  Failed:      ${failed}`);
-  console.log(`  Total provisions:  ${totalProvisions}`);
-  console.log(`  Total definitions: ${totalDefinitions}`);
-  console.log(`\n  Per-Act breakdown:`);
-  console.log(`  ${'Act'.padEnd(20)} ${'Provisions'.padStart(12)} ${'Definitions'.padStart(13)} ${'Status'.padStart(10)}`);
-  console.log(`  ${'-'.repeat(20)} ${'-'.repeat(12)} ${'-'.repeat(13)} ${'-'.repeat(10)}`);
-  for (const r of results) {
-    console.log(`  ${r.act.padEnd(20)} ${String(r.provisions).padStart(12)} ${String(r.definitions).padStart(13)} ${r.status.padStart(10)}`);
+  console.log('\nIngestion report');
+  console.log('----------------');
+  console.log(`Success: ${results.filter(r => r.status === 'ok').length}`);
+  console.log(`Failed:  ${results.filter(r => r.status === 'failed').length}`);
+  console.log(`Total provisions:  ${totalProvisions}`);
+  console.log(`Total definitions: ${totalDefinitions}\n`);
+
+  for (const row of results) {
+    if (row.status === 'ok') {
+      console.log(`  [OK] ${row.id} -> ${row.seedFile}`);
+    } else {
+      console.log(`  [FAILED] ${row.id} -> ${row.reason}`);
+    }
   }
-  console.log('');
+
+  const failures = results.filter(r => r.status === 'failed');
+  if (failures.length > 0) {
+    process.exitCode = 1;
+  }
 }
 
-async function main(): Promise<void> {
-  const { limit, skipFetch } = parseArgs();
-
-  console.log('Rwandan Law MCP -- Ingestion Pipeline');
-  console.log('====================================\n');
-  console.log(`  Source: api.sejm.gov.pl (Chancellery of the Sejm)`);
-  console.log(`  Format: ELI HTML (structured legislation text)`);
-  console.log(`  License: Public domain (Art. 4 Rwandan Copyright Act)`);
-
-  if (limit) console.log(`  --limit ${limit}`);
-  if (skipFetch) console.log(`  --skip-fetch`);
-
-  const acts = limit ? KEY_RWANDAN_ACTS.slice(0, limit) : KEY_RWANDAN_ACTS;
-  await fetchAndParseActs(acts, skipFetch);
-}
-
-main().catch(error => {
-  console.error('Fatal error:', error);
+run().catch(error => {
+  console.error('Fatal ingestion error:', error);
   process.exit(1);
 });

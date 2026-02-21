@@ -3,22 +3,38 @@ mcp_name: "Rwandan Law MCP"
 jurisdiction: "RW"
 
 sources:
-  - name: "Official Gazette of Rwanda"
-    authority: "Official Gazette of Rwanda"
-    official_portal: "https://www.minijust.gov.rw"
+  - name: "RwandaLII Legislation Portal (AKN pages)"
+    authority: "RwandaLII / Laws.Africa (documents published in Official Gazette of the Republic of Rwanda)"
+    official_portal: "https://rwandalii.org/legislation/"
     retrieval_method: "HTML_SCRAPE"
-    update_frequency: "weekly"
+    update_frequency: "unknown"
     last_ingested: "2026-02-21"
     license_or_terms:
-      type: "Government Open Data"
-      url: "https://www.minijust.gov.rw"
-      summary: "Official legislative texts are public domain"
+      type: "government_terms"
+      url: "https://rwandalii.org/terms-of-use/"
+      summary: "Portal publishes Rwanda legislation with links to Official Gazette publications."
     coverage:
-      scope: "Data protection, cybersecurity, e-commerce, criminal law cyber provisions"
-      limitations: "AI-generated seed data; full official ingestion pending"
+      scope: "Ten Rwanda laws with machine-readable article text (data-display-type=akn)."
+      limitations: "Many legacy laws are PDF-only on portal (data-display-type=pdf) and cannot be ingested into article-level JSON without OCR."
+    languages:
+      - "en"
+
+  - name: "Official Gazette of the Republic of Rwanda"
+    authority: "Government of Rwanda"
+    official_portal: "https://www.minijust.gov.rw/official-gazette"
+    retrieval_method: "HTML_SCRAPE"
+    update_frequency: "unknown"
+    license_or_terms:
+      type: "government_terms"
+      url: "https://www.minijust.gov.rw/"
+      summary: "Primary publication venue for enacted laws; many files are PDF."
+    coverage:
+      scope: "Official publication records and gazette PDFs."
+      limitations: "Primarily PDF publication; machine-readable article text is not consistently available."
     languages:
       - "en"
       - "rw"
+      - "fr"
 
 data_freshness:
   automated_checks: true

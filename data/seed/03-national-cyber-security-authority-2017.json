@@ -1,0 +1,219 @@
+{
+  "id": "rw-national-cyber-security-authority-2017",
+  "type": "statute",
+  "title": "Law establishing the National Cyber Security Authority and Determining its Mission, Organisation and Functioning",
+  "title_en": "Law establishing the National Cyber Security Authority and Determining its Mission, Organisation and Functioning",
+  "short_name": "Law 26 of 2017",
+  "status": "in_force",
+  "issued_date": "2017-05-31",
+  "in_force_date": "2017-07-03",
+  "url": "https://rwandalii.org/akn/rw/act/law/2017/26/eng@2017-07-03",
+  "description": "Establishes the National Cyber Security Authority and sets its mission, organisational structure, and functions.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapter One – General provisions",
+      "section": "1",
+      "title": "Article One – Purpose of this Law",
+      "content": "The purpose of this Law is to establish the National Cyber Security Authority. It also determines its mission, organisation and functioning."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Chapter One – General provisions",
+      "section": "2",
+      "title": "Article 2 – Definitions of terms",
+      "content": "In this Law, the following terms have the following meanings: 1° critical information infrastructure: virtual and physical information systems that provide services to the citizens and serve as a backbone of development of the national economic, social and security life; 2° national cyber operations: integrated employment of cyber capabilities in pursuit of national security objectives; 3° ICT: Information and Communication Technologies; 4° cyber-attack: any deliberate action taken to alter, disrupt, deceive, degrade, or destroy computer systems, network or their original information and programs by technology means; 5° cyber threat: the possibility of any attempt to alter, disrupt, deceive, degrade, or destroy computer systems, network or their information and programs; 6° cyber security: the protection of cyberspace; 7° national security: strategies taken by the country for its protection, including the prevention of and fight against internal and external threats and other acts that may threaten its integrity; 8° cyberspace: global domain consisting of interdependent networks of information and communication technology infrastructure."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Chapter One – General provisions",
+      "section": "3",
+      "title": "Article 3 – Establishment of NCSA",
+      "content": "There is hereby established the National Cyber Security Authority, abbreviated as NCSA."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Chapter One – General provisions",
+      "section": "4",
+      "title": "Article 4 – Mission of NCSA",
+      "content": "The mission of NCSA is to build skills and capacities in cyber security with a view to ensuring the protection of the national integrity and security in order to achieve economic and social development."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Chapter One – General provisions",
+      "section": "5",
+      "title": "Article 5 – Supervising authority of NCSA",
+      "content": "NCSA is supervised by the Office of the President of the Republic."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Chapter One – General provisions",
+      "section": "6",
+      "title": "Article 6 – Performance contract",
+      "content": "NCSA operates on the basis of a performance contract. Modalities for the conclusion and evaluation of performance contract of NCSA are determined by relevant laws."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Chapter One – General provisions",
+      "section": "7",
+      "title": "Article 7 – Head office of NCSA",
+      "content": "The head office of NCSA is located in the City of Kigali, the capital of the Republic of Rwanda. It may be transferred elsewhere in Rwanda if deemed necessary. NCSA may establish branches elsewhere on the national territory if deemed necessary, upon approval by its supervising authority."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Chapter One – General provisions",
+      "section": "8",
+      "title": "Article 8 – Autonomy of NCSA",
+      "content": "NCSA enjoys administrative and financial autonomy."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Chapter II – Responsibilities and powers of NCSA",
+      "section": "9",
+      "title": "Article 9 – Responsibilities of NCSA",
+      "content": "NCSA has the following responsibilities: 1° to advise the President of the Republic and other public and private institutions on strategies to defend Rwanda’s interests in cyberspace; 2° to conduct cyber intelligence on any national security threat in cyberspace and provide information from such intelligence to the relevant organs; 3° to establish guidelines on the basis of national, regional and international ICT security principles; 4° to coordinate and implement the national ICT security policy and strategy; 5° to develop strategies to secure all electronic operations; 6° to monitor all national ICT security programs; 7° to prevent cyber-attacks in order to protect ICT infrastructure in general and critical information infrastructure in particular; 8° to establish and promote national cyber security education programs, foster research and develop industry in the ICT field; 9° to create among the Rwandan society awareness about cyber security; 10° to collaborate with other public and private institutions and other information technology-related bodies to ensure national ICT security; 11° to cooperate and collaborate with other regional and international organs in charge of cyber security; 12° to provide national defence and security organs with the necessary support to attain their responsibilities in relation to cyberspace; 13° to perform other duties as may be assigned by the President of the Republic."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "Chapter II – Responsibilities and powers of NCSA",
+      "section": "10",
+      "title": "Article 10 – Powers of NCSA",
+      "content": "NCSA has the following powers: 1° to set guidelines and standards for cyberspace protection and ICT security within public and private institutions; 2° to carry out audits of critical information infrastructure, cyber systems and networks within public and private institutions if considered necessary to preserve national security and public interest; 3° to investigate any cyber threat, take preventive actions against cyber-attacks and collaborate with other competent organs to fight cybercrime that poses a threat to national security; 4° to conduct cyber security operations, independently or jointly with other competent organs; 5° to put in place mechanisms for sharing information about cyber-threats or cyber-attacks."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "Chapter II – Responsibilities and powers of NCSA",
+      "section": "11",
+      "title": "Article 11 – Critical information infrastructure",
+      "content": "The critical information infrastructure provided for under this Law are determined by a Presidential Order."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "Chapter III – Organisation and functioning of NCSA",
+      "section": "12",
+      "title": "Article 12 – Organs of NCSA",
+      "content": "NCSA has the following organs: 1° the Directorate General; 2° the Advisory Council of NCSA."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "Chapter III – Organisation and functioning of NCSA",
+      "section": "13",
+      "title": "Article 13 – Members of the Directorate General and their appointment",
+      "content": "The Directorate General of NCSA is composed of the Chief Executive Officer and other support staff including Chief Budget Manager appointed by an Order of the Minister in charge of finance. The Chief Executive Officer of NCSA is appointed and removed from office by a Presidential Order. A Presidential Order may also appoint Deputy Chief Executive Officers when considered necessary and determine their duties. Other staff members of NCSA are appointed in accordance with the special statutes established by a Presidential Order."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "Chapter III – Organisation and functioning of NCSA",
+      "section": "14",
+      "title": "Article 14 – Responsibilities of the Directorate General",
+      "content": "The Directorate General is responsible for the implementation of responsibilities of NCSA provided for under this Law."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "Chapter III – Organisation and functioning of NCSA",
+      "section": "15",
+      "title": "Article 15 – Duties of the Chief Executive Officer of NCSA",
+      "content": "The Chief Executive Officer of NCSA has the following responsibilities: 1° to manage, coordinate and monitor the daily activities of NCSA; 2° to prepare the draft budget proposal, action plan and activity report to be submitted to the supervising organ of NCSA; 3° to implement, make follow-up on and monitor compliance with cyber security policy and resolutions made by the supervising organ of NCSA in accordance with cyber security laws; 4° to perform all other duties as may be assigned by the supervising organ of NCSA."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Chapter III – Organisation and functioning of NCSA",
+      "section": "16",
+      "title": "Article 16 – Organisational structure and functioning of NCSA organs",
+      "content": "The organisational structure and functioning of NCSA organs are determined by a Presidential Order."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Chapter III – Organisation and functioning of NCSA",
+      "section": "17",
+      "title": "Article 17 – Fringe benefits for members of the Directorate General and staff members of NCSA",
+      "content": "Fringe benefits for members of the Directorate-General and staff members of NCSA are determined by a Presidential Order."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "Chapter III – Organisation and functioning of NCSA",
+      "section": "18",
+      "title": "Article 18 – Advisory Council of NCSA",
+      "content": "A Presidential Order determines members of the Advisory Council of NCSA, and also determines their responsibilities and modalities for performance thereof."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "Chapter IV – Property and finance of NCSA",
+      "section": "19",
+      "title": "Article 19 – Property of NCSA and its sources",
+      "content": "The property of NCSA consists of movables and immovables. The property of NCSA derives from the following sources: 1º State budget allocations; 2º income from its activities; 3º loans granted to NCSA approved by the Minister in charge of finance; 4º donations, subsidies and bequests."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "Chapter IV – Property and finance of NCSA",
+      "section": "20",
+      "title": "Article 20 – Budget of NCSA",
+      "content": "The budget of NCSA is approved by the relevant authority and managed in accordance with relevant laws."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "Chapter IV – Property and finance of NCSA",
+      "section": "21",
+      "title": "Article 21 – Use and audit of the property of NCSA",
+      "content": "The use and audit of the property of NCSA are carried out in accordance with relevant laws. The Auditor General of State Finances carries out the audit of the use of the finances and property of NCSA, having due regard to cyber security information classified as restricted determined by a Presidential Order."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "Chapter V – Final provisions",
+      "section": "22",
+      "title": "Article 22 – Drafting, consideration and adoption of this Law",
+      "content": "This Law was drafted in English, considered and adopted in Kinyarwanda."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "Chapter V – Final provisions",
+      "section": "23",
+      "title": "Article 23 – Repealing provision",
+      "content": "All prior provisions contrary to this Law are repealed."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "Chapter V – Final provisions",
+      "section": "24",
+      "title": "Article 24 – Commencement",
+      "content": "This Law comes into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "national cyber operations",
+      "definition": "integrated employment of cyber capabilities in pursuit of national security objectives",
+      "source_provision": "art2"
+    },
+    {
+      "term": "ICT",
+      "definition": "Information and Communication Technologies",
+      "source_provision": "art2"
+    },
+    {
+      "term": "cyber-attack",
+      "definition": "any deliberate action taken to alter, disrupt, deceive, degrade, or destroy computer systems, network or their original information and programs by technology means",
+      "source_provision": "art2"
+    },
+    {
+      "term": "cyber threat",
+      "definition": "the possibility of any attempt to alter, disrupt, deceive, degrade, or destroy computer systems, network or their information and programs",
+      "source_provision": "art2"
+    },
+    {
+      "term": "cyber security",
+      "definition": "the protection of cyberspace",
+      "source_provision": "art2"
+    },
+    {
+      "term": "national security",
+      "definition": "strategies taken by the country for its protection, including the prevention of and fight against internal and external threats and other acts that may threaten its integrity",
+      "source_provision": "art2"
+    },
+    {
+      "term": "cyberspace",
+      "definition": "global domain consisting of interdependent networks of information and communication technology infrastructure",
+      "source_provision": "art2"
+    }
+  ]
+}

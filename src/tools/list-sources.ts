@@ -44,14 +44,13 @@ export async function listSources(
     results: {
       sources: [
         {
-          name: 'Official Legal Database',
-          authority: 'Government (State Chancellery of Rwandan)',
-          url: 'https://www.minijust.gov.rw',
-          license: 'Creative Commons Attribution 4.0 International (CC BY 4.0)',
+          name: 'RwandaLII Legislation Portal',
+          authority: 'RwandaLII / Laws.Africa',
+          url: 'https://rwandalii.org/legislation/',
+          license: 'RwandaLII Terms of Use',
           coverage:
-            'All Commonwealth (federal) Acts and legislative instruments, ' +
-            'including privacy, cybersecurity, critical infrastructure, ' +
-            'corporations, consumer, telecommunications, and criminal law',
+            'Machine-readable Rwanda laws (AKN HTML) ingested at article level; ' +
+            'many legacy laws are PDF-only and excluded from provision extraction',
           languages: ['en'],
         },
       ],

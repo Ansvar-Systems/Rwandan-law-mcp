@@ -30,12 +30,11 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Official Legal Database (minijust.gov.rw) — Government (State Chancellery of Rwandan)',
-    jurisdiction: 'EE',
+    data_source: 'RwandaLII legislation portal (rwandalii.org) with Official Gazette publication links',
+    jurisdiction: 'RW',
     disclaimer:
-      'This data is sourced from the Official Legal Database under public domain. ' +
-      'The authoritative versions are maintained by Government (State Chancellery of Rwandan). ' +
-      'Always verify with the official Official Legal Database portal (minijust.gov.rw).',
+      'This database is built from publicly available RwandaLII law pages and links to Official Gazette publications. ' +
+      'For legal certainty, verify against the Official Gazette publication.',
     freshness,
   };
 }

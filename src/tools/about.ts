@@ -44,11 +44,11 @@ export function getAbout(db: InstanceType<typeof Database>, context: AboutContex
       eu_references: safeCount(db, 'SELECT COUNT(*) as count FROM eu_references'),
     },
     data_source: {
-      name: 'Official Legal Database',
-      authority: 'Government (State Chancellery of Rwandan)',
-      url: 'https://www.minijust.gov.rw',
-      license: 'Creative Commons Attribution 4.0 International (CC BY 4.0)',
-      jurisdiction: 'EE',
+      name: 'RwandaLII Legislation Portal',
+      authority: 'RwandaLII / Laws.Africa',
+      url: 'https://rwandalii.org/legislation/',
+      license: 'RwandaLII Terms of Use',
+      jurisdiction: 'RW',
       languages: ['en'],
     },
   };

@@ -82,7 +82,7 @@ export async function validateEUCompliance(
         compliance_status: 'not_applicable',
         eu_references_found: 0,
         warnings: [],
-        recommendations: ['No EU cross-references found for this Rwandan statute. Rwandan is an EU Member State; EU references indicate transposition obligations.'],
+        recommendations: ['No EU cross-references found for this Rwandan statute. EU alignment checks are only applicable when the statute text explicitly references EU instruments.'],
       },
       _metadata: generateResponseMetadata(db),
     };

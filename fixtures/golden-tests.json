@@ -26,7 +26,7 @@
       "description": "Retrieve cybersecurity/cybercrime law Article 1 -- scope",
       "tool": "get_provision",
       "input": {
-        "document_id": "rw-ict-governance-2018",
+        "document_id": "rw-cybercrimes-2018",
         "section": "1"
       },
       "assertions": {
@@ -43,7 +43,7 @@
       "tool": "get_provision",
       "input": {
         "document_id": "rw-personal-data-protection-2021",
-        "section": "2"
+        "section": "3"
       },
       "assertions": {
         "result_not_empty": true,
@@ -98,7 +98,7 @@
       "tool": "get_provision",
       "input": {
         "document_id": "rw-personal-data-protection-2021",
-        "section": "2"
+        "section": "3"
       },
       "assertions": {
         "result_not_empty": true,

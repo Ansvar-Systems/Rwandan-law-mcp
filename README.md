@@ -23,7 +23,7 @@ npx @ansvar/rwandan-law-mcp
 
 ## Data Sources
 
-AI-generated seed data covering 10 key cybersecurity and data protection laws. Full official ingestion pending.
+Real legislation ingested from RwandaLII machine-readable law pages (`data-display-type=akn`) with provenance linked to Official Gazette publications.
 
 ## License
 
