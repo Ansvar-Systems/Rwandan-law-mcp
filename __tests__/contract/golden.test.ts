@@ -1,9 +1,8 @@
 /**
  * Golden contract tests for Rwandan Law MCP.
- * Validates core tool functionality against seed data.
  */
 
-import { describe, it, expect, beforeAll } from 'vitest';
+import { beforeAll, describe, expect, it } from 'vitest';
 import Database from 'better-sqlite3';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
@@ -20,54 +19,53 @@ beforeAll(() => {
 });
 
 describe('Database integrity', () => {
-  it('should have 10 legal documents (excluding EU cross-refs)', () => {
+  it('has substantial law coverage', () => {
     const row = db.prepare(
-      "SELECT COUNT(*) as cnt FROM legal_documents WHERE id != 'eu-cross-references'"
+      'SELECT COUNT(*) as cnt FROM legal_documents'
     ).get() as { cnt: number };
-    expect(row.cnt).toBe(10);
+    expect(row.cnt).toBeGreaterThanOrEqual(50);
   });
 
-  it('should have at least 150 provisions', () => {
+  it('has substantial provision coverage', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM legal_provisions').get() as { cnt: number };
-    expect(row.cnt).toBeGreaterThanOrEqual(400);
+    expect(row.cnt).toBeGreaterThanOrEqual(1000);
   });
 
-  it('should have FTS index', () => {
+  it('has FTS index data', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'data'"
     ).get() as { cnt: number };
-    expect(row.cnt).toBeGreaterThanOrEqual(0);
+    expect(row.cnt).toBeGreaterThanOrEqual(1);
   });
 });
 
-describe('Article retrieval', () => {
-  it('should retrieve a provision by document_id and section', () => {
+describe('Provision retrieval', () => {
+  it('retrieves core personal-data law article', () => {
     const row = db.prepare(
       "SELECT content FROM legal_provisions WHERE document_id = 'rw-personal-data-protection-2021' AND section = '1'"
     ).get() as { content: string } | undefined;
     expect(row).toBeDefined();
     expect(row!.content.length).toBeGreaterThan(50);
   });
-});
 
-describe('Search', () => {
-  it('should find results via FTS search', () => {
-    const rows = db.prepare(
-      "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'data'"
-    ).get() as { cnt: number };
-    expect(rows.cnt).toBeGreaterThan(0);
+  it('retrieves a PDF-derived law article', () => {
+    const row = db.prepare(
+      "SELECT content FROM legal_provisions WHERE document_id = 'rw-law-2018-68' AND section = '1'"
+    ).get() as { content: string } | undefined;
+    expect(row).toBeDefined();
+    expect(row!.content.length).toBeGreaterThan(50);
   });
 });
 
 describe('Negative tests', () => {
-  it('should return no results for fictional document', () => {
+  it('returns no rows for fictional law', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = 'fictional-law-2099'"
     ).get() as { cnt: number };
     expect(row.cnt).toBe(0);
   });
 
-  it('should return no results for invalid section', () => {
+  it('returns no rows for invalid section', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = 'rw-personal-data-protection-2021' AND section = '999ZZZ-INVALID'"
     ).get() as { cnt: number };
@@ -75,33 +73,8 @@ describe('Negative tests', () => {
   });
 });
 
-describe('All 10 laws are present', () => {
-  const expectedDocs = [
-    'rw-credit-reporting-system-2018',
-    'rw-cybercrimes-2018',
-    'rw-financial-intelligence-centre-2019',
-    'rw-national-cyber-security-authority-2017',
-    'rw-payment-system-2021',
-    'rw-personal-data-protection-2021',
-    'rw-rica-authority-2017',
-    'rw-risa-establishment-2017',
-    'rw-rura-establishment-2013',
-    'rw-space-agency-2021',
-  ];
-
-  for (const docId of expectedDocs) {
-    it(`should contain document: ${docId}`, () => {
-      const row = db.prepare(
-        'SELECT id FROM legal_documents WHERE id = ?'
-      ).get(docId) as { id: string } | undefined;
-      expect(row).toBeDefined();
-      expect(row!.id).toBe(docId);
-    });
-  }
-});
-
-describe('list_sources', () => {
-  it('should have db_metadata table', () => {
+describe('Metadata', () => {
+  it('has db_metadata entries', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM db_metadata').get() as { cnt: number };
     expect(row.cnt).toBeGreaterThan(0);
   });

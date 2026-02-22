@@ -1,0 +1,574 @@
+{
+  "id": "rw-law-2010-17",
+  "type": "statute",
+  "title": "Law establishing and Organising the Real Property Valuation Profession in Rwanda",
+  "title_en": "Law establishing and Organising the Real Property Valuation Profession in Rwanda",
+  "short_name": "Law 17 of 2010",
+  "status": "in_force",
+  "issued_date": "2010-05-12",
+  "in_force_date": "2010-05-17",
+  "url": "https://rwandalii.org/akn/rw/act/law/2010/17/eng@2010-05-17",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "chapter": "CHAPTER II: LEGAL REQUIREMENTS",
+      "section": "2",
+      "title": "Article 2 - Definitions of terms",
+      "content": "Under this Law, the following terms shall defined as follows: 1° “addressee of an electronic message”: person who is intended by the originator to receive the electronic message, does not include a person acting as intermediary with respect to that data message; 2° “authorised officer”: a person who given competence by the controller specified in article 66 of this law; 3° “certificate”: electronic message or other message confirming the between a signatory and the contents the document; 4° “certification authority”: a natural person or legal entity that issues certificate; 5° “certification practice statement”: statement issued by a certification authority specifying the practices used issuing certificates; 6° “communication network services”: provision of connections, the operation facilities for communication systems, provision of access to communication systems, transmission or routing of data messages between or among points specified by a user and the processing and storage of data; 7° “computer program”: set of instructions, codes, schemes or in other form, which is capable, when incorporated in a machine-readable medium, of causing a computer perform or achieve a particular task result; 8° “controller”: Regulatory Authority specified in item 25 of this article; 9° “corresponding”: a private key and public key which belong to the same pair; 10° “digital signature”: electronic signature consisting of a transformation of an electronic message using asymmetric cryptosystem and a hash function such that a person having initial untransformed electronic message and the signer's public key can accurately determine: a) whether the transformation created using the private key corresponds to the signer's public key; b) whether the initial electronic message is as it was after the transformation was made; 11° “digital signature certificate”: electronic message issued for the purpose of supporting digital signatures which purports to confirm the identity of person or other significant characteristics certifying that the person holds the private and the public keys; 12° “electronic message”: information received, issued, sent or stored electronic means or any other similar means including electronic data interchange (EDI), such as electronic mail, telegram, telex or telecopy; 13° “electronic payment order”: an order issued to transfer money or execute payment sent by an electronic message; 14° “electronic data interchange (EDI)”: the electronic transfer messages between computers by using agreed standard to structure information. The computer in this context is meant to be the “electronic agent” of party; 15° “electronic signature”: data electronic form, affixed to or logically associated with, an electronic message, which may be used to identify signatory in relation to the electronic message or to approve the information contained in the electronic message; 16° “intermediary” with respect to particular electronic message”: person, who, on behalf of another person, sends, receives or stores such an electronic message or provides other services with respect to that electronic message; 17° “information system”: a system generating, sending, receiving, storing otherwise processing electronic messages; 18° “key pair in an asymmetric cryptosystem”: a private key and mathematically related public key verify a digital signature created by private key; 19° “hash function”: an algorithm mapping or translating a sequence of in smaller units, such that: a) a message which yields the same hash result every time the algorithm is executed using the same message as input; b) it is electronically not feasible that message can be reconstituted by algorithm; c) it is electronically not feasible that messages can produce the same hash result using the algorithm; 20º “licensed certification authority” certification authority licensed by Controller; 21º „Minister‟: Minister in charge information and communication technology; 22º “originator”: person by whom, or whose behalf, the electronic message, if any, has been sent or generated prior to storage, but it does not concern the intermediary with respect to that electronic message; 23º “private key”: the key of a key pair used to create a digital signature; 24º “public key”: key used to verify a digital signature; 25º “regulatory authority‟: the responsible body or institution having the mandate regulate the information and communication technologies sector; 26º “repository” a system for storing retrieving certificates or other information relating to authentic certificates; 27º “revoke a certificate”: definite termination of an operational period of certificate from a specified time; 28º “security procedure”: a procedure the purpose of: verifying that an electronic message electronic signature is that of a specific person; or detecting an error or alteration in communication, content or storage of electronic message from a specific period time, which requires the use of algorithms codes, identifying words or numbers, encryption or known procedures and similar a) b) devices for originality of messages; 29º “signatory”: a person who holds signature creation data and who acts either his/her own behalf or on behalf of the person he or she represents; 30º “signature” and its grammatical variations: any symbol executed or adopted, or any methodology or procedure employed or adopted by a person with the intention verifying the originality of the message, including electronic or digital methods; 31º “subscriber”: a person who is named identified on a certificate issued to him/her and who holds a private key that corresponds to a public key both of which are indicated that certificate; 32º “trustworthy system or trustworthy manner”: use of computer hardware and other ware and procedures that: a) reasonably provides security so as to avoid intrusion or damage; b) provide a reasonable level of availability, reliability and correct operation; c) are reasonably suited to performing secure manner their intended functions; d) adhere to generally accepted security procedures; 33º “suspend a certificate\": to temporarily suspend the operational period of a certificate up to a specified time; 34º \"valid certificate\": a certificate that certification authority issues and which subscriber named on it accepts; 35º \"verification of a digital signature\": determine accurately that: a) the digital signature was created using private key corresponding to the public on the certificate and that b) the message was not damaged from when its digital signature was created. FOR RECOGNITION OF ELECTRONIC MESSAGES"
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "CHAPTER II: LEGAL REQUIREMENTS",
+      "section": "3",
+      "title": "Article 3 - Recognition of electronic",
+      "content": "messages Electronic message shall be valid accordance with this law. The message shall not be invalid merely on the grounds that in form of a data message. A message shall not loose legal effect or denied enforceability solely on the grounds that it is not contained in form of electronic message and it shall create no legal effects, it is based on electronic message."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "CHAPTER II: LEGAL REQUIREMENTS",
+      "section": "6",
+      "title": "Article 6 - Admissibility of electronic",
+      "content": "messgage and its presentation as evidence In any legal proceedings, electronic messages shall be accepted and admissible as evidence irrespective of: 1° the sole ground that it is an electronic message; 2° on the ground that it is not in its original formif it is the best evidence that person adducing it could reasonably obtain. In assessing the evidential weight of electronic message, regard shall be placed the reliability of the manner in which electronic message was generated, stored communicated, as well as the reliability of possibility of its alteration."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "CHAPTER",
+      "section": "7",
+      "title": "Article 7 - Retention of electronic messages",
+      "content": "Where the law requires that documents, messages or information be retained, requirement is met by an electronic message provided that the following conditions met: 1° the information contained therein shall accessible at any time when required; 2° is retained in the format in which it generated, sent, received, or in the format that can demonstrate that the contents were not altered; 3° If the originality, receiver, date and time when it was sent or received can identified. The obligation to retain documents, messages or information in accordance with provisions of paragraph one of this article does not mean it is extending to any document of which purpose is to disclose the message to be sent or received. Subject to laws governing retention electronic messages and information, competent regulatory authority may determine additional requirements retaining electronic messages. III: LIABILITY COMMUNICATION TECHNOLOGY NETWORK SERVICES CERTIFICATION AUTHORITIES AND INTERMEDIARIES"
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "CHAPTER",
+      "section": "8",
+      "title": "Article 8 - Liability of communication",
+      "content": "network services A communication network service shall be liable in respect of contents of documents, electronic message through his/her network and another person to whom he/she has control. The liability shall apply to: 1° creation, publication dissemination of electronic messages on the network; 2° use of such electronic messages in way that is contrary to the Law. However, the communication network service shall continue to fulfil: 1° contractual obligations; 2° the obligations specified in the licence for provision of ommunication network service he/she was granted by the Controller; 3° Court decisions."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "CHAPTER",
+      "section": "9",
+      "title": "Article 9",
+      "content": "Limits of certification authorities liability A Certification Authority shall not be liable for any loss caused by: 1° reliance on a forged digital signature whose forgery is attributable to subscriber; 2° payment of amount exceeding amount specified in the certificate case the person who applied for certificate delibaretely provided false information."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "CHAPTER",
+      "section": "10",
+      "title": "Article 10",
+      "content": "An intermediary or a Certification Authority shall not be liable for providing access information, transmission or its retention, long as it: 1° does not initiate the transmission; 2° is not the one to select the addressee; 3° uses automatic communication technology without its role; 4° cannot modify the electronic information."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "CHAPTER",
+      "section": "11",
+      "title": "Article 11",
+      "content": "Other exceptions Caching An intermediary or a certification authority shall not be liable for the automatic, intermediate and temporary storage of electronic record, in case the intention of such a storge of electronic record is its onward transmission to other recipients who requested for it, as long as the service provider: 1° does not modify the electronic record; 2° fuflfils the conditions for access to electronic record; 3° complies with rules regarding updating of the electronic message, specified in a manner widely recognised and used; 4° does not interfere with the lawful of technology, widely recognised used by industry, to obtain information relating to the use of electronic message; 5° removes or disables access to electronic message it has stored upon receiving a take-down notice."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "CHAPTER IV: COMMUNICATION",
+      "section": "14",
+      "title": "Article 14 - Take-down notification",
+      "content": "The complaint shall notify, in writing, an unlawful activity to the intermediary or to the concerned service provider or its designated agent. The notification shall include: 1° full names and address of the complainant; 2° the written or electronic signature the complainant; 3° rights that have been infringed; 4° Justification of the unlawful activity 5° the remedial action required to taken in order to resolve the dispute; 6° telephone and electronic mail contacts if any; 7° a statement that the complainant acting in good faith; 8° a statement by the complainant the information provided is true correct. Any person who notifies an unlawful activity to the service provider knowing that there no truth contained therein as regards the facts commits an offence and is liable for damages for false notification. An intermediary or a certification authority not liable for a takedown in response to wrongful notification. ELECTRONIC MESSAGES"
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "CHAPTER IV: COMMUNICATION",
+      "section": "15",
+      "title": "Article 15 - Value of electronic messages",
+      "content": "among parties A declaration of interest or any other statement between the receiver and the owner of the electronic message shall retain its legal validity and shall be enforced."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "CHAPTER IV: COMMUNICATION",
+      "section": "16",
+      "title": "Article 16 - Origin of electronic message",
+      "content": "An electronic message shall be attributable the originator where: 1° he/she sends it her/himself; 2° the electronic message is sent by person who is authorised to represent the originator; or 3° the electronic message is sent through an automatic system programmed the originator or a representative. The addressee of an electronic message regards it as being that of the originator where: 1° an agreed procedure has been applied to recognise a message from originator; 2° the electronic message comes from relative of the originator or employer of the originator who authorised to identify the methods used by the originator in order know electronic documents similsr his/her. Electronic message shall be considered invalid where: 1° the receiver of the message has been notified on time by the originator the message is not his/her; 2° the addressee knew or had means know that the electronic message not from the originator. The addressee has to regard each electronic message received as a separate new electronic message and to act on that assumption, except to the extent that he/she knew or was able know that the electronic message is duplicate of the first one."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "CHAPTER IV: COMMUNICATION",
+      "section": "18",
+      "title": "Article 18 - Time and place of dispatch and",
+      "content": "receipt of electronic message Unless otherwise agreed between originator and the addressee, the dispatch an electronic message occurs when it enters an information system outside the control the originator. Unless otherwise agreed between originator and the addressee, the time receipt of an electronic message is proved follows: (a) if the addressee has designated information system for the purpose receiving electronic messages, receipt occurs: (i) when the electronic message enters designated information system; (ii) whenever the addressee receives it when was sent through the electronic system that not the designated system; (b) where the addressee has not designated information system, the electronic message received when it enters the electronic system of the addressee. (c) unless otherwise agreed between originator and the addressee, an electronic message shall be deemed to be dispatched the originator‟s business place and received the addressee‟s business place as provided below: (i) if the originator or the addressee has more than one place of business, the place business is that which has the closest relationship to the underlying transaction where there is no underlying transaction, principal place of business; (ii) if the originator or the addressee does have a place of business, reference is to made to its habitual residence. The controller or other competent regulatory authority may determine the circumstances which these provisions may not apply."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "CHAPTER",
+      "section": "19",
+      "title": "Article 19 - Effect of change or error",
+      "content": "If a change or error occurs in the transmission of an electronic message: 1° if the originator and the addressee have agreed to use a security procedure electronic message and one of them not conformed to the procedure, the who complied shall not be held accountable for the changed or erroneous electronic message; 2° if an individual is either the originator the addressee of an electronic message, /she shall not be held accountable where the error was made by an individual dealing with an agent if that agent did provide an opportunity to correct the error and the person noticing an error shall: a) promptly notify the other person of b) takes reasonable steps, including steps that conform to the other person‟s reasonable instructions, to return to other person or, to destroy consideration received, as a result of erroneous electronic message. SIGNATURE error and that he is not expectedly held responsible for the message received; V: ELECTRONIC"
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "CHAPTER",
+      "section": "21",
+      "title": "Article 21 - Equal treatment of signature",
+      "content": "technologies Without prejudice to conventions technology used, all electronic signatures valid as along as they conform to provisions of this Law."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "CHAPTER",
+      "section": "23",
+      "title": "Article 23 - Conduct of the certification",
+      "content": "authority Controller‟s specific instructions shall determine the conduct of the certification authority. Where a certification authority provides services to support an electronic signature may be used for legal effect as a signature, that certification authority shall: 1° act in accordance with representations made by it with respect to its policies and practices; 2° 3° b) that the signatory identified in certificate had control of the signature creation data at the time when certificate was issued; c) that signature creation data were valid at or before the time the certificate was issued; provide reasonably accessible means likely to enable another reliable person to access the the certificate: a) the identity authority; exercise reasonable care to ensure accuracy and completeness of material representations made by that are relevant to the certificate throughout its life cycle or that included in the certificate; of the certification d) provide reasonably accessible means that enable a relying party to ascertain, where relevant, from the certificate otherwise: (i) the method used to identify the signatory; (ii)any limitation on the purpose or value which the signature creation data or certificate may be used; (iii)that the signature creation data are valid and have not been compromised; (iv) any limitation on the extent of liability stipulated by the certification authority; (v)whether means exist for the signatory give notice pursuant to article 28, paragraph (b), of this Law; (vi) whether a timely revocation service offered; (e) where services under subparagraph (d) are offered, provide a means for a signatory give notice pursuant to article 28, paragraph (b), of this Law and, where services under subparagraph (d) (vi) are offered, ensure availability of a timely revocation service; (f) utilize trustworthy systems, procedures and human resources in performing services. The certification authority shall bear the legal consequences of its failure to satisfy requirements of paragraph (1). The certification authoriy, as well accreditation and supervision authorities shall comply with applicable rules on data privacy protection. The certification authority which issues certificates to the public shall collect personal data only directly from the data subject, after the explicit consent of the data subject, and only insofar as it is necessary for purposes of issuing and maintaining certificate. The data may not be collected processed for any other purposes without explicit consent of the data subject. Without prejudice to the legal effect given pseudonyms under applicable law, certification authorities may indicate in certificate a pseudonym instead of signatory's name [provided that it is disclosed that a pseudonym is being used]."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "CHAPTER",
+      "section": "26",
+      "title": "Article 26 - Recognition of foreign",
+      "content": "certificates and electronic signatures A certificate or electronic signature issued outside Rwanda shall have the same legal effect in Rwanda as a certificate issued Rwanda if it fulfils legal requirements. In determining whether, or to what extent, certificate or an electronic signature is legally effective, no regard shall be had: 1° to the geographic location where certificate or electronic signature have been sent; 2° to the geographic location of business the issuer. In determining whether a certificate or electronic signature offers a substantially equivalent level of reliability, regard shall had to recognized international standards. Where parties agree to the use of certain types of electronic signatures or certificates, agreement shall be recognized as sufficient between those parties. Article 27: Notarization acknowledgment of electronic signature If a Law requires an electronic signature message to be verified, acknowledged, made under oath, the requirement is satisfied if it bears the electronic signature of notary or any other competent authority. ELECTRONIC SIGNATURES VI: SECURING MESSAGES AND"
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions",
+      "section": "30",
+      "title": "Article 30 - Qualified certificate",
+      "content": "When the security procedures referred to this lawinvolves the issuance of a certificate, that certificate may be regarded as a qualified certificate if the certificate contains following information: 1° an indication that the certificate issued as a qualified certificate; 2° identification authority; 3° 4° 5° 6° of the certification the name of the signatory or pseudonym, which shall be identified as such; provision for a specific attribute of signatory that is related to certificate.; signature-verification data which correspond to signature-creation data under the control of the signatory; an indication of the beginning and of the period of validity of certificate; 7° the identity code of the certificate; 8° electronic signature securing of certification authority issuing certificate; 9° limitations on the scope of use of certificate,; and 10° limits on the value of transactions which the certificate can be used. SIGNATURES"
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions",
+      "section": "31",
+      "title": "Article 31 - Secure electronic message with",
+      "content": "digital signature The portion of an electronic message that signed with a digital signature shall be treated as a secure electronic message if the digital signature is a secure electronic signature provided for by this Law."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions",
+      "section": "33",
+      "title": "Article 33 - Presumptions regarding digital",
+      "content": "signature certificates Except for information identified subscriber information which has not been verified, any other information included digital signature certificate issued by licensed certification authority is correct if subscriber hqs accepted the digital signature certificate, unless evidence to the contrary adduced."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital",
+      "section": "34",
+      "title": "Article 34 - Unreliable digital signatures",
+      "content": "Unless otherwise provided by law or contract, a person relying on a digitally signed electronic message assumes the risk that digital signature is invalid as a signature authentication of the signed electronic message, if reliance on the digital signature not reasonable under the circumstances having regard to the following factors: 1° acts which the person relying on digitally signed electronic message knows or has notice of, including facts listed in the digital signature certificate or incorporated in it reference; 2° the value or importance of digitally signed electronic message, known; 3 the course of dealing between the person relying on the digitally signed electronic message and the subscriber and any available indicia of reliability or unreliability apart from the digital signature; 4°Any usage of trade, particularly trade conducted by trustworthy systems or other electronic means. signatures"
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital",
+      "section": "35",
+      "title": "Article 35 - Reliance on certificates",
+      "content": "foreseeable It is foreseeable that persons relying on digital signature will also rely on a valid certificate containing the public key by which the digital signature can be verified."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities",
+      "section": "36",
+      "title": "Article 36 - Requirements to publish digital",
+      "content": "signature certificate A digital signature certificate may published where: 1° it has been issued by a competent authority; 2° the subscriber mentioned on digital signature accepted it; certificate 3° the digital signature certificate has been revoked or suspended."
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities",
+      "section": "39",
+      "title": "Article 39 - Issuing a digital signature",
+      "content": "certificate A certification authority may issue certificate to a prospective subscriber only after: 1° it has received a request from prospective subscriber; 2° the prospective subscriber has certification practice statement compliance with the content of such statement including procedures regarding identification of the prospective subscriber. In the absence of a certification practice statement, the certification authority shall confirm by itself or through an authorised agent that: 1° the prospective subscriber is the person be listed in the digital signature certificate to be issued; 2° if the prospective subscriber is acting through one or more agents, the subscriber authorised the agent to have custody the subscriber's private key and to request issuance of a digital signature certificate listing the corresponding public key; 3° the information in the digital signature certificate to be issued should be accurate; 4° the prospective subscriber rightfully holds the private key corresponding to public key to be listed in the digital signature certificate; 5° the prospective subscriber holds a private key capable of creating a digital signature; 6° the public key indicated in the digital signature certificate is capable verifying a digital signature affixed by public key."
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities",
+      "section": "40",
+      "title": "Article 40 - Representations upon issuance",
+      "content": "of digital signature certificate By issuing a digital signature certificate, certification authority represents any person who relies on the digital signature certificate or a digital signature verifiable by the public key indicated in the certificate in accordance with any applicable certification practice statement. In the absence of such certification practice statement, the representing certification authority confirms that: 1° it has complied with all applicable requirements of this Law in issuing digital signature certificate. If certification authority has published submitted it to such relying person, it shall confirm that the subscriber listed in digital signature certificate has accepted it; 2° the subscriber identified in the certificate holds the private key corresponding to public key listed in the digital signature digital signature certificate; 3° the subscriber's public key and private constitute a functioning key pair; 4° all information in the digital signature certificate is accurate, unless certification authority has stated in digital signature certificate incorporated by reference in the certificate a statement that the accuracy of specified information is not confirmed; and 5° the certification authority has knowledge of any material fact which had been included in the digital signature certificate would adversely affect reliability of the representations above mentioned."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities",
+      "section": "41",
+      "title": "Article 41 - Suspension of digital signature",
+      "content": "certificate The certification authority that issued a digital signature certificate shall suspend certificate after receiving a request by: 1° the subscriber listed signature certificate; in the digital 2° a person acting on behalf of subscriber, who is unavailable."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities",
+      "section": "42",
+      "title": "Article 42 - Revocation of digital signature",
+      "content": "certificate A certification authority shall revoke a digital digital signature certificate that it issued: 1° upon request by the subscriber or his/her representative; 2° upon receipt of a certified copy confirming that the subscriber is dead; 3° upon presentation of documents effecting a dissolution of the subscriber, or upon confirming by other evidence that subscriber has been dissolved or ceased to exist."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities",
+      "section": "43",
+      "title": "Article 43 - Revocation without subscriber's",
+      "content": "consent A certification authority shall revoke a digital signature certificate, regardless of whether subscriber listed in the certificate consents, the certification authority confirms that – 1° a material fact represented in the digital signature certificate is false; 2° a requirement for issuance of the digital signature was not satisfied; 3° the certification authority's private key trustworthy system was compromised manner materially affecting the digital signature certificate's reliability; 4° a subscriber has ceased his /her activities."
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities | Section 3: Duties of subscriber",
+      "section": "47",
+      "title": "Article 47 - Obtaining digital signature",
+      "content": "certificate All material representations made by subscriber to a certification authority purposes of obtaining a digital signature certificate, including all information known the subscriber and represented in certificate, shall be accurate and complete."
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities | Section 3: Duties of subscriber",
+      "section": "48",
+      "title": "Article 48 - Acceptance of digital signature",
+      "content": "certificate A subscriber shall be deemed to have accepted a digital signature certificate he/she publishes or authorises the publication of a digital signature certificate – 1° to one or more persons; 2° in writing or in a repository and where another digital signature certificate produced or proved by a written evidence. By accepting a digital signature certificate issued by him/herself or a certification authority, the subscriber listed in certificate certifies to all who reasonably on the information contained in the certificate that: 1° the subscriber rightfully holds the private key corresponding to the public key listed in the digital signature certificate; 2° all representations made by subscriber to the certification authority and material to the information listed the digital signature certificate are true."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "CHAPTER",
+      "section": "50",
+      "title": "Article 50 - Initiating suspension",
+      "content": "revocation A subscriber who has accepted a digital signature certificate shall as soon as possible request the issuing certification authority suspend or revoke the certificate if the private key corresponding to the public key listed the certificate has been compromised. VIII: PROTECTION CONSUMER"
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "CHAPTER",
+      "section": "51",
+      "title": "Article 51",
+      "content": "Information to be provided A supplier offering goods or services for sale, for hire or for exchange by way of electronic transaction shall make following information available to consumers on the web site where such goods or services to be offered are hosted: 1° 2° 3° 4° its full name and legal personality; its physical address and telephone number; its web site address and e-mail address; membership to a commercial body sending the goods and the contact details of that body; 5° any code of conduct to which supplier subscribes and how consumer may access that code conduct electronically; 6° in case of commercial legal entity registration number, the names of office bearers and its place registration; 7° 8° a sufficient description of the main characteristics of the goods or services offered by that supplier to enable consumer to make an informed decision on the proposed electronic transaction; 9° the full price of the goods or services, including transport costs, taxes any other fees or costs; the physical address where consumer will receive legal service documents; 10° the mode of payment;; 11° any terms of agreement, including guarantees, that will apply to transaction and how those terms may be assessed, stored and reproduced electronically by consumers; 12° the period of time within which goods will be dispatched or delivered or within which the services will rendered; 13° the manner and period within which consumers can access and maintain full record of the transaction; 14° the return, exchange and refund policy of that supplier; 15° any alternative dispute resolution code to which that supplier subscribes how the details and or contents of code may be accessed electronically by the consumer; 16° the security procedures and privacy policy of that supplier in respect payment, payment information personal information of the consumer; 17° where appropriate, the minimum duration of the agreement in case agreements for the supply of products or services to be performed on continuous basis or ona short period time; The supplier shall provide a consumer with the power- 1° to review the entire electronic transaction; 2° to correct any mistakes; 3° to withdraw from the transaction, before finally placing any order. If a supplier fails to comply with the above provisions, the consumer may cancel transaction within fourteen (14) days receiving the goods or services under transaction. If a transaction is cancelled in terms of Article 52. 1° the consumer shall return performance of the supplier or, where applicable, cease using the services performed; and 2° the supplier shall refund all payments made by the consumer less the direct cost of returning the goods. The supplier shall utilize a payment system that is sufficiently secure with reference accepted technological standards at the time of the transaction and the type of transaction concerned and that the supplier shall be liable for any damage suffered by a consumer due a failure by the supplier to comply with provision."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "CHAPTER",
+      "section": "53",
+      "title": "Article 53 - Unsolicited Goods, Services",
+      "content": "Communications A person who sends unsolicited commercial communications to consumers, shall provide the consumer with the option to cancel his her subscription to the mailing list of person and identify particulars of the source from which that person obtained consumer's personal information upon request by the consumer."
+    },
+    {
+      "provision_ref": "art56",
+      "chapter": "CHAPTER",
+      "section": "56",
+      "title": "Article 56",
+      "content": "Non-exclusion Any provision in an agreement which excludes any rights provided for in this Law is null and void."
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "CHAPTER",
+      "section": "52",
+      "title": "Article 52 - Cooling-off period before",
+      "content": "cancellation of an agreement Consumer may cancel an electronic transaction and any related credit agreement for supply of goods within seven (7) days after the date of the receipt of the goods; or services within seven (7) days after the date of the conclusion of the agreement. In case the only charge that may be levied on consumer is the direct cost of returning goods. If payment for the goods or services has been effected prior to a consumer exercising a right referred to above, the consumer shall entitled to a full refund of' such payment, which refund shall be made within thirty (30) days from the date of cancellation."
+    },
+    {
+      "provision_ref": "art57",
+      "chapter": "CHAPTER IX: COMPUTER MISUSE",
+      "section": "57",
+      "title": "Article 57 - Complaints",
+      "content": "Affairs Committee to Consumer A consumer may lodge a complaint with Regulatory Authority in respect of any non- compliance with the provisions of this Law any supplier."
+    },
+    {
+      "provision_ref": "art58",
+      "chapter": "CHAPTER IX: COMPUTER MISUSE",
+      "section": "58",
+      "title": "Article 58 - Unauthorised access to",
+      "content": "computer data An access by a person to a computer system unauthorized where the person: 1° is not entitled to control and access computer system; 2° does not have consent to access him/her of the kind in question from any person who is so entitled. Any person who causes a computer system perform a function, knowing that the access he/she intends to secure is unauthorized, shall commit an offence but shall not be liable under this provision where: 1° he/she is a person entitled to control the operation or use of the computer system and exercises such right good faith; 2° he/she has the express or implied consent of the person, empowered authorize him/her to have such access; 3° he/she is acting in reliance of statutory power arising under enactment for the purpose of obtaining information, or of taking possession any document or other property. For the purposes of this section, any access not directed at any particular program or data, a program or data of any kind or a program data held in any particular computer system shall be immaterial."
+    },
+    {
+      "provision_ref": "art59",
+      "chapter": "CHAPTER IX: COMPUTER MISUSE",
+      "section": "59",
+      "title": "Article 59 - Access to a computer system",
+      "content": "with intent to commit offences Any person who causes a computer system perform any function for the purpose securing access to any program or data held any computer system, with intent to commit an offence under any Law, commits of offence."
+    },
+    {
+      "provision_ref": "art60",
+      "chapter": "CHAPTER IX: COMPUTER MISUSE",
+      "section": "60",
+      "title": "Article 60 - Unauthorised access to",
+      "content": "Interception of Computer Service Any person who, by any means, knowingly has unauthorized access to any computer sytem for the purpose of obtaining, directly indirectly, any computer service or intercepts or causes to be intercepted, directly indirectly, any function or any data within computer system, commits an offence."
+    },
+    {
+      "provision_ref": "art61",
+      "chapter": "CHAPTER IX: COMPUTER MISUSE",
+      "section": "61",
+      "title": "Article 61 - Unauthorised modification",
+      "content": "Computer data Any person who, knowingly, does an which causes an unauthorized modification data held in any computer system, commits offence."
+    },
+    {
+      "provision_ref": "art62",
+      "chapter": "CHAPTER IX: COMPUTER MISUSE",
+      "section": "62",
+      "title": "Article 62 - Damaging or denying access",
+      "content": "to computer system Any person who without lawful authority lawful excuse, does an act which causes directly or indirectly a degradation, failure, interruption or obstruction of the operation a computer system or a denial of access to, impairment of any program or data stored the computer system, commits an offence."
+    },
+    {
+      "provision_ref": "art63",
+      "chapter": "CHAPTER IX: COMPUTER MISUSE",
+      "section": "63",
+      "title": "Article 63 - Unlawful",
+      "content": "possession computer system, devices and data Any person who, knowingly, manufactures, sells, procures for use, imports, distributes otherwise makes available, a computer system or any other device, designed or adapted primarily for the purpose of committing offence shall be guilty of an offence. Any person who is found in possession of data or program with the intention that data or program be used, by the person himself or another person, to commit facilitate the commission of an offence provided for by this Law shall be guilty of offence. For the purposes of this provision, possession of any data or program includes: 1° having possession of computer system data storage device that holds or contains the data or program; 3° having control of data or program that in the possession of another person. 2° having possession of a document in which the data or program is recorded; or"
+    },
+    {
+      "provision_ref": "art64",
+      "chapter": "CHAPTER IX: COMPUTER MISUSE",
+      "section": "64",
+      "title": "Article 64",
+      "content": "Password Unauthorised disclosure Any person who, knowingly discloses any password, access code, or any other means of gaining access to programme or data held in any computer system shall commit an offence: 1° for any unlawful gain; 2° for any unlawful purpose; or 3° knowing that it is likely to cause prejudice to any person."
+    },
+    {
+      "provision_ref": "art65",
+      "chapter": "CHAPTER X: REGULATION",
+      "section": "65",
+      "title": "Article 65 - Penalties",
+      "content": "Offenses referred to in Chapter IX shall punished in accordance with the provisions the Penal Code. CERTIFICATION AUTHORITIES"
+    },
+    {
+      "provision_ref": "art66",
+      "chapter": "CHAPTER X: REGULATION",
+      "section": "66",
+      "title": "Article 66 - Controller of Certification",
+      "content": "Authorities The Regulatory Authority shall be Controller of Certification Authorities develop general and special instructions certification authorities. The Controller shall have full power to access the published list of certification authorities and their identification whether they individual persons or legal entities. Any person, organ or authority, whether public or private, specified by the enacting Government as competent may determine which electronic signatures satisfy provisions of this Law."
+    },
+    {
+      "provision_ref": "art67",
+      "chapter": "CHAPTER X: REGULATION",
+      "section": "67",
+      "title": "Article 67 - Regulation of certification",
+      "content": "authorities The regulatory authority has power to make regulations for purposes of implementing provisions of this Law where necessary."
+    },
+    {
+      "provision_ref": "art68",
+      "chapter": "CHAPTER X: REGULATION",
+      "section": "68",
+      "title": "Article 68 - Recognition",
+      "content": "certification authorities of foreign Under this Law, the Regulatory Authority shall be competent to recognise certification issued outside Rwanda in accordance with provisions granting the power to Controller to recognize foreign certification authority where requirements are satisfied."
+    },
+    {
+      "provision_ref": "art69",
+      "chapter": "CHAPTER X: REGULATION",
+      "section": "69",
+      "title": "Article 69 - Period of validity",
+      "content": "certification and modalities of its use A licensed certification authority shall, issuing a certificate to a subscriber, specify different certificates at different times. The licensed certification authority shall specify different limits in different certificates as it considers fit."
+    },
+    {
+      "provision_ref": "art70",
+      "chapter": "CHAPTER X: REGULATION",
+      "section": "70",
+      "title": "Article 70 - Liability of certification",
+      "content": "authorities for qualified certificates By issuing a certificate as a qualified certificate to the public or by guaranteeing such a certificate to the public, a certification authority shall be liable for damage caused any entity or natural person who reasonably relies on that certificate: 1° as regards the accuracy at the time issuance of all information contained in qualified certificate and as regards the that the certificate contains all the details prescribed for a qualified certificate; 2° as regards whether the evidence contained in the electronic signature corresponds the evidence used in the signature verification; 3° for assurance that the signature-creation data and the signature-verification data be used in a complementary manner cases where the certification authority generates them both, unless certification authority proves that he not acted negligently."
+    },
+    {
+      "provision_ref": "art71",
+      "chapter": "CHAPTER",
+      "section": "71",
+      "title": "Article 71 - Regulation of repositories",
+      "content": "The Regulatory authority shall make regulations for the purpose of ensuring establishment of certified repositories, their nature and procedures for their approval well as their use. XI: TRANSACTIONS ELECTRONIC"
+    },
+    {
+      "provision_ref": "art74",
+      "chapter": "CHAPTER",
+      "section": "74",
+      "title": "Article 74",
+      "content": "agreement Other provisions of Unless otherwise provided in the agreement, the provisions of this Law relating to time place of dispatch applicable to electronic messages shall also apply in connection with electronic transactions."
+    },
+    {
+      "provision_ref": "art72",
+      "chapter": "CHAPTER",
+      "section": "72",
+      "title": "Article 72 - Formation and validity",
+      "content": "contracts In the context of contract formation, unless otherwise agreed by the parties, an offer the acceptance of an offer may be expressed by means of electronic messages. Where electronic message is used in the formation a contract, that contract shall be valid regardless its use of electronic means for purpose."
+    },
+    {
+      "provision_ref": "art73",
+      "chapter": "CHAPTER",
+      "section": "73",
+      "title": "Article 73 - Electronic Data Interchange",
+      "content": "Transactions In electronic data interchange transactions: 1° an agreement may be formed where electronic agent performs an action required by Law; 2° an agreement may be formed where all parties to a transaction or either of them uses an electronic agent; 3° a party using an electronic agent form an agreement is presumed to bound by the terms of that agreement irrespective of whether that person reviewed the actions of the electronic agent unless that agreement can reviewed by a third party agreed upon by both parties, prior to agreement formation. No agreement is formed where a party interacts directly with the electronic agent another person and has made a material error during the creation of a electronic message and: 1° the electronic agent did not provide that person with an opportunity prevent or correct the error; 2° the party that made an error notifies the other person of the error as soon practicable after that person learned of it; 3° the party that made the error has made all possible steps to address situation including the restitution the requested object; 4° the party that made an error has used or received any material benefit or value from any performance received from the other person."
+    },
+    {
+      "provision_ref": "art75",
+      "chapter": "CHAPTER",
+      "section": "75",
+      "title": "Article 75 - Electronic payments",
+      "content": "Unless otherwise provided in payment system law or regulations of the National Bank Rwanda, provisions on electronic messages shall also apply to payment orders when executed by electronic messages. In case electronic funds transfers, through banks other electronic funds transfer institutions each party shall be considered sender of separate electronic message. HAPTER XII: GOVERNMENT USE OF ELECTRONIC MESSAGES AND ELECTRONIC SIGNATURES"
+    },
+    {
+      "provision_ref": "art76",
+      "chapter": "CHAPTER",
+      "section": "76",
+      "title": "Article 76 - Acceptance of electronic filing",
+      "content": "and issuance of documents With regard to acceptance, archiving transfer of electronic documents, any public institution shall determine: 1° mode of archiving, its format and transmission modalities; 2° space for signature on the electronic document and nature of electronic signature to be used; 3° manner and method of affixing electronic signature and requirements not contrary to conditions set by certification authority; 4° the system to check the authenticity and originality of electronic messages as well as their safe retention; 5° any other element deemed useful the electronic message and modes payments relating to above-mentioned documents."
+    },
+    {
+      "provision_ref": "art77",
+      "chapter": "CHAPTER XIII:",
+      "section": "77",
+      "title": "Article 77 - Instructions on the use",
+      "content": "electronic messages and electronic signatures by public organs The Minister shall set instructions governing security requirements for the use of electronic messages and electronic signatures by public organs. PROVISIONS MISCELLANEOUS"
+    },
+    {
+      "provision_ref": "art79",
+      "chapter": "CHAPTER XIV: FINAL PROVISIONS",
+      "section": "79",
+      "title": "Article 79 - Drafting, consideration and",
+      "content": "adoption of this Law This Law was drafted in English, considered and adopted in Kinyarwanda."
+    },
+    {
+      "provision_ref": "art81",
+      "chapter": "CHAPTER ONE: GENERAL",
+      "section": "81",
+      "title": "Article 81 - Commencement",
+      "content": "LAW Nº18/2010 OF 12/05/2010 RELATING TO ELECTRONIC MESSAGES, ELECTRONIC SIGNATURES AND ELECTRONIC TRANSACTIONS We, KAGAME Paul, President of the Republic; THE PARLIAMENT HAS ADOPTED AND WE SANCTION, PROMULGATE THE FOLLOWING LAW AND ORDER IT BE PUBLISHED IN THE OFFICIAL GAZETTE OF THE REPUBLIC RWANDA THE PARLIAMENT: The Chamber of Deputies, in its session of April 2010; Pursuant to the Constitution of the Republic of Rwanda of June 04, 2003 as amended date, especially in Articles 22, 29, 62, 66, 90, 92, 93, 94,108, 118 and 201; Pursuant to final Acts relating to Constitution and Convention of International Communication Union adopted in Marrakesh on October 18, 2002 as ratified by the Presidential Order n°56/01 12/10/2006; Pursuant to Decree-law n° 21/77 18/08/1977 establishing Penal Code, modified to date; Pursuant to Law n° 15/2001 of 28/1/2001 amending and completing Law n° 35/91 of August 1991 concerning the organization Internal Trade; Pursuant to Law n° 44/2001 of 30/11/2001 governing Telecommunications; Pursuant to Law n° 15/2004 of 12/06/2004 relating to evidence and its production; Pursuant to Law n° 31/2009 of 26/10/2009 the protection of Intellectual Property; ADOPTS: PROVISIONS"
+    },
+    {
+      "provision_ref": "art1",
+      "chapter": "CHAPTER ONE: GENERAL",
+      "section": "1",
+      "title": "Article 1 - Scope of this Law",
+      "content": "This Law governs electronic transactions, electronic messages and prevention of misuse of computers in electronic transactions, electronic signature and all other applications relating to information technology. This Law shall not apply to use of hard copies and which require signature of the issurer these are: 1° a will; 2° negotiable instruments; 3° a power of attorney; 4° a commercial agreement or other document related to immovable property or any interest in such property; 5° a certificate of transfer of immovable property or any other interest attached such property; 6° an authentic document or any document deemed authentic."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "CHAPTER II: LEGAL REQUIREMENTS",
+      "section": "4",
+      "title": "Article 4 - Writing",
+      "content": "Where the law requires information to be writing, that requirement is met by electronic message if the information contained therein is accessible as need be."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "CHAPTER II: LEGAL REQUIREMENTS",
+      "section": "5",
+      "title": "Article 5 - Original document",
+      "content": "Where the Law requires information to presented or retained in its original form, requirement is met by an electronic message if: 1° there exists a reliable assurance the information when it was first generated in its final form, as electronic message or otherwise; and 2° if the information can be accessible any time as may be required."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "CHAPTER",
+      "section": "12",
+      "title": "Article 12 - Hosting",
+      "content": "An intermediary or a certification authority that provides a service comprising the storage of electronic message shall not be liable damages arising from information stored, long as: 1° it is not aware that the information the activity relating to the information infringes any person; 2° it is not aware of facts circumstances from which infringing activity or the infringing nature of the information is apparent; 3° upon receipt of a take-down notification provided by this law expeditiously to remove or to disable access to the information. Provisions of this article shall not apply if recipient of the service works with the service provider."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "CHAPTER",
+      "section": "13",
+      "title": "Article 13 - Information location tools",
+      "content": "An intermediary or a certification authority shall not be liable for damages incurred when it links its services with other different web sites containing electronic messages activities that do not fulfil legal requirements, where: 1° it is not aware that the information activity relating to the information infringes any person; 2° it is not aware of facts circumstances of the infringing activity or the infringing nature informationt; 3° it does not receive a financial benefit directly attributable to the infringing activity; 4° removes or disables access to information relating to the electronic message within a reasonable time after being informed that such electronic message infringes the rights of a third party."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "CHAPTER IV: COMMUNICATION",
+      "section": "17",
+      "title": "Article 17 - Acknowledgement of receipt",
+      "content": "The originator may request the addressee acknowledge receipt of electronic message. Where the originator does not specify particular form, the addressee may apply of the following methods: 1° any communication by automated means or any other means; 2° any act of the addressee to indicate the originator that the electronic message has been received. Where the originator states that the electronic message shall be valid on receipt of acknowledgement by the addressee, electronic message is deemed as though it never been sent until the acknowledgement received. Where the originator has not stated that electronic message is conditional on receipt acknowledgment and the acknowledgment has not been received by the originator within the time specified or agreed on or if no time has been specified or agreed on the originator: 1° may inform the addressee that acknowledgement has been received and specify a reasonable time which it shall be sent; 2° if the acknowledgement of receipt not received in a period specified sub paragraph 1º, the addressee may be notified that the electronic message be considered as if it was not sent may exercise any other rights to which he/she may be entitled to. Where the originator receives the addressee‟s acknowledgement of receipt, it is presumed that the related electronic message received by the addressee. However, presumption does not imply that the message received shall be considered as the electronic message. Where the received acknowledgement states that the related message met technical requirements, either agreed upon or set forth in applicable standards, it shall be presumed as if those requirements have been met."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "CHAPTER",
+      "section": "20",
+      "title": "Article 20 - Signature",
+      "content": "In any legal proceedings, an electronic signature shall be accepted and valued evidence without considering the fact that is: 1° in electronic form; 2° not based upon a security procedure certificate prescribed pursuant to this Law. Where the law requires a signature of person, that requirement is met on electronic message if: 1° the method used allows to identify originator and that the originator approves the contents of the message; 2° that method is reliable and is the that was provided for to generate communicate the electronic message was in accordance with any relevant agreement."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "CHAPTER",
+      "section": "22",
+      "title": "Article 22 - Conduct of the signatory",
+      "content": "Without prejudice to the provisions of other Laws: 1° the signatory takes reasonable care avoid unauthorized use of its signature creation data or device; 2° without undue delay, the signatory shall quickly inform all concerned parties of any problem that came could come up or that has changed the device or messag while creating the the electronic signature. 3° the signatory shall exercise reasonable care to ensure the accuracy completeness of all material representations made by the signatory to the certificate throughout its cycle."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "CHAPTER",
+      "section": "24",
+      "title": "Article 24 - Trustworthiness",
+      "content": "Any systems, procedures and human resources utilized by a certification authority are trustworthy based on the following factors: 1° Financial and human resources other assets; 2° Quality of hardware and software systems; 3° Procedures for applications, issuance and retention of messages; 4° Availability signatories; of information 5° Regularity and extent of audit by independent body; 6° The existence of a declaration by Controller regarding compliance with or existence of the foresaid;"
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "CHAPTER",
+      "section": "25",
+      "title": "Article 25 - Conduct of the relying party",
+      "content": "A relying party shall bear consequences of its failure: the legal 1° To take reasonable steps to verify reliability of an electronic signature; 2° Where it fails to verify an electronic signature supported by a certificate, take reasonable steps to verify the validity the certificate. It shall observe limitation with respect to the certificate."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "CHAPTER",
+      "section": "28",
+      "title": "Article 28 - Secure electronic message",
+      "content": "Where a procedure to secure an electronic signature agreed on by the parties has been properly applied to an electronic message verify that the electronic message has been altered, such message shall be treated a secure electronic message. Where the procedure for securing electronic message is properly ordered agreed on, attention shall be paid to procedure and and the commercial circumstances prevailing at the time procedure was used, including: 1° the nature of the transaction; 2° the sophistication of the technology of parties; 3° the volume of similar transactions engaged in by either or all parties; 4° the availability of alternatives offered but rejected by any party; 5° the cost of alternative procedures; and 6° the procedures in general use for similar types of transactions."
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "CHAPTER",
+      "section": "29",
+      "title": "Article 29 - Secure electronic signature",
+      "content": "Where the procedure for securing electronic message is properly ordered agreed on, attention shall be paid to the aim the procedure and to the commercial circumstances prevailing at the time, considering whether the electronic message is: 1° unique to the person using it; 2° capable of identifying such person; 3° created in a manner or using a means under the sole control of the person using it; and 4° is linked to the electronic message which it relates in a such manner if the message was changed electronic signature would invalidated, Such signature shall treated as a secure electronic signature."
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions",
+      "section": "32",
+      "title": "Article 32 - Digital signature",
+      "content": "When any portion of an electronic message signed with a digital signature, the digital signature shall be treated as a secure electronic signature with respect to such portion of the message if: 1° the digital signature was created during the operational period of a valid digital signature certificate and is verified reference to the public key listed in such certificate; 2° the digital signature certificate considered trustworthy, if the public key the signatory has the same identity as certificate based on the fact that: a) the digital signature certificate was issued by a competent licensed certification authority. b) the digital signature certificate was issued by a certification authority outside Rwanda recognised for this purpose by the Controller. c) the digital signature certificate was issued d) the parties namely the sender and by an organ licensed by the regulatory authority to act as a certification authority accordance with this law on such conditions as he may by regulations impose or specify; recipient have expressly agreed between themselves to use digital signatures as security procedure, and the digital signature was properly verified by reference to sender's public key."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities",
+      "section": "37",
+      "title": "Article 37 - Trustworthy system",
+      "content": "A certification authority must utilise trustworthy systems in performing services."
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities",
+      "section": "38",
+      "title": "Article 38 - Disclosure",
+      "content": "A certification authority shall disclose: 1° its digital signature certificate contains the public key corresponding the private key used by that certification authority to digitally sign another digital signature certificate; 2° any relevant certification practice statement; 3° notice of the revocation or suspension its certification authority certificate; 4° any other fact that materially adversely affects either the reliability digital signature certificate that authority has issued or the authority's ability to perform its services. In case of an occurrence that materially adversely affects a certification authority's trustworthy system or its certification authority certificate, the certification authority shall: 1° use reasonable efforts to notify any person who is known to be foreseeably e affected by that occurrence; 2° act in accordance with procedures governing such an occurrence specified its certification practice statement."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities",
+      "section": "44",
+      "title": "Article 44 - Notice of suspension",
+      "content": "Immediately upon suspension of a digital signature certificate by a certification authority, the certification authority shall publish a signed notice of that suspension. The certification authority shall publish signed notices of the suspension in all such repositories."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities | Section 3: Duties of subscriber",
+      "section": "45",
+      "title": "Article 45 - Notice of revocation",
+      "content": "Immediately upon revocation of a digital signature certificate by a certification authority, the certification authority shall publish a signed notice of the revocation. The certification authority shall publish written notices of revocation in all such repositories."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities | Section 3: Duties of subscriber",
+      "section": "46",
+      "title": "Article 46 - Generating key pair",
+      "content": "If the subscriber generates the key pair whose public key is to be listed in a digital signature certificate issued by a certification authority and accepted by the subscriber, the subscriber shall generate that key pair using trustworthy system. This article shall not apply to a subscriber who generates the key pair using a system approved by the certification authority."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "CHAPTER VII: EFFECT OF DIGITAL | Section One: General provisions | Section 2: General duties relating to digital | Section 3: Duties of certification authorities | Section 3: Duties of subscriber",
+      "section": "49",
+      "title": "Article 49 - Control of private key",
+      "content": "By accepting a digital signature certificate issued by a certification authority, subscriber identified in the certificate assumes a duty to exercise reasonable care to retain control of the private key corresponding to public key listed in such digital signature certificate and prevents its disclosure to person not authorised to create subscriber's digital signature. Such duty shall continue during operational period of the digital signature certificate and during any period suspension of the certificate."
+    },
+    {
+      "provision_ref": "art54",
+      "chapter": "CHAPTER",
+      "section": "54",
+      "title": "Article 54 - Performance",
+      "content": "The supplier shall execute the order within thirty (30) days after the day on which supplier received the order, unless the parties have agreed otherwise. Where a supplier has failed to execute order within thirty (30) days or within agreed period, the consumer may after expiration of that period cancel the agreement with seven (7) days' written notice. If a supplier is unable to comply with terms of agreement on the grounds that goods or services ordered are unavailable, supplier shall immediately notify consumer of this fact and refund payments made by consumer within thirty (30) days after the date of such notification."
+    },
+    {
+      "provision_ref": "art55",
+      "chapter": "CHAPTER",
+      "section": "55",
+      "title": "Article 55",
+      "content": "Applicability of Foreign Law The consumer protection provided for in Law applies irrespective of the legal system applicable to the agreement in question."
+    },
+    {
+      "provision_ref": "art78",
+      "chapter": "CHAPTER XIV: FINAL PROVISIONS",
+      "section": "78",
+      "title": "Article 78 - Obligation of confidentiality",
+      "content": "Anybody who can access electronic messages, documents, letters, any other written documents or other electronic devices has the obligation to keep them confidential, except persons authorised by this Law."
+    },
+    {
+      "provision_ref": "art80",
+      "chapter": "CHAPTER XIV: FINAL PROVISIONS",
+      "section": "80",
+      "title": "Article 80 - Repealing provision",
+      "content": "All prior legal provisions contrary to this Law are hereby repealed."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,2813 @@
+{
+  "generated_at": "2026-02-22T04:16:51.914Z",
+  "catalog_total": 271,
+  "processed_total": 271,
+  "success": 265,
+  "skipped": 6,
+  "failed": 0,
+  "akn_success": 145,
+  "pdf_success": 120,
+  "total_provisions": 9798,
+  "total_definitions": 1072,
+  "results": [
+    {
+      "id": "rw-law-2022-15",
+      "url": "https://rwandalii.org/akn/rw/act/law/2022/15/eng@2022-08-12",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 45,
+      "definitions": 12,
+      "seed_file": "001-rw-law-2022-15.json"
+    },
+    {
+      "id": "rw-law-2021-75",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/75/eng@2021-12-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 274,
+      "definitions": 27,
+      "seed_file": "002-rw-law-2021-75.json"
+    },
+    {
+      "id": "rw-law-2021-73",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/73/eng@2021-11-18",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 2,
+      "definitions": 0,
+      "seed_file": "003-rw-law-2021-73.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2021-64",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/64/eng@2021-11-11",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "004-rw-law-2021-64.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-72",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/72/eng@2021-11-08",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 109,
+      "definitions": 23,
+      "seed_file": "005-rw-law-2021-72.json"
+    },
+    {
+      "id": "rw-law-2021-60",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/60/eng@2021-11-01",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "006-rw-law-2021-60.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-57",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/57/eng@2021-11-01",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 38,
+      "definitions": 9,
+      "seed_file": "007-rw-law-2021-57.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-59",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/59/eng@2021-11-01",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 81,
+      "definitions": 14,
+      "seed_file": "008-rw-law-2021-59.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-payment-system-2021",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/61/eng@2021-11-01",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 61,
+      "definitions": 28,
+      "seed_file": "009-rw-payment-system-2021.json"
+    },
+    {
+      "id": "rw-law-2021-66",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/66/eng@2021-10-21",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 6,
+      "definitions": 0,
+      "seed_file": "010-rw-law-2021-66.json"
+    },
+    {
+      "id": "rw-personal-data-protection-2021",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/58/eng@2021-10-15",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 70,
+      "definitions": 23,
+      "seed_file": "011-rw-personal-data-protection-2021.json"
+    },
+    {
+      "id": "rw-law-2021-65",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/65/eng@2021-10-09",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "012-rw-law-2021-65.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-55",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/55/eng@2021-08-30",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 22,
+      "definitions": 0,
+      "seed_file": "013-rw-law-2021-55.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-54",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/54/eng@2021-08-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 38,
+      "definitions": 0,
+      "seed_file": "014-rw-law-2021-54.json"
+    },
+    {
+      "id": "rw-law-2021-45",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/45/eng@2021-08-20",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 18,
+      "definitions": 0,
+      "seed_file": "015-rw-law-2021-45.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2021-30",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/30/eng@2021-08-02",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 191,
+      "definitions": 40,
+      "seed_file": "016-rw-law-2021-30.json"
+    },
+    {
+      "id": "rw-law-2021-39",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/39/eng@2021-07-30",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 2,
+      "definitions": 0,
+      "seed_file": "017-rw-law-2021-39.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-37",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/37/eng@2021-07-30",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 4,
+      "definitions": 0,
+      "seed_file": "018-rw-law-2021-37.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2021-40",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/40/eng@2021-07-30",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 3,
+      "definitions": 0,
+      "seed_file": "019-rw-law-2021-40.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-38",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/38/eng@2021-07-30",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 14,
+      "definitions": 0,
+      "seed_file": "020-rw-law-2021-38.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-parliament-2021-27",
+      "url": "https://rwandalii.org/akn/rw/act/law/parliament/2021/27/eng@2021-06-10",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 88,
+      "definitions": 0,
+      "seed_file": "021-rw-law-parliament-2021-27.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-27",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/27/eng@2021-05-31",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 5,
+      "definitions": 0,
+      "seed_file": "022-rw-law-2021-27.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2021-25",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/25/eng@2021-05-17",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 16,
+      "definitions": 4,
+      "seed_file": "023-rw-law-2021-25.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-24",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/24/eng@2021-05-14",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "024-rw-law-2021-24.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-space-agency-2021",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/22/eng@2021-04-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 24,
+      "definitions": 2,
+      "seed_file": "025-rw-space-agency-2021.json"
+    },
+    {
+      "id": "rw-law-2021-14",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/14/eng@2021-03-08",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 5,
+      "definitions": 0,
+      "seed_file": "026-rw-law-2021-14.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-17",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/17/eng@2021-03-05",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 46,
+      "definitions": 11,
+      "seed_file": "027-rw-law-2021-17.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-16",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/16/eng@2021-03-05",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 6,
+      "definitions": 0,
+      "seed_file": "028-rw-law-2021-16.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2021-10",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/10/eng@2021-02-18",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 138,
+      "definitions": 0,
+      "seed_file": "029-rw-law-2021-10.json"
+    },
+    {
+      "id": "rw-law-2021-9",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/9/eng@2021-02-17",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 39,
+      "definitions": 0,
+      "seed_file": "030-rw-law-2021-9.json"
+    },
+    {
+      "id": "rw-law-2021-8",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/8/eng@2021-02-17",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 146,
+      "definitions": 14,
+      "seed_file": "031-rw-law-2021-8.json"
+    },
+    {
+      "id": "rw-law-2021-5",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/5/eng@2021-02-08",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 32,
+      "definitions": 3,
+      "seed_file": "032-rw-law-2021-5.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2021-7",
+      "url": "https://rwandalii.org/akn/rw/act/law/2021/7/eng@2021-02-08",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 10,
+      "definitions": 0,
+      "seed_file": "033-rw-law-2021-7.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2020-20",
+      "url": "https://rwandalii.org/akn/rw/act/law/2020/20/eng@2020-11-20",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 5,
+      "definitions": 0,
+      "seed_file": "034-rw-law-2020-20.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2020-19",
+      "url": "https://rwandalii.org/akn/rw/act/law/2020/19/eng@2020-11-20",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 4,
+      "definitions": 0,
+      "seed_file": "035-rw-law-2020-19.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2020-17",
+      "url": "https://rwandalii.org/akn/rw/act/law/2020/17/eng@2020-10-08",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 93,
+      "definitions": 14,
+      "seed_file": "036-rw-law-2020-17.json"
+    },
+    {
+      "id": "rw-law-2020-16",
+      "url": "https://rwandalii.org/akn/rw/act/law/2020/16/eng@2020-09-07",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 22,
+      "definitions": 0,
+      "seed_file": "037-rw-law-2020-16.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2020-11",
+      "url": "https://rwandalii.org/akn/rw/act/law/2020/11/eng@2020-09-04",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 4,
+      "definitions": 0,
+      "seed_file": "038-rw-law-2020-11.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2019-70",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/70/eng@2020-03-09",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 26,
+      "definitions": 13,
+      "seed_file": "039-rw-law-2019-70.json"
+    },
+    {
+      "id": "rw-law-2019-75",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/75/eng@2020-02-24",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 55,
+      "definitions": 24,
+      "seed_file": "040-rw-law-2019-75.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-financial-intelligence-centre-2019",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/74/eng@2020-02-17",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 37,
+      "definitions": 2,
+      "seed_file": "041-rw-financial-intelligence-centre-2019.json"
+    },
+    {
+      "id": "rw-law-2020-1",
+      "url": "https://rwandalii.org/akn/rw/act/law/2020/1/eng@2020-02-17",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 38,
+      "definitions": 0,
+      "seed_file": "042-rw-law-2020-1.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2020-74",
+      "url": "https://rwandalii.org/akn/rw/act/law/2020/74/eng@2020-02-17",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 37,
+      "definitions": 2,
+      "seed_file": "043-rw-law-2020-74.json"
+    },
+    {
+      "id": "rw-law-2019-68",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/68/eng@2019-11-29",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 25,
+      "definitions": 2,
+      "seed_file": "044-rw-law-2019-68.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2019-69",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/69/eng@2019-11-29",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 25,
+      "definitions": 2,
+      "seed_file": "045-rw-law-2019-69.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2019-28",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/28/eng@2019-11-11",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 9,
+      "definitions": 0,
+      "seed_file": "046-rw-law-2019-28.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2019-27",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/27/eng@2019-11-08",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "047-rw-law-2019-27.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2019-26",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/26/eng@2019-10-10",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "048-rw-law-2019-26.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2019-17",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/17/eng@2019-09-23",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 20,
+      "definitions": 0,
+      "seed_file": "049-rw-law-2019-17.json"
+    },
+    {
+      "id": "rw-law-2019-20",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/20/eng@2019-09-23",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 5,
+      "definitions": 0,
+      "seed_file": "050-rw-law-2019-20.json"
+    },
+    {
+      "id": "rw-law-2019-25",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/25/eng@2019-09-23",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 21,
+      "definitions": 0,
+      "seed_file": "051-rw-law-2019-25.json"
+    },
+    {
+      "id": "rw-law-2019-13bis",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/13bis/eng@2019-08-19",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 5,
+      "definitions": 0,
+      "seed_file": "052-rw-law-2019-13bis.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2019-13",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/13/eng@2019-08-19",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 34,
+      "definitions": 0,
+      "seed_file": "053-rw-law-2019-13.json"
+    },
+    {
+      "id": "rw-law-2019-22",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/22/eng@2019-07-31",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 13,
+      "definitions": 0,
+      "seed_file": "054-rw-law-2019-22.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2019-6",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/6/eng@2019-05-30",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 67,
+      "definitions": 0,
+      "seed_file": "055-rw-law-2019-6.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2019-7",
+      "url": "https://rwandalii.org/akn/rw/act/law/2019/7/eng@2019-05-23",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 41,
+      "definitions": 0,
+      "seed_file": "056-rw-law-2019-7.json"
+    },
+    {
+      "id": "rw-law-2018-75",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/75/eng@2018-10-29",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 68,
+      "definitions": 22,
+      "seed_file": "057-rw-law-2018-75.json"
+    },
+    {
+      "id": "rw-law-2018-68",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/68/eng@2018-09-27",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 336,
+      "definitions": 3,
+      "seed_file": "058-rw-law-2018-68.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-53",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/53/eng@2018-09-25",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 57,
+      "definitions": 11,
+      "seed_file": "059-rw-law-2018-53.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-59",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/59/eng@2018-09-25",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 15,
+      "definitions": 1,
+      "seed_file": "060-rw-law-2018-59.json"
+    },
+    {
+      "id": "rw-cybercrimes-2018",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/60/eng@2018-09-25",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 56,
+      "definitions": 11,
+      "seed_file": "061-rw-cybercrimes-2018.json"
+    },
+    {
+      "id": "rw-law-2018-46",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/46/eng@2018-09-24",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 13,
+      "definitions": 0,
+      "seed_file": "062-rw-law-2018-46.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-50",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/50/eng@2018-09-24",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 13,
+      "definitions": 0,
+      "seed_file": "063-rw-law-2018-50.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-51",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/51/eng@2018-09-24",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 13,
+      "definitions": 0,
+      "seed_file": "064-rw-law-2018-51.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-48",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/48/eng@2018-09-21",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 66,
+      "definitions": 28,
+      "seed_file": "065-rw-law-2018-48.json"
+    },
+    {
+      "id": "rw-law-2018-52",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/52/eng@2018-09-21",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 11,
+      "definitions": 0,
+      "seed_file": "066-rw-law-2018-52.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-49",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/49/eng@2018-09-21",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 42,
+      "definitions": 0,
+      "seed_file": "067-rw-law-2018-49.json"
+    },
+    {
+      "id": "rw-law-2018-55",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/55/eng@2018-09-21",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 11,
+      "definitions": 0,
+      "seed_file": "068-rw-law-2018-55.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-45",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/45/eng@2018-09-20",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 15,
+      "definitions": 0,
+      "seed_file": "069-rw-law-2018-45.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-54",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/54/eng@2018-09-20",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 15,
+      "definitions": 0,
+      "seed_file": "070-rw-law-2018-54.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-57",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/57/eng@2018-09-20",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 60,
+      "definitions": 0,
+      "seed_file": "071-rw-law-2018-57.json"
+    },
+    {
+      "id": "rw-law-2018-61",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/61/eng@2018-09-17",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 3,
+      "definitions": 0,
+      "seed_file": "072-rw-law-2018-61.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-67",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/67/eng@2018-09-17",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 33,
+      "definitions": 0,
+      "seed_file": "073-rw-law-2018-67.json"
+    },
+    {
+      "id": "rw-credit-reporting-system-2018",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/73/eng@2018-09-10",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 57,
+      "definitions": 12,
+      "seed_file": "074-rw-credit-reporting-system-2018.json"
+    },
+    {
+      "id": "rw-law-2018-70",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/70/eng@2018-09-10",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 6,
+      "definitions": 0,
+      "seed_file": "075-rw-law-2018-70.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-72",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/72/eng@2018-09-10",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "076-rw-law-2018-72.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-71",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/71/eng@2018-09-10",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 40,
+      "definitions": 0,
+      "seed_file": "077-rw-law-2018-71.json"
+    },
+    {
+      "id": "rw-law-2018-62",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/62/eng@2018-09-07",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 199,
+      "definitions": 0,
+      "seed_file": "078-rw-law-2018-62.json"
+    },
+    {
+      "id": "rw-law-2018-66",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/66/eng@2018-09-06",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 125,
+      "definitions": 0,
+      "seed_file": "079-rw-law-2018-66.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2017-40",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/40/eng@2018-08-21",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "080-rw-law-2017-40.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-58",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/58/eng@2018-08-13",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 71,
+      "definitions": 0,
+      "seed_file": "081-rw-law-2018-58.json"
+    },
+    {
+      "id": "rw-law-2018-30",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/30/eng@2018-06-02",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 33,
+      "definitions": 0,
+      "seed_file": "082-rw-law-2018-30.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-12",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/12/eng@2018-05-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 85,
+      "definitions": 0,
+      "seed_file": "083-rw-law-2018-12.json"
+    },
+    {
+      "id": "rw-law-2018-14",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/14/eng@2018-05-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 46,
+      "definitions": 0,
+      "seed_file": "084-rw-law-2018-14.json"
+    },
+    {
+      "id": "rw-law-2018-20",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/20/eng@2018-04-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 116,
+      "definitions": 18,
+      "seed_file": "085-rw-law-2018-20.json"
+    },
+    {
+      "id": "rw-law-2018-22",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/22/eng@2018-04-29",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "086-rw-law-2018-22.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-13",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/13/eng@2018-04-16",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 75,
+      "definitions": 16,
+      "seed_file": "087-rw-law-2018-13.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-16",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/16/eng@2018-04-16",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 75,
+      "definitions": 16,
+      "seed_file": "088-rw-law-2018-16.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2018-2",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/2/eng@2018-02-27",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 40,
+      "definitions": 5,
+      "seed_file": "089-rw-law-2018-2.json"
+    },
+    {
+      "id": "rw-law-2018-3",
+      "url": "https://rwandalii.org/akn/rw/act/law/2018/3/eng@2018-02-27",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 38,
+      "definitions": 6,
+      "seed_file": "090-rw-law-2018-3.json"
+    },
+    {
+      "id": "rw-law-2017-59",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/59/eng@2018-01-25",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 37,
+      "definitions": 24,
+      "seed_file": "091-rw-law-2017-59.json"
+    },
+    {
+      "id": "rw-law-2017-58",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/58/eng@2018-01-25",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 78,
+      "definitions": 17,
+      "seed_file": "092-rw-law-2017-58.json"
+    },
+    {
+      "id": "rw-law-2017-47",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/47/eng@2017-10-16",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "093-rw-law-2017-47.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2017-48",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/48/eng@2017-10-09",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 75,
+      "definitions": 5,
+      "seed_file": "094-rw-law-2017-48.json"
+    },
+    {
+      "id": "rw-law-2017-44bis",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/44bis/eng@2017-09-10",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 20,
+      "definitions": 0,
+      "seed_file": "095-rw-law-2017-44bis.json"
+    },
+    {
+      "id": "rw-law-2017-29",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/29/eng@2017-08-18",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 5,
+      "definitions": 0,
+      "seed_file": "096-rw-law-2017-29.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2017-32",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/32/eng@2017-08-18",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 33,
+      "definitions": 15,
+      "seed_file": "097-rw-law-2017-32.json"
+    },
+    {
+      "id": "rw-law-2017-39",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/39/eng@2017-08-18",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 5,
+      "definitions": 0,
+      "seed_file": "098-rw-law-2017-39.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-rica-authority-2017",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/31/eng@2017-08-18",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 39,
+      "definitions": 0,
+      "seed_file": "099-rw-rica-authority-2017.json"
+    },
+    {
+      "id": "rw-law-2017-28",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/28/eng@2017-07-10",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 96,
+      "definitions": 21,
+      "seed_file": "100-rw-law-2017-28.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-56",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/56/eng@2016-12-19",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 31,
+      "definitions": 0,
+      "seed_file": "101-rw-law-2016-56.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-13",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/13/eng@2016-05-23",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 38,
+      "definitions": 0,
+      "seed_file": "102-rw-law-2016-13.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-12",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/12/eng@2016-05-23",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 38,
+      "definitions": 0,
+      "seed_file": "103-rw-law-2016-12.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2015-39",
+      "url": "https://rwandalii.org/akn/rw/act/law/2015/39/eng@2015-10-16",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 26,
+      "definitions": 2,
+      "seed_file": "104-rw-law-2015-39.json"
+    },
+    {
+      "id": "rw-law-2015-42",
+      "url": "https://rwandalii.org/akn/rw/act/law/2015/42/eng@2015-02-16",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 35,
+      "definitions": 1,
+      "seed_file": "105-rw-law-2015-42.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2014-41",
+      "url": "https://rwandalii.org/akn/rw/act/law/2014/41/eng@2015-02-16",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 35,
+      "definitions": 1,
+      "seed_file": "106-rw-law-2014-41.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2014-29",
+      "url": "https://rwandalii.org/akn/rw/act/law/2014/29/eng@2014-09-15",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 13,
+      "definitions": 0,
+      "seed_file": "107-rw-law-2014-29.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2013-91bis",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/91bis/eng@2014-02-10",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 21,
+      "definitions": 0,
+      "seed_file": "108-rw-law-2013-91bis.json"
+    },
+    {
+      "id": "rw-law-2013-12",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/12/eng@2013-04-08",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 5,
+      "definitions": 0,
+      "seed_file": "109-rw-law-2013-12.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2012-4",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/4/eng@2012-04-09",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 44,
+      "definitions": 2,
+      "seed_file": "110-rw-law-2012-4.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2010-46",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/46/eng@2011-02-28",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 48,
+      "definitions": 0,
+      "seed_file": "111-rw-law-2010-46.json"
+    },
+    {
+      "id": "rw-law-2010-20",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/20/eng@2010-06-14",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 31,
+      "definitions": 0,
+      "seed_file": "112-rw-law-2010-20.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2008-58",
+      "url": "https://rwandalii.org/akn/rw/act/law/2008/58/eng@2009-04-20",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 36,
+      "definitions": 0,
+      "seed_file": "113-rw-law-2008-58.json"
+    },
+    {
+      "id": "rw-law-2005-31",
+      "url": "https://rwandalii.org/akn/rw/act/law/2005/31/eng@2005-12-24",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 37,
+      "definitions": 0,
+      "seed_file": "114-rw-law-2005-31.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2000-2",
+      "url": "https://rwandalii.org/akn/rw/act/law/2000/2/eng@2000-05-01",
+      "source_type": "pdf",
+      "status": "skipped",
+      "provisions": 0,
+      "definitions": 0,
+      "reason": "No text extracted from PDF; source appears image-only (no text layer available for parsing)"
+    },
+    {
+      "id": "rw-law-2016-32",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/32/eng@2016-09-12",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 3,
+      "definitions": 0,
+      "seed_file": "115-rw-law-2016-32.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-ict-law-2016",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/24/eng@2016-06-27",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 5,
+      "definitions": 0,
+      "seed_file": "116-rw-ict-law-2016.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-25",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/25/eng@2016-06-27",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 5,
+      "definitions": 0,
+      "seed_file": "117-rw-law-2016-25.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-21",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/21/eng@2016-06-06",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 23,
+      "definitions": 4,
+      "seed_file": "118-rw-law-2016-21.json"
+    },
+    {
+      "id": "rw-law-2016-19",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/19/eng@2016-06-06",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 23,
+      "definitions": 4,
+      "seed_file": "119-rw-law-2016-19.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2015-41",
+      "url": "https://rwandalii.org/akn/rw/act/law/2015/41/eng@2016-02-01",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 40,
+      "definitions": 21,
+      "seed_file": "120-rw-law-2015-41.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2015-45",
+      "url": "https://rwandalii.org/akn/rw/act/law/2015/45/eng@2016-02-01",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 40,
+      "definitions": 21,
+      "seed_file": "121-rw-law-2015-45.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2015-2",
+      "url": "https://rwandalii.org/akn/rw/act/law/2015/2/eng@2015-03-16",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 30,
+      "definitions": 0,
+      "seed_file": "122-rw-law-2015-2.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2014-13ter",
+      "url": "https://rwandalii.org/akn/rw/act/law/2014/13ter/eng@2014-06-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 31,
+      "definitions": 4,
+      "seed_file": "123-rw-law-2014-13ter.json"
+    },
+    {
+      "id": "rw-law-2013-71",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/71/eng@2013-09-23",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 27,
+      "definitions": 5,
+      "seed_file": "124-rw-law-2013-71.json"
+    },
+    {
+      "id": "rw-law-2013-52",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/52/eng@2013-07-29",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 20,
+      "definitions": 0,
+      "seed_file": "125-rw-law-2013-52.json"
+    },
+    {
+      "id": "rw-law-2013-11",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/11/eng@2013-05-06",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 36,
+      "definitions": 0,
+      "seed_file": "126-rw-law-2013-11.json"
+    },
+    {
+      "id": "rw-rura-establishment-2013",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/9/eng@2013-04-08",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 53,
+      "definitions": 0,
+      "seed_file": "127-rw-rura-establishment-2013.json"
+    },
+    {
+      "id": "rw-law-2012-37",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/37/eng@2013-02-05",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 4,
+      "definitions": 0,
+      "seed_file": "128-rw-law-2012-37.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2013-49",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/49/eng@2013-01-28",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 29,
+      "definitions": 6,
+      "seed_file": "129-rw-law-2013-49.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2012-44",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/44/eng@2013-01-14",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 43,
+      "definitions": 2,
+      "seed_file": "130-rw-law-2012-44.json"
+    },
+    {
+      "id": "rw-law-2012-30",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/30/eng@2012-09-10",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 37,
+      "definitions": 32,
+      "seed_file": "131-rw-law-2012-30.json"
+    },
+    {
+      "id": "rw-law-2011-52",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/52/eng@2011-12-14",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 33,
+      "definitions": 0,
+      "seed_file": "132-rw-law-2011-52.json"
+    },
+    {
+      "id": "rw-law-2011-21",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/21/eng@2011-07-12",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 20,
+      "definitions": 0,
+      "seed_file": "133-rw-law-2011-21.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2010-45",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/45/eng@2011-02-28",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 21,
+      "definitions": 1,
+      "seed_file": "134-rw-law-2010-45.json"
+    },
+    {
+      "id": "rw-law-2010-34",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/34/eng@2011-01-24",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 4,
+      "definitions": 0,
+      "seed_file": "135-rw-law-2010-34.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2010-17",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/17/eng@2010-05-17",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 80,
+      "definitions": 0,
+      "seed_file": "136-rw-law-2010-17.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2010-4",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/4/eng@2010-05-03",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 24,
+      "definitions": 0,
+      "seed_file": "137-rw-law-2010-4.json"
+    },
+    {
+      "id": "rw-law-2009-13",
+      "url": "https://rwandalii.org/akn/rw/act/law/2009/13/eng@2009-06-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 69,
+      "definitions": 0,
+      "seed_file": "138-rw-law-2009-13.json"
+    },
+    {
+      "id": "rw-law-2008-19",
+      "url": "https://rwandalii.org/akn/rw/act/law/2008/19/eng@2009-04-27",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 10,
+      "definitions": 0,
+      "seed_file": "139-rw-law-2008-19.json"
+    },
+    {
+      "id": "rw-law-2008-24",
+      "url": "https://rwandalii.org/akn/rw/act/law/2008/24/eng@2009-04-20",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 17,
+      "definitions": 2,
+      "seed_file": "140-rw-law-2008-24.json"
+    },
+    {
+      "id": "rw-law-2008-25",
+      "url": "https://rwandalii.org/akn/rw/act/law/2008/25/eng@2008-11-01",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 40,
+      "definitions": 0,
+      "seed_file": "141-rw-law-2008-25.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2008-59",
+      "url": "https://rwandalii.org/akn/rw/act/law/2008/59/eng@2008-09-10",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 41,
+      "definitions": 8,
+      "seed_file": "142-rw-law-2008-59.json"
+    },
+    {
+      "id": "rw-law-2001-58",
+      "url": "https://rwandalii.org/akn/rw/act/law/2001/58/eng@2001-12-31",
+      "source_type": "pdf",
+      "status": "skipped",
+      "provisions": 0,
+      "definitions": 0,
+      "reason": "No text extracted from PDF; source appears image-only (no text layer available for parsing)"
+    },
+    {
+      "id": "rw-law-2001-24",
+      "url": "https://rwandalii.org/akn/rw/act/law/2001/24/eng@2001-07-01",
+      "source_type": "pdf",
+      "status": "skipped",
+      "provisions": 0,
+      "definitions": 0,
+      "reason": "No text extracted from PDF; source appears image-only (no text layer available for parsing)"
+    },
+    {
+      "id": "rw-law-2015-50",
+      "url": "https://rwandalii.org/akn/rw/act/law/2015/50/eng@2016-01-25",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 32,
+      "definitions": 0,
+      "seed_file": "143-rw-law-2015-50.json"
+    },
+    {
+      "id": "rw-law-2013-69",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/69/eng@2013-10-21",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 34,
+      "definitions": 5,
+      "seed_file": "144-rw-law-2013-69.json"
+    },
+    {
+      "id": "rw-law-2013-50",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/50/eng@2013-07-29",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 21,
+      "definitions": 0,
+      "seed_file": "145-rw-law-2013-50.json"
+    },
+    {
+      "id": "rw-law-2012-46",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/46/eng@2013-01-17",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 51,
+      "definitions": 27,
+      "seed_file": "146-rw-law-2012-46.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2012-47",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/47/eng@2013-01-17",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 51,
+      "definitions": 27,
+      "seed_file": "147-rw-law-2012-47.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2012-5",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/5/eng@2012-08-06",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 56,
+      "definitions": 0,
+      "seed_file": "148-rw-law-2012-5.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2012-3",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/3/eng@2012-04-09",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 31,
+      "definitions": 0,
+      "seed_file": "149-rw-law-2012-3.json"
+    },
+    {
+      "id": "rw-law-2011-44",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/44/eng@2012-04-02",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 93,
+      "definitions": 0,
+      "seed_file": "150-rw-law-2011-44.json"
+    },
+    {
+      "id": "rw-law-2011-25",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/25/eng@2011-08-22",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 22,
+      "definitions": 0,
+      "seed_file": "151-rw-law-2011-25.json"
+    },
+    {
+      "id": "rw-law-2008-72",
+      "url": "https://rwandalii.org/akn/rw/act/law/2008/72/eng@2009-06-26",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 3,
+      "definitions": 0,
+      "seed_file": "152-rw-law-2008-72.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2008-54",
+      "url": "https://rwandalii.org/akn/rw/act/law/2008/54/eng@2009-05-18",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 140,
+      "definitions": 0,
+      "seed_file": "153-rw-law-2008-54.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2002-33",
+      "url": "https://rwandalii.org/akn/rw/act/law/2002/33/eng@2002-12-15",
+      "source_type": "pdf",
+      "status": "skipped",
+      "provisions": 0,
+      "definitions": 0,
+      "reason": "No text extracted from PDF; source appears image-only (no text layer available for parsing)"
+    },
+    {
+      "id": "rw-law-2016-27",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/27/eng@2016-08-01",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 104,
+      "definitions": 5,
+      "seed_file": "154-rw-law-2016-27.json"
+    },
+    {
+      "id": "rw-law-2013-85",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/85/eng@2013-11-18",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 42,
+      "definitions": 16,
+      "seed_file": "155-rw-law-2013-85.json"
+    },
+    {
+      "id": "rw-law-2013-38",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/38/eng@2013-07-08",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "156-rw-law-2013-38.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2013-47",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/47/eng@2013-06-16",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 35,
+      "definitions": 0,
+      "seed_file": "157-rw-law-2013-47.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-intellectual-property-2009",
+      "url": "https://rwandalii.org/akn/rw/act/law/2009/31/eng@2009-12-14",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 3,
+      "definitions": 0,
+      "seed_file": "158-rw-intellectual-property-2009.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2009-10",
+      "url": "https://rwandalii.org/akn/rw/act/law/2009/10/eng@2009-05-15",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 36,
+      "definitions": 0,
+      "seed_file": "159-rw-law-2009-10.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2009-8",
+      "url": "https://rwandalii.org/akn/rw/act/law/2009/8/eng@2009-05-15",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 39,
+      "definitions": 0,
+      "seed_file": "160-rw-law-2009-8.json"
+    },
+    {
+      "id": "rw-law-2005-23",
+      "url": "https://rwandalii.org/akn/rw/act/law/2005/23/eng@2005-12-12",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 48,
+      "definitions": 0,
+      "seed_file": "161-rw-law-2005-23.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2004-15",
+      "url": "https://rwandalii.org/akn/rw/act/law/2004/15/eng@2004-07-19",
+      "source_type": "pdf",
+      "status": "skipped",
+      "provisions": 0,
+      "definitions": 0,
+      "reason": "No text extracted from PDF; source appears image-only (no text layer available for parsing)"
+    },
+    {
+      "id": "rw-law-2004-9",
+      "url": "https://rwandalii.org/akn/rw/act/law/2004/9/eng@2004-06-01",
+      "source_type": "pdf",
+      "status": "skipped",
+      "provisions": 0,
+      "definitions": 0,
+      "reason": "No text extracted from PDF; source appears image-only (no text layer available for parsing)"
+    },
+    {
+      "id": "rw-law-2016-41",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/41/eng@2016-10-18",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 37,
+      "definitions": 0,
+      "seed_file": "162-rw-law-2016-41.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-44",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/44/eng@2016-10-18",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 37,
+      "definitions": 0,
+      "seed_file": "163-rw-law-2016-44.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-42",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/42/eng@2016-10-18",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 37,
+      "definitions": 0,
+      "seed_file": "164-rw-law-2016-42.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-40",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/40/eng@2016-10-18",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 37,
+      "definitions": 0,
+      "seed_file": "165-rw-law-2016-40.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-28",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/28/eng@2016-08-15",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 47,
+      "definitions": 10,
+      "seed_file": "166-rw-law-2016-28.json"
+    },
+    {
+      "id": "rw-law-2015-32",
+      "url": "https://rwandalii.org/akn/rw/act/law/2015/32/eng@2015-08-31",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 43,
+      "definitions": 7,
+      "seed_file": "167-rw-law-2015-32.json"
+    },
+    {
+      "id": "rw-law-2014-12bis",
+      "url": "https://rwandalii.org/akn/rw/act/law/2014/12bis/eng@2014-07-28",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 52,
+      "definitions": 0,
+      "seed_file": "168-rw-law-2014-12bis.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2014-12ter",
+      "url": "https://rwandalii.org/akn/rw/act/law/2014/12ter/eng@2014-07-18",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 30,
+      "definitions": 0,
+      "seed_file": "169-rw-law-2014-12ter.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2014-13",
+      "url": "https://rwandalii.org/akn/rw/act/law/2014/13/eng@2014-06-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 55,
+      "definitions": 26,
+      "seed_file": "170-rw-law-2014-13.json"
+    },
+    {
+      "id": "rw-law-2013-63",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/63/eng@2013-10-14",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 19,
+      "definitions": 0,
+      "seed_file": "171-rw-law-2013-63.json"
+    },
+    {
+      "id": "rw-law-2013-47bis",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/47bis/eng@2013-09-16",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 71,
+      "definitions": 33,
+      "seed_file": "172-rw-law-2013-47bis.json"
+    },
+    {
+      "id": "rw-law-2013-55",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/55/eng@2013-09-16",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 14,
+      "definitions": 8,
+      "seed_file": "173-rw-law-2013-55.json"
+    },
+    {
+      "id": "rw-law-2013-53",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/53/eng@2013-07-29",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 20,
+      "definitions": 0,
+      "seed_file": "174-rw-law-2013-53.json"
+    },
+    {
+      "id": "rw-law-2013-51",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/51/eng@2013-07-29",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 21,
+      "definitions": 3,
+      "seed_file": "175-rw-law-2013-51.json"
+    },
+    {
+      "id": "rw-law-2013-25",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/25/eng@2013-07-08",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 20,
+      "definitions": 11,
+      "seed_file": "176-rw-law-2013-25.json"
+    },
+    {
+      "id": "rw-law-2013-45",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/45/eng@2013-06-16",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 26,
+      "definitions": 6,
+      "seed_file": "177-rw-law-2013-45.json"
+    },
+    {
+      "id": "rw-law-2013-46",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/46/eng@2013-06-16",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 3,
+      "definitions": 0,
+      "seed_file": "178-rw-law-2013-46.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2013-14",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/14/eng@2013-05-13",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 20,
+      "definitions": 0,
+      "seed_file": "179-rw-law-2013-14.json"
+    },
+    {
+      "id": "rw-law-2013-8",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/8/eng@2013-04-08",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 30,
+      "definitions": 19,
+      "seed_file": "180-rw-law-2013-8.json"
+    },
+    {
+      "id": "rw-law-2012-29",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/29/eng@2012-09-10",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 9,
+      "definitions": 3,
+      "seed_file": "181-rw-law-2012-29.json"
+    },
+    {
+      "id": "rw-law-2012-15",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/15/eng@2012-05-04",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 25,
+      "definitions": 0,
+      "seed_file": "182-rw-law-2012-15.json"
+    },
+    {
+      "id": "rw-law-2011-45",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/45/eng@2012-01-23",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 3,
+      "definitions": 0,
+      "seed_file": "183-rw-law-2011-45.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2011-54",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/54/eng@2012-01-23",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 3,
+      "definitions": 0,
+      "seed_file": "184-rw-law-2011-54.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2011-26",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/26/eng@2011-08-22",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 15,
+      "definitions": 5,
+      "seed_file": "185-rw-law-2011-26.json"
+    },
+    {
+      "id": "rw-law-2011-5",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/5/eng@2011-03-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 43,
+      "definitions": 0,
+      "seed_file": "186-rw-law-2011-5.json"
+    },
+    {
+      "id": "rw-law-2011-3",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/3/eng@2011-02-11",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 17,
+      "definitions": 0,
+      "seed_file": "187-rw-law-2011-3.json"
+    },
+    {
+      "id": "rw-law-2011-2",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/2/eng@2011-02-11",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 16,
+      "definitions": 0,
+      "seed_file": "188-rw-law-2011-2.json"
+    },
+    {
+      "id": "rw-law-2010-15",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/15/eng@2010-05-14",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 33,
+      "definitions": 6,
+      "seed_file": "189-rw-law-2010-15.json"
+    },
+    {
+      "id": "rw-law-2010-13",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/13/eng@2010-05-14",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 53,
+      "definitions": 17,
+      "seed_file": "190-rw-law-2010-13.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2005-22",
+      "url": "https://rwandalii.org/akn/rw/act/law/2005/22/eng@2005-11-25",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 6,
+      "definitions": 0,
+      "seed_file": "191-rw-law-2005-22.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2013-65",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/65/eng@2013-10-14",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 19,
+      "definitions": 0,
+      "seed_file": "192-rw-law-2013-65.json"
+    },
+    {
+      "id": "rw-law-road-maintenance-fund-2013-49",
+      "url": "https://rwandalii.org/akn/rw/act/law/road-maintenance-fund/2013/49/eng@2013-07-12",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 20,
+      "definitions": 0,
+      "seed_file": "193-rw-law-road-maintenance-fund-2013-49.json"
+    },
+    {
+      "id": "rw-law-2013-42",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/42/eng@2013-07-12",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 24,
+      "definitions": 0,
+      "seed_file": "194-rw-law-2013-42.json"
+    },
+    {
+      "id": "rw-law-2012-36",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/36/eng@2012-11-12",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 59,
+      "definitions": 11,
+      "seed_file": "195-rw-law-2012-36.json"
+    },
+    {
+      "id": "rw-law-2011-43",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/43/eng@2011-12-19",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 20,
+      "definitions": 0,
+      "seed_file": "196-rw-law-2011-43.json"
+    },
+    {
+      "id": "rw-law-2008-50",
+      "url": "https://rwandalii.org/akn/rw/act/law/2008/50/eng@2008-12-15",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 24,
+      "definitions": 1,
+      "seed_file": "197-rw-law-2008-50.json"
+    },
+    {
+      "id": "rw-law-2008-11",
+      "url": "https://rwandalii.org/akn/rw/act/law/2008/11/eng@2008-05-06",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 75,
+      "definitions": 0,
+      "seed_file": "198-rw-law-2008-11.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2007-1",
+      "url": "https://rwandalii.org/akn/rw/act/law/2007/1/eng@2007-05-21",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 29,
+      "definitions": 0,
+      "seed_file": "199-rw-law-2007-1.json"
+    },
+    {
+      "id": "rw-law-auditor-general-2017-59",
+      "url": "https://rwandalii.org/akn/rw/act/law/auditor-general/2017/59/eng@2017-01-23",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 18,
+      "definitions": 0,
+      "seed_file": "200-rw-law-auditor-general-2017-59.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-60",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/60/eng@2017-01-23",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 18,
+      "definitions": 0,
+      "seed_file": "201-rw-law-2016-60.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-18",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/18/eng@2016-06-06",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 26,
+      "definitions": 10,
+      "seed_file": "202-rw-law-2016-18.json"
+    },
+    {
+      "id": "rw-law-2015-31",
+      "url": "https://rwandalii.org/akn/rw/act/law/2015/31/eng@2015-08-31",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 18,
+      "definitions": 2,
+      "seed_file": "203-rw-law-2015-31.json"
+    },
+    {
+      "id": "rw-law-2015-34",
+      "url": "https://rwandalii.org/akn/rw/act/law/2015/34/eng@2015-07-01",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 10,
+      "definitions": 0,
+      "seed_file": "204-rw-law-2015-34.json"
+    },
+    {
+      "id": "rw-law-2015-3",
+      "url": "https://rwandalii.org/akn/rw/act/law/2015/3/eng@2015-04-13",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 32,
+      "definitions": 9,
+      "seed_file": "205-rw-law-2015-3.json"
+    },
+    {
+      "id": "rw-law-2013-48",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/48/eng@2013-07-12",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 20,
+      "definitions": 0,
+      "seed_file": "206-rw-law-2013-48.json"
+    },
+    {
+      "id": "rw-law-2013-44",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/44/eng@2013-06-16",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 38,
+      "definitions": 0,
+      "seed_file": "207-rw-law-2013-44.json"
+    },
+    {
+      "id": "rw-law-2013-19",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/19/eng@2013-04-08",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 46,
+      "definitions": 0,
+      "seed_file": "208-rw-law-2013-19.json"
+    },
+    {
+      "id": "rw-law-2010-26",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/26/eng@2010-05-28",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 32,
+      "definitions": 0,
+      "seed_file": "209-rw-law-2010-26.json"
+    },
+    {
+      "id": "rw-law-2009-1",
+      "url": "https://rwandalii.org/akn/rw/act/law/2009/1/eng@2009-08-31",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 4,
+      "definitions": 0,
+      "seed_file": "210-rw-law-2009-1.json"
+    },
+    {
+      "id": "rw-law-2008-5",
+      "url": "https://rwandalii.org/akn/rw/act/law/2008/5/eng@2008-03-06",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 68,
+      "definitions": 3,
+      "seed_file": "211-rw-law-2008-5.json"
+    },
+    {
+      "id": "rw-law-2007-53",
+      "url": "https://rwandalii.org/akn/rw/act/law/2007/53/eng@2008-01-15",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 15,
+      "definitions": 0,
+      "seed_file": "212-rw-law-2007-53.json"
+    },
+    {
+      "id": "rw-law-2007-51",
+      "url": "https://rwandalii.org/akn/rw/act/law/2007/51/eng@2007-09-20",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 38,
+      "definitions": 3,
+      "seed_file": "213-rw-law-2007-51.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-16",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/16/eng@2016-05-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 34,
+      "definitions": 0,
+      "seed_file": "214-rw-law-2016-16.json"
+    },
+    {
+      "id": "rw-law-2016-15",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/15/eng@2016-05-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 29,
+      "definitions": 6,
+      "seed_file": "215-rw-law-2016-15.json"
+    },
+    {
+      "id": "rw-law-2014-35",
+      "url": "https://rwandalii.org/akn/rw/act/law/2014/35/eng@2014-12-29",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 19,
+      "definitions": 0,
+      "seed_file": "216-rw-law-2014-35.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2013-83",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/83/eng@2013-11-04",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 89,
+      "definitions": 0,
+      "seed_file": "217-rw-law-2013-83.json"
+    },
+    {
+      "id": "rw-law-2013-56",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/56/eng@2013-10-21",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 52,
+      "definitions": 3,
+      "seed_file": "218-rw-law-2013-56.json"
+    },
+    {
+      "id": "rw-access-to-information-2013",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/4/eng@2013-03-11",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 3,
+      "definitions": 0,
+      "seed_file": "219-rw-access-to-information-2013.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2013-7",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/7/eng@2013-03-11",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 3,
+      "definitions": 0,
+      "seed_file": "220-rw-law-2013-7.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2013-3",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/3/eng@2013-03-11",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 3,
+      "definitions": 0,
+      "seed_file": "221-rw-law-2013-3.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2011-1",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/1/eng@2011-03-28",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 78,
+      "definitions": 0,
+      "seed_file": "222-rw-law-2011-1.json"
+    },
+    {
+      "id": "rw-law-2010-51",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/51/eng@2011-02-28",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 23,
+      "definitions": 0,
+      "seed_file": "223-rw-law-2010-51.json"
+    },
+    {
+      "id": "rw-law-2010-1",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/1/eng@2010-02-05",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 33,
+      "definitions": 12,
+      "seed_file": "224-rw-law-2010-1.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2016-36",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/36/eng@2016-09-26",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 46,
+      "definitions": 0,
+      "seed_file": "225-rw-law-2016-36.json"
+    },
+    {
+      "id": "rw-law-2014-12",
+      "url": "https://rwandalii.org/akn/rw/act/law/2014/12/eng@2014-06-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 19,
+      "definitions": 4,
+      "seed_file": "226-rw-law-2014-12.json"
+    },
+    {
+      "id": "rw-law-2013-82",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/82/eng@2013-11-11",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 19,
+      "definitions": 0,
+      "seed_file": "227-rw-law-2013-82.json"
+    },
+    {
+      "id": "rw-law-2013-62",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/62/eng@2013-10-14",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 21,
+      "definitions": 0,
+      "seed_file": "228-rw-law-2013-62.json"
+    },
+    {
+      "id": "rw-law-2013-20",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/20/eng@2013-06-24",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 53,
+      "definitions": 7,
+      "seed_file": "229-rw-law-2013-20.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2013-34",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/34/eng@2013-05-27",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 5,
+      "definitions": 0,
+      "seed_file": "230-rw-law-2013-34.json",
+      "warnings": [
+        "pdf_text_method=plain"
+      ]
+    },
+    {
+      "id": "rw-law-2013-2",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/2/eng@2013-03-11",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 26,
+      "definitions": 19,
+      "seed_file": "231-rw-law-2013-2.json"
+    },
+    {
+      "id": "rw-law-2012-26",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/26/eng@2012-09-10",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 46,
+      "definitions": 3,
+      "seed_file": "232-rw-law-2012-26.json"
+    },
+    {
+      "id": "rw-law-2011-58",
+      "url": "https://rwandalii.org/akn/rw/act/law/2011/58/eng@2012-03-26",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 42,
+      "definitions": 32,
+      "seed_file": "233-rw-law-2011-58.json"
+    },
+    {
+      "id": "rw-law-2010-2",
+      "url": "https://rwandalii.org/akn/rw/act/law/2010/2/eng@2010-01-25",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 18,
+      "definitions": 0,
+      "seed_file": "234-rw-law-2010-2.json"
+    },
+    {
+      "id": "rw-law-2017-19bis",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/19bis/eng@2017-05-15",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 8,
+      "definitions": 0,
+      "seed_file": "235-rw-law-2017-19bis.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2017-20",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/20/eng@2017-05-15",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 36,
+      "definitions": 0,
+      "seed_file": "236-rw-law-2017-20.json"
+    },
+    {
+      "id": "rw-law-2017-20bis",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/20bis/eng@2017-05-15",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "seed_file": "237-rw-law-2017-20bis.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2017-14",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/14/eng@2017-05-01",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 39,
+      "definitions": 6,
+      "seed_file": "238-rw-law-2017-14.json"
+    },
+    {
+      "id": "rw-law-2017-13",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/13/eng@2017-05-01",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 36,
+      "definitions": 0,
+      "seed_file": "239-rw-law-2017-13.json"
+    },
+    {
+      "id": "rw-law-2017-10",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/10/eng@2017-04-20",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 57,
+      "definitions": 0,
+      "seed_file": "240-rw-law-2017-10.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2017-9",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/9/eng@2017-04-20",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 57,
+      "definitions": 0,
+      "seed_file": "241-rw-law-2017-9.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2017-1",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/1/eng@2017-04-20",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 57,
+      "definitions": 0,
+      "seed_file": "242-rw-law-2017-1.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2017-12",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/12/eng@2017-04-20",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 57,
+      "definitions": 0,
+      "seed_file": "243-rw-law-2017-12.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2017-6",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/6/eng@2017-02-03",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 39,
+      "definitions": 0,
+      "seed_file": "244-rw-law-2017-6.json"
+    },
+    {
+      "id": "rw-law-2017-7",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/7/eng@2017-02-03",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 39,
+      "definitions": 0,
+      "seed_file": "245-rw-law-2017-7.json"
+    },
+    {
+      "id": "rw-law-2017-5",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/5/eng@2017-02-03",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 38,
+      "definitions": 0,
+      "seed_file": "246-rw-law-2017-5.json"
+    },
+    {
+      "id": "rw-law-2016-37",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/37/eng@2016-09-12",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 41,
+      "definitions": 0,
+      "seed_file": "247-rw-law-2016-37.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2015-5",
+      "url": "https://rwandalii.org/akn/rw/act/law/2015/5/eng@2015-05-18",
+      "source_type": "pdf",
+      "status": "ok",
+      "provisions": 98,
+      "definitions": 34,
+      "seed_file": "248-rw-law-2015-5.json",
+      "warnings": [
+        "pdf_text_method=bbox_center"
+      ]
+    },
+    {
+      "id": "rw-law-2017-3",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/3/eng@2017-03-06",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 35,
+      "definitions": 0,
+      "seed_file": "249-rw-law-2017-3.json"
+    },
+    {
+      "id": "rw-law-2012-45",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/45/eng@2013-01-17",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 45,
+      "definitions": 1,
+      "seed_file": "250-rw-law-2012-45.json"
+    },
+    {
+      "id": "rw-law-2012-22",
+      "url": "https://rwandalii.org/akn/rw/act/law/2012/22/eng@2012-07-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 12,
+      "definitions": 0,
+      "seed_file": "251-rw-law-2012-22.json"
+    },
+    {
+      "id": "rw-law-2013-79",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/79/eng@2013-11-11",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 33,
+      "definitions": 8,
+      "seed_file": "252-rw-law-2013-79.json"
+    },
+    {
+      "id": "rw-law-2013-73",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/73/eng@2013-10-18",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 30,
+      "definitions": 5,
+      "seed_file": "253-rw-law-2013-73.json"
+    },
+    {
+      "id": "rw-law-2013-39",
+      "url": "https://rwandalii.org/akn/rw/act/law/2013/39/eng@2013-07-22",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 28,
+      "definitions": 1,
+      "seed_file": "254-rw-law-2013-39.json"
+    },
+    {
+      "id": "rw-law-2014-13bis",
+      "url": "https://rwandalii.org/akn/rw/act/law/2014/13bis/eng@2014-05-29",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 60,
+      "definitions": 7,
+      "seed_file": "255-rw-law-2014-13bis.json"
+    },
+    {
+      "id": "rw-law-2017-17",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/17/eng@2017-05-15",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 42,
+      "definitions": 2,
+      "seed_file": "256-rw-law-2017-17.json"
+    },
+    {
+      "id": "rw-law-2017-18",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/18/eng@2017-05-15",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 25,
+      "definitions": 13,
+      "seed_file": "257-rw-law-2017-18.json"
+    },
+    {
+      "id": "rw-risa-establishment-2017",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/2/eng@2017-03-06",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 34,
+      "definitions": 0,
+      "seed_file": "258-rw-risa-establishment-2017.json"
+    },
+    {
+      "id": "rw-law-2016-14",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/14/eng@2016-05-30",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 35,
+      "definitions": 5,
+      "seed_file": "259-rw-law-2016-14.json"
+    },
+    {
+      "id": "rw-law-2016-11",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/11/eng@2016-05-23",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 59,
+      "definitions": 4,
+      "seed_file": "260-rw-law-2016-11.json"
+    },
+    {
+      "id": "rw-law-2016-1",
+      "url": "https://rwandalii.org/akn/rw/act/law/2016/1/eng@2016-02-05",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 24,
+      "definitions": 1,
+      "seed_file": "261-rw-law-2016-1.json"
+    },
+    {
+      "id": "rw-national-cyber-security-authority-2017",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/26/eng@2017-07-03",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 24,
+      "definitions": 7,
+      "seed_file": "262-rw-national-cyber-security-authority-2017.json"
+    },
+    {
+      "id": "rw-law-2017-22",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/22/eng@2017-06-05",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 51,
+      "definitions": 2,
+      "seed_file": "263-rw-law-2017-22.json"
+    },
+    {
+      "id": "rw-law-2017-19",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/19/eng@2017-05-15",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 9,
+      "definitions": 1,
+      "seed_file": "264-rw-law-2017-19.json"
+    },
+    {
+      "id": "rw-law-2017-11",
+      "url": "https://rwandalii.org/akn/rw/act/law/2017/11/eng@2017-04-20",
+      "source_type": "akn",
+      "status": "ok",
+      "provisions": 55,
+      "definitions": 0,
+      "seed_file": "265-rw-law-2017-11.json"
+    }
+  ]
+}

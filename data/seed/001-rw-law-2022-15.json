@@ -1,0 +1,390 @@
+{
+  "id": "rw-law-2022-15",
+  "type": "statute",
+  "title": "Law relating to Research on a Human Being",
+  "title_en": "Law relating to Research on a Human Being",
+  "short_name": "Law 15 of 2022",
+  "status": "repealed",
+  "issued_date": "2022-06-29",
+  "in_force_date": "2022-08-12",
+  "url": "https://rwandalii.org/akn/rw/act/law/2022/15/eng@2022-08-12",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapter One – General provisions",
+      "section": "1",
+      "title": "Article One – Purpose of this Law",
+      "content": "This Law aims at: 1° establishing the guiding principles applicable to scientific research on a human being; 2° protecting human research participants. 3° establishing a research ethics committee."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Chapter One – General provisions",
+      "section": "2",
+      "title": "Article 2 – Scope of the Law",
+      "content": "This Law governs the performance of scientific research on a human being as regards: 1° epidemiology; 2° biomedical science; 3° traditional medicine; 4° pharmaceutical products; 5° healthcare systems; 6° social, educational, environmental and human sciences. A Ministerial Order may determine other fields of scientific research on a human being."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Chapter One – General provisions",
+      "section": "3",
+      "title": "Article 3 – Definitions",
+      "content": "In this Law, the following terms have the meanings provided here below: 1° research agreement: a document comprising the consent of the research participant, as drafted by the researcher and approved by the RNEC and which bears the signatures of both the researcher and the research participant; 2° research data: information pertaining to the research participant, including his or her identification, responses to questionnaires, indicators, audio or video recordings, samples or such other item which was subject to data collection; 3° research findings: empirical facts on data analysis which are published in the light of terms of the research protocol; 4° ethics: a practical and normative behaviour based on principles which define professional conduct during research work; 5° consent: consent of the research participant after being informed and having understood the aim and methodology of the research, his or her contribution, potential consequences and advantages arising from the research; 6° Minister: Minister in charge of health; 7° scientific research: actions undertaken to produce or develop scientific knowledge and operational framework of those actions; 8° researcher: a Rwandan or a foreigner with research expertise, either as an individual, a pool, an institute or an organ with legal personality; 9° research participant: a person who consents by himself or herself or through a representative, to be subject to a research; 10° human being: a living person, a human foetus or a body of a deceased person which may be subject to a research; 11° vulnerable person: a person who has no capacity to make consent to participate in research because of his or her age, his or her physical or social condition or obstacles based on his or her limited knowledge about the field of research in which he or she is going to participate, or such other person, as may be approved by the RNEC; 12° research protocol: a document indicating the structure of research, its methodology, the researcher and the research participant, scope of the study, research budget, research duration and modalities for the respect of research principles and ethics; 13° foetus: a developing human being from eight (8) weeks after conception to birth."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Chapter II – Research Ethics Committee",
+      "section": "4",
+      "title": "Article 4 – Establishment of the Research Ethics Committee",
+      "content": "There is established the Rwanda National Research Ethics Committee, abbreviated as RNEC. An Order of the Minister determines responsibilities, organisation, powers and functioning of the RNEC."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Chapter II – Research Ethics Committee",
+      "section": "5",
+      "title": "Article 5 – Autonomy of the RNEC and its supervisory organ",
+      "content": "The RNEC operates independently, under the supervision of the Ministry in charge of health."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Chapter III – Guiding principles of research on a human being",
+      "section": "6",
+      "title": "Article 6 – Independence of the researcher",
+      "content": "A researcher carries out his or her research independently, and he or she is guided by guiding principles governing research on a human being, ethics and professional deontology."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Chapter III – Guiding principles of research on a human being",
+      "section": "7",
+      "title": "Article 7 – Supremacy of the research participant’s interest and well-being",
+      "content": "The interest and well-being of a research participant prevail over the sole interest of society or science."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Chapter III – Guiding principles of research on a human being",
+      "section": "8",
+      "title": "Article 8 – Inviolability of human body or mind",
+      "content": "Research on a human being cannot violate the participant’s body or his or her mind."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Chapter III – Guiding principles of research on a human being",
+      "section": "9",
+      "title": "Article 9 – Respect for rights and privacy of a human being",
+      "content": "Research on a human being is carried out with respect to the rights, dignity and privacy of a human being. Research on a human being must not under any circumstances endanger the health and life of the research participant."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "Chapter III – Guiding principles of research on a human being",
+      "section": "10",
+      "title": "Article 10 – Protection of vulnerable person",
+      "content": "A researcher cannot carry out a research on a vulnerable person, except where it is in his or her personal and direct benefit. However, where a research participant is vulnerable, he or she can be subjected to research without any personal and direct benefit in case the research: 1° does not have consequence for health; 2° is useful for the persons presenting the same features of age, sex and health status as those of the research participant; 3° cannot be carried out otherwise, upon approval of the RNEC. When the research participant is a vulnerable person, the researcher cannot conduct research on him or her without prior authorisation from his or her spouse, his or her parent, his or her guardian or legal representative or the relevant authority."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "Chapter III – Guiding principles of research on a human being",
+      "section": "11",
+      "title": "Article 11 – Non granting of consideration to research participant",
+      "content": "A research participant does not obtain a financial or material consideration, either direct or indirect. However, the researcher reimburses where necessary, the research participant for expenses related to participation in the research based on terms of the research protocol approved by the RNEC."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "Chapter III – Guiding principles of research on a human being",
+      "section": "12",
+      "title": "Article 12 – Owner of research data",
+      "content": "Data collected during research is subject to the primary access right of the researcher and a national institution in charge with the research. However, another person can have the right to use data collected during research upon agreement by one of the parties specified in Paragraph One of this Article."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "Chapter III – Guiding principles of research on a human being",
+      "section": "13",
+      "title": "Article 13 – Research carried out on Rwandan territory by foreign researcher",
+      "content": "A research carried out on Rwandan territory by a foreign researcher must associate at least a Rwandan researcher, a foreign researcher with a residence in Rwanda, an institute or an organ with legal personality registered in Rwanda. Where it is not possible, the RNEC determines how the research should be conducted. A foreign researcher cooperates with the national institution in charge of research."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "Chapter III – Guiding principles of research on a human being",
+      "section": "14",
+      "title": "Article 14 – Knowledge and technology transfer pertaining to research",
+      "content": "Research carried out in Rwanda must promote the transfer of knowledge and technology for the national interest."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "Chapter III – Guiding principles of research on a human being",
+      "section": "15",
+      "title": "Article 15 – Use of research data",
+      "content": "A researcher cannot use research data for purposes other than those provided in the research agreement. However, in case the researcher intends to use data for an end different from the one specified in the research agreement, he or she must secure a prior authorisation from the RNEC and the research participant."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Chapter IV – Rights of research participant",
+      "section": "16",
+      "title": "Article 16 – Consent of research participant",
+      "content": "A research participant provides his or her consent before his or her participation in research. Before the research participant expresses his or her consent, the researcher informs him or her about the research objectives, methodology, duration, expected outcomes and possible consequences that he or she may incur because of the research. The consent of the research participant must be informed and freely given. The consent is performed in the language that the research participant understands well."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Chapter IV – Rights of research participant",
+      "section": "17",
+      "title": "Article 17 – Forms of consent",
+      "content": "A research participant gives his or her consent in writing. If he or she is not capable of making a written consent, the consent is certified by his or her spouse, parent, guardian or legal representative or such other person designated by the research participant. The person designated must have no link with the researcher or the research promoter. However, the consent can be given orally if the research participant does not incur serious consequences and upon authorisation from the RNEC."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "Chapter IV – Rights of research participant",
+      "section": "18",
+      "title": "Article 18 – Refusal to participate in research or withdrawal of consent",
+      "content": "A research participant has the right to refuse to participate in research or withdraw his or her consent at any moment without incurring any responsibility or any harm resulting from that act."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "Chapter IV – Rights of research participant",
+      "section": "19",
+      "title": "Article 19 – Research on the body of the deceased person",
+      "content": "The body of the deceased person is treated with respect and dignity. For research purposes, the body of a person declared to be dead may be subjected to research, upon a written consent made by the deceased person before his or her death. However, where the deceased person left no written consent, the consent may be made by his or her close relative in accordance with relevant legislation. Organs of the body of a deceased person and its residues used in a research work cannot be sold or be otherwise used in a manner inconsistent with the terms of research agreement."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "Chapter IV – Rights of research participant",
+      "section": "20",
+      "title": "Article 20 – Prohibition of research on bodies of victims of Genocide against Tutsi",
+      "content": "Bodies of victims of the Genocide against Tutsi in 1994 cannot be subject to research on the body of the deceased person. However, an order of the Minister in charge of the management of genocide memorials may determine categories of research allowed on such bodies."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "Chapter V – Obligations of researcher",
+      "section": "21",
+      "title": "Article 21 – Respect of research principles",
+      "content": "A researcher has an obligation to respect research principles by developing a sound research protocol and executing it in its integrity. The RNEC approves the research protocol before the researcher conducts research. Rules of procedure of the RNEC determine the procedures for the submission, analysis and approval of the research protocol."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "Chapter V – Obligations of researcher",
+      "section": "22",
+      "title": "Article 22 – Respect for research participant",
+      "content": "The researcher has an obligation to show respect to the research participant and respect his or her wellbeing. The researcher pays special attention to a vulnerable person and he or she has the obligation to provide, in writing, a thorough ground for conducting research on a vulnerable person."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "Chapter V – Obligations of researcher",
+      "section": "23",
+      "title": "Article 23 – Environmental protection",
+      "content": "A researcher demonstrates in the research protocol, how the research work is not detrimental to the environment."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "Chapter V – Obligations of researcher",
+      "section": "24",
+      "title": "Article 24 – Notification of consequences and suspension of research",
+      "content": "The researcher notifies RNEC of consequences and suspected consequences of research within forty-eight (48) hours from the time of incidence. The researcher immediately suspends the research work where it is likely to cause serious damages, severe injuries, incurable illness, disability, death or other harm to the research participant."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "Chapter V – Obligations of researcher",
+      "section": "25",
+      "title": "Article 25 – Impartiality",
+      "content": "A researcher must refrain from being influenced by preferences, sympathies, his or her interests or prejudices."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "Chapter V – Obligations of researcher",
+      "section": "26",
+      "title": "Article 26 – Confidentiality",
+      "content": "A researcher has an obligation to keep secret personal data collected from a research participant. However, when necessary, confidentiality referred to under Paragraph One of this Article may be interrupted in the interest of the research participant in accordance with relevant legislation."
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "Chapter V – Obligations of researcher",
+      "section": "27",
+      "title": "Article 27 – Revealing research findings to the research participant",
+      "content": "At the end of research, the researcher informs a research participant of the research findings in accordance with the research protocol. Where the research participant is dead, his or her heir is informed of research results in accordance with the research protocol."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "Chapter V – Obligations of researcher",
+      "section": "28",
+      "title": "Article 28 – Publication and dissemination of research findings",
+      "content": "A researcher publishes and disseminates research findings with a view of highlighting research benefits and research performance."
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "Chapter V – Obligations of researcher",
+      "section": "29",
+      "title": "Article 29 – Compensation for damages caused by the research",
+      "content": "The researcher on human being pays compensation for damages caused because of research in accordance with relevant legislation."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "Chapter V – Obligations of researcher",
+      "section": "30",
+      "title": "Article 30 – Buying insurance for research participant",
+      "content": "Depending on the nature of research, the researcher at his or her own discretion or upon request by the RNEC indicates in the research protocol that the research participant would be subject to insurance coverage. The researcher subscribes an insurance coverage for the research participant from one of insurance institutions or companies registered in Rwanda."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "Chapter VI – Faults, offences and penalties",
+      "section": "31",
+      "title": "Article 31 – Conducting research on a human being without authorization",
+      "content": "Any person who conducts research on a human being without prior authorization from the RNEC commits a fault. He or she is liable to suspension of that research and to an administrative fine of not less than one million Rwanda francs (FRW 1,000,000) but not more than two million Rwanda francs (FRW 2,000,000). Where the fault referred to under the preceding Paragraph of this Law is found after research findings have been published, the researcher is liable to stop, delete the publications and pay an administrative fine of not less than three million Rwanda francs (FRW 3,000,000) but not more than five million Rwanda francs (FRW 5,000,000). The RNEC may deny him or her authorization to be part of further research as long as he or she is not rehabilitated."
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "Chapter VI – Faults, offences and penalties",
+      "section": "32",
+      "title": "Article 32 – Change of researcher or research participant",
+      "content": "A person who changes the researcher of the pool of researchers without prior authorization of the RNEC commits a fault. He or she is liable to an administrative fine of not less than five hundred thousand Rwanda francs (FRW 500,000) but not more than one million Rwanda francs (FRW 1,000,000). In case of recidivism, he or she is liable to suspension and to an administrative fine of not less than one million Rwanda francs (FRW 1,000,000) but not more than two million Rwanda francs (FRW 2,000,000). Sanctions referred to under Paragraphs 2 and 3 of this Article are also applicable to a researcher who changes a research participant or a group of research participants."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "Chapter VI – Faults, offences and penalties",
+      "section": "33",
+      "title": "Article 33 – Failure to take out insurance for research participant",
+      "content": "A researcher who fails to take out insurance coverage for a research participant while he or she has been required by the RNEC to do so or where such an arrangement is stated in the research protocol commits a fault. He or she is liable to an amount equivalent to the amount of the insurance premium he or she was required to pay plus an administrative fine of not less than one million Rwanda francs (FRW 1,000,000) but not more than two million Rwanda francs (FRW 2,000,000)."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "Chapter VI – Faults, offences and penalties",
+      "section": "34",
+      "title": "Article 34 – Failure to provide a research participant with entitlements allotted by the research agreement",
+      "content": "A researcher who fails to provide a research participant with entitlements allotted by the research agreement commits a fault. He or she is liable to the temporary suspension of his or her research work for a period of two (2) months and to an administrative fine of not less than one million Rwanda francs (FRW 1,000,000) but not more than two million Rwanda francs (FRW 2,000,000)."
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "Chapter VI – Faults, offences and penalties",
+      "section": "35",
+      "title": "Article 35 – Failure to notify consequences arising from research",
+      "content": "A researcher who fails to notify the RNEC of consequences experienced by a research participant because of research commits a fault. Where the harm occurs in the course of the research work, the researcher is liable to an immediate suspension of research and takes care of the victim before the research resumes and pay an administrative fine of not less than one million Rwanda francs (FRW 1,000,000) but not more than two million Rwanda francs (FRW 2,000,000). Where the fault is found after the research work has been concluded, the researcher is liable to a ban on conducting research for a period not less than one (1) year but not more than two (2) years and to an administrative fine of not less than two million Rwanda francs (FRW 2,000,000) but not more than four million Rwanda francs (FRW 4,000,000)."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "Chapter VI – Faults, offences and penalties",
+      "section": "36",
+      "title": "Article 36 – Unauthorised publication of findings",
+      "content": "A researcher who publishes research findings which are different from field covered under the authorized commits a fault. He or she is liable to immediately delete the content published without authorization and an administrative fine of not less than one million Rwanda francs (FRW 1,000,000) but not more than two million Rwandan francs (FRW 2,000,000)."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "Chapter VI – Faults, offences and penalties",
+      "section": "37",
+      "title": "Article 37 – Sanctions against an organisation with legal personality",
+      "content": "Where faults referred to under Articles 31, 32, 33, 34, 35 and 36 of this Law are committed by an organisation with legal personality, such an organisation is liable to an administrative fine of not less than ten million Rwanda francs (FRW 10,000,000) but not more than fifteen million Rwanda francs (FRW 15,000,000). In case the organisation with legal personality commits the same fault again, fines referred to under Paragraph One of this Article are doubled."
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "Chapter VI – Faults, offences and penalties",
+      "section": "38",
+      "title": "Article 38 – Conducting research without consent from participant",
+      "content": "A researcher who conducts research on a participant without his or her consent or that of his or her representative as provided for by this Law commits an offence. Upon conviction, he or she is liable to a term of imprisonment not less than one (1) year but not more than two (2) years."
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "Chapter VI – Faults, offences and penalties",
+      "section": "39",
+      "title": "Article 39 – Disclosure of secret related to data collected during research",
+      "content": "A researcher who discloses a secret on data collected during research commits an offence. Upon conviction, he or she is liable to a term of imprisonment not less than one (1) year but not more than three (3) years and a fine of not less than seven million Rwanda francs (FRW 7,000,000) but not more than ten million Rwanda francs (FRW 10,000,000)."
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "Chapter VI – Faults, offences and penalties",
+      "section": "40",
+      "title": "Article 40 – Failure to stay research proven to cause damages, serious injuries, incurable illness, disability, death or be otherwise harmful to research participant",
+      "content": "Where the researcher fails to stay a research work proven to cause damages, injuries or such other harm to the research participant, he or she commits an offence. Upon conviction, he or she is liable to a term of imprisonment of not less than three (3) years but not more than five (5) years and a fine of not less than two million Rwanda francs (FRW 2,000,000) but not more than three million Rwanda francs (FRW 3,000,000). Where the research is proven to cause serious injury, incurable illness, disability or death, he or she is liable to a term of imprisonment of not less than fifteen (15) years but not more than twenty (20) years and a fine of not less than five million Rwanda francs (FRW 5,000,000) but not more than seven million Rwanda francs (FRW 7,000,000)."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "Chapter VI – Faults, offences and penalties",
+      "section": "41",
+      "title": "Article 41 – Penalties against an organisation with legal personality",
+      "content": "Where an organisation with legal personality commits one of the acts referred to under Articles 38, 39 and 40 of this Law, such an organisation commits an offence. Upon conviction, it is liable to a fine of not less than fifteen million Rwanda francs (FRW 15,000,000) but not more than twenty million Rwanda francs (FRW 20,000,000). In case of recidivism, fines referred to under Paragraph 2 of this Article are doubled and the organisation is suspended in accordance with relevant legislation."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "Chapter VII – Saving provision and final provisions",
+      "section": "42",
+      "title": "Article 42 – Cession of research activities on a human being to RNEC",
+      "content": "Research activities on a human being concluded by the RNEC prior to the publication of this Law in the Official Gazette of the Republic of Rwanda are transferred to the Committee established by this Law."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "Chapter VII – Saving provision and final provisions",
+      "section": "43",
+      "title": "Article 43 – Drafting, consideration and adoption of this Law",
+      "content": "This Law was drafted in English, considered and adopted in Ikinyarwanda."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "Chapter VII – Saving provision and final provisions",
+      "section": "44",
+      "title": "Article 44 – Repealing provision",
+      "content": "All prior legal provisions contrary to this Law are repealed."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "Chapter VII – Saving provision and final provisions",
+      "section": "45",
+      "title": "Article 45 – Commencement",
+      "content": "This Law comes into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "research data",
+      "definition": "information pertaining to the research participant, including his or her identification, responses to questionnaires, indicators, audio or video recordings, samples or such other item which was subject to data collection",
+      "source_provision": "art3"
+    },
+    {
+      "term": "research findings",
+      "definition": "empirical facts on data analysis which are published in the light of terms of the research protocol",
+      "source_provision": "art3"
+    },
+    {
+      "term": "ethics",
+      "definition": "a practical and normative behaviour based on principles which define professional conduct during research work",
+      "source_provision": "art3"
+    },
+    {
+      "term": "consent",
+      "definition": "consent of the research participant after being informed and having understood the aim and methodology of the research, his or her contribution, potential consequences and advantages arising from the research",
+      "source_provision": "art3"
+    },
+    {
+      "term": "Minister",
+      "definition": "Minister in charge of health",
+      "source_provision": "art3"
+    },
+    {
+      "term": "scientific research",
+      "definition": "actions undertaken to produce or develop scientific knowledge and operational framework of those actions",
+      "source_provision": "art3"
+    },
+    {
+      "term": "researcher",
+      "definition": "a Rwandan or a foreigner with research expertise, either as an individual, a pool, an institute or an organ with legal personality",
+      "source_provision": "art3"
+    },
+    {
+      "term": "research participant",
+      "definition": "a person who consents by himself or herself or through a representative, to be subject to a research",
+      "source_provision": "art3"
+    },
+    {
+      "term": "human being",
+      "definition": "a living person, a human foetus or a body of a deceased person which may be subject to a research",
+      "source_provision": "art3"
+    },
+    {
+      "term": "vulnerable person",
+      "definition": "a person who has no capacity to make consent to participate in research because of his or her age, his or her physical or social condition or obstacles based on his or her limited knowledge about the field of research in which he or she is going to participate, or such other person, as may be approved by the RNEC",
+      "source_provision": "art3"
+    },
+    {
+      "term": "research protocol",
+      "definition": "a document indicating the structure of research, its methodology, the researcher and the research participant, scope of the study, research budget, research duration and modalities for the respect of research principles and ethics",
+      "source_provision": "art3"
+    },
+    {
+      "term": "foetus",
+      "definition": "a developing human being from eight (8) weeks after conception to birth",
+      "source_provision": "art3"
+    }
+  ]
+}

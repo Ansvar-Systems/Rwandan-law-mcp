@@ -1,0 +1,93 @@
+{
+  "id": "rw-law-2012-29",
+  "type": "statute",
+  "title": "Law establishing Tax on Gaming Activities",
+  "title_en": "Law establishing Tax on Gaming Activities",
+  "short_name": "Law 29 of 2012",
+  "status": "repealed",
+  "issued_date": "2012-07-27",
+  "in_force_date": "2012-09-10",
+  "url": "https://rwandalii.org/akn/rw/act/law/2012/29/eng@2012-09-10",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapter One – General provisions",
+      "section": "1",
+      "title": "Article One – Purpose of this Law",
+      "content": "This Law establishes a special tax on gaming activities."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Chapter One – General provisions",
+      "section": "2",
+      "title": "Article 2 – Definitions of terms",
+      "content": "In this Law, the following terms mean: 1° winnings: any money, merchandise, property, a cheque, credit, electronic or anything else of more than nominal value received by a player whether as a result of the skill of the player or operator, the application of the element of chance and or both; 2° gaming activities: any game played with cards, dices, tickets, equipment or any mechanical, electronic or electromechanical device or machine for money, property, cheque, credit or credit card or any representative of value; 3° wager: a sum of money or representative of value that is risked on an occurrence for which the outcome is uncertain; 4° taxpayer: any gaming operator that is required to pay tax on gaming activities."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Chapter II – Taxes on gaming activities",
+      "section": "3",
+      "title": "Article 3 – Calculation of tax on gaming activities",
+      "content": "The tax on gaming activities shall be calculated basing on the difference between the total amounts wagered and the winnings awarded. The rate of the tax on gaming activities shall be at thirteen percent 13% of the amount referred to in the preceding paragraph."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Chapter II – Taxes on gaming activities",
+      "section": "4",
+      "title": "Article 4 – Declaration and payment of the tax on gaming activities",
+      "content": "A taxpayer shall have to file and submit his/her declaration of the tax on gaming activities according to the form and procedure specified by the Commissioner General of the Rwanda Revenue Authority and pay the tax due in a period not exceeding fifteen (15) days following the end of each month."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Chapter II – Taxes on gaming activities",
+      "section": "5",
+      "title": "Article 5 – Calculation of withholding tax on winnings",
+      "content": "A withholding tax of fifteen percent (15%) shall be levied on winnings of a player of gaming activities. The fifteen per cent (15%) tax applies to the difference between winnings of a player and the amount of money invested by the player from the start until the end of the game. In computing the withholding tax, an income not exceeding thirty thousand 30.000 Rwandan francs shall be rated at zero per cent (0%)."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Chapter II – Taxes on gaming activities",
+      "section": "6",
+      "title": "Article 6 – Declaration and payment of tax withheld on winnings",
+      "content": "The taxpayer shall have to file and submit the declaration of the tax on winnings according to the form and procedure specified by the Commissioner General of the Rwanda Revenue Authority and pay the tax withheld in a period not exceeding fifteen (15) days following the month in which the tax was withheld."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Chapter III – Miscellaneous and final provisions",
+      "section": "7",
+      "title": "Article 7 – Drafting, consideration and adoption of this Law",
+      "content": "This Law was drafted in English, considered and adopted in Kinyarwanda."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Chapter III – Miscellaneous and final provisions",
+      "section": "8",
+      "title": "Article 8 – Repealing provision",
+      "content": "All prior legal provisions contrary to this Law are hereby repealed."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Chapter III – Miscellaneous and final provisions",
+      "section": "9",
+      "title": "Article 9 – Commencement",
+      "content": "This Law shall come into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "gaming activities",
+      "definition": "any game played with cards, dices, tickets, equipment or any mechanical, electronic or electromechanical device or machine for money, property, cheque, credit or credit card or any representative of value",
+      "source_provision": "art2"
+    },
+    {
+      "term": "wager",
+      "definition": "a sum of money or representative of value that is risked on an occurrence for which the outcome is uncertain",
+      "source_provision": "art2"
+    },
+    {
+      "term": "taxpayer",
+      "definition": "any gaming operator that is required to pay tax on gaming activities",
+      "source_provision": "art2"
+    }
+  ]
+}

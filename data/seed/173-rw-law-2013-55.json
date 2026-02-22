@@ -1,0 +1,139 @@
+{
+  "id": "rw-law-2013-55",
+  "type": "statute",
+  "title": "Law on Mineral Tax",
+  "title_en": "Law on Mineral Tax",
+  "short_name": "Law 55 of 2013",
+  "status": "repealed",
+  "issued_date": "2013-08-02",
+  "in_force_date": "2013-09-16",
+  "url": "https://rwandalii.org/akn/rw/act/law/2013/55/eng@2013-09-16",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article One – Purpose of this Law",
+      "content": "This Law establishes a tax on minerals."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2 – Definitions of terms",
+      "content": "In this Law, the following terms shall have the following meanings: 1° gross value: the export value of minerals; 2° minerals: base metals, diamond stones or gold stones; 3° base metals: metals that oxidize or corrode easily when exposed to air or moisture; 4° precious metals of diamond category: rare metals commonly called, “GEMMES/GEMSTONES” including diamond and other with the same nature; 5° precious metals of gold category: rare naturally occurring metallic chemical element of high value; 6° norm value: one of the following: a) the montlhy average London Metal Exchange cash price internationally recognized measuring unit multiplied by the quantity of the minerals exported certified by the Ministry in charge of minerals; b) the monthly average Metal Bulletin cash price internationally recognized measuring unit multiplied by the quantity of minerals exported certified by the Ministry in charge of minerals when the metal price is not registered on the London Metal Exchange; c) the monthly average of any other exchange market cash price internationally recognized measuring unit approved by the Ministry in charge of trade multiplied by the quantity of minerals exported certified by the Ministry in charge of minerals when the metal price is not registered on the London Metal Exchange or Metal Bulletin; 7° market value: estimated amount for which a certain mineral would be exchanged competitively between a buyer and a seller in a transaction where the buyer and seller acted basing upon all information relating to such mineral and their mutual agreement and willingness; 8° person: any individual, company or any other association; 9° taxpayer: any person subject to tax on minerals according to this Law."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3 – Classification of minerals",
+      "content": "A Prime Minister’s Order shall determine the classification of minerals."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4 – Payment of tax on minerals",
+      "content": "Any person who sells minerals shall pay a tax on such minerals."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5 – Tax on minerals",
+      "content": "The tax on minerals is fixed as follows: 1° 4% of the norm value for base metals and other mineral substances of that kind; 2° 6% of the norm value for precious metals of gold category and other precious metals of that kind; 3° 6% of the gross value for precious metals of diamond category and other precious stones of that kind."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6 – Determination of minerals gross value",
+      "content": "The gross value of minerals shall be determined on the basis of market value. A Prime Minister’s Order determines the authority responsible for determining the gross value of minerals, as well as the evaluation method and its publication."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7 – Deduction of tax on minerals paid from taxable base of income tax",
+      "content": "The tax on minerals paid shall be deducted from the taxable base in determining income tax."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8 – Exemption of tax on minerals",
+      "content": "Any person who exports samples of minerals for the purpose of assay, analysis or any other examination in such quantity as approved by the Ministry in charge of minerals shall be exempted from tax on such minerals."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9 – Due date for tax on minerals",
+      "content": "The tax on minerals is due at the date of exportation of minerals. The date of Customs Export declaration of minerals shall be considered for the purpose of this Law as the date on which the minerals are exported."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10 – Declaration and payment of tax on minerals",
+      "content": "A taxpayer shall file and submit his/her declaration of tax on minerals to the tax administration in accordance with the form and procedures specified by the Commissioner General of the Rwanda Revenue Authority and to pay the tax due within fifteen (15) days following the end of each month."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11 – Tax procedure",
+      "content": "The provisions of the law on tax procedures apply on minerals tax."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12 – Drafting, consideration and adoption of this Law",
+      "content": "This Law was drafted in English, considered and adopted in Kinyarwanda."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13 – Repealing provision",
+      "content": "All prior legal provisions contrary to this Law are hereby repealed."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14 – Commencement",
+      "content": "This Law comes into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "minerals",
+      "definition": "base metals, diamond stones or gold stones",
+      "source_provision": "art2"
+    },
+    {
+      "term": "base metals",
+      "definition": "metals that oxidize or corrode easily when exposed to air or moisture",
+      "source_provision": "art2"
+    },
+    {
+      "term": "precious metals of diamond category",
+      "definition": "rare metals commonly called, “GEMMES/GEMSTONES” including diamond and other with the same nature",
+      "source_provision": "art2"
+    },
+    {
+      "term": "precious metals of gold category",
+      "definition": "rare naturally occurring metallic chemical element of high value",
+      "source_provision": "art2"
+    },
+    {
+      "term": "norm value",
+      "definition": "one of the following: a) the montlhy average London Metal Exchange cash price internationally recognized measuring unit multiplied by the quantity of the minerals exported certified by the Ministry in charge of minerals",
+      "source_provision": "art2"
+    },
+    {
+      "term": "market value",
+      "definition": "estimated amount for which a certain mineral would be exchanged competitively between a buyer and a seller in a transaction where the buyer and seller acted basing upon all information relating to such mineral and their mutual agreement and willingness",
+      "source_provision": "art2"
+    },
+    {
+      "term": "person",
+      "definition": "any individual, company or any other association",
+      "source_provision": "art2"
+    },
+    {
+      "term": "taxpayer",
+      "definition": "any person subject to tax on minerals according to this Law",
+      "source_provision": "art2"
+    }
+  ]
+}

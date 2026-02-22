@@ -23,7 +23,9 @@ npx @ansvar/rwandan-law-mcp
 
 ## Data Sources
 
-Real legislation ingested from RwandaLII machine-readable law pages (`data-display-type=akn`) with provenance linked to Official Gazette publications.
+Real legislation ingested from RwandaLII law catalog:
+- `data-display-type=akn`: direct article extraction from AKN HTML
+- `data-display-type=pdf`: PDF text extraction (including multilingual gazette PDFs) and article parsing
 
 ## License
 

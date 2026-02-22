@@ -1,19 +1,33 @@
 /**
- * Parser for RwandaLII legislation pages.
+ * Rwanda legislation parser utilities.
  *
- * Extracts:
- * - law metadata (title, law number, dates, URL)
- * - provisions (article-level text)
- * - definitions (from definition articles when present)
+ * Supports:
+ * - law catalog extraction from RwandaLII search HTML snippets
+ * - metadata extraction from law detail pages
+ * - provision parsing from AKN HTML pages
+ * - provision parsing from PDF-extracted text
  */
 
-export interface ActTarget {
+export type LawSourceType = 'akn' | 'pdf';
+
+export interface CatalogLaw {
+  href: string;
+  title: string;
+  citation: string;
+}
+
+export interface LawPageMetadata {
   id: string;
-  seedFile: string;
+  title: string;
+  title_en: string;
+  short_name: string;
+  status: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
+  issued_date: string;
+  in_force_date: string;
   url: string;
-  shortName?: string;
-  status?: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
-  description?: string;
+  source_type: LawSourceType;
+  work_frbr_uri?: string;
+  pdf_url?: string;
 }
 
 export interface ParsedProvision {
@@ -60,6 +74,22 @@ interface FlatArticle {
   title: string;
   chapter?: string;
 }
+
+const CORE_WORK_ID_MAP = new Map<string, string>([
+  ['/akn/rw/act/law/2021/58', 'rw-personal-data-protection-2021'],
+  ['/akn/rw/act/law/2018/60', 'rw-cybercrimes-2018'],
+  ['/akn/rw/act/law/2017/26', 'rw-national-cyber-security-authority-2017'],
+  ['/akn/rw/act/law/2017/2', 'rw-risa-establishment-2017'],
+  ['/akn/rw/act/law/2013/9', 'rw-rura-establishment-2013'],
+  ['/akn/rw/act/law/2021/61', 'rw-payment-system-2021'],
+  ['/akn/rw/act/law/2018/73', 'rw-credit-reporting-system-2018'],
+  ['/akn/rw/act/law/2019/74', 'rw-financial-intelligence-centre-2019'],
+  ['/akn/rw/act/law/2021/22', 'rw-space-agency-2021'],
+  ['/akn/rw/act/law/2017/31', 'rw-rica-authority-2017'],
+  ['/akn/rw/act/law/2016/24', 'rw-ict-law-2016'],
+  ['/akn/rw/act/law/2013/4', 'rw-access-to-information-2013'],
+  ['/akn/rw/act/law/2009/31', 'rw-intellectual-property-2009'],
+]);
 
 const WORD_NUMBERS: Record<string, number> = {
   zero: 0,
@@ -192,68 +222,28 @@ function normalizeArticleNumber(raw: string): string {
     return cleaned;
   }
   const parsed = parseWordNumber(cleaned);
-  if (parsed !== null) {
-    return String(parsed);
-  }
+  if (parsed !== null) return String(parsed);
   return cleaned;
 }
 
-function articleNumberFromId(articleId: string): string {
-  const segment = articleId.split('__').find(part => part.startsWith('art_')) ?? articleId;
-  const value = segment.replace(/^art_/, '');
-  return normalizeArticleNumber(value);
-}
-
-function buildProvisionRef(section: string, articleId: string): string {
-  const normalized = section.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-  if (normalized.length > 0) {
-    return `art${normalized}`;
-  }
-  const fallback = articleId.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-  return `art-${fallback}`;
-}
-
-function extractSectionBlockById(html: string, articleId: string): string | null {
-  const escId = escapeRegExp(articleId);
-  const startTagPattern = new RegExp(
-    `<section\\b[^>]*(?:class="[^"]*\\bakn-article\\b[^"]*"[^>]*id="${escId}"|id="${escId}"[^>]*class="[^"]*\\bakn-article\\b[^"]*")[^>]*>`,
-    'i',
-  );
-  const startMatch = startTagPattern.exec(html);
-  if (!startMatch || startMatch.index === undefined) {
-    return null;
-  }
-
-  const start = startMatch.index;
-  const tagPattern = /<\/?section\b[^>]*>/gi;
-  tagPattern.lastIndex = start;
-
-  let depth = 0;
-  let match: RegExpExecArray | null;
-  while ((match = tagPattern.exec(html)) !== null) {
-    if (match[0].startsWith('</section')) {
-      depth--;
-    } else {
-      depth++;
-    }
-
-    if (depth === 0) {
-      return html.slice(start, tagPattern.lastIndex);
-    }
-  }
-  return null;
+function slugify(input: string): string {
+  return normalizeWhitespace(input)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .replace(/-{2,}/g, '-');
 }
 
 function parseHumanDate(input: string): string | null {
   const cleaned = normalizeWhitespace(input).replace(/,$/, '');
-  const m = cleaned.match(/^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$/);
-  if (!m) return null;
+  const match = cleaned.match(/^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$/);
+  if (!match) return null;
 
-  const day = Number(m[1]);
-  const monthName = m[2].toLowerCase();
-  const year = Number(m[3]);
+  const day = Number(match[1]);
+  const monthName = match[2].toLowerCase();
+  const year = Number(match[3]);
 
-  const months: Record<string, number> = {
+  const monthMap: Record<string, number> = {
     january: 1,
     february: 2,
     march: 3,
@@ -267,22 +257,18 @@ function parseHumanDate(input: string): string | null {
     november: 11,
     december: 12,
   };
-
-  const month = months[monthName];
+  const month = monthMap[monthName];
   if (!month || day < 1 || day > 31) return null;
 
-  const yyyy = String(year).padStart(4, '0');
-  const mm = String(month).padStart(2, '0');
-  const dd = String(day).padStart(2, '0');
-  return `${yyyy}-${mm}-${dd}`;
+  return `${String(year).padStart(4, '0')}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
 }
 
 function extractTimelineDate(html: string, eventPattern: RegExp): string | null {
   const cardPattern = /<div class="vertical-timeline__item">[\s\S]*?<h5 class="mb-0">\s*([^<]+?)\s*(?:<span[\s\S]*?)?<\/h5>[\s\S]*?<div class="card-body">([\s\S]*?)<\/div>/gi;
-  let cardMatch: RegExpExecArray | null;
-  while ((cardMatch = cardPattern.exec(html)) !== null) {
-    const rawDate = normalizeWhitespace(cardMatch[1]);
-    const bodyText = stripHtml(cardMatch[2]).toLowerCase();
+  let match: RegExpExecArray | null;
+  while ((match = cardPattern.exec(html)) !== null) {
+    const rawDate = normalizeWhitespace(match[1]);
+    const bodyText = stripHtml(match[2]).toLowerCase();
     if (!eventPattern.test(bodyText)) continue;
     const parsed = parseHumanDate(rawDate);
     if (parsed) return parsed;
@@ -291,22 +277,21 @@ function extractTimelineDate(html: string, eventPattern: RegExp): string | null 
 }
 
 function extractDocumentTitle(html: string): string {
-  const docTitleMatch = html.match(/<h1 class="doc-title d-flex">[\s\S]*?<span>([\s\S]*?)<\/span>/i);
-  if (docTitleMatch) return normalizeWhitespace(stripHtml(docTitleMatch[1]));
+  const docTitle = html.match(/<h1 class="doc-title d-flex">[\s\S]*?<span>([\s\S]*?)<\/span>/i);
+  if (docTitle) return normalizeWhitespace(stripHtml(docTitle[1]));
 
-  const coverTitleMatch = html.match(/<div class="coverpage">[\s\S]*?<h1>([\s\S]*?)<\/h1>/i);
-  if (coverTitleMatch) return normalizeWhitespace(stripHtml(coverTitleMatch[1]));
+  const coverTitle = html.match(/<div class="coverpage">[\s\S]*?<h1>([\s\S]*?)<\/h1>/i);
+  if (coverTitle) return normalizeWhitespace(stripHtml(coverTitle[1]));
 
-  const pageTitleMatch = html.match(/<title>\s*([\s\S]*?)\s*(?:–|-)\s*RwandaLII\s*<\/title>/i);
-  if (pageTitleMatch) return normalizeWhitespace(stripHtml(pageTitleMatch[1]));
+  const pageTitle = html.match(/<title>\s*([\s\S]*?)\s*(?:–|-)\s*RwandaLII\s*<\/title>/i);
+  if (pageTitle) return normalizeWhitespace(stripHtml(pageTitle[1]));
 
   return '';
 }
 
 function extractCitation(html: string): string {
-  const citationMatch = html.match(/<h2 class="h5 text-muted">([\s\S]*?)<\/h2>/i);
-  if (citationMatch) return normalizeWhitespace(stripHtml(citationMatch[1]));
-  return '';
+  const citation = html.match(/<h2 class="h5 text-muted">([\s\S]*?)<\/h2>/i);
+  return citation ? normalizeWhitespace(stripHtml(citation[1])) : '';
 }
 
 function extractDateByLabel(html: string, labelPattern: RegExp): string | null {
@@ -352,11 +337,50 @@ function flattenArticleNodes(nodes: TocNode[]): FlatArticle[] {
   walk(nodes, undefined);
 
   const seen = new Set<string>();
-  return out.filter(item => {
-    if (seen.has(item.id)) return false;
-    seen.add(item.id);
+  return out.filter(article => {
+    if (seen.has(article.id)) return false;
+    seen.add(article.id);
     return true;
   });
+}
+
+function extractSectionBlockById(html: string, articleId: string): string | null {
+  const escId = escapeRegExp(articleId);
+  const startTagPattern = new RegExp(
+    `<section\\b[^>]*(?:class="[^"]*\\bakn-article\\b[^"]*"[^>]*id="${escId}"|id="${escId}"[^>]*class="[^"]*\\bakn-article\\b[^"]*")[^>]*>`,
+    'i',
+  );
+  const startMatch = startTagPattern.exec(html);
+  if (!startMatch || startMatch.index === undefined) return null;
+
+  const start = startMatch.index;
+  const tagPattern = /<\/?section\b[^>]*>/gi;
+  tagPattern.lastIndex = start;
+
+  let depth = 0;
+  let match: RegExpExecArray | null;
+  while ((match = tagPattern.exec(html)) !== null) {
+    depth += match[0].startsWith('</section') ? -1 : 1;
+    if (depth === 0) return html.slice(start, tagPattern.lastIndex);
+  }
+  return null;
+}
+
+function buildProvisionRef(section: string, fallback: string): string {
+  const normalized = section.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  if (normalized.length > 0) return `art${normalized}`;
+  return `art-${slugify(fallback)}`;
+}
+
+function dedupeProvisions(provisions: ParsedProvision[]): ParsedProvision[] {
+  const byRef = new Map<string, ParsedProvision>();
+  for (const provision of provisions) {
+    const existing = byRef.get(provision.provision_ref);
+    if (!existing || provision.content.length > existing.content.length) {
+      byRef.set(provision.provision_ref, provision);
+    }
+  }
+  return Array.from(byRef.values());
 }
 
 function extractDefinitions(provisions: ParsedProvision[]): ParsedDefinition[] {
@@ -394,27 +418,89 @@ function extractDefinitions(provisions: ParsedProvision[]): ParsedDefinition[] {
     }
   }
 
-  return definitions.slice(0, 80);
+  return definitions.slice(0, 120);
 }
 
-export function parseRwandanLawHtml(html: string, target: ActTarget): ParsedAct {
-  const displayType = html.match(/data-display-type="([^"]+)"/i)?.[1]?.toLowerCase() ?? 'unknown';
-  if (displayType !== 'akn') {
-    throw new Error(`Document is not machine-readable AKN text (data-display-type=${displayType})`);
+function buildParsedAct(
+  metadata: LawPageMetadata,
+  provisions: ParsedProvision[],
+): ParsedAct {
+  const deduped = dedupeProvisions(provisions);
+  const definitions = extractDefinitions(deduped);
+
+  return {
+    id: metadata.id,
+    type: 'statute',
+    title: metadata.title,
+    title_en: metadata.title_en,
+    short_name: metadata.short_name,
+    status: metadata.status,
+    issued_date: metadata.issued_date,
+    in_force_date: metadata.in_force_date,
+    url: metadata.url,
+    provisions: deduped,
+    definitions,
+  };
+}
+
+function extractTrackProperties(html: string): { work_frbr_uri?: string } {
+  const raw = extractScriptJson(html, 'track-page-properties');
+  if (!raw) return {};
+  try {
+    const json = JSON.parse(raw) as { work_frbr_uri?: string };
+    return json;
+  } catch {
+    return {};
+  }
+}
+
+export function parseCatalogResultsHtml(resultsHtml: string): CatalogLaw[] {
+  const laws: CatalogLaw[] = [];
+  const regex = /<a class="h5 text-primary"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>[\s\S]*?<div>\s*<i>\s*([\s\S]*?)\s*<\/i>/gi;
+  let match: RegExpExecArray | null;
+
+  while ((match = regex.exec(resultsHtml)) !== null) {
+    const href = match[1].trim();
+    if (!href.startsWith('/akn/rw/act/law/')) continue;
+    const title = stripHtml(match[2]);
+    const citation = stripHtml(match[3]);
+    laws.push({ href, title, citation });
   }
 
+  return laws;
+}
+
+export function buildDocumentIdFromHref(hrefOrWorkUri: string): string {
+  const source = hrefOrWorkUri.split('/eng@')[0].replace(/\/+$/, '');
+  const known = CORE_WORK_ID_MAP.get(source);
+  if (known) return known;
+
+  const trimmed = source.replace(/^https?:\/\/[^/]+/, '');
+  const work = trimmed.replace(/^\/akn\/rw\/act\/law\//, '');
+  const fallback = slugify(work);
+  return `rw-law-${fallback}`;
+}
+
+export function extractLawPageMetadata(html: string, pageUrl: string): LawPageMetadata {
   const title = extractDocumentTitle(html);
   if (!title) {
-    throw new Error('Could not parse document title');
+    throw new Error('Could not extract law title from page');
   }
 
-  const citation = extractCitation(html) || target.shortName || target.id;
+  const citation = extractCitation(html) || title;
+  const track = extractTrackProperties(html);
+  const workUri = track.work_frbr_uri;
+  const baseId = buildDocumentIdFromHref(workUri ?? pageUrl);
+
+  const sourceType = (html.match(/data-display-type="([^"]+)"/i)?.[1]?.toLowerCase() === 'pdf')
+    ? 'pdf'
+    : 'akn';
 
   const issuedDate =
     extractDateByLabel(html, /Assented to on\s+([^<]+)</i) ??
     extractTimelineDate(html, /\bassented\b/i) ??
     extractTimelineDate(html, /\bpublished in official gazette\b/i) ??
-    '';
+    '1900-01-01';
 
   const inForceDate =
     extractDateByLabel(html, /Commenced on\s+([^<]+)</i) ??
@@ -422,13 +508,43 @@ export function parseRwandanLawHtml(html: string, target: ActTarget): ParsedAct 
     extractTimelineDate(html, /\bpublished in official gazette\b/i) ??
     issuedDate;
 
+  const repealed = /\brepealed\b/i.test(html);
+  let pdfUrl: string | undefined;
+  if (sourceType === 'pdf') {
+    const sourceMatch =
+      html.match(/href="([^"]+\/source\.pdf)"/i) ??
+      html.match(/href="([^"]+\/source)"/i);
+    if (sourceMatch) {
+      pdfUrl = new URL(sourceMatch[1], pageUrl).toString();
+    } else {
+      pdfUrl = new URL(`${pageUrl.replace(/\/$/, '')}/source.pdf`, pageUrl).toString();
+    }
+  }
+
+  return {
+    id: baseId,
+    title,
+    title_en: title,
+    short_name: citation,
+    status: repealed ? 'repealed' : 'in_force',
+    issued_date: issuedDate,
+    in_force_date: inForceDate,
+    url: pageUrl,
+    source_type: sourceType,
+    work_frbr_uri: workUri,
+    pdf_url: pdfUrl,
+  };
+}
+
+export function parseAknLawHtml(html: string, metadata: LawPageMetadata): ParsedAct {
   const toc = parseToc(html);
   const articles = flattenArticleNodes(toc);
   if (articles.length === 0) {
-    throw new Error('No article entries found in TOC');
+    throw new Error('No article entries found in AKN table of contents');
   }
 
   const provisions: ParsedProvision[] = [];
+
   for (const article of articles) {
     const sectionBlock = extractSectionBlockById(html, article.id);
     if (!sectionBlock) continue;
@@ -436,140 +552,147 @@ export function parseRwandanLawHtml(html: string, target: ActTarget): ParsedAct 
     const headingHtml = sectionBlock.match(/<h2[^>]*>([\s\S]*?)<\/h2>/i)?.[1] ?? '';
     const headingText = htmlToPlainText(headingHtml);
     const headingNumberMatch = headingText.match(/\bArticle\s+([A-Za-z0-9-]+)/i);
-
     const section = normalizeArticleNumber(
       headingNumberMatch?.[1] ??
       article.num ??
-      articleNumberFromId(article.id),
+      article.id.split('__').find(part => part.startsWith('art_'))?.replace(/^art_/, '') ??
+      article.id,
     );
 
-    let contentHtml = sectionBlock
+    const contentHtml = sectionBlock
       .replace(/^<section\b[^>]*>/i, '')
       .replace(/<\/section>\s*$/i, '')
-      .replace(/<h2[^>]*>[\s\S]*?<\/h2>/i, '');
-
-    contentHtml = contentHtml.trim();
+      .replace(/<h2[^>]*>[\s\S]*?<\/h2>/i, '')
+      .trim();
     const content = htmlToPlainText(contentHtml);
     if (content.length < 3) continue;
 
-    const titleText = normalizeWhitespace(article.title || headingText || `Article ${section}`);
-    const provisionRef = buildProvisionRef(section, article.id);
-
+    const title = normalizeWhitespace(article.title || headingText || `Article ${section}`);
     provisions.push({
-      provision_ref: provisionRef,
+      provision_ref: buildProvisionRef(section, article.id),
       chapter: article.chapter ? normalizeWhitespace(article.chapter) : undefined,
       section,
-      title: titleText,
+      title,
       content,
     });
   }
 
   if (provisions.length === 0) {
-    throw new Error('No provisions extracted from machine-readable document');
+    throw new Error('No AKN provisions extracted');
   }
 
-  const byRef = new Map<string, ParsedProvision>();
-  for (const provision of provisions) {
-    const existing = byRef.get(provision.provision_ref);
-    if (!existing || provision.content.length > existing.content.length) {
-      byRef.set(provision.provision_ref, provision);
-    }
-  }
-  const dedupedProvisions = Array.from(byRef.values());
-  const definitions = extractDefinitions(dedupedProvisions);
-
-  return {
-    id: target.id,
-    type: 'statute',
-    title,
-    title_en: title,
-    short_name: citation,
-    status: target.status ?? 'in_force',
-    issued_date: issuedDate || inForceDate || '1900-01-01',
-    in_force_date: inForceDate || issuedDate || '1900-01-01',
-    url: target.url,
-    description: target.description,
-    provisions: dedupedProvisions,
-    definitions,
-  };
+  return buildParsedAct(metadata, provisions);
 }
 
-/**
- * 10 machine-readable Rwanda laws with article-level text on RwandaLII.
- *
- * NOTE:
- * Many high-priority legacy ICT/cyber laws on the same portal are PDF-only
- * (`data-display-type="pdf"`), so they are excluded from automated extraction.
- */
-export const TARGET_RWANDAN_LAWS: ActTarget[] = [
-  {
-    id: 'rw-personal-data-protection-2021',
-    seedFile: '01-personal-data-protection-2021.json',
-    url: 'https://rwandalii.org/akn/rw/act/law/2021/58/eng@2021-10-15',
-    shortName: 'Law 58 of 2021',
-    description: 'Provides Rwanda’s legal framework for protection of personal data and privacy, including data subject rights and supervisory authority powers.',
-  },
-  {
-    id: 'rw-cybercrimes-2018',
-    seedFile: '02-cybercrimes-2018.json',
-    url: 'https://rwandalii.org/akn/rw/act/law/2018/60/eng@2018-09-25',
-    shortName: 'Law 60 of 2018',
-    description: 'Defines cybercrime offences and penalties, including unlawful access, interference, cyber fraud, and related digital offences.',
-  },
-  {
-    id: 'rw-national-cyber-security-authority-2017',
-    seedFile: '03-national-cyber-security-authority-2017.json',
-    url: 'https://rwandalii.org/akn/rw/act/law/2017/26/eng@2017-07-03',
-    shortName: 'Law 26 of 2017',
-    description: 'Establishes the National Cyber Security Authority and sets its mission, organisational structure, and functions.',
-  },
-  {
-    id: 'rw-risa-establishment-2017',
-    seedFile: '04-risa-establishment-2017.json',
-    url: 'https://rwandalii.org/akn/rw/act/law/2017/2/eng@2017-03-06',
-    shortName: 'Law 2 of 2017',
-    description: 'Establishes Rwanda Information Society Authority (RISA) and defines national ICT implementation and governance responsibilities.',
-  },
-  {
-    id: 'rw-rura-establishment-2013',
-    seedFile: '05-rura-establishment-2013.json',
-    url: 'https://rwandalii.org/akn/rw/act/law/2013/9/eng@2013-04-08',
-    shortName: 'Law 9 of 2013',
-    description: 'Establishes Rwanda Utilities Regulatory Authority (RURA), including mandates relevant to communications and regulated network sectors.',
-  },
-  {
-    id: 'rw-payment-system-2021',
-    seedFile: '06-payment-system-2021.json',
-    url: 'https://rwandalii.org/akn/rw/act/law/2021/61/eng@2021-11-01',
-    shortName: 'Law 61 of 2021',
-    description: 'Regulates Rwanda’s payment systems, payment service providers, and associated operational and governance requirements.',
-  },
-  {
-    id: 'rw-credit-reporting-system-2018',
-    seedFile: '07-credit-reporting-system-2018.json',
-    url: 'https://rwandalii.org/akn/rw/act/law/2018/73/eng@2018-09-10',
-    shortName: 'Law 73 of 2018',
-    description: 'Governs credit reporting activities, data handling in credit information systems, and supervision of credit reporting service providers.',
-  },
-  {
-    id: 'rw-financial-intelligence-centre-2019',
-    seedFile: '08-financial-intelligence-centre-2019.json',
-    url: 'https://rwandalii.org/akn/rw/act/law/2019/74/eng@2020-02-17',
-    shortName: 'Law 74 of 2019',
-    description: 'Establishes the Financial Intelligence Centre, including powers and duties for collection and analysis of financial intelligence information.',
-  },
-  {
-    id: 'rw-space-agency-2021',
-    seedFile: '09-space-agency-2021.json',
-    url: 'https://rwandalii.org/akn/rw/act/law/2021/22/eng@2021-04-30',
-    shortName: 'Law 22 of 2021',
-    description: 'Establishes Rwanda Space Agency and its governance framework for space-related national programs and services.',
-  },
-  {
-    id: 'rw-rica-authority-2017',
-    seedFile: '10-rica-authority-2017.json',
-    url: 'https://rwandalii.org/akn/rw/act/law/2017/31/eng@2017-08-18',
-    shortName: 'Law 31 of 2017',
-    description: 'Establishes Rwanda Inspectorate, Competition and Consumer Protection Authority (RICA) with enforcement and market oversight functions.',
-  },
-];
+function cleanPdfLines(text: string): string[] {
+  return text
+    .replace(/\u000c/g, '\n')
+    .split(/\r?\n/)
+    .map(line => normalizeWhitespace(line))
+    .filter(line => line.length > 0)
+    .filter(line => !/^Official Gazette\b/i.test(line))
+    .filter(line => !/^\d+$/.test(line));
+}
+
+function findPdfBodyStart(lines: string[]): number {
+  let lastLawHeading = -1;
+  for (let i = 0; i < lines.length; i++) {
+    if (/^(LAW|ORGANIC LAW)\s+N[°ºO]/i.test(lines[i])) {
+      lastLawHeading = i;
+    }
+  }
+  if (lastLawHeading >= 0) return lastLawHeading;
+
+  let lastParliament = -1;
+  for (let i = 0; i < lines.length; i++) {
+    if (/^THE PARLIAMENT\b/i.test(lines[i]) || /^We,\s+/i.test(lines[i])) {
+      lastParliament = i;
+    }
+  }
+  return Math.max(lastParliament, 0);
+}
+
+export function parsePdfExtractedText(pdfText: string, metadata: LawPageMetadata): ParsedAct {
+  const rawLines = cleanPdfLines(pdfText);
+  if (rawLines.length === 0) {
+    throw new Error('No text extracted from PDF');
+  }
+
+  const startIndex = findPdfBodyStart(rawLines);
+  const lines = rawLines.slice(startIndex);
+
+  const provisions: ParsedProvision[] = [];
+
+  const parseWithHeadingRegex = (headingRegex: RegExp): ParsedProvision[] => {
+    const parsed: ParsedProvision[] = [];
+    let currentChapter: string | undefined;
+    let currentSection: string | undefined;
+    let currentTitle: string | undefined;
+    let currentRef: string | undefined;
+    let currentContent: string[] = [];
+
+    const flushCurrent = (): void => {
+      if (!currentSection || !currentTitle) return;
+      const content = normalizeWhitespace(currentContent.join(' '));
+      if (content.length < 3) return;
+      parsed.push({
+        provision_ref: currentRef ?? buildProvisionRef(currentSection, currentTitle),
+        chapter: currentChapter,
+        section: currentSection,
+        title: currentTitle,
+        content,
+      });
+    };
+
+    for (const line of lines) {
+      if (/^CHAPTER\b/i.test(line)) {
+        currentChapter = line;
+        continue;
+      }
+      if (/^Section\b/i.test(line)) {
+        if (currentChapter) currentChapter = `${currentChapter} | ${line}`;
+        continue;
+      }
+
+      const headingMatch = line.match(headingRegex);
+      if (headingMatch) {
+        flushCurrent();
+        const rawSection = normalizeArticleNumber(headingMatch[1]);
+        let headingRest = normalizeWhitespace(headingMatch[2] ?? '');
+        headingRest = headingRest.replace(/\s+Article$/i, '').trim();
+        currentSection = rawSection;
+        currentTitle = headingRest
+          ? `Article ${rawSection} - ${headingRest}`
+          : `Article ${rawSection}`;
+        currentRef = buildProvisionRef(rawSection, currentTitle);
+        currentContent = [];
+        continue;
+      }
+
+      if (!currentSection) continue;
+      if (/^(CHAPTER|PART|Section)\b/i.test(line)) continue;
+      currentContent.push(line);
+    }
+
+    flushCurrent();
+    return parsed;
+  };
+
+  const primary = parseWithHeadingRegex(
+    /^Article\s+([0-9]+[A-Za-z]*|[A-Za-z]+(?:\s+[A-Za-z]+)?)\s*(?:[:.-]|–|-)?\s*(.*)$/i
+  );
+  provisions.push(...primary);
+
+  if (provisions.length === 0) {
+    const fallback = parseWithHeadingRegex(
+      /^(?!N°|LAW\b|LOI\b|THE\b|LE\b)([0-9]+[A-Za-z]*|[A-Za-z]+)\s*:\s*(.+)$/i
+    );
+    provisions.push(...fallback);
+  }
+
+  if (provisions.length === 0) {
+    throw new Error('No article headings parsed from PDF text');
+  }
+
+  return buildParsedAct(metadata, provisions);
+}

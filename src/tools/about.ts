@@ -49,7 +49,7 @@ export function getAbout(db: InstanceType<typeof Database>, context: AboutContex
       url: 'https://rwandalii.org/legislation/',
       license: 'RwandaLII Terms of Use',
       jurisdiction: 'RW',
-      languages: ['en'],
+      languages: ['en', 'rw', 'fr'],
     },
   };
 }

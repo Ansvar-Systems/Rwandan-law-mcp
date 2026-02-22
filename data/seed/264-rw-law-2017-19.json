@@ -1,0 +1,83 @@
+{
+  "id": "rw-law-2017-19",
+  "type": "statute",
+  "title": "Law establishing the Levy on Imported Goods for Financing African Union Activities",
+  "title_en": "Law establishing the Levy on Imported Goods for Financing African Union Activities",
+  "short_name": "Law 19 of 2017",
+  "status": "repealed",
+  "issued_date": "2017-04-28",
+  "in_force_date": "2017-05-15",
+  "url": "https://rwandalii.org/akn/rw/act/law/2017/19/eng@2017-05-15",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapter One – General provisions",
+      "section": "1",
+      "title": "Article One – Purpose of this Law",
+      "content": "This Law establishes a levy on imported goods for financing African Union activities."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Chapter One – General provisions",
+      "section": "2",
+      "title": "Article 2 – Scope of this Law",
+      "content": "This Law applies to all imported goods. It does not apply to goods exempted under relevant laws."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Chapter One – General provisions",
+      "section": "3",
+      "title": "Article 3 – Definitions of terms",
+      "content": "For purposes of this Law, the following terms have the following meanings: 1° levy: fees paid on imported goods intended for financing African Union activities; 2° goods: tangible or intangible property excluding money and monetary instruments."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Chapter II – Levy on imported goods, its collection and management",
+      "section": "4",
+      "title": "Article 4 – Rate and base of the levy on imported goods",
+      "content": "All imported goods are subject to a levy of zero point two per cent (0.2%), to be levied on the customs value of imported goods."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Chapter II – Levy on imported goods, its collection and management",
+      "section": "5",
+      "title": "Article 5 – Levy collection",
+      "content": "The levy on imported goods is collected at the customs point in accordance with the customs legislation."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Chapter II – Levy on imported goods, its collection and management",
+      "section": "6",
+      "title": "Article 6 – Levy management",
+      "content": "The levy collected on imported goods is deposited into an account intended for that purpose, opened with the National Bank of Rwanda."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Chapter III – Final provisions",
+      "section": "7",
+      "title": "Article 7 – Drafting, consideration and adoption of this Law",
+      "content": "This Law was drafted in English, considered and adopted in Kinyarwanda."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Chapter III – Final provisions",
+      "section": "8",
+      "title": "Article 8 – Repealing provision",
+      "content": "All prior provisions contrary to this Law are repealed."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Chapter III – Final provisions",
+      "section": "9",
+      "title": "Article 9 – Commencement",
+      "content": "This Law comes into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "goods",
+      "definition": "tangible or intangible property excluding money and monetary instruments",
+      "source_provision": "art3"
+    }
+  ]
+}

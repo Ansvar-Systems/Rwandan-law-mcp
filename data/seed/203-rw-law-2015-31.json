@@ -1,0 +1,151 @@
+{
+  "id": "rw-law-2015-31",
+  "type": "statute",
+  "title": "Law determining the Organization and Functioning of Deposit Guarantee Fund for Banks and Microfinance Institutions",
+  "title_en": "Law determining the Organization and Functioning of Deposit Guarantee Fund for Banks and Microfinance Institutions",
+  "short_name": "Law 31 of 2015",
+  "status": "repealed",
+  "issued_date": "2015-06-05",
+  "in_force_date": "2015-08-31",
+  "url": "https://rwandalii.org/akn/rw/act/law/2015/31/eng@2015-08-31",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapter One – General provisions",
+      "section": "1",
+      "title": "Article One – Purpose of this Law",
+      "content": "This Law determines the organization and functioning of Deposit Guarantee Fund for banks and microfinance institutions hereinafter referred to as “Fund”."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Chapter One – General provisions",
+      "section": "2",
+      "title": "Article 2 – Definitions",
+      "content": "For the purpose of this Law, the following terms shall have the following meanings: 1° contributing bank: licensed bank in accordance with laws governing banks in Rwanda; 2° contributing microfinance institution: licensed microfinance institution in accordance with laws governing microfinance institutions in Rwanda; 3° key repo rate: the National Bank policy rate which serves as reference on money market for lending to the Fund."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Chapter II – Management of the Fund",
+      "section": "3",
+      "title": "Article 3 – Management",
+      "content": "The Fund shall be managed by the National Bank of Rwanda."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Chapter II – Management of the Fund",
+      "section": "4",
+      "title": "Article 4 – Advisory Committee",
+      "content": "An Advisory Committee of the Fund is hereby established to advise the National Bank of Rwanda regarding the management of the Fund. An Order of the Minister in charge of finance shall appoint members of the Advisory Committee of the Fund and determine their responsibilities and term of office. The Advisory Committee of the Fund shall establish the rules governing its functioning."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Chapter III – Property of the Fund",
+      "section": "5",
+      "title": "Article 5 – Source of property of the Fund",
+      "content": "The property of the Fund shall come from the following sources: 1° premiums paid to the Fund by contributing banks and microfinance institutions; 2° income of the Fund’s money invested in accordance with the standards of the National Bank of Rwanda; 3° default interest on payment of premiums from contributing banks and microfinance institutions; 4° grants and donations approved by the National Bank of Rwanda; 5° late payment charges for failure to provide information in time paid by contributing banks and microfinance institutions."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Chapter III – Property of the Fund",
+      "section": "6",
+      "title": "Article 6 – Premiums paid to the Fund",
+      "content": "The National Bank of Rwanda shall, by regulation, determine procedures for premiums payment to the Fund by contributing banks and microfinance institutions. The regulation shall specify in particular the following: 1° rate of annual premiums; 2° calculation of premiums; 3° premiums payment mode."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Chapter III – Property of the Fund",
+      "section": "7",
+      "title": "Article 7 – Notification of the premium amount",
+      "content": "The National Bank of Rwanda shall notify each contributing bank and each contributing microfinance institution of the premium and the period within which it shall be paid into the Fund. Where a bank or a contributing microfinance institution fails to pay any premium due according to the notice specifying the amount and the period of payment, it shall pay the penalty interest rate of zero point five per cent, (0.5%) of the unpaid amount for every day beyond the notice period on which the amount remains unpaid."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Chapter III – Property of the Fund",
+      "section": "8",
+      "title": "Article 8 – Investment",
+      "content": "The assets of the Fund shall be invested in Government bonds or in any other safe investments determined by the National Bank of Rwanda."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Chapter IV – Insured deposit and mode of payment",
+      "section": "9",
+      "title": "Article 9 – Amount of deposit covered by the Fund",
+      "content": "The National Bank of Rwanda shall determine the maximum insured amount of a depositor at a contributing bank or microfinance institution. However, the Fund shall not cover the deposits of: 1° banks and microfinance institutions; 2° insurance companies, pension funds, and collective investment schemes; 3° Government or public agency; 4° persons holding shares of more than five percent (5%) of voting rights in a contributing bank or microfinance institution."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "Chapter IV – Insured deposit and mode of payment",
+      "section": "10",
+      "title": "Article 10 – Emergency funding",
+      "content": "Where the amount of the Fund proves to be insufficient for paying out the insured depositors, the National Bank of Rwanda shall provide the Fund with the emergency funding equivalent to the difference between the total amount to be paid and amount available in the Fund. The emergency funding made available to the Fund shall be paid back to the National Bank of Rwanda with an interest calculated at the key repo rate."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "Chapter IV – Insured deposit and mode of payment",
+      "section": "11",
+      "title": "Article 11 – Compensation of deposits",
+      "content": "Any declaration of liquidation of a contributing bank or microfinance institution by the National Bank of Rwanda shall cause the compensation of the insured deposits within sixty (60) working days from the declaration date. The amount due to each insured depositor shall be transferred to another contributing bank or microfinance institution or through any other payment method that the National Bank of Rwanda may determine. The National Bank of Rwanda shall specify compensation procedures through regulation. However, the Fund shall not compensate the following persons: 1° members of the management of the contributing bank or microfinance institution under liquidation; 2° any other person responsible for the insolvency of the contributing bank or microfinance institution."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "Chapter V – Sharing information, auditing and reporting",
+      "section": "12",
+      "title": "Article 12 – Raising awareness about the organisation and functioning of the Fund",
+      "content": "The National Bank of Rwanda shall raise awareness amongst clients of banks and microfinance institutions about the organisation and functioning of the Fund in general, and the insured and uninsured deposits in particular, as provided for by this Law."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "Chapter V – Sharing information, auditing and reporting",
+      "section": "13",
+      "title": "Article 13 – Information provided to the National Bank of Rwanda",
+      "content": "Any contributing bank or microfinance institution shall submit any information required in writing by the National Bank of Rwanda. A contributing bank or microfinance institution which fails to provide information within the period specified by the National Bank of Rwanda shall pay late payment charges to the Fund in accordance with the regulation of the National Bank of Rwanda."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "Chapter V – Sharing information, auditing and reporting",
+      "section": "14",
+      "title": "Article 14 – Audit",
+      "content": "The Fund shall be audited every year by an external auditor. The audit may also be carried out whenever necessary upon request by the Advisory Committee."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "Chapter V – Sharing information, auditing and reporting",
+      "section": "15",
+      "title": "Article 15 – Publication of the Fund’s annual report",
+      "content": "The National Bank of Rwanda shall publish a report on the activities of the Fund in the first quarter of the following year."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Chapter VI – Final provisions",
+      "section": "16",
+      "title": "Article 16 – Drafting, consideration and adoption of this Law",
+      "content": "This Law was drafted in English, considered, and adopted in Kinyarwanda."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Chapter VI – Final provisions",
+      "section": "17",
+      "title": "Article 17 – Repealing provision",
+      "content": "All prior legal provisions contrary to this Law are hereby repealed."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "Chapter VI – Final provisions",
+      "section": "18",
+      "title": "Article 18 – Commencement",
+      "content": "This Law shall come into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "contributing microfinance institution",
+      "definition": "licensed microfinance institution in accordance with laws governing microfinance institutions in Rwanda",
+      "source_provision": "art2"
+    },
+    {
+      "term": "key repo rate",
+      "definition": "the National Bank policy rate which serves as reference on money market for lending to the Fund",
+      "source_provision": "art2"
+    }
+  ]
+}

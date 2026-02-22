@@ -450,7 +450,7 @@ function buildDatabase(): void {
     insertMeta.run('built_at', new Date().toISOString());
     insertMeta.run('builder', 'build-db.ts');
     insertMeta.run('jurisdiction', 'RW');
-    insertMeta.run('source', 'rwandalii-akn-html');
+    insertMeta.run('source', 'rwandalii-law-catalog-akn-and-pdf');
     insertMeta.run('licence', 'See sources.yml');
   });
   writeMeta();

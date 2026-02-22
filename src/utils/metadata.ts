@@ -30,10 +30,10 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'RwandaLII legislation portal (rwandalii.org) with Official Gazette publication links',
+    data_source: 'RwandaLII law catalog (AKN + PDF-backed laws) with Official Gazette publication links',
     jurisdiction: 'RW',
     disclaimer:
-      'This database is built from publicly available RwandaLII law pages and links to Official Gazette publications. ' +
+      'This database is built from publicly available RwandaLII law pages, including PDF-backed laws, and links to Official Gazette publications. ' +
       'For legal certainty, verify against the Official Gazette publication.',
     freshness,
   };

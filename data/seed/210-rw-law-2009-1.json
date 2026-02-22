@@ -1,0 +1,38 @@
+{
+  "id": "rw-law-2009-1",
+  "type": "statute",
+  "title": "Ministerial Order determining the Modalities of Facilitating Persons with Disabilities in Matters Relating to Communication",
+  "title_en": "Ministerial Order determining the Modalities of Facilitating Persons with Disabilities in Matters Relating to Communication",
+  "short_name": "Law 1 of 2009",
+  "status": "repealed",
+  "issued_date": "2009-08-10",
+  "in_force_date": "2009-08-31",
+  "url": "https://rwandalii.org/akn/rw/act/law/2009/1/eng@2009-08-31",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article One – Purpose of this Order",
+      "content": "This Order determines the modalities of facilitating persons with disabilities who are in the first and second categories in matters relating to communication."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2 – Modalities of interpreting for persons with disabilities",
+      "content": "The public and private audio-visual press shall, within the limits of available resources, adopt appropriate modalities of interpreting in order to facilitate persons with disabilities to follow their programs."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3 – Repealing provision",
+      "content": "All prior legal provisions contrary to this Order are hereby repealed."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4 – Commencement",
+      "content": "This Order shall come into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": []
+}

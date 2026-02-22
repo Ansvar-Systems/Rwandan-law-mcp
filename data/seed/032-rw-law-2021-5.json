@@ -1,0 +1,254 @@
+{
+  "id": "rw-law-2021-5",
+  "type": "statute",
+  "title": "Law governing Mutual Legal Assistance in Criminal Law Matters",
+  "title_en": "Law governing Mutual Legal Assistance in Criminal Law Matters",
+  "short_name": "Law 5 of 2021",
+  "status": "in_force",
+  "issued_date": "2021-02-05",
+  "in_force_date": "2021-02-08",
+  "url": "https://rwandalii.org/akn/rw/act/law/2021/5/eng@2021-02-08",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "CHAPTER",
+      "section": "1",
+      "title": "Article 1 - Purpose of this Law",
+      "content": "This Law governs mutual legal assistance criminal matters."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "CHAPTER",
+      "section": "2",
+      "title": "Article 2 - Scope of this Law",
+      "content": "This Law applies to the request for legal assistance in criminal matters to or from foreign State in regards to the following: 1° identifying and locating persons; 2° taking evidence or statements from persons; 3° effecting service of documents; 4° executing search and seizure; 5° providing and producing original or certified documents, records, items and other materials; 6° facilitating the appearance of a needed witness in the requesting country; 7° effecting a temporary transfer of persons in custody to assist investigation or for their appearance as witnesses; 8° tracing, identifying, freezing, restraining and seizing proceeds and instrumentalities of crime; 9° returning and disposing of property; 10° preserving and obtaining computer data; 11° monitoring postal items and telecommunications; 12° any other lawful form of mutual assistance or evidence gathering."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "CHAPTER | Section One: Outgoing request",
+      "section": "3",
+      "title": "Article 3 - Definitions",
+      "content": "In this Law, the following terms have the following meanings: 1° computer data: any representation of facts, information or concepts in form suitable for processing in computer system, including a program suitable to cause a computer system to perform a function; 2° mutual legal assistance: assistance criminal matters to or from any foreign State; 3° Competent Authority: the Ministry charge of justice, the authority charge of public prosecution or the authority in charge of investigation; 4° Central Authority: the Ministry charge of Foreign Affairs. II: OUTGOING INCOMING REQUESTS AND"
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "CHAPTER | Section One: Outgoing request",
+      "section": "4",
+      "title": "Article 4 - Request to a foreign State",
+      "content": "A request for mutual assistance to a foreign State is prepared by the Competent Authority in conformity with relevant laws of Rwanda and sent to the Central Authority."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "CHAPTER | Section One: Outgoing request",
+      "section": "5",
+      "title": "Article 5 - Transmission of request",
+      "content": "The Central Authority sends a request for mutual assistance to a foreign state."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "CHAPTER | Section One: Outgoing request | Section 2: Incoming request",
+      "section": "6",
+      "title": "Article 6 - Form and content of outgoing",
+      "content": "request A request for mutual legal assistance is made in writing and specifies the following: 1° the nature of the assistance requested; mutual legal 2° the purpose of the mutual legal assistance sought; 3° the link between the criminal matter that took place in Rwanda and the mutual legal assistance sought; 4° the details of any procedure that requires to be followed by law in Rwanda; 5° the time limit within which compliance with the request is desired, stating reasons for the suggested time limit; 6° the nature of the criminal matter, and indicating whether proceedings have been instituted or not; 7° a reasonable cause to believe that an offence has been or is being committed, with a summary of facts case proceedings have not been instituted; 8° the details of the court exercising jurisdiction in the proceedings; 9° the identity of the suspect; 10° the offence(s) of which the person suspected to have committed, summary of the facts and the penalties which may be imposed; 11° the stage reached in the proceedings, and any date fixed for further stages the proceedings in case criminal proceedings have been instituted; 12° any other relevant information that may assist in giving effect to the request."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "CHAPTER | Section One: Outgoing request | Section 2: Incoming request",
+      "section": "7",
+      "title": "Article 7 - Reception of request",
+      "content": "A request for mutual assistance from a foreign State is received by the Central Authority, which transmits it to the Competent Authority."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "CHAPTER | Section One: Outgoing request | Section 2: Incoming request",
+      "section": "8",
+      "title": "Article 8 - Form and content of incoming",
+      "content": "request The request from a foreign State drafted in one of the official languages indicates the following: 1° the name of the authority conducting the investigation; 2° a description of the purposes of the request for mutual assistance and the nature of the mutual assistance sought; 3° investigation, prosecution or judicial proceedings to which the request relates; 4° name and contact details of the person capable of responding to enquiries concerning the request; 5° a description of criminal matters, including a summary of the facts; 6° offences and penalties to which the request relates if applicable; 7° the identity of the suspect against whom mutual assistance is sought; 8° any other relevant information that may assist in giving effect to the request."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "CHAPTER | Section One: Outgoing request | Section 2: Incoming request",
+      "section": "9",
+      "title": "Article 9 - Implementation of a request",
+      "content": "A request for mutual legal assistance received from a foreign State that requires the implementation of a warrant, authorisation or other court order is treated on the same basis as if the criminal matter upon which the request is based had arisen in Rwanda. The Competent Authority may certify or authenticate any record, document or any other material, by any means to the extent permissible in the laws of Rwanda."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "CHAPTER | Section One: Outgoing request | Section 2: Incoming request",
+      "section": "10",
+      "title": "Article 10 - Request for evidence related to",
+      "content": "computer data When a request from a foreign State is related to computer data, the data is searched, kept and sent in accordance with the laws of Rwanda."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "CHAPTER | Section One: Outgoing request | Section 2: Incoming request",
+      "section": "11",
+      "title": "Article 11 - Outcome of the request",
+      "content": "After examination of a request, the Competent Authority forwards the outcome to the Central Authority, which transmits it to the foreign State. A request for mutual legal assistance from foreign State must not exceed three (3) months without communicating to the requesting State the outcome or progress."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "CHAPTER | Section One: Outgoing request | Section 2: Incoming request",
+      "section": "12",
+      "title": "Article 12 - Grounds for refusal of a request",
+      "content": "The Competent Authority may refuse a request for mutual legal assistance if: 1° the request is related to investigation, prosecution or punishment of an offence of a political nature; 2° the request is related to an act which not an offence in Rwanda; 3° the conduct which is the subject of the request is an offence only under military law or a law relating to military obligations of a foreign State; 4° compliance with the request would be contrary to the laws of Rwanda, or would prejudice the national sovereignty, national security, international relations or national interests; 5° there are substantial grounds to believe that compliance with the request would facilitate the investigation, prosecution or punishment of any person on account of race, ethnic origin, sex, religion or nationality; 6° the procedures required to be taken in order to comply with the request cannot under the laws of Rwanda be executed; 7° the request is related to the prosecution of a person for an offence of which the person has been acquitted by competent tribunal or for which he or she has been granted amnesty or pardoned by a competent authority another State or has executed the punishment provided for by the law of that State; 8° any other relevant ground for refusal arises."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "CHAPTER III: ADMISSIBILITY OF",
+      "section": "13",
+      "title": "Article 13 - Confidentiality and limitation of",
+      "content": "use of information or evidence The Central Authority and Competent Authority keep confidential information or evidence sent or obtained pursuant to a request for mutual legal assistance. The obtained information cannot be used for any purpose other than for the criminal matter stated in the request, except: 1° where such use or disclosure consented to in writing by the foreign State; 2° where such information or evidence have been used or disclosed in any public judicial hearing in which its use or disclosure was permitted; 3° such information or evidence was already in the possession of the relevant Authority. EVIDENCE OBTAINED FROM FOREIGN STATE"
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "CHAPTER III: ADMISSIBILITY OF",
+      "section": "14",
+      "title": "Article 14 - Evidence from a foreign State",
+      "content": "Evidence obtained from a foreign State admissible according to the laws of Rwanda."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "CHAPTER III: ADMISSIBILITY OF",
+      "section": "15",
+      "title": "Article 15 - Certificate of service",
+      "content": "A certificate of service is a document that the requested State provides to the requesting State as evidence to prove that the documents submitted by the requesting State have been served on the relevant authority in a manner indicated in the request; Any certificate of service provided by foreign State pursuant to a request for service of documents is admissible as evidence that documents have been served in any manner indicated in the certificate."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "CHAPTER III: ADMISSIBILITY OF",
+      "section": "16",
+      "title": "Article 16 - Foreign record, document or",
+      "content": "other material Any record, document or other material obtained as evidence from a foreign State pursuant to a request for mutual legal assistance under this Law is admissible court proceedings as it would have been obtained in Rwanda. Evidence referred to under Paragraph One of this Article is accompanied by an affidavit or its equivalent pertaining to such record, document or other material from the person who has custody or knowledge of such record, document or other material. An affidavit or its equivalent provided pursuant to a request for mutual legal assistance from a foreign State is admissible as proof of its contents."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "CHAPTER III: ADMISSIBILITY OF",
+      "section": "17",
+      "title": "Article 17 - Testimony through information",
+      "content": "and communication technology A request for mutual legal assistance may require that a witness in a foreign State gives oral testimony in prosecution or proceedings in Rwanda via videoconferencing or other audio-visual means. Testimony given by videoconferencing or other audio-visual means pursuant to a request for mutual legal assistance to a foreign State admissible to the extent that the testimony would be admissible as if the witness himself or herself were in Rwanda. A witness who gives testimony pursuant to request for mutual legal assistance to a foreign State cannot be compelled to give testimony. If a witness refuses to give audio-visual testimony on the ground that he or she cannot be compelled to give testimony in the foreign State, the Competent Authority may through the Central Authority request the Central Authority of the foreign State to request the Competent Authority in that State to take deposition from the witness and transfer it Rwanda."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "CHAPTER IV: REQUEST FOR MUTUAL | Section One: Mutual assistance related to",
+      "section": "18",
+      "title": "Article 18 - Admissibility of evidence from",
+      "content": "computer data Computer data evidence is admissible if it obtained, preserved and transferred to Rwanda by a foreign State. ASSISTANCE IN MATTERS RELATED TO WITNESSES IN RWANDA AND FOREIGN ORDERS witnesses residing in Rwanda"
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "CHAPTER IV: REQUEST FOR MUTUAL | Section One: Mutual assistance related to",
+      "section": "19",
+      "title": "Article 19 - Evidence from a witness and",
+      "content": "procedure for its reception A request from a foreign State for a person in Rwanda to give evidence in proceedings in foreign State is made through the Central Authority to the Competent Authority. The Competent Authority makes an order requiring the witness to: 1° appear in designated location within Rwanda to give a testimony via videoconferencing or other audio- visual means for proceedings held in foreign State; 2° answer questions of designated by the Authority; a person Competent 3° provide an affidavit in relation to the request, including answers to any questions asked; 4° furnish any particular document or any"
+    },
+    {
+      "provision_ref": "artor-thing",
+      "chapter": "CHAPTER IV: REQUEST FOR MUTUAL | Section One: Mutual assistance related to",
+      "section": "or thing",
+      "title": "Article or thing - within his or her",
+      "content": "possession or control, to a person designated by the Competent Authority for transmission to the foreign State."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "CHAPTER IV: REQUEST FOR MUTUAL | Section One: Mutual assistance related to",
+      "section": "20",
+      "title": "Article 20 - Appearance of a witness residing",
+      "content": "in Rwanda through information and communication technology Where a witness in Rwanda appears in hearing in a foreign State via videoconferencing or other audio-visual means, the hearing is conducted directly by or under the direction of the judicial authority of the foreign State subject to any condition for the protection of the rights of person as witness under the laws of Rwanda. The date and place of the hearing, the identity of the witness heard, the identities and functions of all other persons who participated in the hearing, any oath or affirmation made, any evidence taken or produced and the record indicating the evidence taken or produced are submitted by the Competent Authority to the Central Authority for transmission to the foreign State. A witness cannot be compelled to give evidence, including to answer any question or produce any document, record, item or other material, in relation to any request for mutual legal assistance from a foreign State which he or she could not be compelled to give criminal proceedings in Rwanda or in the foreign State. The Competent Authority, through the Central Authority, requests the Central Authority of the foreign State for the Competent Authority in that State to comply with any condition for smooth running of proceedings and protection of the rights of witness under the laws of Rwanda."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "CHAPTER IV: REQUEST FOR MUTUAL | Section One: Mutual assistance related to",
+      "section": "21",
+      "title": "Article 21 - Transfer to a foreign State of",
+      "content": "person in custody A request from a foreign State for the temporary transfer of a person in custody in Rwanda for the purposes of investigation or appearance as a witness before a court in foreign State is to be made to the Competent Authority. A transfer order is signed by the Competent Authority."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "CHAPTER IV: REQUEST FOR MUTUAL | Section One: Mutual assistance related to",
+      "section": "22",
+      "title": "Article 22 - Rights of a person in custody",
+      "content": "whose transfer to a foreign State requested The transfer of a person in custody to a foreign State can only be made with his or her consent in writing or any other means provided by Law. If he or she does not consent to the transfer, he or she is not liable to any penalty or measure of compulsion. A person who is serving a sentence of imprisonment in Rwanda under a transfer order is considered as continuing to serve that sentence in Rwanda. If there ceases to be any lawful power to maintain a person in custody who has been transferred to a foreign State, the Central Authority immediately informs the foreign State to procure the release of the person. A person who is held in custody and for whom a transfer order has been made cannot be subject to a request for extradition. The Competent Authority may impose any conditions considered necessary depending on the nature of the request, including conditions that relate to the protection of the interests of the person in custody, and such conditions are applicable to the request from the foreign State."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "CHAPTER IV: REQUEST FOR MUTUAL | Section One: Mutual assistance related to",
+      "section": "23",
+      "title": "Article 23 - Conditions for making",
+      "content": "transfer order for a person in custody The Competent Authority makes a transfer order for a person in custody if it is satisfied that: 1° there is sufficient information upon which to make the transfer order; 2° the person in custody has given his or her consent in writing and understands the consequences of his or her consent; 3° the person in custody will be lawfully confined in the foreign State; 4° there are adequate measures to ensure the security of the person in custody during his or her travel, stay and return from the foreign State; 5° a monitoring framework has been put in place to ensure the well-being of the person in custody transferred to the foreign State; 6° there is a period of time within which the Competent Authority of a foreign State requires the person in custody be returned to Rwanda."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "CHAPTER IV: REQUEST FOR MUTUAL | Section One: Mutual assistance related to | Section 2: Orders from a foreign State",
+      "section": "24",
+      "title": "Article 24 - Content of a transfer request of",
+      "content": "a person in custody A request for transfer of a person in custody a foreign State includes the following: 1° the name of the person in custody; 2° the place where the person is custody; 3° the relevance of the matter upon which the investigation of the person custody is sought; 4° the reasons why the transfer is more important than using the videoconferencing or audio-visual means; 5° a document certifying that the content of items 3º, 4º, 5º and 6º of Article 23 of this Law will be respected; 6° any other relevant information that may assist in giving effect to the request."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "CHAPTER IV: REQUEST FOR MUTUAL | Section One: Mutual assistance related to | Section 2: Orders from a foreign State",
+      "section": "25",
+      "title": "Article 25 - Interim freezing, restraint or",
+      "content": "seizure order A request from a foreign State for an order of an interim freezing, restraint or seizure of dealings with a specified property in Rwanda is made to the Competent Authority. The Competent Authority may grant the request if there are reasonable grounds to believe that the order to freeze, restrain or seize dealings of the specified property is accordance with the laws of Rwanda. The Competent Authority may, on its own initiative or upon request, vary or discharge an order if: 1° convinced that it is in the public interest to do so having regard to any financial hardship or other consequence of the order remaining in force; 2° there are reasons to believe that freezing, restraint or seizure order is no longer valid in a foreign State."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "CHAPTER IV: REQUEST FOR MUTUAL | Section One: Mutual assistance related to | Section 2: Orders from a foreign State",
+      "section": "26",
+      "title": "Article 26 - Recognition and enforcement of",
+      "content": "a foreign order A request from a foreign State to recognize and enforce a final court order to freeze, restrain or seize a specified property in Rwanda must include a certified copy of the order of freezing, restraining or seizing the specified property that has been issued by the court in that foreign State. The Competent Authority may grant a request if it appears that the order referred to Paragraph One of this Article has been issued in the foreign State. The order referred to in Paragraph One of this"
+    },
+    {
+      "provision_ref": "artthat-was",
+      "chapter": "CHAPTER IV: REQUEST FOR MUTUAL | Section One: Mutual assistance related to | Section 2: Orders from a foreign State",
+      "section": "that was",
+      "title": "Article that was - issued in a valid way has the",
+      "content": "same value as a freezing, restraint or seizure order made by a court in Rwanda and enforceable as a judgment of that court."
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "CHAPTER V: FINAL PROVISIONS",
+      "section": "27",
+      "title": "Article 27 - Application to discharge or vary",
+      "content": "an order from a foreign State. When a final court order has been made in valid way, any person who claims an interest in the property related to the order may apply to discharge or vary the order. The Competent Authority can vary or discharge the order referred to in Paragraph One of this Article if there is reasonable ground to believe that it is in the public interest to do so having regard to any financial hardship or other consequence of the order remaining in force."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "CHAPTER V: FINAL PROVISIONS",
+      "section": "28",
+      "title": "Article 28 - Drafting, consideration and",
+      "content": "adoption of this Law This Law was drafted in English, considered and adopted in Ikinyarwanda."
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "CHAPTER V: FINAL PROVISIONS",
+      "section": "29",
+      "title": "Article 29 - Repealing provision",
+      "content": "All prior legal provisions contrary to this Law are repealed."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "CHAPTER V: FINAL PROVISIONS",
+      "section": "30",
+      "title": "Article 30 - Commencement",
+      "content": "This Law comes into force on the date of its publication in the Official Gazette of the Republic of Rwanda. (sé) KAGAME Paul Perezida wa Repubulika President of the Republic Président de la République (sé) Dr NGIRENTE Edouard Minisitiri w’Intebe Prime Minister Premier Ministre kandi bishyizweho Ikirango cya Repubulika: Seen and sealed with the Seal of the Republic: Vu et scellé du Sceau de la République: (sé) BUSINGYE Johnston w’Ubutabera akaba n’Intumwa Nkuru Minister of Justice and Attorney General Ministre de la Justice et Garde des Sceaux"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "mutual legal assistance",
+      "definition": "assistance criminal matters to or from any foreign State",
+      "source_provision": "art3"
+    },
+    {
+      "term": "Competent Authority",
+      "definition": "the Ministry charge of justice, the authority charge of public prosecution or the authority in charge of investigation",
+      "source_provision": "art3"
+    },
+    {
+      "term": "Central Authority",
+      "definition": "the Ministry charge of Foreign Affairs",
+      "source_provision": "art3"
+    }
+  ]
+}

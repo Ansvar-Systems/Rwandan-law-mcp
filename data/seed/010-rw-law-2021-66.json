@@ -1,0 +1,50 @@
+{
+  "id": "rw-law-2021-66",
+  "type": "statute",
+  "title": "Law removing the National Commission for the Fight against Genocide",
+  "title_en": "Law removing the National Commission for the Fight against Genocide",
+  "short_name": "Law 66 of 2021",
+  "status": "repealed",
+  "issued_date": "2021-10-15",
+  "in_force_date": "2021-10-21",
+  "url": "https://rwandalii.org/akn/rw/act/law/2021/66/eng@2021-10-21",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article One – Removing the National Commission for the Fight against Genocide",
+      "content": "The National Commission for the Fight against Genocide is removed."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2 – Public servants that were employed by the National Commission for the Fight against Genocide",
+      "content": "Public servants that were employed by the National Commission for the Fight against Genocide are placed in accorandance with laws governing public servants."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3 – Property, contracts and liabilities",
+      "content": "Property, contracts and liabilities of the former National Commission for the Fight against Genocide are transferred to the Ministry in charge of National Unity and Civic Engagement."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4 – Drafting, consideration and adoption of this Law",
+      "content": "This Law was drafted, considered and adopted in Ikinyarwanda."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5 – Repealing a law and all prior legal provisions contrary to this Law",
+      "content": "Law n° 015/2021 of 03/03/2021 governing the National Commission for the Fight against Genocide and all prior legal provisions contrary to this Law are repealed."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6 – Commencement",
+      "content": "This Law comes into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": []
+}

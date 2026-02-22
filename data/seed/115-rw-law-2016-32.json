@@ -1,0 +1,32 @@
+{
+  "id": "rw-law-2016-32",
+  "type": "statute",
+  "title": "Law governing Persons and Family Law",
+  "title_en": "Law governing Persons and Family Law",
+  "short_name": "Law 32 of 2016",
+  "status": "in_force",
+  "issued_date": "2016-08-28",
+  "in_force_date": "2016-09-12",
+  "url": "https://rwandalii.org/akn/rw/act/law/2016/32/eng@2016-09-12",
+  "provisions": [
+    {
+      "provision_ref": "art331",
+      "section": "331",
+      "title": "Article 331",
+      "content": "Drafting, consideration and adoption of this Law This Law was drafted in French, considered and adopted in Kinyarwanda."
+    },
+    {
+      "provision_ref": "art332",
+      "section": "332",
+      "title": "Article 332 - Repealing provision",
+      "content": "Subject to provisions of Article 330 Paragraph 2 this Law, Law nº 42/1988 of 27 October 1988 instituting the Preliminary Title and Book One the Civil Code and all prior legal provisions contrary to this Law are hereby repealed."
+    },
+    {
+      "provision_ref": "art333",
+      "section": "333",
+      "title": "Article 333 - Commencement",
+      "content": "This Law comes into force on the date of publication in the Official Gazette of the Republic of Rwanda. Kigali, on 28/08/2016 (sé) KAGAME Paul President of the Republic (sé) MUREKEZI Anastase Prime Minister Seen and sealed with the Seal of the Republic: (sé) BUSINGYE Johnston Minister of Justice/Attorney General"
+    }
+  ],
+  "definitions": []
+}

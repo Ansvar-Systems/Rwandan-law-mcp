@@ -1,0 +1,84 @@
+{
+  "id": "rw-law-2015-34",
+  "type": "statute",
+  "title": "Law establishing the Infrastructure Development Levy on Imported Goods",
+  "title_en": "Law establishing the Infrastructure Development Levy on Imported Goods",
+  "short_name": "Law 34 of 2015",
+  "status": "repealed",
+  "issued_date": "2015-06-30",
+  "in_force_date": "2015-07-01",
+  "url": "https://rwandalii.org/akn/rw/act/law/2015/34/eng@2015-07-01",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapter One – General provisions",
+      "section": "1",
+      "title": "Article One – Purpose of this Law",
+      "content": "This Law establishes the infrastructure development levy on imported goods."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Chapter One – General provisions",
+      "section": "2",
+      "title": "Article 2 – Scope of application of this Law",
+      "content": "This Law shall apply to all imported goods. It shall not apply to imported goods exempted under this Law."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Chapter One – General provisions",
+      "section": "3",
+      "title": "Article 3 – Definitions of terms",
+      "content": "For the purpose of this Law, the following terms shall have the following meanings: 1º levy: the charge on imported goods aiming at promoting regional infrastructure development; 2º goods: tangible or intangible property, but does not include money and negotiable instruments; 3º customs legislation: East African Community Customs Management Act; 4º Commissioner General: the Commissioner General of Rwanda Revenue Authority."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Chapter II – Rate and base of the levy and exempted goods",
+      "section": "4",
+      "title": "Article 4 – Rate and base of the levy",
+      "content": "All imported goods shall be subject to a levy of one and half per cent (1.5%) to be levied on the customs value of imported goods."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Chapter II – Rate and base of the levy and exempted goods",
+      "section": "5",
+      "title": "Article 5 – Exempted goods",
+      "content": "The following goods shall be exempted from the levy: 1º goods imported certifying the East African Community Rules of Origin; 2º goods imported specified in the Fifth Schedule of the East African Customs Management Act as appended to this Law; 3º imported goods exempted from taxes as provided for in East African Community and industrial goods imported in Rwanda entitled to remission; 4º reproductive animals and reproductive plants; 5º pharmaceutical products; 6º veterinary and phytosanitary products; 7º medical equipment appearing on the list made by the Minister in charge of health and approved by the Minister in charge of taxes; 8º veterinary and phytosanitary equipment appearing on the list made by the Minister in charge of agriculture and animal husbandry and approved by the Minister in charge of taxes; 9º industrial machinery and equipment for energy and water sectors, as well as for investment projects with investment certificate; 10º organic and inorganic chemicals; 11º machinery and equipment approved by the Commissioner General."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Chapter III – Collection and management of the levy",
+      "section": "6",
+      "title": "Article 6 – Collection of the levy",
+      "content": "The levy on goods imported shall be collected at the customs point in accordance with the customs legislation."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Chapter III – Collection and management of the levy",
+      "section": "7",
+      "title": "Article 7 – Management of the levy",
+      "content": "The levy on goods imported shall be deposited into a sub account of the Public Treasury Single Account."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Chapter IV – Final provisions",
+      "section": "8",
+      "title": "Article 8 – Drafting, consideration and adoption of this Law",
+      "content": "This Law was drafted in English, considered and adopted in Kinyarwanda"
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Chapter IV – Final provisions",
+      "section": "9",
+      "title": "Article 9 – Repealing provision",
+      "content": "All prior legal provisions contrary to this Law are hereby repealed."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "Chapter IV – Final provisions",
+      "section": "10",
+      "title": "Article 10 – Commencement",
+      "content": "This Law shall come into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": []
+}

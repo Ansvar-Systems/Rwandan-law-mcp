@@ -14,8 +14,8 @@ sources:
       url: "https://rwandalii.org/terms-of-use/"
       summary: "Portal publishes Rwanda legislation with links to Official Gazette publications."
     coverage:
-      scope: "Ten Rwanda laws with machine-readable article text (data-display-type=akn)."
-      limitations: "Many legacy laws are PDF-only on portal (data-display-type=pdf) and cannot be ingested into article-level JSON without OCR."
+      scope: "Full law catalog retrieval from RwandaLII (`nature=Law`) using AKN pages and PDF-backed law pages."
+      limitations: "Image-only/scanned PDFs may require OCR tooling not always present in runtime environment."
     languages:
       - "en"
 
@@ -29,8 +29,8 @@ sources:
       url: "https://www.minijust.gov.rw/"
       summary: "Primary publication venue for enacted laws; many files are PDF."
     coverage:
-      scope: "Official publication records and gazette PDFs."
-      limitations: "Primarily PDF publication; machine-readable article text is not consistently available."
+      scope: "Official publication records and gazette PDFs linked from law pages."
+      limitations: "Gazette layout is often multilingual and PDF-first; article segmentation from PDF text may require normalization heuristics."
     languages:
       - "en"
       - "rw"

@@ -1,0 +1,44 @@
+{
+  "id": "rw-law-2019-20",
+  "type": "statute",
+  "title": "Law repealing all Legal Instruments brought into force before the date of Independence",
+  "title_en": "Law repealing all Legal Instruments brought into force before the date of Independence",
+  "short_name": "Law 20 of 2019",
+  "status": "repealed",
+  "issued_date": "2019-08-22",
+  "in_force_date": "2019-09-23",
+  "url": "https://rwandalii.org/akn/rw/act/law/2019/20/eng@2019-09-23",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article One – Purpose of this law",
+      "content": "This Law repeals all legal instruments brought into force before the date of independence of Rwanda."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2 – Definitions",
+      "content": "In this Law, the following terms mean: 1. “ legal instruments ”: laws, decreelaws, decrees, legislative ordinances, law-ordinances, ordinances, ordinances of Ruanda-Urundi, royal orders, decrees of the Governor General, orders of the Resident and Special Resident, regulations, presidential orders, ministerial orders, edicts and declarations; 2. “ before the date of independence ”: period of time running from the year 1885 to 1st July 1962."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3 – Repealing provision",
+      "content": "All legal instruments, brought into force before the date of independence of Rwanda, are repealed."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4 – Drafting, consideration and adoption of this Law",
+      "content": "This Law was drafted, considered and adopted in Ikinyarwanda."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5 – Commencement",
+      "content": "This Law comes into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": []
+}

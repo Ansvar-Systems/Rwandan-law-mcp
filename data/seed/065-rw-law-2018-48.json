@@ -1,0 +1,617 @@
+{
+  "id": "rw-law-2018-48",
+  "type": "statute",
+  "title": "Law on Environment",
+  "title_en": "Law on Environment",
+  "short_name": "Law 48 of 2018",
+  "status": "repealed",
+  "issued_date": "2018-08-13",
+  "in_force_date": "2018-09-21",
+  "url": "https://rwandalii.org/akn/rw/act/law/2018/48/eng@2018-09-21",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapter One – General provisions",
+      "section": "1",
+      "title": "Article One – Purpose of this Law",
+      "content": "This Law determines modalities for protecting, conserving and promoting the environment."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Chapter One – General provisions",
+      "section": "2",
+      "title": "Article 2 – Definitions",
+      "content": "In this Law, unless the context otherwise requires, the following terms are defined as follows: 1° wetlands: areas consisting of marsh, fen, peat land or water, whether natural or artificial, permanent or temporary, with water that is static or flowing, fresh, brackish or salt, including areas of marine water the depth of which at low tide does not exceed six (6) meters; 2° water: a substance of molecular formula H 2 O, which is present naturally as rain and found in the oceans, seas, lakes and rivers. Depending on where it is and how it forms, it may change its name in the following manner: a. stagnant water of the oceans, lakes, ponds, pools and swamps; b. flowing rain water; c. flowing river and stream water; d. water that penetrates the soil; e. underground water. 3° adaptation: the process of adjustment to actual or expected climate and its effects in order to moderate harm or exploit beneficial opportunities. The term also means the process of adjustment to actual climate and its effects and that the human intervention may facilitate the adjustment to expected climate; 4° built environment: man-made surroundings that provide the setting for human activities for social welfare; 5° natural environment: an environment that encompasses all living species and non-living things occurring naturally on earth, including soil and subsoil, water, air, biodiversity, and landscapes, tourist sites and monuments that affect human survival and economic activity; 6° environment: a diversity of things made up of natural and built environment, including chemical substances, biodiversity as well as socio-economic activities, cultural, aesthetic and scientific factors likely to have direct or indirect, immediate or long term effects on the development of an area, biodiversity and on human activities; 7° environmental audit: systematic documentation and periodic and objective evaluation of protection and management of the environment, the conservation and sustainable use of natural resources; 8° swamp: a plain area between hills or mountains with water and biodiversity where papyrus or carex or plants of their species grow; 9° plain land: a flat area with little water and less biodiversity; 10° Authority: the national authority in charge of conservation of environment; 11° prevention: strategies to prevent and mitigate gas emissions which contribute to climate change; 12° subsoil: the layer of soil under the top soil; 13° climate change: a change in weather patterns attributed directly or indirectly to human activity that alters the composition of the global atmosphere and which is in addition to natural climate variability observed over comparable time periods; 14° waste: any substance whether solid, liquid or gaseous from human activity that cause a serious harm including electronic-waste and hazardous wastes; 15° greenhouse gases: gaseous constituents of the atmosphere, both natural and anthropogenic, that absorb and emit infrared radiation, including carbon dioxide, methane, nitrous oxide, hydrofluorocarbons, perfluorocarbons, sulphur hexafluoride and indirect greenhouse gases; 16° ecosystem: a dynamic complex of plant, animal and micro-organism communities and their non-living environment interacting as a functional unit; 17° shores: a wetland that is dominated by herbaceous rather than woody or plant species often found at the edges of lakes and streams where they form a transition between the aquatic and terrestrial ecosystems; 18° installation: any asset built or fixed to a certain place or movable which may cause disruption of the environment; 19° emissions: greenhouse gases or their precursors into the atmosphere over a specified area and period of time; 20° strategic environmental assessment: a systematic and flexible process of addressing the environmental aspects and consequences of proposed policies, plans and program initiatives at the earliest appropriate stage of decision-making; 21° environmental impact assessment: a systematic process of identifying environmental, social and economic impacts of a project before a decision of its acceptance is made; 22° Minister: Minister in charge of environment; 23° pollution: the contamination caused by waste, harmful biochemical products derived from human activities that may alter a person’s habitat and cause adverse effects on the environment including a person's social wellbeing, flora, fauna and the world he/ she lives in; 24° soil: the upper most part of the earth whose surface land hosts living things, including plants, animals and people; 25° competent authority: a service or several services with competence provided for by law; 26° valley: an area between two hills or mountains characterised by a source of water above the ground or underground; 27° person: an individual, a group of individuals, a company, an organisation or an association with legal personality; 28° mountain: an elevated part of the earth higher than the plain lands and swamps; 29° air: an invisible mixture of gaseous fluid in the atmosphere and which is breathed by biodiversity which can create effects on their existence and the environment in general; 30° biodiversity: the variability of living organisms of all types including a person, animals of all species, plants of all types be it on land or underground, in water or in the atmosphere and the interactions among them."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Chapter II – Fundamental principles that govern environmental conservation",
+      "section": "3",
+      "title": "Article 3 – Precautionary principle",
+      "content": "The precautionary principle contributes to preventing or reducing the disastrous consequences on environment. Activities considered or suspected to have negative impacts on environment must not be implemented pending results of a scientific assessment ruling out the potentiality of such impacts."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Chapter II – Fundamental principles that govern environmental conservation",
+      "section": "4",
+      "title": "Article 4 – Principle of environmental sustainability",
+      "content": "The principle of environmental sustainability makes sure that present and future generations enjoy equal opportunities. The right to development must be achieved in consideration of the needs of present and future generations."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Chapter II – Fundamental principles that govern environmental conservation",
+      "section": "5",
+      "title": "Article 5 – Polluter pays principle",
+      "content": "The polluter pays principle aims to deter activities impairing environment and punish any person who violates regulations. Any person who demonstrates behaviour or activities that cause or which may cause adverse effects on environment is either punished or ordered to make restitution. If the restitution is not possible, he/she is also ordered to rehabilitate it."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Chapter II – Fundamental principles that govern environmental conservation",
+      "section": "6",
+      "title": "Article 6 – Principle of information dissemination and incentives for environmental conservation",
+      "content": "The principle of information dissemination and incentives for environmental conservation contributes to fostering awareness about the usefulness of environment and its conservation. Every person has the right to be informed of the state of the environment and to take part in strategies and activities aimed at conserving the environment."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Chapter II – Fundamental principles that govern environmental conservation",
+      "section": "7",
+      "title": "Article 7 – Principle of cooperation",
+      "content": "The principle of cooperation helps consolidate efforts towards the conservation of environment. The government through its environmental policy emphasises the promotion of international cooperation. Authorities, national and international non-governmental organisations, associations and private individuals are required to cooperate in protecting the environment."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Chapter III – Conservation and protection of natural environment",
+      "section": "8",
+      "title": "Article 8 – Soil and subsoil conservation",
+      "content": "The soil and subsoil constitute the natural resources to be protected from all kinds of degradation and they must be used in a sustainable manner in accordance with relevant laws."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Chapter III – Conservation and protection of natural environment",
+      "section": "9",
+      "title": "Article 9 – Use and management of soil and subsoil",
+      "content": "Any land exploitation project for research, industry, urbanisation, rural settlement, infrastructure, intensive farming or extraction is subject to authorisation issued in accordance with relevant laws. Soil and subsoil use is managed and administered on a sustainable basis in accordance with relevant laws."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "Chapter III – Conservation and protection of natural environment",
+      "section": "10",
+      "title": "Article 10 – Prerequisites for granting soil and subsoil exploitation license",
+      "content": "For the purposes of the protection of environment, the soil and subsoil exploitation licence is issued after consideration of the following: 1° the significance and effectiveness of measures to prevent environmental degradation; 2° the considerations of interests of the local community in the vicinity of the project; 3° the obligation to rehabilitate the damaged area in any possible way in order to restore the beauty of the landscape or the natural systems modified by human activity in accordance with a pre-established rehabilitation plan approved by the competent authority."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "Chapter III – Conservation and protection of natural environment",
+      "section": "11",
+      "title": "Article 11 – Use of water resources",
+      "content": "Rivers, streams, underground water, springs, ponds, swamps and lakes are part of the State’s public domain. Their use is governed by law."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "Chapter III – Conservation and protection of natural environment",
+      "section": "12",
+      "title": "Article 12 – Water resources protection",
+      "content": "Water resources must be protected from any source of pollution. Swamps with permanent water and full of swamp vegetation must be given special protection considering their role and importance in the preservation of the biodiversity."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "Chapter III – Conservation and protection of natural environment",
+      "section": "13",
+      "title": "Article 13 – Introduction, importation and exportation of any species of animals or plant",
+      "content": "The introduction into Rwanda, import and export of any animal or plant species take place in accordance with relevant laws."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "Chapter III – Conservation and protection of natural environment",
+      "section": "14",
+      "title": "Article 14 – Keeping of and trade in wild animals",
+      "content": "The following acts are subject to prior permission granted by the organ in charge of tourism: 1° keeping of wild animals or products from wild animals; 2° hawking, sale, exchange of and trade in wild animals."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "Chapter III – Conservation and protection of natural environment",
+      "section": "15",
+      "title": "Article 15 – Protection and conservation of the atmosphere",
+      "content": "Any installation likely to create risks or cause pollution, vehicles and engine driven machines, commercial, craft or agricultural activities must be conducted in accordance with technical principles established by competent authorities in order to protect and preserve the atmosphere."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Chapter III – Conservation and protection of natural environment",
+      "section": "16",
+      "title": "Article 16 – Protection of the ozone layer",
+      "content": "The use of air pollutants, substances that deplete the ozone layer or which are likely to cause climatic changes is governed by an Order of the Minister."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Chapter IV – Conservation and protection of built environment",
+      "section": "17",
+      "title": "Article 17 – Liquid waste management",
+      "content": "The collection, transport and disposal of waste water are conducted in accordance with special regulations and guidelines issued by the competent authority. Water from the sewage system and any type of liquid waste must be collected in treatment factories for purification and serve thereafter to perform hygiene, sanitation and developmental activities. Waste water from factories using chemicals in their processes must be pre-treated before being taken to a treatment factory. Water efficiently purified to standards may be poured into streams or lakes."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "Chapter IV – Conservation and protection of built environment",
+      "section": "18",
+      "title": "Article 18 – Solid waste management",
+      "content": "No person is authorised to discard solid waste in an inappropriate place. Solid waste must be sorted, collected and transported to appropriate destination in accordance with relevant laws. Solid waste must be disposed of in appropriate landfill or in a waste processing factory for production purposes."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "Chapter IV – Conservation and protection of built environment",
+      "section": "19",
+      "title": "Article 19 – Management of hazardous and toxic waste",
+      "content": "Any waste, especially from hospitals, health centres and clinics, research centres equipped with laboratories, industries and any other hazardous or toxic waste must be collected, treated and changed in a manner that does not degrade the environment in order to prevent, eliminate or reduce their adverse effects on human health, natural resources and environment. Management, disposal and trans-boundary movements of hazardous or toxic waste are governed by an order of the Minister."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "Chapter IV – Conservation and protection of built environment",
+      "section": "20",
+      "title": "Article 20 – Management of electronic waste",
+      "content": "Any electronic waste must be collected, treated and changed in a manner that does not degrade the environment in order to prevent, eliminate or reduce their adverse effects on human health, natural resources and environment. No person is allowed to carry out activities of collecting, transportation, trading, import, dismantling and recycling electronic waste unless he/she holds an authorization issued by a competent authority. Modalities for the processing of electronic waste are determined by an Order of the Minister."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "21",
+      "title": "Article 21 – Mainstreaming of environment and climate change in the development planning process",
+      "content": "Every socio-economic sector must mainstream environment and climate change in the development and implementation of its policies, strategies, plans and programs. Administrative entities, national and international non-governmental organisations as well as individuals must conserve the environment and prevent adverse effects of climate change."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "22",
+      "title": "Article 22 – Education on the conservation of environment and climate change",
+      "content": "The State takes adequate measures aimed at the education on the conservation of the environment and adaptation to the impacts of climate change and integrates the same in schools curricula at all levels. Within their capacity, administrative entities, national and international non-governmental organisations must sensitise the population on environmental and climate change issues."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "23",
+      "title": "Article 23 – Green spaces",
+      "content": "The government and decentralised entities must establish green spaces. Public organs in charge of housing and infrastructure must ensure the integration of green spaces in the master plan as well as in individual construction plans."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "24",
+      "title": "Article 24 – Climate change assessment and reporting",
+      "content": "The authority in charge of climate change in collaboration with administrative entities and national and international non-governmental organisations must develop, regularly update, publish and make available the following: 1° national inventories of anthropogenic emissions by sources and removals by sinks of all greenhouse gases using comparable methodologies provided by the convention on climate change; 2° national programs containing measures to mitigate climate change by addressing anthropogenic emissions by sources and removals by sinks of all greenhouse gases; 3° national climate change vulnerability assessment and programs containing measures for adaptation to impacts of climate change in different sectors likely to be affected. An Order of the Minister determines the procedure for preparation of national report on climate change and responsibilities of organs that are involved."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "25",
+      "title": "Article 25 – Response measures on climate change and technology transfer",
+      "content": "The Authority in charge of climate change upon consultation with administrative entities and national and international non-governmental organisations must promote and cooperate in the development, application and diffusion of, including transfer of technologies, practices and processes that control, reduce or prevent anthropogenic emissions of greenhouse gases and increase the adaptive capacity to build climate resilience."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "26",
+      "title": "Article 26 – General obligations of the State",
+      "content": "The State has the following general obligations to protect and conserve the environment: 1° to design a general and integrated policy on the environment and ensure its implementation; 2° to conclude agreements with other organs for the enforcement and implementation of this Law; 3° to take necessary measures to protect and respect the obligations stipulated in international agreements which it signed; 4° to prohibit any activity carried out on its behalf or in its capacity that may degrade the environment in another country or in regions beyond its national jurisdiction; 5° to co-operate with other States in taking decisions to fight trans-boundary pollution; 6° to protect, conserve and manage properly the environment using appropriate measures; 7° to establish a national policy on climate change and develop strategies, plan and programs aiming at slowing down the increase of greenhouse gas emissions and enhancing adaptive capacity to the impacts of climate change including research and impact assessment studies."
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "27",
+      "title": "Article 27 – Protection and conservation of soil",
+      "content": "Only the State has the supreme power of management of all land situated on the national territory. It protects and conserves it by means of the following: 1° to establish measures for controlling soil erosion and soil pollution by chemical substances, fertilisers, human and veterinary medicines and others which are allowed for use; 2° to establish concrete measures for rehabilitating degraded soils."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "28",
+      "title": "Article 28 – Biodiversity protection",
+      "content": "The State has the following obligations to protect the biodiversity: 1° to establish the list of species of animals and plants that must be protected depending on their role in ecosystems, their scarcity, their aesthetic value, their threat to extinction and their economic, cultural and scientific role; 2° to identify areas to be protected for conservation or rehabilitation of ecosystems, forests, woodlands, species of biodiversity and protected zones, monuments, historical sites and landscapes. The list referred to in item 1° of this Article is established by an Order of the Minister."
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "29",
+      "title": "Article 29 – Energy use",
+      "content": "The State has the obligations to promote effective energy use. While discharging such obligations, it focuses on the following: 1° to promote the use of renewable energy; 2° to promote effective energy use; 3° to promote the use of other types of energy which may replace that derived from wood."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "30",
+      "title": "Article 30 – Projects that must undergo an environmental impact assessment and its procedure",
+      "content": "The list of projects that must undergo an environmental impact assessment before they obtain authorization for their implementation is established by an Order of the Minister. An Order of the Minister also issues instructions and procedures for conducting environmental impact assessment."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "31",
+      "title": "Article 31 – Strategic environmental assessment",
+      "content": "Every policy, strategy, plan and programme must undergo a strategic environmental assessment. Procedures for conducting strategic environmental assessment are determined by an Order of the Minister."
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "32",
+      "title": "Article 32 – Environmental audit",
+      "content": "Every project that may have significant impact on the environment must undergo an environmental audit during and after its implementation. The list of projects that must undergo environmental audit is established by an Order of the Minister. An Order of the Minister also issues instructions and procedures for conducting environmental audit."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "33",
+      "title": "Article 33 – Consideration and approval of environmental studies",
+      "content": "The environmental impact assessment, environmental audit and strategic environmental assessment must be approved by the Authority or another State organ authorised in writing to do so by the Authority. If the approval is made by an authorised organ, such an organ does so on behalf of the Authority which is also responsible for its audit."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "34",
+      "title": "Article 34 – Cost of environmental assessments",
+      "content": "The consultancy cost for environmental audit and environmental impact assessment are borne by the project initiator. The consultancy cost for strategic environmental assessment are borne by the recipient public institution. An Order of the Minister determines fees to be paid by the project initiator seeking environmental impact assessment and environmental audit services provided by the State."
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "35",
+      "title": "Article 35 – Financing of environmental conservation activities",
+      "content": "The State sets financing mechanisms to support Government initiatives, initiatives of administrative entities, national and international non-governmental organisations aiming at protecting environment and building climate resilience."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "36",
+      "title": "Article 36 – Facilitation for environment friendly initiatives",
+      "content": "Initiatives aimed at protecting environment, importation of environmental friendly materials and factories using environmental friendly and low carbon technologies benefit from a range of facilitation arrangements in accordance with relevant laws."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "37",
+      "title": "Article 37 – Water and sanitation",
+      "content": "The State has the obligations to protect and conserve water resources and promote sanitation. While discharging such obligations, it focuses on the following: 1° put in place public toilets to foster hygiene; 2° to set up concrete policies relating to hygiene management in buildings, public places, on roadsides and in households; 3° to establish regulations governing water dams, centralised sewerage systems, waste pipe lines, landfills, waste collection sites and treatment plants; 4° to establish measures to protect and reserve catchment areas around wells from where drinking water is drawn; 5° to identify reserved areas for protection, conservation or rehabilitation of water systems and its quality, riverbanks and shores, rivers, streams, lakes, plains, valleys and swamps; 6° to establish concrete measures for effective management of water resources, which considers the quality of its sources and determines means of raising the volume of water and avoiding its wastage."
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "38",
+      "title": "Article 38 – Prevention of adverse effects of climate change",
+      "content": "The State undertakes actions to prevent the adverse effects of climate change, by means of the following: 1° to take climate change considerations into account, to the extent feasible, in its relevant social, economic and environmental policies and actions with a view to minimize adverse effects on the economy, on public health and on the quality of the environment; 2° to promote, and cooperate in, scientific, technological, technical, socio-economic and other research, systematic observation and development of data archives related to the climate system; 3° to ensure education, training and awareness meant to the public, administrative entities, national and international non-governmental organizations about climate change."
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "39",
+      "title": "Article 39 – Obligations of decentralised entities",
+      "content": "Decentralised entities must ensure the implementation of laws, policies, strategies, objectives and programmes relating to the protection, conservation and promotion of the environment in Rwanda. In particular, decentralised entities are responsible for: 1° ensuring activities related to better management of land, especially fighting soil erosion and tap rain water; 2° afforestation, protection and proper management of forests; 3° protection of rivers, lakes, sources of water and underground water; 4° efficient management and effective use of swamps; 5° protection and proper management of reserved areas, historical sites, protected animal and plant species; 6° designing plans of removal, collecting, piling and treatment of domestic waste; 7° determining a hygiene and sanitation service fee."
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "40",
+      "title": "Article 40 – Obligations of the population",
+      "content": "Obligations of the population in the protection and conservation of environment are as follows: 1° to protect, conserve and promote the environment by individual action or through collective activities; 2° to inform competent authorities a phenomenon that may affect the environment."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "Chapter V – Obligations of the State, decentralised entities and local communities with regard to the protection, conservation and promotion of environment",
+      "section": "41",
+      "title": "Article 41 – Establishment of environment protection committees",
+      "content": "A committee responsible for conservation, protection and promotion of environment as well as climate change is established at the City of Kigali, District, Sector and Cell levels. The organisation, functioning and responsibilities of environmental protection committees as well as their members of are determined by a Prime Minister’s Order."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "42",
+      "title": "Article 42 – Prohibitions in wetlands and protected areas",
+      "content": "Acts prohibited in wetlands and protected areas are as follows: 1° to dump any solid, liquid waste or hazardous gaseous substances in a stream, river, swamp, pond, lake and in their surroundings; 2° to damage the quality of the surface or underground water; 3° to dump, spill or deposit materials of any nature that may cause or increase water pollution; 4° to wash minerals in streams or lakes; 5° to build an agricultural and livestock installation in a distance of ten metres (10 m) away from the banks of streams and rivers and fifty metres (50 m) away from the lake banks; 6° to build a cattle kraal, slaughter house, cattle market in a distance of sixty metres (60 m) away from the banks of streams and rivers and two hundred metres (200 m) away from the lake banks; 7° to build in water sources, streams, rivers and lakes and in the buffer zone in a distance of ten metres (10 m) away from streams and fifty metres (50 m) away from lakes; 8° to pile soil and any other materials in wetlands; 9° to compact or change the nature of the wetland; 10° to build in the swamp and in the buffer zone in a distance of twenty metres (20 m) away from the swamp boundaries; 11° to drain the swamps without prior authorization of the competent authority; 12° to drain, divert or block the rivers without prior authorization of the competent authority; 13° to carry out any activity, except that related to research and science in reserved swamps; 14° to introduce plants or animal species whether alien or indigenous into wetlands without prior authorization of the competent authority; 15° to dump, make flow any hazardous waste, waste water, except after treatment in accordance with relevant instructions; 16° to dump, make flow, dispose of and store any substance in a place where it may cause or facilitate pollution of national waters. However, the Minister, after consultations with relevant institutions, may authorize some constructions or any other tourism-related activity as well as the use of water and underwater resources."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "43",
+      "title": "Article 43 – Prohibited acts related to emission of harmful noise",
+      "content": "Acts which cause emission of harmful noise or which is detrimental to human health are prohibited. Any noise emission must comply with standard regulations set by competent authority."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "44",
+      "title": "Article 44 – Prohibited acts in protection of biodiversity",
+      "content": "The following acts are prohibited in order to protect biodiversity: 1° to burn forests, national parks and reserved areas; 2° to burn swamps, grazing land, bushes, grass with the aim of agriculture or organising grazing land; 3° to kill, injure and capture animals of endangered species; 4° to destroy or damage habitats, larvae, pupae or the young animals of the endangered species; 5° to cause death or burn protected plants, harvest or destroy them; 6° to transport or sell the remains of a whole or part of an animal and plants of endangered species; 7° to cut trees in forests or protected areas or in national parks. The Authority issues instructions determining modalities of the open air burning with an aim of solving particular problems."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "45",
+      "title": "Article 45 – Prohibited acts related to chemicals and waste",
+      "content": "The following acts in connection with chemicals and waste are prohibited: 1° to pile, dispose of and dump waste on unauthorised public places or any other inappropriate places; 2° to import toxic waste and any other product harmful to human health and environment; 3° to purchase, sell, import, export, transit, store and pile chemicals, diversity of chemicals and other polluting or dangerous substances; 4° to use explosives, drugs, poisonous chemicals and baits in water that may intoxicate or harm fish; 5° to use drugs, poisonous chemical substances and baits that may kill wild animals and which may render them unfit for consumption; 6° to defecate, urinate, spit, discard mucus and other human waste in an inappropriate place; 7° to burn domestic waste, rubbish, tyres and plastic materials. An Order of the Minister determines a list of chemicals and other polluting substances that are not permitted."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "46",
+      "title": "Article 46 – Implementing a project without environmental impact assessment clearance",
+      "content": "Any person who does not carry out environmental impact assessment before launching any project that may have harmful effects on the environment while it is required, is punished by suspension of his/her activities or closure of his/her association and ordered to rehabilitate the damage to environment, persons and property. He/she also pays an administrative fine of two percent (2%) of the total cost of the project."
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "47",
+      "title": "Article 47 – Polluting and damaging the wetlands",
+      "content": "Any person who: 1° washes minerals in streams, rivers and lakes; 2° drains swamps without prior authorization of the competent authority; 3° drains, diverts or blocks a river without prior authorization of the competent authority; is liable to an administrative fine of three million Rwandan Francs (FRW 3,000,000). Any person who commits one of acts referred to in items 2 and 3 of Paragraph One of this Article must also rehabilitate the damaged area."
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "48",
+      "title": "Article 48 – Change of the nature of wetland",
+      "content": "Any person who: 1° carries out any activities of compacting or changing the nature of the wetland; 2° carries out any activities, except those related to research and science, in protected swamps; is liable to an administrative fine of five million Rwandan francs (FRW 5,000,000) and is ordered to rehabilitate damages caused by him/her."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "49",
+      "title": "Article 49 – Violation of required distances",
+      "content": "Any person who: 1° builds a cattle kraal, slaughter house, cattle market in a distance of sixty metres (60 m) away from the banks of streams and rivers and two hundred metres (200 m) away from the lake banks; 2° builds an agricultural and livestock installation in a distance of ten metres (10 m) away from the banks of streams and rivers and fifty metres (50 m) away from the lake banks; 3° builds in the swamp and in the buffer zone in a distance of twenty metres (20 m) away from the swamp boundaries; 4° piles soil and any other materials in the restricted distance; 5° dumps any solid, liquid waste, hazardous gaseous substances in a stream, river, lake and in their surroundings, is liable to an administrative fine of five hundred thousand Rwandan francs (FRW 500,000) and demolition of his/her installations. If acts referred to in Paragraph One of this Article were committed by the owner whose project underwent environmental impact assessment, the owner is liable to rehabilitation of the damaged ecosystem and an administrative fine of two percent (2%) of the cost of the project."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "50",
+      "title": "Article 50 – Polluting public and private area",
+      "content": "Any person who piles, abandons, disposes of wastes or dumps waste water or materials on unauthorized public or private place is liable to an administrative fine of fifty thousand Rwandan francs (FRW 50,000) and is ordered to remove his/her substances or rehabilitate damages caused by him/her. If the acts referred to in Paragraph One of this Article are committed by a person authorized to treat waste, he/she is liable to an administrative fine of five million Rwandan francs (FRW 5,000,000). The authorization is also suspended or withdrawn."
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "51",
+      "title": "Article 51 – Polluting public or private area by human wastes",
+      "content": "A person who defecates, urinates, spits or discards mucus or any other human waste in inappropriate place is liable to an administrative fine of ten thousand Rwandan francs (FRW 10,000) and he/she may be compelled to clean the place."
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "52",
+      "title": "Article 52 – Burning waste",
+      "content": "Any person who unlawfully burns domestic waste, crop residues, tyres and plastic materials is liable to an administrative fine of twenty five thousand Rwandan francs (FRW 25,000)."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "53",
+      "title": "Article 53 – Causing noise pollution",
+      "content": "Without prejudice to the provisions of the Law determining offences and penalties in general, any person who causes noise pollution is liable to an administrative fine of five hundred thousand Rwandan francs (FRW 500,000)."
+    },
+    {
+      "provision_ref": "art54",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "54",
+      "title": "Article 54 – Hindering inspection",
+      "content": "Any person who wilfully delays or hinders an inspection is liable to an administrative fine of five hundred thousand Rwandan francs (FRW 500,000)."
+    },
+    {
+      "provision_ref": "art55",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "55",
+      "title": "Article 55 – Payment of a fine",
+      "content": "Any fine provided under this Law is deposited on bank account of the National Fund for Environment (FONERWA)."
+    },
+    {
+      "provision_ref": "art56",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "56",
+      "title": "Article 56 – Trading, transportation and management of toxic waste",
+      "content": "Any person who buys, sells, imports, conveys in transit, stores, immerses, buries, burns or uses any other means that may lead to decomposition of toxic waste in a place and which may be harmful to human beings or environment or anyone who signs an agreement authorizing him/her to carry out such activities, commits an offence. Upon conviction, he/she is liable to imprisonment for a term of not less than seven (7) years and not more than ten (10) years and a fine not less than one hundred million Rwandan francs (FRW 100,000,000) and not more than two hundred million Rwandan francs (FRW 200,000,000)."
+    },
+    {
+      "provision_ref": "art57",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "57",
+      "title": "Article 57 – Importing, immersing, burying, burning of waste or using any other means that cause their decomposition",
+      "content": "Any person who: 1° imports waste without authorization, 2° immerses, buries, burns or uses any other means that may cause decomposition of waste in a damp place, commits an offence. Upon conviction, he/she is liable to imprisonment for a term of not less than three (3) years and not more than five (5) years and a fine of not less than five million Rwandan francs (FRW 5,000,000) and not more than ten million Rwandan francs (FRW 10,000,000)."
+    },
+    {
+      "provision_ref": "art58",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "58",
+      "title": "Article 58 – Hunting, selling, injuring or killing a protected animal species",
+      "content": "Any person who hunts, sells, injures or kills a protected animal species and products thereof, commits an offence. Upon conviction, he/she is liable to imprisonment for a term of not less than five (5) years and not more than seven (7) years and a fine not less than five million Rwandan francs (FRW 5,000,000) and not more than seven million Rwandan francs (FRW 7,000,000)."
+    },
+    {
+      "provision_ref": "art59",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "59",
+      "title": "Article 59 – Uprooting or cutting a protected plant species",
+      "content": "Any person who causes death, destroys protected plants, harvests or damages them, commits an offence. Upon conviction, he/she is liable to imprisonment for a term of not less than three (3) years and not more than five (5) years and a fine of not less than one million Rwandan francs (FRW 1,000,000) and not more than three million Rwandan francs (FRW 3,000,000)."
+    },
+    {
+      "provision_ref": "art60",
+      "chapter": "Chapter VI – Prohibited acts and penalties",
+      "section": "60",
+      "title": "Article 60 – Unauthorized introduction of plant or animal species into wetlands",
+      "content": "Any person who introduces plants or animal species whether alien or indigenous into wetlands without prior authorization of the competent authority, commits an offence. Upon conviction, he/she is liable to imprisonment for a term of not less than three (3) years and not more than five (5) years and a fine not less than one million Rwandan francs (FRW 1,000,000) and not more than three million Rwandan francs (FRW 3,000,000)."
+    },
+    {
+      "provision_ref": "art61",
+      "chapter": "Chapter VII – Inspection and criminal investigation power in environmental matters",
+      "section": "61",
+      "title": "Article 61 – Staff with inspection capacity",
+      "content": "Staff in charge of environmental management in their respective institutions are entrusted with the capacity to carry out inspection. Those employees are as follows: 1° staff of the Authority; 2° staff of the City of Kigali and those of the district. The Authority puts in place instructions governing inspection process."
+    },
+    {
+      "provision_ref": "art62",
+      "chapter": "Chapter VII – Inspection and criminal investigation power in environmental matters",
+      "section": "62",
+      "title": "Article 62 – Powers of the inspectors",
+      "content": "Inspectors have the following powers: 1° to inspect installations, factories, stores, shops and retail outlets, construction, houses, machines, vehicles, devices and products; 2° to inspect records relating to the operations of the factory; 3° to take a sample of elements suspected of degrading environment, measure, take and conduct a required research; 4° to provisionally suspend or ban activities or materials considered to degrade the environment; 5° to impose an administrative fine provided for under this Law"
+    },
+    {
+      "provision_ref": "art63",
+      "chapter": "Chapter VII – Inspection and criminal investigation power in environmental matters",
+      "section": "63",
+      "title": "Article 63 – Granting the power of criminal investigation",
+      "content": "An Order of the Minister in charge of justice grants some of staff members of the Authority the power of criminal investigation in environmental matters."
+    },
+    {
+      "provision_ref": "art64",
+      "chapter": "Chapter VIII – Final provisions",
+      "section": "64",
+      "title": "Article 64 – Drafting, consideration and adoption of this Law",
+      "content": "This Law was drafted in English, considered and adopted in Ikinyarwanda."
+    },
+    {
+      "provision_ref": "art65",
+      "chapter": "Chapter VIII – Final provisions",
+      "section": "65",
+      "title": "Article 65 – Repealing provision",
+      "content": "All prior legal provisions contrary to this Law are repealed."
+    },
+    {
+      "provision_ref": "art66",
+      "chapter": "Chapter VIII – Final provisions",
+      "section": "66",
+      "title": "Article 66 – Commencement",
+      "content": "This Law comes into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "water",
+      "definition": "a substance of molecular formula H 2 O, which is present naturally as rain and found in the oceans, seas, lakes and rivers",
+      "source_provision": "art2"
+    },
+    {
+      "term": "built environment",
+      "definition": "man-made surroundings that provide the setting for human activities for social welfare",
+      "source_provision": "art2"
+    },
+    {
+      "term": "natural environment",
+      "definition": "an environment that encompasses all living species and non-living things occurring naturally on earth, including soil and subsoil, water, air, biodiversity, and landscapes, tourist sites and monuments that affect human survival and economic activity",
+      "source_provision": "art2"
+    },
+    {
+      "term": "environment",
+      "definition": "a diversity of things made up of natural and built environment, including chemical substances, biodiversity as well as socio-economic activities, cultural, aesthetic and scientific factors likely to have direct or indirect, immediate or long term effects on the development of an area, biodiversity and on human activities",
+      "source_provision": "art2"
+    },
+    {
+      "term": "environmental audit",
+      "definition": "systematic documentation and periodic and objective evaluation of protection and management of the environment, the conservation and sustainable use of natural resources",
+      "source_provision": "art2"
+    },
+    {
+      "term": "swamp",
+      "definition": "a plain area between hills or mountains with water and biodiversity where papyrus or carex or plants of their species grow",
+      "source_provision": "art2"
+    },
+    {
+      "term": "plain land",
+      "definition": "a flat area with little water and less biodiversity",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Authority",
+      "definition": "the national authority in charge of conservation of environment",
+      "source_provision": "art2"
+    },
+    {
+      "term": "prevention",
+      "definition": "strategies to prevent and mitigate gas emissions which contribute to climate change",
+      "source_provision": "art2"
+    },
+    {
+      "term": "subsoil",
+      "definition": "the layer of soil under the top soil",
+      "source_provision": "art2"
+    },
+    {
+      "term": "climate change",
+      "definition": "a change in weather patterns attributed directly or indirectly to human activity that alters the composition of the global atmosphere and which is in addition to natural climate variability observed over comparable time periods",
+      "source_provision": "art2"
+    },
+    {
+      "term": "waste",
+      "definition": "any substance whether solid, liquid or gaseous from human activity that cause a serious harm including electronic-waste and hazardous wastes",
+      "source_provision": "art2"
+    },
+    {
+      "term": "greenhouse gases",
+      "definition": "gaseous constituents of the atmosphere, both natural and anthropogenic, that absorb and emit infrared radiation, including carbon dioxide, methane, nitrous oxide, hydrofluorocarbons, perfluorocarbons, sulphur hexafluoride and indirect greenhouse gases",
+      "source_provision": "art2"
+    },
+    {
+      "term": "ecosystem",
+      "definition": "a dynamic complex of plant, animal and micro-organism communities and their non-living environment interacting as a functional unit",
+      "source_provision": "art2"
+    },
+    {
+      "term": "shores",
+      "definition": "a wetland that is dominated by herbaceous rather than woody or plant species often found at the edges of lakes and streams where they form a transition between the aquatic and terrestrial ecosystems",
+      "source_provision": "art2"
+    },
+    {
+      "term": "installation",
+      "definition": "any asset built or fixed to a certain place or movable which may cause disruption of the environment",
+      "source_provision": "art2"
+    },
+    {
+      "term": "emissions",
+      "definition": "greenhouse gases or their precursors into the atmosphere over a specified area and period of time",
+      "source_provision": "art2"
+    },
+    {
+      "term": "strategic environmental assessment",
+      "definition": "a systematic and flexible process of addressing the environmental aspects and consequences of proposed policies, plans and program initiatives at the earliest appropriate stage of decision-making",
+      "source_provision": "art2"
+    },
+    {
+      "term": "environmental impact assessment",
+      "definition": "a systematic process of identifying environmental, social and economic impacts of a project before a decision of its acceptance is made",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Minister",
+      "definition": "Minister in charge of environment",
+      "source_provision": "art2"
+    },
+    {
+      "term": "pollution",
+      "definition": "the contamination caused by waste, harmful biochemical products derived from human activities that may alter a person’s habitat and cause adverse effects on the environment including a person's social wellbeing, flora, fauna and the world he/ she lives in",
+      "source_provision": "art2"
+    },
+    {
+      "term": "soil",
+      "definition": "the upper most part of the earth whose surface land hosts living things, including plants, animals and people",
+      "source_provision": "art2"
+    },
+    {
+      "term": "competent authority",
+      "definition": "a service or several services with competence provided for by law",
+      "source_provision": "art2"
+    },
+    {
+      "term": "valley",
+      "definition": "an area between two hills or mountains characterised by a source of water above the ground or underground",
+      "source_provision": "art2"
+    },
+    {
+      "term": "person",
+      "definition": "an individual, a group of individuals, a company, an organisation or an association with legal personality",
+      "source_provision": "art2"
+    },
+    {
+      "term": "mountain",
+      "definition": "an elevated part of the earth higher than the plain lands and swamps",
+      "source_provision": "art2"
+    },
+    {
+      "term": "air",
+      "definition": "an invisible mixture of gaseous fluid in the atmosphere and which is breathed by biodiversity which can create effects on their existence and the environment in general",
+      "source_provision": "art2"
+    },
+    {
+      "term": "biodiversity",
+      "definition": "the variability of living organisms of all types including a person, animals of all species, plants of all types be it on land or underground, in water or in the atmosphere and the interactions among them",
+      "source_provision": "art2"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "rw-law-2019-70",
+  "type": "statute",
+  "title": "Law governing Metrology in Rwanda",
+  "title_en": "Law governing Metrology in Rwanda",
+  "short_name": "Law 70 of 2019",
+  "status": "repealed",
+  "issued_date": "2020-01-10",
+  "in_force_date": "2020-03-09",
+  "url": "https://rwandalii.org/akn/rw/act/law/2019/70/eng@2020-03-09",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapter One – General provisions",
+      "section": "1",
+      "title": "Article One – Purpose of this Law",
+      "content": "This Law determines and institutes modalities for metrological controls."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Chapter One – General provisions",
+      "section": "2",
+      "title": "Article 2 – Definitions",
+      "content": "Under this Law, the following terms are defined as follows: 1° type approval certificate: a document issued by the competent authority, certifying that the type of measuring equipment and its components comply with the relevant requirements; 2° calibration: a set of operations, that under specified conditions, establishes, a relation between the quantity values with measurement uncertainties provided by reference measurement standards and those provided by working measurement standards and the degree of accuracy between them; 3° pre-packaged product: product and packaging material into which it was put in the absence of the consumer, before being offered for sale; 4° measuring equipment: a device or a combination of devices designed for measurement of quantities; 5° measurement: quantity value determined basing on measurement standards recognized nationally; 6° reference measurement standard: material measure or measuring equipment used to ascertain conformity of measurements; 7° primary measurement standard: national reference standard with high level of precision and accuracy in defining a given quantity value and traceable to international prototype units of measurement; 8° secondary measurement standard: reference material whose precision and accuracy of a given quantity value are traceable to primary measurement standard; 9° working measurement standard: reference standard whose precision and accuracy of a given quantity value are traceable to secondary measurement standard; 10° international prototype of units of measurement: international reference standard used to define conformity of measurements; 11° metrology: the scientific study of measurements and its applications; 12° Minister: a Cabinet member in charge of metrology; 13° person: physical person, company, cooperative, corporate, institution or organisation with legal personality; 14° unit of measurement: standard for quantity value definition."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Chapter II – Organs responsible for metrology services",
+      "section": "3",
+      "title": "Article 3 – Metrology organ",
+      "content": "The Rwanda Standards Board is the organ in charge of metrology organ."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Chapter II – Organs responsible for metrology services",
+      "section": "4",
+      "title": "Article 4 – Private bodies of metrology",
+      "content": "Licenced private bodies may provide metrology services. An Order of the Minister determines requirements for obtain a licence to provide metrology services."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Chapter III – Units of measurement and measurement standards",
+      "section": "5",
+      "title": "Article 5 – Base units of measurement",
+      "content": "Base units of measurement used in Rwanda are based on the following international system of units: 1° the base unit of measurement of length is Meter(m); 2° the base unit of measurement of mass is Kilogram (kg); 3° the base unit of measurement of time is Second (s); 4° the base unit of measurement of electric current is Ampere (A); 5° base unit of measurement of thermodynamic temperature is kelvin (K); 6° the base unit of measurement of luminous intensity is Candela (cd); 7° the base unit of measurement of the amount of substance is Mole (mol)."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Chapter III – Units of measurement and measurement standards",
+      "section": "6",
+      "title": "Article 6 – Units of measurement",
+      "content": "The units of measurement used in Rwanda must be based on the base units of measurement."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Chapter III – Units of measurement and measurement standards",
+      "section": "7",
+      "title": "Article 7 – Determination of reference measurement standards",
+      "content": "Reference measurement standards including primary, secondary and working standards are determined basing on internationally recognized measurement standards. The organ in charge of metrology determines, maintains and ensures traceability of reference measurement standards referred to in Paragraph One of this Article."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Chapter III – Units of measurement and measurement standards",
+      "section": "8",
+      "title": "Article 8 – Traceability and accuracy of reference measurement standards",
+      "content": "The accuracy of primary measurement standards is traceable to international prototype of units of measurements. The accuracy of secondary measurement standards is maintained and traceable to primary measurements standards. The accuracy of working measurement standards is maintained and traceable to secondary measurement standards. The accuracy of other measurements on the field is traceable to the working measurement standards."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Chapter IV – Metrological controls",
+      "section": "9",
+      "title": "Article 9 – Metrological controls",
+      "content": "The organ in charge of metrology carries out metrological controls basing on technical requirements for equipment used in: 1° industry and trade; 2° pre-packaged products; 3° health care services; 4° environment protection; 5° compliance with legal metrology requirements. An Order of the Minister determines control requirements for metrological controls and materials that are subject to seizure and modalities for their management."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "Chapter IV – Metrological controls",
+      "section": "10",
+      "title": "Article 10 – Type approval, verification and calibration of measuring equipment and its components",
+      "content": "The organ in charge of metrology verifies and approves the type of measuring equipment and its modules before they are sold or put to intended use. A measuring equipment which is in use is subjected to periodic calibration and verification by the organ in charge of metrology or any other authorized person. An Order of the Minister determines technical regulations in regard to type approval, verification and calibration of the measuring equipment and its modules."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "Chapter IV – Metrological controls",
+      "section": "11",
+      "title": "Article 11 – Control of pre-packaged products",
+      "content": "Pre-packaging of product intended to be placed on the market must be in prescribed quantities. The imprints of the product’s quantity indicated on the packaging reflects the actual quantity which must comply with the maximum tolerances. An Order of the Minister determines the quantity and modalities for control of pre-packaged products."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "Chapter IV – Metrological controls",
+      "section": "12",
+      "title": "Article 12 – Metrological supervision",
+      "content": "The metrological supervision of the manufacturing process, importation, installation, use, maintenance and repair of measuring equipment is done by the national metrology organ. An Order of the Minister determines technical regulations for metrological supervision."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "Chapter IV – Metrological controls",
+      "section": "13",
+      "title": "Article 13 – Conformity of measuring equipment",
+      "content": "The organ metrology carries out the conformity assessment of measuring equipment. The organ in charge of metrology issues a certificate of conformity, mark or seal on the equipment to prevent unauthorized adjustment or intervention. An Order of the Minister determines the type of certificate, label or seal, their format, content, duration and other requirements for use."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "Chapter V – Administrative faults and sanctions",
+      "section": "14",
+      "title": "Article 14 – Misuse of measurements and measuring equipment",
+      "content": "Any person who misuses measurements and measuring equipment, who uses non-standard, unstamped, uncontrolled or rejected measuring equipment commits an administrative fault and is liable to a fine of not less than one hundred thousand Rwandan francs (FRW 100,000) and not more than two million Rwandan francs (FRW 2,000,000) and the equipment ceased to be used until it meets the required standards."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "Chapter V – Administrative faults and sanctions",
+      "section": "15",
+      "title": "Article 15 – Manufacture of non-compliant weighing and measuring equipment",
+      "content": "Any person who manufactures weighing or measuring equipment that does not comply with the requirements of this law commit an administrative fault and is liable to a fine of not less than two million Rwandan francs (FRW 2,000,000) and not more than ten million Rwandan francs (FRW 10,000,000) and the equipment ceased to be used until it meets the required standards."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Chapter V – Administrative faults and sanctions",
+      "section": "16",
+      "title": "Article 16 – Misuse of seals and stamps",
+      "content": "Any person who counterfeits, removes, damages or misuses seals and stamps of measuring equipment, commits an administrative fault and is liable to a fine of not less than one million Rwandan francs (FRW 1,000,000) and not more than three million Rwandan francs (FRW 3,000,000)."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Chapter V – Administrative faults and sanctions",
+      "section": "17",
+      "title": "Article 17 – Repair and maintenance of metrological equipment without licence",
+      "content": "Any person who provides repair and maintenance services for measuring equipment without a license commits an administrative fault and is liable to a fine of not less than five hundred Rwandan francs (FRW 500,000) and not more than five million Rwandan francs (FRW 5,000,000)."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "Chapter V – Administrative faults and sanctions",
+      "section": "18",
+      "title": "Article 18 – Refusal to provide information or provision of false information relating to measurements and measuring equipment",
+      "content": "Any person who refuses to provide information or provides false information relating to measurements and measuring equipment commits an administrative fault and is liable to a fine of not less than five hundred Rwandan francs (FRW 500,000) and not more than one million Rwandan francs (FRW 1,000,000)."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "Chapter V – Administrative faults and sanctions",
+      "section": "19",
+      "title": "Article 19 – Considerations in determining the amount of the fine",
+      "content": "In determining the amount of the administrative fine referred to under articles 14, 15, 16, 17 and 18, the circumstances and effects of the fault are taken into account. The national metrology organ imposes a low, medium or high fine basing on one or several of the following reasons: 1° if a person commits a fault for the first time; 2° co-occurrence of administrative faults referred to under this law; 3° repetition of fault; 4° the fault committed has negative effects that are detrimental to the common interest; 5° annual turnover; 6° value of measuring equipment or traded product."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "Chapter V – Administrative faults and sanctions",
+      "section": "20",
+      "title": "Article 20 – Recidivism",
+      "content": "If the fault referred to under Articles 14, 15, 16, 17 and 18 of this Law is repeated, an administrative fine that was imposed on the defaulter is doubled (2)."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "Chapter V – Administrative faults and sanctions",
+      "section": "21",
+      "title": "Article 21 – Organ who charges and administrative fine and its destination",
+      "content": "Rwanda Standard Board charges the administrative fine provided for in this Law. The levied fine is deposited to the Public Treasury."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "Chapter V – Administrative faults and sanctions",
+      "section": "22",
+      "title": "Article 22 – Time for payment of an administrative fine",
+      "content": "A person who is subject to payment of an administrative fine provided for in this Law is required to pay the fine within seven (7) working days from receipt of the written notice with a temporary closure of the activities. If the person referred to in the preceding Paragraph is subject to the payment of an administrative fine and fails to comply with the provisions of the same Paragraph, he or she pays the amount due with late interest of one point five percent (1.5%) of this amount for each day of delay."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "Chapter V – Administrative faults and sanctions",
+      "section": "23",
+      "title": "Article 23 – Appeal against administrative sanctions",
+      "content": "A person against whom an administrative sanction is imposed under this Law may appeal in writing to the Minister, within five (5) working days from receipt of the written notice."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "Chapter VI – Final provisions",
+      "section": "24",
+      "title": "Article 24 – Drafting, consideration and adoption of this Law",
+      "content": "This law was drafted in English, considered and adopted in Ikinyarwanda."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "Chapter VI – Final provisions",
+      "section": "25",
+      "title": "Article 25 – Repealing provision",
+      "content": "All prior legal provisions contrary to this Law are repealed."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "Chapter VI – Final provisions",
+      "section": "26",
+      "title": "Article 26 – Commencement",
+      "content": "This Law comes into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "calibration",
+      "definition": "a set of operations, that under specified conditions, establishes, a relation between the quantity values with measurement uncertainties provided by reference measurement standards and those provided by working measurement standards and the degree of accuracy between them",
+      "source_provision": "art2"
+    },
+    {
+      "term": "pre-packaged product",
+      "definition": "product and packaging material into which it was put in the absence of the consumer, before being offered for sale",
+      "source_provision": "art2"
+    },
+    {
+      "term": "measuring equipment",
+      "definition": "a device or a combination of devices designed for measurement of quantities",
+      "source_provision": "art2"
+    },
+    {
+      "term": "measurement",
+      "definition": "quantity value determined basing on measurement standards recognized nationally",
+      "source_provision": "art2"
+    },
+    {
+      "term": "reference measurement standard",
+      "definition": "material measure or measuring equipment used to ascertain conformity of measurements",
+      "source_provision": "art2"
+    },
+    {
+      "term": "primary measurement standard",
+      "definition": "national reference standard with high level of precision and accuracy in defining a given quantity value and traceable to international prototype units of measurement",
+      "source_provision": "art2"
+    },
+    {
+      "term": "secondary measurement standard",
+      "definition": "reference material whose precision and accuracy of a given quantity value are traceable to primary measurement standard",
+      "source_provision": "art2"
+    },
+    {
+      "term": "working measurement standard",
+      "definition": "reference standard whose precision and accuracy of a given quantity value are traceable to secondary measurement standard",
+      "source_provision": "art2"
+    },
+    {
+      "term": "international prototype of units of measurement",
+      "definition": "international reference standard used to define conformity of measurements",
+      "source_provision": "art2"
+    },
+    {
+      "term": "metrology",
+      "definition": "the scientific study of measurements and its applications",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Minister",
+      "definition": "a Cabinet member in charge of metrology",
+      "source_provision": "art2"
+    },
+    {
+      "term": "person",
+      "definition": "physical person, company, cooperative, corporate, institution or organisation with legal personality",
+      "source_provision": "art2"
+    },
+    {
+      "term": "unit of measurement",
+      "definition": "standard for quantity value definition",
+      "source_provision": "art2"
+    }
+  ]
+}

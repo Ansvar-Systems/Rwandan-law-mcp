@@ -49,9 +49,9 @@ export async function listSources(
           url: 'https://rwandalii.org/legislation/',
           license: 'RwandaLII Terms of Use',
           coverage:
-            'Machine-readable Rwanda laws (AKN HTML) ingested at article level; ' +
-            'many legacy laws are PDF-only and excluded from provision extraction',
-          languages: ['en'],
+            'Full Rwanda law catalog (`nature=Law`) with article-level extraction from ' +
+            'AKN HTML and PDF-backed law pages',
+          languages: ['en', 'rw', 'fr'],
         },
       ],
       database: {

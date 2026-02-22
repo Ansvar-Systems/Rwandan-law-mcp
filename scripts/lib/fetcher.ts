@@ -13,6 +13,7 @@
 const USER_AGENT = 'Rwandan-Law-MCP/1.0 (+https://github.com/Ansvar-Systems/Rwandan-law-mcp)';
 const MIN_DELAY_MS = 1200;
 const RETRYABLE_STATUSES = new Set([429, 500, 502, 503, 504]);
+const REQUEST_TIMEOUT_MS = 45000;
 
 let lastRequestAt = 0;
 
@@ -36,6 +37,13 @@ export interface FetchResult {
   url: string;
 }
 
+export interface FetchBinaryResult {
+  status: number;
+  body: Buffer;
+  contentType: string;
+  url: string;
+}
+
 export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<FetchResult> {
   await enforceRateLimit();
 
@@ -46,10 +54,52 @@ export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<F
           'User-Agent': USER_AGENT,
           'Accept': 'text/html,application/xhtml+xml,*/*',
         },
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
         redirect: 'follow',
       });
 
       const body = await response.text();
+      if (RETRYABLE_STATUSES.has(response.status) && attempt < maxRetries) {
+        const backoffMs = Math.pow(2, attempt + 1) * 1000;
+        console.log(`  HTTP ${response.status} from ${url}; retrying in ${backoffMs}ms...`);
+        await sleep(backoffMs);
+        continue;
+      }
+
+      return {
+        status: response.status,
+        body,
+        contentType: response.headers.get('content-type') ?? '',
+        url: response.url,
+      };
+    } catch (error) {
+      if (attempt >= maxRetries) {
+        throw error;
+      }
+      const backoffMs = Math.pow(2, attempt + 1) * 1000;
+      console.log(`  Network error for ${url}; retrying in ${backoffMs}ms...`);
+      await sleep(backoffMs);
+    }
+  }
+
+  throw new Error(`Failed to fetch ${url} after ${maxRetries + 1} attempts`);
+}
+
+export async function fetchBinaryWithRateLimit(url: string, maxRetries = 3): Promise<FetchBinaryResult> {
+  await enforceRateLimit();
+
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      const response = await fetch(url, {
+        headers: {
+          'User-Agent': USER_AGENT,
+          'Accept': 'application/pdf,application/octet-stream,*/*',
+        },
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+        redirect: 'follow',
+      });
+
+      const body = Buffer.from(await response.arrayBuffer());
       if (RETRYABLE_STATUSES.has(response.status) && attempt < maxRetries) {
         const backoffMs = Math.pow(2, attempt + 1) * 1000;
         console.log(`  HTTP ${response.status} from ${url}; retrying in ${backoffMs}ms...`);

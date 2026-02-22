@@ -1,0 +1,511 @@
+{
+  "id": "rw-law-2018-58",
+  "type": "statute",
+  "title": "Law on Mining and Quarry Operations",
+  "title_en": "Law on Mining and Quarry Operations",
+  "short_name": "Law 58 of 2018",
+  "status": "repealed",
+  "issued_date": "2018-08-13",
+  "in_force_date": "2018-08-13",
+  "url": "https://rwandalii.org/akn/rw/act/law/2018/58/eng@2018-08-13",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapter One – General provisions",
+      "section": "1",
+      "title": "Article One – Purpose of this Law",
+      "content": "This Law governs mining and quarry operations in Rwanda."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Chapter One – General provisions",
+      "section": "2",
+      "title": "Article 2 – Definitions",
+      "content": "In this Law, the following terms are defined as follows: 1º mining area: an area for which a mining licence is issued; 2º radioactive minerals: any mineral which contains by weight at least 0.05% of uranium or thorium or any combination thereof; 3º minerals: substances extracted from the soil which can be processed to increase their economic value and which include metallic and non-metallic substances with the exception of hydrocarbons and water; 4º mine development program: a plan pertaining to a mine or quarry that outlines the anticipated mining or quarry activity schedule, location of all facilities; 5º environmental management plan: a plan satisfying all the requirements provided under this Law and other laws for the protection and conservation of the environment; 6º mineral processing: scientific operations for adding value to minerals; 7º exploration operations: activities designed to search for minerals and mineral deposits including the geological survey and assessment of the extent and economic value of mineral deposits; 8º mining operations: activities designed to search, extract, process and trade mineral ores; 9º excavation: trench, pit, shaft or any other open large pit; 10º potential mining area: a part of specific and measured mineral resource that can be economically mined; 11º mineral ore samples: minerals collected from other minerals for the purpose of analyses to determine the quality of other minerals from which they are collected; 12º environmental and social impact assessment: a report on the assessment of the potential environmental and social impacts of a mining or quarry related project; 13º controlling interest: a person’s ability to hold, directly or indirectly, more than fifty percent (50%) of the power to direct the management of activities or acquisition of a majority holding; 14º quarry: an open surface or excavation from which geological materials are extracted for use in various works based on their physical and chemical properties; 15º committee: the committee in charge of assessment of applications for licences and advising the competent authority; 16º mine: a place where mining operations are carried out; 17º medium-scale mining: mining operations that are categorised as such in accordance with the provisions of this Law and Regulations of the competent authority; 18º large-scale mining: mining operations that are categorised as such in accordance with the provisions of this Law and Regulations of the competent authority; 19º small-scale mining: mining operations that are categorised as such in accordance with the provisions of this Law and Regulations of the competent authority; 20º authorised officer: any person authorised by the competent authority to carry out any of the activities provided for by this Law; 21º competent authority: head of the public entity in charge of mines and quarries; 22º licence: a document authorising exploration, mining, processing, selling of minerals or quarry in accordance with the provisions of this Law."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Chapter One – General provisions",
+      "section": "3",
+      "title": "Article 3 – Scope of this Law",
+      "content": "This Law applies to the activities of exploration, mining, trading and processing of minerals and quarry."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Chapter One – General provisions",
+      "section": "4",
+      "title": "Article 4 – General principles",
+      "content": "The general principles relating to mining and quarry operations are as follows: 1º all rights of ownership and control of minerals or quarry products in, under or upon any land in Rwanda are vested in the State notwithstanding personal ownership of land and other properties thereof; 2º mineral exploration, exploitation, processing and trading are carried out by a person who has been granted a licence in accordance with this Law; 3º quarry operations are conducted only by a person who has been granted a licence in accordance with this Law; 4º the competent authority may designate certain quarries for exclusive exploitation by the Government for the purposes of carrying out projects in the public interest; 5º the holder of a licence issued under this Law, prior to the commencement of operations, submits to the competent authority an environmental and social impact assessment approved by the relevant public organ."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Chapter One – General provisions",
+      "section": "5",
+      "title": "Article 5 – Rights of land owner in a licensed area",
+      "content": "The land owner or any other lawful occupier has full rights on that land in accordance with the law governing land in Rwanda. However, in case there is a discovery of mineral or quarry deposit on any land, the land owner or a lawful occupier is fairly compensated in accordance with the law relating to expropriation in the public interest before the licence holder commences the mining operations."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Chapter One – General provisions",
+      "section": "6",
+      "title": "Article 6 – Demarcation of potential mining areas",
+      "content": "The public organ in charge of mining operations demarcates potential mining areas which are economically viable. Regulations of the competent authority determine the names of potential mining areas, their geographic coordinates and conditions for mineral exploration and exploitation."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Chapter One – General provisions",
+      "section": "7",
+      "title": "Article 7 – Establishment of the Committee",
+      "content": "There is established a committee in charge of assessment of applications for licences and disputes related to mining and quarry operations. An Order of the Prime Minister determines the structure, membership and functions of the Committee."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "8",
+      "title": "Article 8 – Types of mineral licences",
+      "content": "Types of mineral licences that may be granted under this Law are the following: 1º exploration licence; 2º mining licence: a. small-scale mining licence; b. medium-scale mining licence; c. large scale mining licence; 3º mineral trading licence; 4º mineral processing licence. The competent authority makes regulations determining the criteria for categorisation of mines."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "9",
+      "title": "Article 9 – Size of a mineral licence area",
+      "content": "The mineral licence area consists of one or more contiguous blocks, and each block is reported on independently in accordance with business plan. The maximum size for each block is as follows: 1º four hundred hectares (400 ha) for an exploration licence; 2º fifty hectares (50 ha) for a small-scale mining licence; 3º one hundred hectares (100 ha) for a medium-scale mining licence; 4º four hundred hectares (400 ha) for a large-scale mining licence."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "10",
+      "title": "Article 10 – Mineral licence application",
+      "content": "An application for a mineral licence is addressed to the competent authority. Modalities and requirements for a mineral licence application are determined by regulations issued by the competent authority."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "11",
+      "title": "Article 11 – Acquiring mineral licence through open tender",
+      "content": "The relevant organ may call for tender to carry out exploration or exploitation of minerals in potential mining areas. Modalities and requirements for tender are determined by regulations issued by the competent authority. The law governing public procurement does not apply to the tender provided under Paragraph One of this Article."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "12",
+      "title": "Article 12 – Granting of a mineral licence",
+      "content": "A mineral licence is granted by the competent authority. For granting the mineral licence, the competent authority considers the recommendation of the committee. The format and content of a mineral licence are determined through regulations of the competent authority."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "13",
+      "title": "Article 13 – Restrictions on the granting of a mineral licence",
+      "content": "No mineral licence is granted in respect of an area of land covered by another existing mining licence of similar type. However, the competent authority may, for the purpose of national interests, authorise another person to carry out exploration of other type of minerals in an area already covered by a licence. A holder of a mineral licence enjoys exclusive mineral rights covered by his or her licence."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "14",
+      "title": "Article 14 – Duration of a mineral licence",
+      "content": "An exploration licence is valid for an initial period not exceeding four (4) years. A mining licence is valid for an initial period not exceeding fifteen (15) years. The duration of a mineral licence is determined based on a feasibility study and the project implementation program submitted and approved by the relevant organ."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "15",
+      "title": "Article 15 – Application for renewal of a mineral licence",
+      "content": "An application for renewal of an exploration licence is submitted to the competent authority in the form prescribed through regulations issued by the competent authority and must include: 1º a report on the exploration operations carried out as of the date of the application and associated costs; 2º a detailed report of the operations carried out over any portion of the licence area accompanied by the results, data, analysis and interpretation thereof; 3º a programme of operations to be carried out during the period of renewal and the estimated cost thereof; 4º a plan identifying the part of the licence area for which renewal is sought. An exploration licence may be renewed once for a period not exceeding four (4) years and a licence holder may be requested to relinquish a part of the licensed area. In case of a mining licence, an application for renewal is submitted to the competent authority within ninety (90) days before the expiration of the licence and includes a statement giving details of: 1º the proved, estimated or inferred mineral reserves verified by an independent consultant at the cost of the applicant and approved by the competent authority; 2º capital investment to be made, mining operations costs and revenue forecasts in respect of the period of renewal; 3º mining operations proposed to be carried out in the period of renewal; 4º any expected changes in the method of extraction and processing of mining products; 5º likely social and environmental impacts as well as proposed mitigation and compensation measures. The mineral licence is renewable more than one time when considered necessary but each time does not exceed fifteen (15) years. Where the holder of a licence has satisfied the criteria referred to under this Article and well implemented the programme of mining operations or exploration, the competent authority renews his or her mineral licence."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "16",
+      "title": "Article 16 – Renewal of a mineral licence",
+      "content": "The renewal of a mineral licence is made with or without changes to the terms and conditions of the original licence. The decision on an application for renewal of mineral licence is notified to the applicant in writing within sixty (60) days from the date of receipt of the application. In case a mineral licence expires before a decision on mining licence application for renewal is made, the licence holder is entitled to continue the mineral operations until a decision is made and notified to the applicant. In the event of a refusal to renew the licence, the licence holder is given a notice period determined by the competent authority to close the mineral operations."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "17",
+      "title": "Article 17 – Transfer of a mineral licence",
+      "content": "A mineral licence holder has the right to transfer the licence through assigning all or part of his or her shares. However, before the transfer of a licence, the licence holder must apply in writing for the authorisation of the competent authority. The transfer of a mineral licence of private companies includes the following: 1º any form of assignment, sale or any other disposal of a mineral licence; 2º the pledge of a mineral licence or seizure of the pledged mineral licence; 3º the transfer of any share by one or more shareholders having rights on a mineral licence. The transfer of mineral licence for public companies consists of acquiring the controlling interest. Upon registration of the mineral licence in the name of the new holder following a transfer, the rights, responsibilities and other obligations of the transferor immediately pass to the transferee."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "18",
+      "title": "Article 18 – Requirements for the transfer of the licence",
+      "content": "A mineral licence holder wishing to transfer that licence is required to provide the following: 1º a written application by the holder of the licence indicating the holder’s intention to transfer the licence; 2º minutes of the meeting held by the shareholders or members approving the transfer made in the presence of the Notary authorised by the Government; 3º a profile of the transferee and the transferee’s experience in the mining sector; 4º a certificate of registration of the transferee company; 5º tax clearance certificate for the transferor; 6º a document indicating the value of the transaction between the transferor and the transferee; 7º a document disclosing any other relations between transferor and transferee or other common business interest; 8º a document indicating the transferee’s commitment to uphold the transferor’s obligations."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "19",
+      "title": "Article 19 – Decision on the application for transfer of mineral rights",
+      "content": "The decision on the application for transfer of mineral rights is notified to the applicant in writing within sixty (60) days from the date of receipt of the application."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "20",
+      "title": "Article 20 – Mineral processing licence",
+      "content": "Except otherwise provided in this Law, mineral processing licence granted by the competent authority is required. The content of a mineral processing licence and modalities for its granting are determined through regulations issued by the competent authority."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "21",
+      "title": "Article 21 – Mineral trading licence",
+      "content": "Trade in minerals requires a mineral trading licence granted by the competent authority. The content of a mineral trading licence and modalities for its granting are determined through regulations issued by the competent authority."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "Chapter II – Mineral licence",
+      "section": "22",
+      "title": "Article 22 – Sale of minerals to affiliated companies",
+      "content": "The holder of a mineral licence may sell minerals to his or her affiliated companies only at prices at least equivalent to the prices that would be obtained in arm’s length sales to non-affiliated purchasers and in accordance with such other terms and conditions of agreements that would be made regardless of the affiliation of both parties. Where a licence holder sells any minerals at a lower price compared to the price determined by the international market, the competent authority or tax administrator may use the price determined by the international market for determining their value."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "Chapter III – Rights and duties of the holder of a mineral licence",
+      "section": "23",
+      "title": "Article 23 – Rights of the holder of an exploration licence",
+      "content": "The holder of an exploration licence has the full right to: 1º explore minerals in respect of which the licence is granted; 2º drill boreholes and make such excavations as may be necessary; 3º collect from the exploration licence area mineral samples for the purpose of having them analysed and valued but their quantity should not exceed such limit determined through regulations issued by the competent authority; 4º construct necessary buildings; 5º receive the primary right to apply for a mineral licence on any portion of the exploration licence area where mineral deposit is discovered upon fulfilling the required conditions for the mineral licence. An exploration licence holder wishing to carry out mining operations applies for authorisation to the competent authority within ninety (90) days before the expiration of the exploration licence. In case an exploration licence expires before a decision on mining licence application is made, the licence holder is entitled to continue the exploration operations until the decision is made and notified to the applicant. In the event of a refusal to grant a mining licence, the licence holder is given a ninety (90) days’ notice period to close his or her operations."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "Chapter III – Rights and duties of the holder of a mineral licence",
+      "section": "24",
+      "title": "Article 24 – Duties of the holder of an exploration licence",
+      "content": "The holder of an exploration licence must: 1º commence exploration operations within ninety (90) days from the date of issuance of the exploration licence; 2º submit a report to the competent authority every six (6) months on the progress of the exploration operations as approved in the mineral exploration plan; 3º train employees in accordance with terms and conditions attached to the licence; 4º immediately notify the competent authority of the discovery of any mineral deposit that was not subject to the licence right after such a discovery; 5º keep records of exploration operations at the holder’s address in Rwanda indicating the following: a. boreholes drilled; b. strata penetrated, with detailed logs of such strata; c. minerals discovered; d. all the results of the geochemical and geophysical analysis; e. the results of identification and analysis of minerals collected from the exploration area for such purposes; f. the geological interpretation under items (a) and (e); g. details of the expenditure incurred under the agreed annual plan of mineral exploration operations. 6º submit to the competent authority, every year, not later than ninety (90) days after each year’s date of issuance of the licence, an audited statement of expenditure incurred on agreed exploration operations; 7º notify the competent authority of any amendments the holder wishes to make to the agreed mineral exploration plan. The competent authority may approve or reject the proposed amendments within sixty (60) days from the date of receipt of the proposal; 8º notify and submit to the relevant organ, within thirty (30) days, any historical or any other significant object discovered in the course of exploration activities; 9º remove temporary buildings or other facilities within ninety (90) days after expiration or termination of the licence; 10º fill back or otherwise make safe any borehole and excavation made during the course of the exploration operations; 11º provide a copy of any document to the competent authority or any authorised officer upon request."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "Chapter III – Rights and duties of the holder of a mineral licence",
+      "section": "25",
+      "title": "Article 25 – Rights of the holder of a mining licence",
+      "content": "The holder of a mining licence has the following rights: 1° to mine the minerals under his or her licence, process, melt, refine and transport minerals or mineral products from the area under his or her licence; 2° to put in place in his or her mining area equipment, plant, machinery and buildings; 3° to sell mineral products recovered from the holder’s mining licence area. A licence holder may apply to the competent authority to add to his or her licence, within ninety (90) days, the discovered minerals not covered by his or her licence. The holder of a mining licence may apply to the competent authority for the authorisation to make amendments to the mining program."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "Chapter III – Rights and duties of the holder of a mineral licence",
+      "section": "26",
+      "title": "Article 26 – Duties of the holder of a mining licence",
+      "content": "The holder of a mining licence must: 1° develop and mine the mineral deposits covered by the licence in accordance with the mine development program approved by the competent authority and the environmental management plan approved by relevant organs; 2° commence mining operations within one hundred and eighty (180) days from the date of issuance of the licence; 3° install beacons around the mining licence area; 4° maintain at his or her address in Rwanda: a. complete technical records of his or her operations in the form prescribed by the competent authority; b. copies of geological reports with their interpretation, mineral analyses, aerial photographs, core logs, analyses and test results and all other available data in relation to the holder’s mining licence area; c. accurate and systematic financial records of data and figures on mining operations and such other books of accounts and financial records as required by relevant laws. If such holder is engaged in any activity not connected with mining operations, he or she must maintain separate books of accounts of operations under such licence; 5° permit an authorised officer to inspect all the books and records maintained pursuant to the provisions of item 4° (c) of this Article; 6° submit to the competent authority every six (6) months and at any time he or she so requires, copies of such books and records used; 7° provide the competent authority with a copy of every annual financial report within ninety (90) days from the end of each financial year showing the profit or loss for the year; 8° notify the competent authority: a. one (1) year in advance, if he or she proposes to permanently cease mining operations; b. six (6) months in advance, if he or she proposes to temporarily suspend mining operations; c. three (3) months in advance, if he or she proposes to curtail the level of mining operations; 9° store and manage mine tailings in accordance with regulations of the competent authority; 10° provide a fair compensation for damage to land and other property resulting from mining operations in the mine under licence; 11° remove waste from minerals through means approved by health and environment organs and in accordance with mining standards; 12° notify and submit to the relevant organ within thirty (30) days, any historical or any other significant object discovered in the course of mining operations. Where the holder of mining licence discovers any mineral deposit with another type of minerals not covered by his or her licence, he or she immediately notifies the competent authority."
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "Chapter III – Rights and duties of the holder of a mineral licence",
+      "section": "27",
+      "title": "Article 27 – Special duties relating to the holder of a radioactive minerals mining licence",
+      "content": "The exploitation, processing, possession, transport, import, export or any other activity related to radioactive minerals are determined by a special licence issued by the competent authority. The holder of a radioactive minerals licence must in the first week of every month, provide the competent authority with a written report on the operations of exploration and mining of radioactive minerals conducted in the preceding month."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "Chapter III – Rights and duties of the holder of a mineral licence",
+      "section": "28",
+      "title": "Article 28 – Relinquishment of a mineral licence area",
+      "content": "The holder of a mineral licence who wishes to relinquish a mining licence area or part of it must: 1° give to the competent authority, not less than ninety (90) days’ notice; 2° comply with terms and conditions agreed upon and attached to the mining licence; 3° provide a map with coordinates of the area to be relinquished; 4° submit detailed activity reports containing all information relating to the area to be relinquished. The licence holder wishing to relinquish all or part of a mining area must submit the following: 1° a tax clearance certificate issued by the relevant authority; 2° a document proving that the holder has no liability vis-à-vis his or her employees issued by the labour inspectorate of the District where the operations are carried out; 3° a rehabilitation certificate certifying the compliance with environmental management plan issued by the competent organ. Relinquishment of a mining licence area is made taking into account any liabilities or duties incurred by the holder in relation to the area relinquished prior to the date of relinquishment as well as obligations imposed under Paragraph 2 of this Article."
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "Chapter III – Rights and duties of the holder of a mineral licence",
+      "section": "29",
+      "title": "Article 29 – Records and reports relating to the cancellation or expiration of an exploration licence",
+      "content": "Records and reports relating to exploration operations after expiration of an exploration licence belong to the holder of the exploration licence. However, in case an exploration licence is cancelled or expires and the holder does not apply for renewal or for a mineral licence within two (2) years, all the records and reports in relation to that licence become the property of the State."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "Chapter IV – Quarry licence",
+      "section": "30",
+      "title": "Article 30 – Types of quarry licences",
+      "content": "Types of quarry licences are as follows: 1º non-commercial quarry licence; 2º commercial small-scale quarry licence; 3º an industrial quarry licence. The competent authority makes regulations relating to criteria for categorisation of quarries."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "Chapter IV – Quarry licence",
+      "section": "31",
+      "title": "Article 31 – Application for a quarry licence",
+      "content": "An application for an industrial quarry licence is addressed to the competent authority. An application for a commercial small-scale quarry licence is addressed to the Mayor of the District where the quarry site is located with a copy to the competent authority. An application for a non-commercial small-scale quarry licence is addressed to the Executive Secretary of the Sector where the quarry site is located with a copy to the Administrative Head of the District. The application modalities and requirements of a quarry licence are determined by regulations of the competent authority."
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "Chapter IV – Quarry licence",
+      "section": "32",
+      "title": "Article 32 – Duration of a quarry licence",
+      "content": "A non-commercial small-scale quarry licence is valid for a period of one (1) year renewable. A commercial small-scale quarry licence is valid for a period of five (5) years renewable. An industrial quarry licence is valid for period not exceeding fifteen (15) years determined based on the feasibility study of the quarry project approved by the relevant organ but the licence duration is renewable."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "Chapter IV – Quarry licence",
+      "section": "33",
+      "title": "Article 33 – Renewal of a quarry licence",
+      "content": "The application for renewal of a quarry licence is submitted to the respective authority in accordance with article 31 of this Law. The application modalities and requirements for the renewal of a quarry licence are determined by regulations of the competent authority."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "Chapter IV – Quarry licence",
+      "section": "34",
+      "title": "Article 34 – Transfer of a quarry licence",
+      "content": "Only commercial small-scale quarry licence and an industrial quarry licence may be transferred. The requirements and conditions for transfer of quarry licences referred to under Paragraph One of this Article are determined by regulations of the competent authority. Upon the registration of the transfer of a quarry licence, the transferee assumes and is responsible for all rights, duties, other activities and liabilities of the transferor under the quarry licence."
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "Chapter IV – Quarry licence",
+      "section": "35",
+      "title": "Article 35 – Rights of the holder of a quarry licence",
+      "content": "The holder of a commercial small-scale quarry licence or industrial quarry licence has the right to explore, extract, transport, sell, use, process and add value to products obtained from quarry. The holder of a non-commercial small-scale quarry licence has the right to extract, transport and use quarry products obtained from quarry."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "Chapter IV – Quarry licence",
+      "section": "36",
+      "title": "Article 36 – Duties of the holder of a quarry licence",
+      "content": "The holder of a quarry licence must: 1º produce reports as determined by regulations of the competent authority; 2º provide a fair compensation for damage to land and other property resulting from quarry operations in the licence area; 3º ensure that the quarry operations are carried out in accordance with applicable health and safety standards, including standards necessary to protect the health and safety of women; 4º promote activities aiming at gender equality and complementarity; 5º pay taxes and duties in accordance with relevant laws."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "Chapter IV – Quarry licence",
+      "section": "37",
+      "title": "Article 37 – Relinquishment of a quarry licence area",
+      "content": "The holder of a quarry licence may relinquish the whole or part of a quarry licence area and must: 1º give to the competent authority or the organ that issued the quarry licence, not less than thirty (30) days’ notice for non-commercial small-scale quarry and sixty (60) days’ notice for other quarry licences; 2º comply with terms and conditions of the quarry licence; 3º submit a detailed report as prescribed, containing all information on activities carried out in the relinquished area; 4º provide a map with coordinates of the area to be relinquished. The holder of a quarry licence must, within a prescribed period, before relinquishment of a quarry licence area: 1º submit a tax clearance certificate issued by the relevant authority; 2º submit a certificate of no debt to the employees issued by the labour inspection department in the District where the holder operates. The relinquishment of a quarry licence area is made without prejudice to any liabilities or duties incurred by the holder in relation to the area relinquished prior to the date of relinquishment as well as duties imposed under Paragraph 2 of this Article."
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "Chapter IV – Quarry licence",
+      "section": "38",
+      "title": "Article 38 – Coexistence of a quarry licence and a mining licence",
+      "content": "A quarry licence and a mining licence may be granted in the same area provided that the competent authority finds that the quarry operations will not interfere with the mining operations."
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "Chapter V – Environment protection, health and safety",
+      "section": "39",
+      "title": "Article 39 – Complying with environmental laws",
+      "content": "Under the provisions of Article 4, item 5°, holders of the following licences: 1º exploration licence; 2º small, medium and large scale mining licence; 3º mineral processing licence; 4º commercial small-scale quarry licence; 5º industrial quarry licence; must, prior to the commencement of any operations, submit to the competent authority a report on the study on environmental impact assessment and social welfare approved by relevant public organ."
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "Chapter V – Environment protection, health and safety",
+      "section": "40",
+      "title": "Article 40 – Rehabilitation of damaged areas",
+      "content": "The holder of a licence is bound to the rehabilitation, reinstatement of boreholes and excavations, afforestation, removing buildings and levelling, of any part affected by exploration, mining or quarry operations basing on the environmental impact assessment and in compliance with the law on environment."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "Chapter V – Environment protection, health and safety",
+      "section": "41",
+      "title": "Article 41 – Rehabilitation plan",
+      "content": "The holder of an exploration, mining or quarry licence must have a rehabilitation plan which shows the planned activities and related budget. A holder of a licence remains liable for environmental protection until a final rehabilitation certificate is issued by the authority in charge of environmental protection."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "Chapter V – Environment protection, health and safety",
+      "section": "42",
+      "title": "Article 42 – Environmental rehabilitation guarantee",
+      "content": "An exploration, mining or quarry licence holder is required to provide an environmental rehabilitation guarantee. The nature and amount of environment rehabilitation guarantee and well as modalities for depositing it are determined by regulations of the competent authority."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "Chapter V – Environment protection, health and safety",
+      "section": "43",
+      "title": "Article 43 – Health and safety of workers and other persons",
+      "content": "A holder of a licence must: 1° ensure that the mine is commissioned, maintained and decommissioned in a manner that does not compromise the health and safety of workers and other people; 2° ensure that all persons working at the mine have the necessary skills, competence and resources to carry out their work safely and to ensure the safety of others. Where the authorised officer considers that the operations may compromise or endanger the health and safety of a person, that officer may make an urgent decision. Such a decision may require the identified danger to be rectified immediately or within a reasonable time or that the mining or quarry operations be suspended until the danger is rectified. The licence holder who is aggrieved by the decision of an authorised officer may appeal against such a decision to the head of the organ which issued the licence."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "Chapter V – Environment protection, health and safety",
+      "section": "44",
+      "title": "Article 44 – Use of dynamites in mining and quarry operations",
+      "content": "The importation, manufacturing, transportation, trading, use of dynamites in mining and quarry operations require prior authorisation of the Minister in charge of internal security upon the recommendation of the competent authority. Requirements for granting the authorisation referred to under Paragraph One of this Article are determined by an Order of the Minister in charge of internal security."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "Chapter VI – Financial provisions",
+      "section": "45",
+      "title": "Article 45 – Annual financial statement",
+      "content": "The holder of a licence must, within three (3) months following the end of financial year, submit to the competent authority and the Rwanda Revenue Authority a copy of audited annual financial statement of the holder, in accordance with International Financial Reporting Standards. The statement referred to under Paragraph One of this Article does not concern the holder of a non-commercial small-scale quarry licence."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "Chapter VI – Financial provisions",
+      "section": "46",
+      "title": "Article 46 – Books of accounts",
+      "content": "In case the holder of a licence is engaged in any activity not connected with the licensed operations under this Law, the holder must maintain separate books of accounts for licenced operations."
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "Chapter VI – Financial provisions",
+      "section": "47",
+      "title": "Article 47 – Minerals or quarry taxes and royalties",
+      "content": "The holder of a mineral or quarry licence pays taxes and other fees in accordance with relevant laws."
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "Chapter VI – Financial provisions",
+      "section": "48",
+      "title": "Article 48 – Mining or quarry service fees",
+      "content": "All fees payable by an applicant or a holder of a mineral or quarry licence, mineral trading licence or mineral processing licence are determined by regulations of the competent authority."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "Chapter VI – Financial provisions",
+      "section": "49",
+      "title": "Article 49 – Government investment",
+      "content": "The Government may acquire on such terms as agreed upon between the holder of a licence and the Government, shares in mining or quarry operations."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "Chapter VII – Breaches and administrative sanctions",
+      "section": "50",
+      "title": "Article 50 – Failure to indicate the origin of minerals",
+      "content": "Any person caught with minerals without proof of their origin is liable to an administrative fine equal to ten per cent (10%) of the value of the minerals and the minerals are confiscated."
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "Chapter VII – Breaches and administrative sanctions",
+      "section": "51",
+      "title": "Article 51 – Failure to submit report, keeping documents, suspending activities and failure to fix boundaries",
+      "content": "Any person who, while involved in mineral exploration, exploitation, processing, trading and quarry operations, commits one of the following acts: 1° submitting delayed report or providing wrong information in the report; 2° keeping documents for minerals or quarry outside the authorised area; 3° suspension of mining or quarry operations without notifying the organ that granted the licence; 4° failure to fix boundaries and put sign posts in the area of mineral or quarry operations; commits a breach and is liable to an administrative fine of five hundred thousand Rwandan francs (FRW 500,000). Administrative sanctions referred to under Paragraph one of this Article are doubled in case of recidivism within six (6) months or in case of co-occurrence of breaches."
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "Chapter VII – Breaches and administrative sanctions",
+      "section": "52",
+      "title": "Article 52 – Failure to pay the required fees, security and insurance of employees and refusing access to authorities in operations area",
+      "content": "Any person in mineral exploration, exploitation, processing, trading and quarry operations who commits one of the following acts: 1º failing to make any of the payments required under this Law; 2º refusing to authorised officer or competent authority access to mineral exploration, exploitation, trading and processing or quarry operations areas; 3º failure to comply with health and safety standards in mineral exploration, processing, exploitation and trading and quarry operations; 4º failure to provide insurance cover to employees; 5º failure to pay employees in accordance with relevant laws; 6º failure to provide the required protection equipment to employees in mineral exploration, processing, exploitation and trading and quarry operations commits a breach, is liable to a provisional suspension of the licence. The competent authority must give a notice of at least thirty (30) days prior to issuing a provisional suspension for the licence holder to correct all outstanding breaches."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "Chapter VII – Breaches and administrative sanctions",
+      "section": "53",
+      "title": "Article 53 – Failure to start operations and carry out minimum work, use of fraud to obtain a licence and failure to remedy causes of provisional suspension",
+      "content": "Any person in mineral exploration, exploitation, processing, trading and quarry operations who commits any one of the following acts: 1º failure without cause to start the relevant exploration or mining operations by the due date; 2º failure without cause to carry out minimum work or meet expenditure obligations; 3º selling minerals at non-arm’s length price; 4º failure to comply with the content of the mining licence according to this Law; 5º failure to comply with the content of the decision of provisional suspension; 6º transfer of licence without complying with provisions of this Law commits a breach, is liable to the cancellation of the licence. Before cancelling the licence, the competent authority gives a thirty (30) days’ notice to the holder for him or her to remedy any breach. On cancellation of a licence under the provisions of this Article, the rights of the licence holder cease but without prejudice to any liabilities and accountability for non-fulfilled obligations."
+    },
+    {
+      "provision_ref": "art54",
+      "chapter": "Chapter VIII – Offences and penalties",
+      "section": "54",
+      "title": "Article 54 – Undertaking mining or quarry operations without a licence",
+      "content": "Any person who undertakes mineral or quarry exploration, exploitation, processing or trading without a licence, commits an offence. Upon conviction, he or she is liable to imprisonment for a term of not less than two (2) months and not more than six (6) months and a fine of not less than one million Rwandan francs (FRW 1,000,000) and not more than five million Rwandan francs (FRW 5,000,000) or only one of these penalties. The court also orders confiscation of any seized minerals or quarry in storage, trading or processing without a licence."
+    },
+    {
+      "provision_ref": "art55",
+      "chapter": "Chapter VIII – Offences and penalties",
+      "section": "55",
+      "title": "Article 55 – Non-compliance with standards",
+      "content": "Any person who does not comply with standards in mineral exploration, exploitation, processing or trading or quarry operations, commits an offence. Where the offences referred to under Paragraph One of this Article: 1º caused human injury and disease or environmental destruction, upon conviction, he or she is liable to imprisonment for a term of not less than six (6) months and not more than one (1) year and a fine of not less than one million Rwandan francs (FRW 1,000,000) and not more than three million Rwandan francs (FRW 3,000,000); 2º caused human disability or incurable disease, upon conviction, he or she is liable to imprisonment for a term of not less than one (1) year and not more than three (3) years and a fine of not less than three million Rwandan francs (FRW 3,000,000) and not more than five million Rwandan francs (FRW 5,000,000); 3º caused human death, upon conviction, he or she is liable to imprisonment for a term of not less than seven (7) years and not more than ten (10) years and a fine of not less than five million Rwandan francs (FRW 5,000,000) and not more than ten million Rwandan francs (FRW 10,000,000)."
+    },
+    {
+      "provision_ref": "art56",
+      "chapter": "Chapter VIII – Offences and penalties",
+      "section": "56",
+      "title": "Article 56 – Displacement, destruction, removal or crossing the demarcation features of the mineral or quarry licence area",
+      "content": "Any person who displaces, destroys, removes or crosses the demarcation features of a licence area of mineral exploration or exploitation or quarry operations, commits an offence. Upon conviction, he or she is liable to imprisonment for a term of not less than two (2) months and not more than six (6) months and a fine of not less than three million Rwandan francs (FRW 3,000,000) and not more than five million Rwandan francs (FRW 5,000,000) or only one of these penalties."
+    },
+    {
+      "provision_ref": "art57",
+      "chapter": "Chapter VIII – Offences and penalties",
+      "section": "57",
+      "title": "Article 57 – Use of dynamites in mining or quarry operations without authorisation",
+      "content": "Any person who imports, manufactures, uses, transports, trades dynamites in mining or quarry operations without authorisation, commits an offence. Upon conviction, he or she is liable to imprisonment for a term not less than one (1) year and not more than two (2) years and a fine of not less than three million Rwandan francs (FRW3,000,000) and not more than five million Rwandan francs (FRW 5,000,000)."
+    },
+    {
+      "provision_ref": "art58",
+      "chapter": "Chapter VIII – Offences and penalties",
+      "section": "58",
+      "title": "Article 58 – Fraud",
+      "content": "Any person who uses fraud in mineral or quarry exploration, exploitation, processing or trading, commits an offence. Upon conviction, he or she is liable to imprisonment for a term not less than one (1) year and not more than three (3) years and a fine of not less than three million Rwandan francs (FRW 3,000,000) and not more than five million Rwandan francs (FRW 5,000,000)."
+    },
+    {
+      "provision_ref": "art59",
+      "chapter": "Chapter VIII – Offences and penalties",
+      "section": "59",
+      "title": "Article 59 – Providing false information",
+      "content": "Any person who provides false information in order to obtain a licence issued under this Law, commits an offence. Upon conviction, he or she is liable to imprisonment for a term not less than six (6) months and not more than one (1) year and a fine of not less than three million Rwandan francs (FRW 3,000,000) and not more than five million Rwandan francs (FRW 5,000,000)."
+    },
+    {
+      "provision_ref": "art60",
+      "chapter": "Chapter VIII – Offences and penalties",
+      "section": "60",
+      "title": "Article 60 – Offences by a company, an organisation, an institution, an association or a group of associations with legal personality",
+      "content": "Where an offence under this Law is committed by a company, organisation, institution, association or group of associations with legal personality, with supporting evidence that the offence has been committed with their consent or due to the negligence or bad intent of the following: 1º a director, manager, secretary or employee; 2º any person claiming the authority of the persons referred to under item 1° of Paragraph One of this Article because he or she works or has already worked with them; they commit an offence. Upon conviction, they are liable to a fine of not less than twenty million Rwandan francs (FRW 20,000,000) and not more than thirty million Rwandan francs (FRW 30,000,000) or dissolution. The criminal liability of a company, an organisation, an institution, an association or a group of associations with legal personality provided for under Paragraph One of this Article does not prevent the offenders or their accomplices to be personally prosecuted."
+    },
+    {
+      "provision_ref": "art61",
+      "chapter": "Chapter IX – Miscellaneous, transitional and final provisions",
+      "section": "61",
+      "title": "Article 61 – Provision of services relating to mining and quarry operations",
+      "content": "The provision of services relating to mining and quarry operations is determined by regulations of the competent authority."
+    },
+    {
+      "provision_ref": "art62",
+      "chapter": "Chapter IX – Miscellaneous, transitional and final provisions",
+      "section": "62",
+      "title": "Article 62 – Inspection of operations",
+      "content": "The competent authority or an authorised officer may at any time, enter any area over which any licence has been granted or any premises or places related to such licence, for the purpose of inspecting the licensed activities."
+    },
+    {
+      "provision_ref": "art63",
+      "chapter": "Chapter IX – Miscellaneous, transitional and final provisions",
+      "section": "63",
+      "title": "Article 63 – Procurement of local goods and services",
+      "content": "The holder of a licence must: 1º give priority to Rwandan contractors for works and services, provided that the rates, quality and time schedule for delivery are competitive to what is submitted by foreign contractors; 2º give priority to materials produced in Rwanda, so long as they are similar in quality, quantity and price to materials and goods produced outside of Rwanda; 3º provide periodic reports to the competent authority regarding compliance with the requirements of this Article."
+    },
+    {
+      "provision_ref": "art64",
+      "chapter": "Chapter IX – Miscellaneous, transitional and final provisions",
+      "section": "64",
+      "title": "Article 64 – Recruitment and training of employees",
+      "content": "When recruiting, the holder of a mineral or quarry licence and his or her subcontractors must comply with the requirements of the relevant legislation. The holder of a mineral or quarry licence must have a program for the employees in order to build the capacities allowing them to fulfil their duties."
+    },
+    {
+      "provision_ref": "art65",
+      "chapter": "Chapter IX – Miscellaneous, transitional and final provisions",
+      "section": "65",
+      "title": "Article 65 – Agreement with the licence holder",
+      "content": "The competent authority enters into an agreement with a mining or industrial quarry licence holder to perfect the licence holder’s rights and obligations. The content of the agreement is determined by regulations of the competent authority."
+    },
+    {
+      "provision_ref": "art66",
+      "chapter": "Chapter IX – Miscellaneous, transitional and final provisions",
+      "section": "66",
+      "title": "Article 66 – Contribution to the development of the location of the mining or quarry operations",
+      "content": "The holder of a mining or quarry licence prepares a plan for development and social welfare in collaboration with the authorities of the District where the mining or quarry operations are carried out. A mining or quarry licence holder submits to the authority that issued the licence the plan for development and social welfare agreed upon with the authorities of the District where his or her operations are carried out."
+    },
+    {
+      "provision_ref": "art67",
+      "chapter": "Chapter IX – Miscellaneous, transitional and final provisions",
+      "section": "67",
+      "title": "Article 67 – Existing licence",
+      "content": "Any mining or quarry licence granted under Law n° 13/2014 of 20/05/2014 on mining and quarry operations remains valid until its expiration. Subject to provisions of Paragraph One of this Article, any licence holder under provisions of Law n° 13/2014 of 20/05/2014 on mining and quarry operations must comply with provisions of this Law."
+    },
+    {
+      "provision_ref": "art68",
+      "chapter": "Chapter IX – Miscellaneous, transitional and final provisions",
+      "section": "68",
+      "title": "Article 68 – Orders and regulations in force",
+      "content": "Orders and regulations implementing Law n° 13/2014 of 20/05/2014 on mining and quarry operations continue to be in force in all their provisions that are not substantially contrary to this Law until they are repealed."
+    },
+    {
+      "provision_ref": "art69",
+      "chapter": "Chapter IX – Miscellaneous, transitional and final provisions",
+      "section": "69",
+      "title": "Article 69 – Drafting, consideration and adoption of this Law",
+      "content": "This Law was drafted in English, considered and adopted in Ikinyarwanda."
+    },
+    {
+      "provision_ref": "art70",
+      "chapter": "Chapter IX – Miscellaneous, transitional and final provisions",
+      "section": "70",
+      "title": "Article 70 – Repealing provision",
+      "content": "Law n° 13/2014 of 20/05/2014 on mining and quarry operations and all prior legal provisions contrary to this Law are repealed."
+    },
+    {
+      "provision_ref": "art71",
+      "chapter": "Chapter IX – Miscellaneous, transitional and final provisions",
+      "section": "71",
+      "title": "Article 71 – Commencement",
+      "content": "This Law comes into force on the date of its publication in the Official Gazette of the Republic of Rwanda."
+    }
+  ],
+  "definitions": []
+}
